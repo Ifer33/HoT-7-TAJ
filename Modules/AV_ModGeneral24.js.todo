@@ -1,0 +1,2718 @@
+main();
+function main()
+{
+    if(getVar("AV_ModGeneral24_NotFirstTime", false))
+    {
+        AV_ModGeneral24_NotFirstTime();
+        return;
+    }
+    setVar("AV_ModGeneral24", 0);
+    setVar("AV_ModGeneral24_NotFirstTime", true);
+    AV_ModGeneral24_NotFirstTime();
+}
+function AV_ModGeneral24_NotFirstTime()
+{
+    if (getVar("AV_ModGeneral24", 0) == 0)
+    {
+        Part1_1();
+        return;
+    }
+    if (getVar("AV_ModGeneral24", 0) == 1)
+    {
+        Part1_2();
+        return;
+    }
+    if (getVar("AV_ModGeneral24", 0) == 10)
+    {
+        Part1_3();
+        return;
+    }
+    if (getVar("AV_ModGeneral24", 0) == 100)
+    {
+        Part1_4();
+        return;
+    }
+    if (getVar("AV_ModGeneral24", 0) == 1000)
+    {
+        Part1_5();
+        return;
+    }
+    if (getVar("AV_ModGeneral24", 0) == 11)
+    {
+        Part1_6();
+        return;
+    }
+    if (getVar("AV_ModGeneral24", 0) == 101)
+    {
+        Part1_7();
+        return;
+    }
+    if (getVar("AV_ModGeneral24", 0) == 111)
+    {
+        Part1_8();
+        return;
+    }
+    if (getVar("AV_ModGeneral24", 0) == 110)
+    {
+        Part1_9();
+        return;
+    }
+    if (getVar("AV_ModGeneral24", 0) == 1001)
+    {
+        Part1_10();
+        return;
+    }
+    if (getVar("AV_ModGeneral24", 0) == 1011)
+    {
+        Part1_11();
+        return;
+    }
+    if (getVar("AV_ModGeneral24", 0) == 1111)
+    {
+        Part1_12();
+        return;
+    }
+    if (getVar("AV_ModGeneral24", 0) == 1010)
+    {
+        Part1_13();
+        return;
+    }
+    if (getVar("AV_ModGeneral24", 0) == 1110)
+    {
+        Part1_14();
+        return;
+    }
+    if (getVar("AV_ModGeneral24", 0) == 1100)
+    {
+        Part1_15();
+        return;
+    }
+    if (getVar("AV_ModGeneral24", 0) == 1101)
+    {
+        Part1_16();
+        return;
+    }
+    setVar("AV_ModGeneral24", 0);
+    Part1_1();
+    return;
+    Mod1();
+}
+function Mod1()
+{
+    setVar("AV_ModGeneral24", getVar("AV_ModGeneral24", 0) + 1);
+    Modulo1();
+    return;
+    Mod2();
+}
+function Mod2()
+{
+    setVar("AV_ModGeneral24", getVar("AV_ModGeneral24", 0) + 10);
+    Modulo2();
+    return;
+    Mod3();
+}
+function Mod3()
+{
+    setVar("AV_ModGeneral24", getVar("AV_ModGeneral24", 0) + 100);
+    Modulo3();
+    return;
+    Mod4();
+}
+function Mod4()
+{
+    setVar("AV_ModGeneral24", getVar("AV_ModGeneral24", 0) + 1000);
+    Modulo4();
+    return;
+    Part1_1();
+}
+function Part1_1()
+{
+    switch(random("Mod1", "Mod2", "Mod3", "Mod4"))
+    {
+        case "Mod1":
+        Mod1();
+        return;
+        break;
+        case "Mod2":
+        Mod2();
+        return;
+        break;
+        case "Mod3":
+        Mod3();
+        return;
+        break;
+        case "Mod4":
+        Mod4();
+        return;
+        break;
+    }
+    Part1_2();
+}
+function Part1_2()
+{
+    switch(random("Mod2", "Mod3", "Mod4"))
+    {
+        case "Mod2":
+        Mod2();
+        return;
+        break;
+        case "Mod3":
+        Mod3();
+        return;
+        break;
+        case "Mod4":
+        Mod4();
+        return;
+        break;
+    }
+    Part1_3();
+}
+function Part1_3()
+{
+    switch(random("Mod1", "Mod3", "Mod4"))
+    {
+        case "Mod1":
+        Mod1();
+        return;
+        break;
+        case "Mod3":
+        Mod3();
+        return;
+        break;
+        case "Mod4":
+        Mod4();
+        return;
+        break;
+    }
+    Part1_4();
+}
+function Part1_4()
+{
+    switch(random("Mod1", "Mod2", "Mod4"))
+    {
+        case "Mod1":
+        Mod1();
+        return;
+        break;
+        case "Mod2":
+        Mod2();
+        return;
+        break;
+        case "Mod4":
+        Mod4();
+        return;
+        break;
+    }
+    Part1_5();
+}
+function Part1_5()
+{
+    switch(random("Mod1", "Mod2", "Mod3"))
+    {
+        case "Mod1":
+        Mod1();
+        return;
+        break;
+        case "Mod2":
+        Mod2();
+        return;
+        break;
+        case "Mod3":
+        Mod3();
+        return;
+        break;
+    }
+    Part1_6();
+}
+function Part1_6()
+{
+    switch(random("Mod3", "Mod4"))
+    {
+        case "Mod3":
+        Mod3();
+        return;
+        break;
+        case "Mod4":
+        Mod4();
+        return;
+        break;
+    }
+    Part1_7();
+}
+function Part1_7()
+{
+    switch(random("Mod2", "Mod4"))
+    {
+        case "Mod2":
+        Mod2();
+        return;
+        break;
+        case "Mod4":
+        Mod4();
+        return;
+        break;
+    }
+    Part1_8();
+}
+function Part1_8()
+{
+    Mod4();
+    return;
+    Part1_9();
+}
+function Part1_9()
+{
+    switch(random("Mod1", "Mod4"))
+    {
+        case "Mod1":
+        Mod1();
+        return;
+        break;
+        case "Mod4":
+        Mod4();
+        return;
+        break;
+    }
+    Part1_10();
+}
+function Part1_10()
+{
+    switch(random("Mod2", "Mod3"))
+    {
+        case "Mod2":
+        Mod2();
+        return;
+        break;
+        case "Mod3":
+        Mod3();
+        return;
+        break;
+    }
+    Part1_11();
+}
+function Part1_11()
+{
+    Mod3();
+    return;
+    Part1_12();
+}
+function Part1_12()
+{
+    Fim();
+    return;
+    Part1_13();
+}
+function Part1_13()
+{
+    switch(random("Mod1", "Mod3"))
+    {
+        case "Mod1":
+        Mod1();
+        return;
+        break;
+        case "Mod3":
+        Mod3();
+        return;
+        break;
+    }
+    Part1_14();
+}
+function Part1_14()
+{
+    Mod1();
+    return;
+    Part1_15();
+}
+function Part1_15()
+{
+    switch(random("Mod1", "Mod2"))
+    {
+        case "Mod1":
+        Mod1();
+        return;
+        break;
+        case "Mod2":
+        Mod2();
+        return;
+        break;
+    }
+    Part1_16();
+}
+function Part1_16()
+{
+    Mod2();
+    return;
+    Fim();
+}
+function Fim()
+{
+    setVar("AV_ModGeneral24", 0);
+    run("Modules" + java.io.File.separator + "*.js");
+    return;
+    return;
+    Modulo1();
+}
+function Modulo1()
+{
+    if (isStroking())
+    {
+        CMessage("%stopstroking%", 0);
+        stopStroking();
+    }
+    CMessage(random("%PetName%", "%SubName%"));
+    CMessage("I think your hard rock %Cock% still needs more " + random("aching", "warm-up"));
+    switch(random("Warm_up_exercise_1", "Warm_up_exercise_2"))
+    {
+        case "Warm_up_exercise_1":
+        Warm_up_exercise_1();
+        return;
+        break;
+        case "Warm_up_exercise_2":
+        Warm_up_exercise_2();
+        return;
+        break;
+    }
+    Warm_up_exercise_1();
+}
+function Warm_up_exercise_1()
+{
+    --UNINTERPRETED LINE:In this exercise <i>you</i> are %Gonna% do three set of three edges
+    --UNINTERPRETED LINE:<i>BUT</i> @sleep(1)
+    CMessage("with a shorter cooldown time for every set");
+    CMessage("Get ready %SubName%!");
+    CMessage("%Edge%");
+    --Command:Edge(NoHold)
+    var amountEdges = 3;
+    DoEdges(amountEdges, amountEdges, 0);
+    CMessage("You survived the first round %PetName%!");
+    CMessage("That\'s good!");
+    CMessage("But I don\'t know if you will survive the last two rounds... %Grin%");
+    CMessage("You have to face two rounds back to back");
+    CMessage("holding the last edge of each round");
+    let answer0 = getInput("Do you think you\'re ready %SubName%?");
+    while (!(answer0.isLike("yes") || answer0.isLike("no")))
+    {
+        answer0 = getInput("%YoureGoingToDoIt%");
+        Get_ready();
+        return;
+    }
+    if (answer0.isLike("yes"))
+    {
+        CMessage("Good!");
+        Get_ready();
+        return;
+    }
+    else if (answer0.isLike("no"))
+    {
+        CMessage("%YoureGoingToDoIt%");
+        Get_ready();
+        return;
+    }
+    Get_ready();
+}
+function Get_ready()
+{
+    CMessage("Get ready %SubName%!");
+    CMessage("Ready...");
+    CMessage("steady...");
+    CMessage("%Edge%");
+    --Command:Edge(Hold)
+    var amountEdges = 3;
+    DoEdges(amountEdges, amountEdges, 0);
+    CMessage("Third round!");
+    CMessage("%Edge%");
+    --Command:Edge(Hold)
+    var amountEdges = 3;
+    DoEdges(amountEdges, amountEdges, 0);
+    CMessage("%Good% %PetName%!");
+    CMessage("You finished the warm-up");
+    CMessage("Now, get some rest %SubName%");
+    CMessage("but be ready to start stroking that %Cock% again!");
+    sleep(randomInt(15, 30));
+    return;
+    Warm_up_exercise_2();
+}
+function Warm_up_exercise_2()
+{
+    CMessage("For this exercise we\'re %Gonna% play a little game");
+    CMessage("A edge ladder game");
+    CMessage("When you climb the ladder you\'re %Gonna% have to hold longer edges");
+    CMessage("When you descend the ladder you\'re %Gonna% hold shorter edges");
+    CMessage("Don\'t worry, it\'s just a small ladder");
+    CMessage("I\'m not %Gonna% drive you insane...");
+    CMessage("yet!");
+    --UNINTERPRETED LINE:Now, get ready to begin! @RTOn
+    CMessage("%Edge%");
+    --Command:EdgeHold(5)
+    CMessage("%LetTheEdgeFade%");
+    sleep(5);
+    CMessage("%Edge%");
+    --Command:EdgeHold(10)
+    CMessage("%LetTheEdgeFade%");
+    sleep(10);
+    CMessage("%Edge%");
+    --Command:EdgeHold(15)
+    CMessage("%LetTheEdgeFade%");
+    sleep(15);
+    CMessage("%Edge%");
+    --Command:EdgeHold(20)
+    CMessage("%LetTheEdgeFade%");
+    sleep(20);
+    CMessage("%Edge%");
+    --Command:EdgeHold(25)
+    CMessage("%LetTheEdgeFade%");
+    sleep(25);
+    CMessage("%Edge%");
+    --Command:EdgeHold(30)
+    CMessage("%LetTheEdgeFade%");
+    sleep(30);
+    CMessage("%Edge%");
+    --Command:EdgeHold(25)
+    CMessage("%LetTheEdgeFade%");
+    sleep(25);
+    CMessage("%Edge%");
+    --Command:EdgeHold(20)
+    CMessage("%LetTheEdgeFade%");
+    sleep(20);
+    CMessage("%Edge%");
+    --Command:EdgeHold(15)
+    CMessage("%LetTheEdgeFade%");
+    sleep(15);
+    CMessage("%Edge%");
+    --Command:EdgeHold(10)
+    CMessage("%LetTheEdgeFade%");
+    sleep(10);
+    CMessage("%Edge%");
+    --Command:EdgeHold(5)
+    --UNINTERPRETED LINE:%LetTheEdgeFade% @sleep(5) @RTOff
+    CMessage("That was the last " + random("one ", "edge ") + "%SubName%");
+    CMessage("How\'s your %Cock% doing so far?");
+    CMessage("I\'ll give you a few seconds to recover %PetName%");
+    --UNINTERPRETED LINE:because <i>real</i> %Stroking% will start soon @sleep(%Random%(20,30))
+    return;
+    Modulo2();
+}
+function Modulo2()
+{
+    if (isStroking())
+    {
+        CMessage("%stopstroking%", 0);
+        stopStroking();
+    }
+    CMessage(random("I\'d like to play something new with you %GeneralTime% ", "I\'d like to do something new with you %GeneralTime% ", "I want to do something new with you %GeneralTime% ", "I want to play something new with you %GeneralTime% ", "I feel like doing something new with you %GeneralTime% ", "I feel like playing something new with you %GeneralTime% ") + random("%SubName%", "%PetName%"));
+    CMessage(random("I think we should explore more ", "I think we should play some ", "I\'d like to play some ", "%GeneralTime% I feel like playing some ", "Why don\'t we play some ", "I think we should do some ") + "...");
+    switch(random("CBT", "Edging"))
+    {
+        case "CBT":
+        CBT();
+        return;
+        break;
+        case "Edging":
+        Edging();
+        return;
+        break;
+    }
+    CBT();
+}
+function CBT()
+{
+    CMessage("%CBT%!");
+    CMessage(random("Don\'t be afraid ", "Don\'t worry ", "Don\'t be so worried ", "Don\'t be so afraid ", "You don\'t need to be so worried ", "You don\'t need to be afraid ") + random("%PetName% ", "%SubName% ") + random("I\'m not %Gonna% %Hurt% you", "This is not %Gonna% %Hurt% you", "It won\'t %Hurt% you"));
+    CMessage("I mean...");
+    CMessage("Not too much... %Grin%");
+    CMessage("Now...");
+    if (getVar("%Random1%,99", 0) <= getVar("%Random25%,35", 0))
+    {
+        Phone_ringing_CBT();
+        return;
+    }
+    Start_CBT();
+    return;
+    Phone_ringing_CBT();
+}
+function Phone_ringing_CBT()
+{
+    CMessage("Wait a moment, my phone is ringing...");
+    CMessage("Oh... Don\'t worry about " + random("our game", "our little game"));
+    CMessage(random("This is only a little delay ", "This will be only a little delay ", "This is %Gonna% be only a little delay ") + "... %Grin%");
+    sleep(20);
+    --UNINTERPRETED LINE:@RT(Look who's here %SubName%!, Look who's here!, Look who joined us @SubName!, Look who joined us!) @TempFlag(CBT_Game) @Goto(Contact2, Contact3)
+    Start_CBT();
+}
+function Start_CBT()
+{
+    CMessage(random("%StartStroking% ", "%Stroke% it for %Me% ") + random("slowly", "very slowly", "but you have to do slowly", "but you have to do very slowly", "but very slowly", "at a very slow pace", "but at a very slow pace", "but do it slowly"));
+    CMessage(random("Don\'t edge!", "I don\'t want you to get on the %EdgeNoun%", "And don\'t edge", "And don\'t think about getting to the %EdgeNoun%", "Don\'t you dare edge", "Don\'t you dare get to the %EdgeNoun%"));
+    CMessage(random("If you feel you\'re %Gonna% edge, slow down", "Slow down, if you feel you\'re %Gonna% edge", "If you feel you\'re %Gonna% get to the %EdgeNoun%, slow down", "Slow down, if you feel you\'re %Gonna% get to the %EdgeNoun%"));
+    CMessage("%stopstroking%", 0);
+    if (inGroup(1, 3))
+    {
+        SMessage("And don\'t %Cum% %SubName%, otherwise " + random("%DomName% ", "%ShortName% ") + "will have to " + random("punish ", "%Hurt% ") + "you", -1, 3);
+    }
+    if (inGroup(1, 3))
+    {
+        SMessage("And I don\'t like seeing you in pain!", -1, 3);
+    }
+    CMessage(random("Now we\'re %Gonna% spice it up a bit", "Let\'s spice it up a bit", "Now we need to spice this thing up", "Let\'s try to spice this game up"));
+    CMessage(random("I think we could use some mild %CBT%", "I think some mild %CBT% would be perfect"));
+    run("CBT" + java.io.File.separator + "CBTBalls_First.js");
+    CMessage("%HowAreYourBallsFeeling%");
+    CMessage("%Balls_in_pain%");
+    CMessage("You know what that means %SubName%?");
+    run("CBT" + java.io.File.separator + "CBTCock_First.js");
+    CMessage("And again your %Cock%");
+    run("CBT" + java.io.File.separator + "CBTCock_First.js");
+    CMessage("By now your %Cock% should be a mess...");
+    if (inGroup(1, 3))
+    {
+        CMessage("%stopstroking%", 0);
+    }
+    if (inGroup(1, 3))
+    {
+        CMessage("%stopstroking%", 0);
+        Stop_CBT_Game();
+        return;
+        --UNINTERPRETED LINE:@RT(By the time I'm done with you your %Balls% will be a mess too, I think we should focus more on your %Balls%, I think <i>you</i> should focus again on your %Balls%, Better give those %Balls% some attention) @RT(%SubName%, %PetName%)... @CBTBalls
+    }
+    Stop_CBT_Game();
+}
+function Stop_CBT_Game()
+{
+    CMessage("%stopstroking%", 0);
+    CMessage("%BallBusting_1_A2%");
+    CMessage("How is your %Cock% doing %SubName%?");
+    Goodbye_time();
+    return;
+    Edging();
+}
+function Edging()
+{
+    CMessage("edging!");
+    sleep(2);
+    CMessage("%Grin% Calm down " + random("%PetName%", "%SubName%"));
+    CMessage("If I were you, I would not be so happy");
+    CMessage("I would have preferred some " + random("%CBT%", "harsh %CBT%"));
+    --UNINTERPRETED LINE:I think you're %Gonna% find this <i>game</i> pretty intense
+    CMessage("%stopstroking%", 0);
+    CMessage("seeing your %Cock% twitching...");
+    --UNINTERPRETED LINE:feeling your body squirming on the %EdgeNoun% looking for an orgasm that will never cum... @RTOn
+    --UNINTERPRETED LINE:sorry... that will never <i>come</i>
+    --UNINTERPRETED LINE:Let's start @RTOff
+    if (getVar("%Random1%,99", 0) <= getVar("%Random25%,35", 0))
+    {
+        Phone_ringing_edging();
+        return;
+    }
+    Start_edging_game();
+    return;
+    Phone_ringing_edging();
+}
+function Phone_ringing_edging()
+{
+    CMessage("Wait a moment, my phone is ringing...");
+    CMessage("Oh... Don\'t worry about " + random("our game", "our little game"));
+    CMessage(random("This is only a little delay ", "This will be only a little delay ", "This is %Gonna% be only a little delay ") + "... %Grin%");
+    sleep(20);
+    --UNINTERPRETED LINE:@RT(Look who's here %SubName%!, Look who's here!, Look who joined us @SubName!, Look who joined us!) @TempFlag(Edging_Game) @Goto(Contact2, Contact3)
+    Start_edging_game();
+}
+function Start_edging_game()
+{
+    CMessage("Here\'s what we\'re %Gonna% do:");
+    CMessage("I will think an adequate amount of edges");
+    CMessage("and all you have to do is try to guess it");
+    let answer0 = getInput("Do you like the idea?");
+    if (answer0.isLike("yes"))
+    {
+        CMessage("%Good%");
+    }
+    else if (answer0.isLike("no"))
+    {
+        CMessage("%YoureGoingToDoIt%");
+    }
+    else
+    {
+        CMessage("%YoureGoingToDoIt%");
+    }
+    setVar("tgr8_edging_game_min", getVar("%Random10%,15", 0));
+    setVar("tgr8_edging_game_max", getVar("%Random20%,25", 0));
+    --UNINTERPRETED LINE:@NullResponse @SetVar[Domme_amount_of_edges]=[%Random%(%Var%[tgr8_edging_game_min],%Var%[tgr8_edging_game_max])]
+    setVar("Domme_amount_of_edges_2", getVar("%VarDomme_amount_of_edges%", 0));
+    setVar("Domme_amount_of_edges_2", getVar("Domme_amount_of_edges_2", 0) - getVar("%Random5%,7", 0));
+    if (inGroup(1))
+    {
+        CMessage("The number of edges you owe me goes from");
+        --Command:ShowVar(tgr8_edging_game_min)
+        --Command:ShowVar(tgr8_edging_game_max)
+    }
+    if (inGroup(1, 3))
+    {
+        SMessage("The number of edges you owe us goes from", -1, 3);
+        --Command:ShowVar(tgr8_edging_game_min)
+        --Command:ShowVar(tgr8_edging_game_max)
+    }
+    if (inGroup(1, 4))
+    {
+        SMessage("The number of edges you owe us goes from", -1, 4);
+        --Command:ShowVar(tgr8_edging_game_min)
+        --Command:ShowVar(tgr8_edging_game_max)
+    }
+    if (inGroup(1))
+    {
+        CMessage("Which is the right amount of edges you think you owe %Me%?");
+        setVar("Sub_amount_of_edges", createInput().getAnswer());
+    }
+    if (inGroup(1, 3))
+    {
+        SMessage("Which is the right amount of edges you think you owe %Me%?", -1, 3);
+        setVar("Sub_amount_of_edges", createInput().getAnswer());
+    }
+    if (inGroup(1, 4))
+    {
+        SMessage("Which is the right amount of edges you think you owe %Me%?", -1, 4);
+        setVar("Sub_amount_of_edges", createInput().getAnswer());
+    }
+    delVar("tgr8_edging_game_min");
+    delVar("tgr8_edging_game_max");
+    if (getVar("Sub_amount_of_edges", 0) < getVar("Domme_amount_of_edges", 0))
+    {
+        Correct_amount_is();
+        return;
+    }
+    if (getVar("Sub_amount_of_edges", 0) == getVar("Domme_amount_of_edges", 0))
+    {
+        Guessed();
+        return;
+    }
+    if (getVar("Sub_amount_of_edges", 0) > getVar("Domme_amount_of_edges", 0))
+    {
+        The_more_the_better();
+        return;
+    }
+    Correct_amount_is();
+}
+function Correct_amount_is()
+{
+    if (getVar("Sub_amount_of_edges", 0) <= getVar("Domme_amount_of_edges_2", 0))
+    {
+        Way_too_low();
+        return;
+    }
+    --Command:ShowVar(Sub_amount_of_edges)
+    CMessage("edges is not an adequate " + random("amount", "number"));
+    if (inGroup(1))
+    {
+        CMessage("I will not tell you how many edges you owe me");
+    }
+    if (inGroup(1, 3))
+    {
+        CMessage("I will not tell you how many edges you owe us");
+    }
+    if (inGroup(1, 4))
+    {
+        CMessage("I will not tell you how many edges you owe us");
+    }
+    CMessage("I want to see the desperation in your eyes for not knowing " + random("how many times you will have to edge", "how many edges you have to do", "how many times you have to edge"));
+    CMessage("And since you didn\'t even get close to the number I thought");
+    if (inGroup(1))
+    {
+        CMessage("I\'m gonna add a few edges to what you owe me");
+    }
+    if (inGroup(1, 3))
+    {
+        CMessage("I\'m gonna add a few edges to what you owe us");
+    }
+    if (inGroup(1, 4))
+    {
+        CMessage("I\'m gonna add a few edges to what you owe us");
+    }
+    setVar("Domme_amount_of_edges", getVar("Domme_amount_of_edges", 0) + getVar("%Random5%,10", 0));
+    setVar("Domme_amount_of_edges_start", getVar("%VarDomme_amount_of_edges%", 0));
+    CMessage("And now...");
+    Start_edging();
+    return;
+    Way_too_low();
+}
+function Way_too_low()
+{
+    CMessage("Are you kidding me?");
+    --Command:ShowVar(Sub_amount_of_edges)
+    CMessage("edges are not even remotely an adequate " + random("amount", "number"));
+    if (inGroup(1))
+    {
+        CMessage("I won\'t tell you how many edges you owe me");
+    }
+    if (inGroup(1, 3))
+    {
+        CMessage("I won\'t tell you how many edges you owe us");
+    }
+    if (inGroup(1, 4))
+    {
+        CMessage("I won\'t tell you how many edges you owe us");
+    }
+    CMessage("I want to see the desperation in your eyes for not knowing " + random("how many times you will have to edge", "how many edges you have to do", "how many times you have to edge"));
+    CMessage("And since you didn\'t even get close to the number I thought");
+    if (inGroup(1))
+    {
+        CMessage("I think I\'ll add an extra amount of edges to what you owe me");
+    }
+    if (inGroup(1, 3))
+    {
+        CMessage("I think I\'ll add an extra amount of edges to what you owe us");
+    }
+    if (inGroup(1, 4))
+    {
+        CMessage("I think I\'ll add an extra amount of edges to what you owe us");
+    }
+    setVar("Domme_amount_of_edges", getVar("Domme_amount_of_edges", 0) + getVar("%Random10%,15", 0));
+    setVar("Domme_amount_of_edges_start", getVar("%VarDomme_amount_of_edges%", 0));
+    CMessage("And now...");
+    Start_edging();
+    return;
+    Guessed();
+}
+function Guessed()
+{
+    CMessage(random("You guessed ", "You guessed it ") + random("%SubName% ", "%PetName% ") + random("Today must be your lucky day ", "Today surely is your lucky day ", "Today is your lucky day ") + random("%SubName%", "%PetName%"));
+    Start_edging();
+    return;
+    The_more_the_better();
+}
+function The_more_the_better()
+{
+    if (inGroup(1))
+    {
+        CMessage("I was thinking to");
+        --Command:ShowVar(Domme_amount_of_edges)
+        CMessage("edges");
+    }
+    if (inGroup(1))
+    {
+        CMessage("but I guess");
+        --Command:ShowVar(Sub_amount_of_edges)
+        CMessage("is a good number too...");
+    }
+    if (inGroup(1, 3))
+    {
+        CMessage("What do you think about");
+        --Command:ShowVar(Sub_amount_of_edges)
+        if (randomInteger(1, 100) <= 20)
+        {
+            Too_much_edges();
+            return;
+        }
+    }
+    if (inGroup(1, 3))
+    {
+        SMessage("It\'s okay", -1, 3);
+    }
+    if (inGroup(1, 3))
+    {
+        SMessage("but give him enough time to cooldown %ShortName%, please!", -1, 3);
+    }
+    if (inGroup(1, 3))
+    {
+        SMessage("I don\'t like seeing him suffer too much!", -1, 3);
+    }
+    if (inGroup(1, 4))
+    {
+        CMessage("I was thinking to");
+        --Command:ShowVar(Domme_amount_of_edges)
+        CMessage("edges " + random("%SubName%", "%PetName%"));
+    }
+    if (inGroup(1, 4))
+    {
+        CMessage("but I guess");
+        --Command:ShowVar(Sub_amount_of_edges)
+        CMessage("is a good number too...");
+    }
+    if (inGroup(1, 4))
+    {
+        CMessage("Don\'t you think %Contact3%?");
+        --UNINTERPRETED LINE:@Group(D3) @Contact3 A %PetName% like %SubName% <i>MUST</i> always accept what his %DomHonorific% decides...
+    }
+    if (inGroup(1, 4))
+    {
+        SMessage("so you, " + random("%SubName% ", "%PetName% ") + "are %Gonna% " + random("edge ", "%Stroke% to the %EdgeNoun% ", "get yourself %NearTheEdge% ", "%Stroke% yourself %NearTheEdge% ") + "for", -1, 4);
+        --Command:ShowVar(Sub_amount_of_edges)
+        CMessage("time");
+    }
+    setVar("Domme_amount_of_edges", getVar("%VarSub_amount_of_edges%", 0));
+    setVar("Domme_amount_of_edges_start", getVar("%VarDomme_amount_of_edges%", 0));
+    if (inGroup(1))
+    {
+        CMessage("Well %SubName%, now you owe me");
+        --Command:ShowVar(Domme_amount_of_edges)
+        Start_edging();
+        return;
+    }
+    if (inGroup(1, 3))
+    {
+        CMessage("Now you owe us");
+        --Command:ShowVar(Domme_amount_of_edges)
+        Start_edging();
+        return;
+    }
+    if (inGroup(1, 4))
+    {
+        CMessage("Now you owe us");
+        --Command:ShowVar(Domme_amount_of_edges)
+        if (randomInteger(1, 100) <= 50)
+        {
+            Add_some_more();
+            return;
+        }
+        Start_edging();
+        return;
+    }
+    Too_much_edges();
+}
+function Too_much_edges()
+{
+    if (inGroup(1, 3))
+    {
+        SMessage("Don\'t be so cruel %ShortName%!", -1, 3);
+    }
+    --Command:Grouo(D2)
+    --Command:ShowVar(Sub_amount_of_edges)
+    CMessage("are too much for his %Cock%");
+    if (inGroup(1, 3))
+    {
+        SMessage("You\'re not making him edge yet, but he\'s already suffering!", -1, 3);
+    }
+    if (inGroup(1, 3))
+    {
+        SMessage("I can see it in his eyes!", -1, 3);
+    }
+    if (inGroup(1, 3))
+    {
+        SMessage("Please %ShortName%, make him edge only", -1, 3);
+        --Command:ShowVar(Domme_amount_of_edges)
+        CMessage("times!");
+    }
+    if (inGroup(1, 3))
+    {
+        CMessage("Okay %Contact2%. You convinced me");
+    }
+    if (inGroup(1, 3))
+    {
+        CMessage("I\'ll make him edge only");
+        --Command:ShowVar(Domme_amount_of_edges)
+        CMessage("times");
+    }
+    if (inGroup(1, 3))
+    {
+        CMessage("But only for this time %Contact2%");
+    }
+    if (inGroup(1, 3))
+    {
+        CMessage("Next time you won\'t be so lucky %PetName%...");
+    }
+    if (inGroup(1, 3))
+    {
+        CMessage("You should thank %Contact2% %SubName%");
+    }
+    if (inGroup(1, 3))
+    {
+        CMessage("She really saved your %Ass%!");
+    }
+    if (answer-1.isLike("you", "you", "thanks", "Thanks", "merci", "Merci"))
+    {
+        if (inGroup(1, 3))
+        {
+            SMessage("You\'re welcome %SubName%!", -1, 3);
+        }
+        setVar("Domme_amount_of_edges", getVar("%VarDomme_amount_of_edges%", 0));
+        setVar("Domme_amount_of_edges_start", getVar("%VarDomme_amount_of_edges%", 0));
+    }
+    if (inGroup(1, 3))
+    {
+        CMessage("Now you owe us");
+        --Command:ShowVar(Domme_amount_of_edges)
+        Start_edging();
+        return;
+    }
+    Add_some_more();
+}
+function Add_some_more()
+{
+    if (inGroup(1, 4))
+    {
+        SMessage("Since you " + random("are %Gonna% do ", "MUST do ") + "what we decide, I decided you are %Gonna% " + random("edge ", "%Stroke% to the %EdgeNoun% ", "get yourself %NearTheEdge% ", "%Stroke% yourself %NearTheEdge% ") + "for us " + random("longer", "a little longer", "a bit more", "more"), -1, 4);
+    }
+    setVar("Domme_amount_of_edges", getVar("Sub_amount_of_edges", 0) + 5);
+    setVar("Domme_amount_of_edges_start", getVar("%VarDomme_amount_of_edges%", 0));
+    if (inGroup(1, 4))
+    {
+        SMessage("Now you owe us", -1, 4);
+        --Command:ShowVar(Domme_amount_of_edges)
+        Start_edging();
+        return;
+    }
+    Start_edging();
+}
+function Start_edging()
+{
+    --UNINTERPRETED LINE:%Edge% @RTOff @Edge(NoHold) @Goto(Command_centre)
+    Start_edging_for_the_last_time();
+}
+function Start_edging_for_the_last_time()
+{
+    if (inGroup(1))
+    {
+        if (randomInteger(1, 100) <= 10)
+        {
+            Long_edge();
+            return;
+        }
+    }
+    if (inGroup(1))
+    {
+        if (randomInteger(1, 100) <= 05)
+        {
+            Extreme_edge();
+            return;
+        }
+        --UNINTERPRETED LINE:@Group(D) %Edge% @RTOff @Edge(Hold) @Goto(Command_centre)
+        --UNINTERPRETED LINE:@Group(D3) You may make him edge if you want now %Contact3% @RTOff
+    }
+    if (inGroup(1, 4))
+    {
+        SMessage("I\'m glad you asked that", -1, 4);
+    }
+    if (inGroup(1, 4))
+    {
+        SMessage("Get ready %SubName%!", -1, 4);
+    }
+    if (inGroup(1, 4))
+    {
+        if (randomInteger(1, 100) <= 30)
+        {
+            Long_edge();
+            return;
+        }
+    }
+    if (inGroup(1, 4))
+    {
+        if (randomInteger(1, 100) <= 15)
+        {
+            Extreme_edge();
+            return;
+        }
+        --UNINTERPRETED LINE:@Group(D3) @Contact3 %Edge% @RTOff @Edge(Hold) @Goto(Command_centre)
+    }
+    Long_edge();
+}
+function Long_edge()
+{
+    --UNINTERPRETED LINE:@Group(D) %Edge% @RTOff @Edge(LongHold) @Goto(Command_centre)
+    --UNINTERPRETED LINE:@Group(D3) @Contact3 %Edge% @RTOff @Edge(LongHold) @Goto(Command_centre)
+    Extreme_edge();
+}
+function Extreme_edge()
+{
+    --UNINTERPRETED LINE:@Group(D) %Edge% @RTOff @Edge(ExtremeHold) @Goto(Command_centre)
+    --UNINTERPRETED LINE:@Group(D3) @Contact3 %Edge% @RTOff @Edge(ExtremeHold) @Goto(Command_centre)
+    Command_centre();
+}
+function Command_centre()
+{
+    setVar("Domme_amount_of_edges", getVar("Domme_amount_of_edges", 0) - 1);
+    if (getVar("Domme_amount_of_edges", 0) == 1)
+    {
+        One_last_edge_to_give();
+        return;
+    }
+    if (getVar("Domme_amount_of_edges", 0) == 0)
+    {
+        Finished_edging();
+        return;
+    }
+    switch(random("Boob_Cooldown", "Boob_Cooldown_2", "Butt_Cooldown", "Butt_Cooldown_2", "Could_Let_You_Rest", "Edge_Count", "Even_When_These_Edges_Are_Done", "I_Could_Let_You_Rest", "I_Love_Playing_Games", "Its_Kinda_Funny", "Know_Whatd_Be_Funny", "Pause_For_Edge_Count", "Probably_In_A_Hurry", "Stare_At_This_Picture", "This_Many_Edges_Left", "Wait_For_It", "Wait_For_It_JK", "We_Should_Play_More", "Who_Has_A_Nicer_Ass"))
+    {
+        case "Boob_Cooldown":
+        Boob_Cooldown();
+        return;
+        break;
+        case "Boob_Cooldown_2":
+        Boob_Cooldown_2();
+        return;
+        break;
+        case "Butt_Cooldown":
+        Butt_Cooldown();
+        return;
+        break;
+        case "Butt_Cooldown_2":
+        Butt_Cooldown_2();
+        return;
+        break;
+        case "Could_Let_You_Rest":
+        Could_Let_You_Rest();
+        return;
+        break;
+        case "Edge_Count":
+        Edge_Count();
+        return;
+        break;
+        case "Even_When_These_Edges_Are_Done":
+        Even_When_These_Edges_Are_Done();
+        return;
+        break;
+        case "I_Could_Let_You_Rest":
+        I_Could_Let_You_Rest();
+        return;
+        break;
+        case "I_Love_Playing_Games":
+        I_Love_Playing_Games();
+        return;
+        break;
+        case "Its_Kinda_Funny":
+        Its_Kinda_Funny();
+        return;
+        break;
+        case "Know_Whatd_Be_Funny":
+        Know_Whatd_Be_Funny();
+        return;
+        break;
+        case "Pause_For_Edge_Count":
+        Pause_For_Edge_Count();
+        return;
+        break;
+        case "Probably_In_A_Hurry":
+        Probably_In_A_Hurry();
+        return;
+        break;
+        case "Stare_At_This_Picture":
+        Stare_At_This_Picture();
+        return;
+        break;
+        case "This_Many_Edges_Left":
+        This_Many_Edges_Left();
+        return;
+        break;
+        case "Wait_For_It":
+        Wait_For_It();
+        return;
+        break;
+        case "Wait_For_It_JK":
+        Wait_For_It_JK();
+        return;
+        break;
+        case "We_Should_Play_More":
+        We_Should_Play_More();
+        return;
+        break;
+        case "Who_Has_A_Nicer_Ass":
+        Who_Has_A_Nicer_Ass();
+        return;
+        break;
+    }
+    Boob_Cooldown();
+}
+function Boob_Cooldown()
+{
+    CMessage("%LetTheEdgeFade%");
+    CMessage("I think you could use some recovery time");
+    if (randomInteger(1, 100) <= 50)
+    {
+        Boob_2();
+        return;
+    }
+    CMessage("But I wouldn\'t want you to get bored, so...");
+    CMessage("Here\'s some %Boobs% for you to look at while you wait %Grin%");
+    showTaggedImage(4, ["boobs"]);
+    lockImages();
+    CMessage("I know guys like a nice, full pair of %Boobs%");
+    CMessage("Just like I like a nice, full pair of %Balls% %Lol%");
+    CMessage("And yours aren\'t gonna get any fuller staring at that picture, so...");
+    unlockImages();
+    Start_edging();
+    return;
+    Boob_2();
+}
+function Boob_2()
+{
+    --UNINTERPRETED LINE:But I don't want you to get <i>too</i> comfortable, so here's some %Boobs% %Lol% @ShowBoobsImage @LockImages
+    CMessage("Yeah, making %Boobs% appear is kinda like my super power");
+    --UNINTERPRETED LINE:Just like it's <i>your</i> kryptonite %Grin%
+    CMessage("Making you suffer and writhe");
+    CMessage("Making you weaker for me");
+    CMessage("And making it all the more vicious");
+    CMessage("When I tell you to edge again");
+    unlockImages();
+    Start_edging();
+    return;
+    Boob_Cooldown_2();
+}
+function Boob_Cooldown_2()
+{
+    CMessage("Here\'s some more %Boobs% for you to relax to %Grin%");
+    showTaggedImage(4, ["boobs"]);
+    lockImages();
+    if (randomInteger(1, 100) <= 50)
+    {
+        Then_Again_Boob();
+        return;
+    }
+    CMessage("Maybe relax isn\'t the best word");
+    CMessage("Suffer to?");
+    CMessage("Squirm to?");
+    CMessage("Ache to?");
+    CMessage("Fuck it");
+    setRapidText(true);
+    CMessage("Let\'s just go with all of the above %Lol%");
+    unlockImages();
+    Start_edging();
+    return;
+    Then_Again_Boob();
+}
+function Then_Again_Boob()
+{
+    CMessage("Just kidding %Lol%");
+    setRapidText(true);
+    unlockImages();
+    Start_edging();
+    return;
+    Butt_Cooldown();
+}
+function Butt_Cooldown()
+{
+    CMessage("%LetTheEdgeFade%");
+    CMessage("I think I\'ll let you relax for a minute");
+    if (randomInteger(1, 100) <= 50)
+    {
+        Butt_2();
+        return;
+    }
+    CMessage("While you stare at this sexy ass and try not to squirm %Grin%");
+    showTaggedImage(4, ["ass"]);
+    lockImages();
+    CMessage("I bet you\'re looking at it and thinking");
+    CMessage("\"Fuck, do I or don\'t I want to stroke to");
+    CMessage("Don\'t worry %PetName%");
+    CMessage("You won\'t have to debate that for very much longer %Lol%");
+    unlockImages();
+    Start_edging();
+    return;
+    Butt_2();
+}
+function Butt_2()
+{
+    --UNINTERPRETED LINE:Assuming you even <i>can</i> relax while staring at an ass this hot %Lol% @ShowButtImage @LockImages
+    CMessage("Try not to squirm too much though");
+    CMessage("You don\'t have much of a break until the next edge");
+    CMessage("And that %Cock% needs to recover if it\'s going to finish the remaining");
+    --Command:ShowVar(Domme_amount_of_edges)
+    CMessage("%Grin%");
+    CMessage("Then again");
+    --UNINTERPRETED LINE:Maybe I don't <i>want</i> you to recover
+    CMessage("Maybe I just want you to suffer, so...");
+    unlockImages();
+    Start_edging();
+    return;
+    Butt_Cooldown_2();
+}
+function Butt_Cooldown_2()
+{
+    CMessage("Here\'s another sexy ass to cool down to %Grin%");
+    showTaggedImage(4, ["ass"]);
+    lockImages();
+    if (randomInteger(1, 100) <= 50)
+    {
+        Then_Again_Butt();
+        return;
+    }
+    CMessage("Just follow the shape of her curves");
+    CMessage("Imagine how how her ass would feel in your palms");
+    CMessage("Or the moans she would make if you spanked it");
+    CMessage("Me, on the other hand...");
+    --UNINTERPRETED LINE:I would rather hear the moans <i>you</i> make having to edge again %Grin% @UnlockImages @Goto(Start_edging)
+    Then_Again_Butt();
+}
+function Then_Again_Butt()
+{
+    CMessage("Then again, you\'ll never finish your edges ataring at butts all day, so...");
+    unlockImages();
+    Start_edging();
+    return;
+    Could_Let_You_Rest();
+}
+function Could_Let_You_Rest()
+{
+    CMessage("I could let you rest for a minute");
+    if (randomInteger(1, 100) <= 50)
+    {
+        You_Could_Probably_Use_It();
+        return;
+    }
+    CMessage("But I won\'t %Grin%");
+    setRapidText(true);
+    Start_edging();
+    return;
+    You_Could_Probably_Use_It();
+}
+function You_Could_Probably_Use_It()
+{
+    CMessage("You could probably use it");
+    CMessage("But the more you rest, the more that desperation\'s gonna fade, so...");
+    setRapidText(true);
+    Start_edging();
+    return;
+    Edge_Count();
+}
+function Edge_Count()
+{
+    CMessage("%LetTheEdgeFade%");
+    --Command:ShowVar(Domme_amount_of_edges)
+    CMessage("edges left to go");
+    CMessage("I wonder what\'s harder on you");
+    CMessage("Doing these edges for me");
+    CMessage("or the things I do to you between each one %Grin%");
+    Start_edging();
+    return;
+    Even_When_These_Edges_Are_Done();
+}
+function Even_When_These_Edges_Are_Done()
+{
+    CMessage("%LetTheEdgeFade%");
+    CMessage("Even when these edges are done");
+    CMessage("Your %Cock% still won\'t be free of %Me%");
+    if (randomInteger(1, 100) <= 50)
+    {
+        Stay_In_Debt();
+        return;
+    }
+    CMessage("I might let you have a little break");
+    CMessage("Or I might just make you keep on edging for me");
+    setRapidText(true);
+    CMessage("Just because I can %Grin%");
+    setRapidText(false);
+    Start_edging();
+    return;
+    Stay_In_Debt();
+}
+function Stay_In_Debt()
+{
+    CMessage("You can pay off all the edges you want");
+    CMessage("But at the end of the day when the stroking is done");
+    CMessage("And you\'re throbbing, aching with desperation");
+    CMessage("That %Cock% still belongs to me %Grin%");
+    Start_edging();
+    return;
+    I_Could_Let_You_Rest();
+}
+function I_Could_Let_You_Rest()
+{
+    CMessage("I could let you rest for a bit");
+    if (randomInteger(1, 100) <= 50)
+    {
+        You_Gotta_Be_Aching();
+        return;
+    }
+    CMessage("But I just don\'t fucking want to %Grin%");
+    Start_edging();
+    return;
+    You_Gotta_Be_Aching();
+}
+function You_Gotta_Be_Aching()
+{
+    --UNINTERPRETED LINE:I mean, you <i>gotta</i> be aching right now 
+    CMessage("But oh yeah");
+    setRapidText(true);
+    CMessage("That\'s kinda the point %Lol%");
+    Start_edging();
+    return;
+    I_Love_Playing_Games();
+}
+function I_Love_Playing_Games()
+{
+    CMessage("%LetTheEdgeFade%");
+    CMessage("I love playing games like this");
+    if (randomInteger(1, 100) <= 50)
+    {
+        Board_Game_Talk();
+        return;
+    }
+    CMessage("The choices...");
+    CMessage("The consequences...");
+    CMessage("It\'s nothing I can\'t make you do already");
+    CMessage("But I love knowing each of these edges, well");
+    CMessage("You brought them on yourself %Grin%");
+    Start_edging();
+    return;
+    Board_Game_Talk();
+}
+function Board_Game_Talk()
+{
+    CMessage("If we ever played board games together");
+    CMessage("I\'d make sure every game would have some element of risk to it");
+    CMessage("A certain amount of denial if you lose");
+    CMessage("Edging every time I rolled a six");
+    CMessage("You don\'t even wanna know what I would do to you for rolling doubles %Grin%");
+    Start_edging();
+    return;
+    Its_Kinda_Funny();
+}
+function Its_Kinda_Funny()
+{
+    CMessage("It\'s kinda funny");
+    if (randomInteger(1, 100) <= 50)
+    {
+        Thought_of_Debt();
+        return;
+    }
+    CMessage("I don\'t need games like this to make you edge");
+    CMessage("But it\'s just so much fun playing games when there\'s something at stake %EmoteHappy%");
+    if (randomInteger(1, 100) <= 50)
+    {
+        Denial_On_The_Line();
+        return;
+    }
+    Start_edging();
+    return;
+    Thought_of_Debt();
+}
+function Thought_of_Debt()
+{
+    CMessage("The thought of you being in debt");
+    CMessage("And the only way you can pay it off is to edge");
+    CMessage("I think I would be a pretty good edge collector");
+    CMessage("Practice makes perfect after all %Grin%");
+    Start_edging();
+    return;
+    Denial_On_The_Line();
+}
+function Denial_On_The_Line()
+{
+    CMessage("Maybe next time we\'ll play for even higher stakes");
+    CMessage("Like when...");
+    setRapidText(true);
+    CMessage("Or if...");
+    CMessage("You get to cum again %Grin%");
+    setRapidText(false);
+    Start_edging();
+    return;
+    Know_Whatd_Be_Funny();
+}
+function Know_Whatd_Be_Funny()
+{
+    CMessage("%LetTheEdgeFade%");
+    CMessage("You know what would be funny?");
+    if (randomInteger(1, 100) <= 50)
+    {
+        This_Would_Be_Funny();
+        return;
+    }
+    CMessage("If after you were done giving me these edges");
+    CMessage("I made you edge some more for me");
+    setRapidText(true);
+    CMessage("Just because I can %Grin%");
+    Start_edging();
+    return;
+    This_Would_Be_Funny();
+}
+function This_Would_Be_Funny()
+{
+    CMessage("This...");
+    setRapidText(true);
+    Start_edging();
+    return;
+    Pause_For_Edge_Count();
+}
+function Pause_For_Edge_Count()
+{
+    CMessage("%LetTheEdgeFade%");
+    --UNINTERPRETED LINE:This is how many edges you have left -> @ShowVar[Domme_amount_of_edges] @Goto(This is Ass, This is Boobs, This is Random Pic)
+    This_is_Ass();
+}
+function This_is_Ass()
+{
+    CMessage("This is a sexy ass");
+    showTaggedImage(4, ["ass"]);
+    This_Is_Me_Telling_You_To_Edge();
+    return;
+    This_is_Boobs();
+}
+function This_is_Boobs()
+{
+    CMessage("This is a pair of %Boobs%");
+    showTaggedImage(4, ["boobs"]);
+    This_Is_Me_Telling_You_To_Edge();
+    return;
+    This_is_Random_Pic();
+}
+function This_is_Random_Pic()
+{
+    CMessage("This is a hot fucking picture I just found");
+    getTeasePicture();
+    This_Is_Me_Telling_You_To_Edge();
+}
+function This_Is_Me_Telling_You_To_Edge()
+{
+    --UNINTERPRETED LINE:And <i>this</i> is me telling you to edge again @RapidTextOn @Goto(Start_edging)
+    Probably_In_A_Hurry();
+}
+function Probably_In_A_Hurry()
+{
+    CMessage("You\'re probably in a hurry to finish these edges, so...");
+    setRapidText(true);
+    Start_edging();
+    return;
+    Stare_At_This_Picture();
+}
+function Stare_At_This_Picture()
+{
+    CMessage("Now just stare at this picture until I tell you to edge again");
+    getTeasePicture();
+    sleep(randomInt(15, 60));
+    Start_edging();
+    return;
+    This_Many_Edges_Left();
+}
+function This_Many_Edges_Left()
+{
+    --Command:ShowVar(Domme_amount_of_edges)
+    CMessage("edges left %SubName%");
+    sleep(randomInt(5, 20));
+    Start_edging();
+    return;
+    Wait_For_It();
+}
+function Wait_For_It()
+{
+    CMessage("Wait for it...");
+    sleep(randomInt(5, 20));
+    if (randomInteger(1, 100) <= 20)
+    {
+        Start_edging();
+        return;
+    }
+    --UNINTERPRETED LINE:<i>Wait</i> for it... @sleep(%Random%(5,20)) @Chance40(Start_edging)
+    CMessage("Keep waiting for it...");
+    sleep(randomInt(5, 20));
+    if (randomInteger(1, 100) <= 60)
+    {
+        Start_edging();
+        return;
+    }
+    --UNINTERPRETED LINE:<i>Almost</i> there... @sleep(%Random%(5,20)) @Chance80(Start_edging)
+    CMessage("%SubName%...");
+    sleep(randomInt(5, 20));
+    Start_edging();
+    return;
+    Wait_For_It_JK();
+}
+function Wait_For_It_JK()
+{
+    CMessage("Wait for it...");
+    if (randomInteger(1, 100) <= 50)
+    {
+        Fuck_That();
+        return;
+    }
+    CMessage("Just kidding %Lol%");
+    setRapidText(true);
+    Start_edging();
+    return;
+    Fuck_That();
+}
+function Fuck_That()
+{
+    CMessage("Fuck that %Lol%");
+    setRapidText(true);
+    Start_edging();
+    return;
+    We_Should_Play_More();
+}
+function We_Should_Play_More()
+{
+    CMessage("We should play games like this more often");
+    if (randomInteger(1, 100) <= 50)
+    {
+        Direct_Control();
+        return;
+    }
+    CMessage("I like the competition");
+    CMessage("Not knowing the outcome");
+    CMessage("Maybe I\'ll win big and score a lot of edges");
+    CMessage("Maybe you\'ll get lucky and score a lot of tokens");
+    CMessage("Either way, you have to come back to chat with me eventually");
+    --UNINTERPRETED LINE:And that's when I show you that house <i>always</i> wins %Grin% @Goto(Start_edging)
+    Direct_Control();
+}
+function Direct_Control()
+{
+    CMessage("I know I have to give up a little direct control");
+    CMessage("But I think it\'s kinda hot leaving the fate of your %Cock% up to chance once in a while");
+    CMessage("How much pleasure you feel");
+    setRapidText(true);
+    CMessage("How much agony you endure");
+    CMessage("All down to the roll of the dice");
+    CMessage("The flip of a card");
+    CMessage("Holding your breath as your entire destiny unravels in a second");
+    setRapidText(false);
+    CMessage("All it takes to feel a rush like that...");
+    CMessage("Is for the stakes to be high enough %Grin%");
+    Start_edging();
+    return;
+    Who_Has_A_Nicer_Ass();
+}
+function Who_Has_A_Nicer_Ass()
+{
+    CMessage("%LetTheEdgeFade%");
+    CMessage("Who has a nicer ass:");
+    setRapidText(true);
+    CMessage("Me");
+    let answer0 = getInput("or this girl?");
+    showTaggedImage(4, ["ass"]);
+    setRapidText(false);
+    lockImages();
+    while (!(answer0.isLike("you") || answer0.isLike("she") || answer0.isLike("her") || answer0.isLike("that")))
+    {
+        answer0 = getInput("Me or her %SubName%?");
+    }
+    if (answer0.isLike("you"))
+    {
+        CMessage("So you think my ass is better...");
+        unlockImages();
+        Good_Thing_Asskisser();
+        return;
+    }
+    else if (answer0.isLike("she", "her", "that"))
+    {
+        CMessage("Oh really %Lol%");
+    }
+    CMessage("I appreciate your honesty %SubName% %EmoteHappy%");
+    setVar("Domme_amount_of_edges_Add", getVar("%Random5%,10", 0));
+    --UNINTERPRETED LINE:But I still added @ShowVar[Domme_amount_of_edges_Add] edges to what you owe me for not picking mine :P
+    setVar("Domme_amount_of_edges", getVar("Domme_amount_of_edges", 0) + getVar("Domme_amount_of_edges_Add", 0));
+    unlockImages();
+    Start_edging();
+    return;
+    Good_Thing_Asskisser();
+}
+function Good_Thing_Asskisser()
+{
+    CMessage("I guess that\'s a good thing");
+    CMessage("Since you apparently like to kiss it so much %Lol%");
+    Start_edging();
+    return;
+    One_last_edge_to_give();
+}
+function One_last_edge_to_give()
+{
+    CMessage("I could let you rest for a bit");
+    if (randomInteger(1, 100) <= 50)
+    {
+        You_Gotta_Be_Aching_last_time();
+        return;
+    }
+    CMessage("But I just don\'t fucking want to %Grin%");
+    Start_edging_for_the_last_time();
+    return;
+    You_Gotta_Be_Aching_last_time();
+}
+function You_Gotta_Be_Aching_last_time()
+{
+    --UNINTERPRETED LINE:I mean, you <i>gotta</i> be aching right now 
+    CMessage("But...");
+    --UNINTERPRETED LINE:yeah @RTOn
+    CMessage("That\'s kinda the point %Lol%");
+    Start_edging_for_the_last_time();
+    return;
+    Finished_edging();
+}
+function Finished_edging()
+{
+    if (inGroup(1))
+    {
+        CMessage("%LetTheEdgeFade%");
+    }
+    if (inGroup(1, 4))
+    {
+        SMessage("%LetTheEdgeFade%", -1, 4);
+    }
+    if (inGroup(1))
+    {
+        CMessage("That was the last edge you owed me %SubName%");
+    }
+    if (inGroup(1, 4))
+    {
+        SMessage("That was the last edge you owed us %SubName%", -1, 4);
+    }
+    if (inGroup(1))
+    {
+        CMessage("I hope you had as much fun as I did %EmoteHappy%");
+    }
+    if (inGroup(1, 4))
+    {
+        SMessage("I hope you had as much fun as we did %EmoteHappy%", -1, 4);
+    }
+    delVar("Domme_amount_of_edges");
+    delVar("Domme_amount_of_edges_2");
+    delVar("Domme_amount_of_edges_Add");
+    delVar("Domme_amount_of_edges_start");
+    delVar("Sub_amount_of_edges");
+    Goodbye_time();
+    return;
+    Contact2();
+}
+function Contact2()
+{
+    CMessage("Do you remember my friend %Contact2% %SubName%?");
+    addContact(3);
+    SMessage("Hello %SubName%!", -1, 3);
+    SMessage("I hope I didn\'t interrupt anything important...", -1, 3);
+    CMessage("Don\'t worry %Contact2%... We were about to play a game...");
+    SMessage("A game?", -1, 3);
+    CMessage("Yes %Contact2%");
+    SMessage("What kind of game?", -1, 3);
+    if(getVar("CBT_Game", false) && getVar("CBT_Game_Contact2", false))
+    {
+        CBT_Game();
+        return;
+    }
+    if(getVar("Edging_Game", false) && getVar("Edging_Game_Contact2", false))
+    {
+        Edging_Game();
+        return;
+    }
+    CBT_Game_Contact2();
+}
+function CBT_Game_Contact2()
+{
+    CMessage("A %CBT% game!");
+    SMessage("Ok, but don\'t %Hurt% him too much", -1, 3);
+    Start_CBT();
+    return;
+    Edging_Game_Contact2();
+}
+function Edging_Game_Contact2()
+{
+    CMessage(random("I was going to make him edge", "An edging game!"));
+    SMessage("Ok, seems interesting", -1, 3);
+    SMessage("But don\'t exaggerate...", -1, 3);
+    SMessage("Give him enough time to cooldown", -1, 3);
+    Start_edging_game();
+    return;
+    Contact3();
+}
+function Contact3()
+{
+    CMessage("Do you remember my friend %Contact3% %SubName%?");
+    addContact(4);
+    SMessage("Hello %SubName%!", -1, 4);
+    SMessage("I hope I didn\'t interrupt anything important...", -1, 4);
+    CMessage("Don\'t worry %Contact3%... We were just playing a game...");
+    SMessage("Mmm... Sounds interesting...", -1, 4);
+    SMessage("I play games with my slaves too...", -1, 4);
+    CMessage(random("Yeah, I saw you playing with your slaves ", "I know what kind of games you like ", "I saw what kind of games you like playing with your slaves ") + "...");
+    CMessage("The kind that you pretend to be the hero who frees their %Cock% from those cages...");
+    CMessage("just to lock them in a newer and more painful one %Grin%");
+    SMessage(random("You know my methods %ShortName% ", "You know  which are my methods ") + "...", -1, 4);
+    SMessage("Keep a man denied in a cage and he will do almost everything, just to have a small chance to cum again", -1, 4);
+    SMessage(random("What are you %Gonna% do", "What have you planned to do"), -1, 4);
+    if(getVar("CBT_Game", false) && getVar("CBT_Game_Contact3", false))
+    {
+        CBT_Game();
+        return;
+    }
+    if(getVar("Edging_Game", false) && getVar("Edging_Game_Contact3", false))
+    {
+        Edging_Game();
+        return;
+    }
+    CBT_Game_Contact3();
+}
+function CBT_Game_Contact3()
+{
+    CMessage("I was thinking to %CBT% but, you know, after a while it gets repetitive...");
+    SMessage("It seems you ran out of ideas %ShortName%...", -1, 4);
+    CMessage("I could really use some help: do you have any idea %Contact3%?");
+    SMessage("Glad you asked it %DomName%", -1, 4);
+    SMessage("Actually I have a few games in mind I think you\'ll like", -1, 4);
+    SMessage("Get ready", -1, 4);
+    --Command:SubName...
+    CMessage("%Grin%");
+    SMessage("I suspect you won\'t like my " + "%Grin%", -1, 4);
+    switch(random("Contact3_CBT_Game1", "Contact3_CBT_Game2"))
+    {
+        case "Contact3_CBT_Game1":
+        Contact3_CBT_Game1();
+        return;
+        break;
+        case "Contact3_CBT_Game2":
+        Contact3_CBT_Game2();
+        return;
+        break;
+    }
+    Edging_Game_Contact3();
+}
+function Edging_Game_Contact3()
+{
+    CMessage("We were about to play a little edging game");
+    SMessage("I love edging games!", -1, 4);
+    SMessage("Can I stay here and watch?", -1, 4);
+    CMessage("Of course %Contact3%! You may even edge him yourself if you wish");
+    Start_edging_game();
+    return;
+    Contact3_CBT_Game1();
+}
+function Contact3_CBT_Game1()
+{
+    --UNINTERPRETED LINE:@Contact3 This game is called <i>edges&ballbusting</i>
+    CMessage("Sounds interesting...");
+    --UNINTERPRETED LINE:@Contact3 As the name says, you, @RT(%PetName%,%SubName%), are %Gonna% edge... @RTOn
+    CMessage("and bust your %Balls% in your cooldown time");
+    --UNINTERPRETED LINE:@Contact3 That's right %ShortName%! @RTOff
+    CMessage("I like it %Contact3%!");
+    CMessage("Do you like it " + random("%PetName%", "%SubName%"));
+    SMessage("He doesn\'t have to like it %ShortName%", -1, 4);
+    SMessage("%YoureGoingToDoIt%", -1, 4);
+    SMessage("Now %DomName%, choose the number of edges you want him to do", -1, 4);
+    setVar("tgr8_Game1_CBT_min", getVar("%Random10%,15", 0));
+    setVar("tgr8_Game1_CBT_max", getVar("%Random20%,25", 0));
+    --UNINTERPRETED LINE:@NullResponse @SetVar[Game1_number_of_edges]=[%Random%(%Var%[tgr8_Game1_CBT_min],%Var%[tgr8_Game1_CBT_max])]
+    delVar("tgr8_Game1_CBT_min");
+    delVar("tgr8_Game1_CBT_max");
+    CMessage("I chose");
+    SMessage("Good", -1, 4);
+    SMessage("Now that we have the number of edges we need another number", -1, 4);
+    CMessage("The cooldown time...");
+    SMessage("Exactly", -1, 4);
+    setVar("Game1_cooldown_time", getVar("%Random20%,30", 0));
+    CMessage("Chose");
+    SMessage("Do you want to tell him the numbers you chose?", -1, 4);
+    switch(random("tell_Game1", "do_not_tell_Game1"))
+    {
+        case "tell_Game1":
+        tell_Game1();
+        return;
+        break;
+        case "do_not_tell_Game1":
+        do_not_tell_Game1();
+        return;
+        break;
+    }
+    tell_Game1();
+}
+function tell_Game1()
+{
+    CMessage("Yes");
+    CMessage("The number of edges I thought for you %SubName% is:");
+    --Command:ShowVar(Game1_number_of_edges)
+    CMessage("While your cooldown time is:");
+    --Command:ShowVar(Game1_cooldown_time)
+    CMessage("seconds");
+    Continue_Game1();
+    return;
+    do_not_tell_Game1();
+}
+function do_not_tell_Game1()
+{
+    CMessage("No");
+    CMessage("I want to keep them for me %Contact3%");
+    Continue_Game1();
+    return;
+    Continue_Game1();
+}
+function Continue_Game1()
+{
+    SMessage("Now comes the ballbusting part...", -1, 4);
+    --UNINTERPRETED LINE:@Contact3 In your cooldown time I want you to slap your %Balls% <i>HARD<i> @RT(3,6) times @RT(%PetName%,%SubName%)
+    CMessage("It\'s %Gonna% be a lot of %CBT% %Contact3%...");
+    SMessage("I know... I know...", -1, 4);
+    SMessage("That\'s why I like so much this game %Grin%", -1, 4);
+    SMessage("At the end, all he\'s %Gonna% able to feel will be " + random("ache ", "pain ") + "...", -1, 4);
+    SMessage("A lot of " + random("ache ", "pain ") + "due to all that %CumNoun% built up in those aching %Balls% from all that %CBT%", -1, 4);
+    --UNINTERPRETED LINE:You're very cruel %Contact3%! @RTOn
+    SMessage("No", -1, 4);
+    SMessage("I\'m not", -1, 4);
+    --UNINTERPRETED LINE:@Contact3 That's what he deserves @RTOff
+    SMessage("That\'s what a %PetName% deserves", -1, 4);
+    let answer0 = getInput("Am I right %PetName%?", -1, true, 4);
+    while (!(answer0.isLike("yes") || answer0.isLike("no")))
+    {
+        answer0 = getInput("%YesorNo%", -1, 4);
+    }
+    if (answer0.isLike("yes"))
+    {
+        SMessage("%Good%", -1, 4);
+    }
+    else if (answer0.isLike("no"))
+    {
+        SMessage("Oh well. You just added 5 more edges to what you owe us %SubName%", -1, 4);
+        setVar("Game1_number_of_edges", getVar("Game1_number_of_edges", 0) + 5);
+    }
+    CMessage("%Contact3% I think you should have the honor of edging him");
+    SMessage("Are you sure %ShortName%?", -1, 4);
+    SMessage("You\'re his %DomHonorific%. I don\'t want to...", -1, 4);
+    CMessage("Don\'t worry %Contact3%");
+    CMessage("My toys are your toys, you know that");
+    CMessage("However, I like watching my %PetName% being dominated by another %DomHonorific%, from time to time...");
+    SMessage("Well %SubName%, you heard %ShortName%...", -1, 4);
+    --UNINTERPRETED LINE:@Contact3 It's only %Me% and you now... @Goto(Edge_no_hold, Edge_hold) @RTOn
+    Edge_no_hold();
+}
+function Edge_no_hold()
+{
+    SMessage("%Edge%", -1, 4);
+    --Command:Edge(NoHold)
+    var amountEdges = getVar("Game1_number_of_edges", "");
+    DoEdges(amountEdges, amountEdges, 0);
+    --UNINTERPRETED LINE:@NullResponse @RTOff @Goto(End_Game1)
+    Edge_hold();
+}
+function Edge_hold()
+{
+    --UNINTERPRETED LINE:@NullResponse @RTOff
+    SMessage("I almost forgot to tell you", -1, 4);
+    SMessage("I\'m %Gonna% make you hold the last edge", -1, 4);
+    --UNINTERPRETED LINE:@Contact3 What I still don't know is how long @RT(<i>YOU</i> are %Gonna% hold it, I'm %Gonna% make you hold it)!
+    --UNINTERPRETED LINE:@Contact3 Well, I guess we'll find out soon %Grin% @Goto(Normal_hold, Long_hold, Extreme_hold) @RTOn
+    Normal_hold();
+}
+function Normal_hold()
+{
+    --UNINTERPRETED LINE:@Contact3 %Edge% @Edge(Hold) @MultipleEdges(%Var%[Game1_number_of_edges],%Var%[Game1_cooldown_time]) @RTOff @TempFlag(tgr8_Game1_normal_hold) @Goto(End_Game1)
+    Long_hold();
+}
+function Long_hold()
+{
+    --UNINTERPRETED LINE:@Contact3 %Edge% @Edge(LongHold) @MultipleEdges(%Var%[Game1_number_of_edges],%Var%[Game1_cooldown_time]) @RTOff @TempFlag(tgr8_Game1_long_hold) @Goto(End_Game1)
+    Extreme_hold();
+}
+function Extreme_hold()
+{
+    --UNINTERPRETED LINE:@Contact3 %Edge% @Edge(ExtremeHold) @MultipleEdges(%Var%[Game1_number_of_edges],%Var%[Game1_cooldown_time]) @RTOff @TempFlag(tgr8_Game1_extreme_hold) @Goto(End_Game1)
+    End_Game1();
+}
+function End_Game1()
+{
+    SMessage("You made it " + random("%PetName%", "%SubName%"), -1, 4);
+    delVar("Game1_number_of_edges");
+    delVar("Game1_cooldown_time");
+    SMessage("Look how wet your %Pussy% is!", -1, 4);
+    CMessage("You made me really %DomHorny% %Contact3%");
+    CMessage("It was really %Hot%! And that last edge...");
+    CMessage("Wow!");
+    CMessage("I think I came " + randomInt(3, 6) + "times watching you");
+    SMessage("You enjoyed the show, huh?!", -1, 4);
+    CMessage("Yeah, definitely... %EmoteHappy%");
+    SMessage("I can\'t say the same for %SubName% here", -1, 4);
+    Goodbye_time();
+    return;
+    tgr8_Game1_normal_hold();
+}
+function tgr8_Game1_normal_hold()
+{
+    SMessage("You seem a bit shocked " + random("%PetName%", "%SubName%"), -1, 4);
+    SMessage("It was only a normal hold", -1, 4);
+    SMessage("%ShortName% you should let me train", -1, 4);
+    --Command:SubName
+    CMessage("to hold edges");
+    SMessage("You can\'t afford to have a %PetName% that is barely able to hold a normal edge", -1, 4);
+    CMessage("Yeah, you\'re right %Contact3%");
+    CMessage("I should really let him come by your house for some training sessions");
+    Goodbye_time();
+    return;
+    tgr8_Game1_long_hold();
+}
+function tgr8_Game1_long_hold()
+{
+    SMessage("He seems a bit shocked, don\'t you think %DomName%?", -1, 4);
+    SMessage("That long edge was too much to hold for you?", -1, 4);
+    CMessage("It looks like that last edge was too much for him");
+    CMessage("Look %Contact3% all these veins pumping blood to that %Cock% head");
+    SMessage("I love making %Cock% throbbing...", -1, 4);
+    SMessage("I bet that just a little gentle touch to your %Cock% sweet spot would make you %Cum% straight away %SubName%...", -1, 4);
+    SMessage("but I prefer slaves with a big pair of blue balls!!! %Grin%", -1, 4);
+    CMessage("And this is only the beginning %Contact3%");
+    --UNINTERPRETED LINE:<i>Real</i> %Stroking% hasn't started yet!
+    SMessage("Well, then %SubName%...", -1, 4);
+    SMessage("Looks like your %Cock% is %Gonna% %Leak% a lot %GeneralTime% %Grin%", -1, 4);
+    Goodbye_time();
+    return;
+    tgr8_Game1_extreme_hold();
+}
+function tgr8_Game1_extreme_hold()
+{
+    SMessage("He seems a bit shocked", -1, 4);
+    SMessage("That extreme hold must have consumed you", -1, 4);
+    CMessage("It looks like that last edge was too much for him");
+    CMessage("Look %Contact3% all these veins pumping blood to that %Cock% head");
+    SMessage("I love making %Cock% throbbing...", -1, 4);
+    SMessage("I bet that just a little gentle touch to your %Cock% sweet spot would make you %Cum% straight away %SubName%...", -1, 4);
+    SMessage("but I prefer slaves with a " + random("huge ", "big ") + random("pair ", "set ") + "of blue %Balls%!!! %Grin%", -1, 4);
+    CMessage("And this is only the beginning %Contact3%");
+    --UNINTERPRETED LINE:<i>Real</i> %Stroking% hasn't started yet!
+    SMessage("Well, then %SubName%...", -1, 4);
+    SMessage("Looks like your %Cock% is %Gonna% %Leak% a lot %GeneralTime% %Grin%", -1, 4);
+    Goodbye_time();
+    return;
+    Contact3_CBT_Game2();
+}
+function Contact3_CBT_Game2()
+{
+    SMessage("This game is divided in rounds", -1, 4);
+    SMessage("Each round has the same amount of edges", -1, 4);
+    SMessage("but different cooldown times", -1, 4);
+    SMessage("So %ShortName%...", -1, 4);
+    CMessage("Tell me %Contact3%. What do I need to do?");
+    SMessage("I want you to think of two numbers", -1, 4);
+    SMessage("The first will " + random("determine ", "decide ", "give us ", "indicate ", "specify ", "designate ") + "the number of rounds that %SubName% " + random("has to face", "will have to face"), -1, 4);
+    SMessage("The second will " + random("determine ", "decide ", "give us ", "indicate ", "specify ", "designate ") + "the number of edges per round", -1, 4);
+    setVar("Game2_number_of_rounds", getVar("%Random4%,7", 0));
+    if (getVar("Game2_number_of_rounds", 0) == 4)
+    {
+        Game2_number_of_edges1();
+        return;
+    }
+    if (getVar("Game2_number_of_rounds", 0) == 5)
+    {
+        Game2_number_of_edges2();
+        return;
+    }
+    if (getVar("Game2_number_of_rounds", 0) == 6)
+    {
+        Game2_number_of_edges3();
+        return;
+    }
+    if (getVar("Game2_number_of_rounds", 0) == 7)
+    {
+        Game2_number_of_edges4();
+        return;
+    }
+    Game2_number_of_edges1();
+}
+function Game2_number_of_edges1()
+{
+    CMessage("I chose the number of rounds %Contact3%");
+    SMessage("Good. Now the number of edges per round %ShortName%", -1, 4);
+    setVar("Game2_number_of_edges_per_round", getVar("%Random5%,8", 0));
+    CMessage("Ok, I decided");
+    Continue_Game2();
+    return;
+    Game2_number_of_edges2();
+}
+function Game2_number_of_edges2()
+{
+    CMessage("I chose the number of rounds %Contact3%");
+    SMessage("Good. Now the number of edges per round %ShortName%", -1, 4);
+    setVar("Game2_number_of_edges_per_round", getVar("%Random4%,7", 0));
+    CMessage("Ok, I decided");
+    Continue_Game2();
+    return;
+    Game2_number_of_edges3();
+}
+function Game2_number_of_edges3()
+{
+    CMessage("I chose the number of rounds %Contact3%");
+    SMessage("Good. Now the number of edges per round %ShortName%", -1, 4);
+    setVar("Game2_number_of_edges_per_round", getVar("%Random3%,6", 0));
+    CMessage("Ok, I decided");
+    Continue_Game2();
+    return;
+    Game2_number_of_edges4();
+}
+function Game2_number_of_edges4()
+{
+    CMessage("I chose the number of rounds %Contact3%");
+    SMessage("Good. Now the number of edges per round %ShortName%", -1, 4);
+    setVar("Game2_number_of_edges_per_round", getVar("%Random3%,5", 0));
+    CMessage("Ok, I decided");
+    Continue_Game2();
+    return;
+    Continue_Game2();
+}
+function Continue_Game2()
+{
+    SMessage("Do you want to tell", -1, 4);
+    --Command:SubName
+    switch(random("tell_Game2", "do_not_tell_Game2"))
+    {
+        case "tell_Game2":
+        tell_Game2();
+        return;
+        break;
+        case "do_not_tell_Game2":
+        do_not_tell_Game2();
+        return;
+        break;
+    }
+    tell_Game2();
+}
+function tell_Game2()
+{
+    CMessage("Yes");
+    CMessage("The number of rounds I decided is");
+    --Command:ShowVar(Game2_number_of_rounds)
+    CMessage("While the number of edges per round you owe us is");
+    --Command:ShowVar(Game2_number_of_edges_per_round)
+    Prepare_for_Game2_start();
+    return;
+    do_not_tell_Game2();
+}
+function do_not_tell_Game2()
+{
+    CMessage("No");
+    CMessage("I want to keep them for me %Contact3%");
+    Prepare_for_Game2_start();
+}
+function Prepare_for_Game2_start()
+{
+    CMessage("Do you need my help for this game or can I relax and watch %Contact3%?");
+    SMessage("Well the game is divided in rounds so we can alternate", -1, 4);
+    CMessage("Fantastic!");
+    SMessage("While we take care of your %Cock%", -1, 4);
+    let answer0 = getInput("You are %Gonna% take care of your %Balls%, understand?", -1, true, 4);
+    if (answer0.isLike("yes"))
+    {
+        SMessage("%Good%", -1, 4);
+    }
+    else if (answer0.isLike("no"))
+    {
+        SMessage("%YoureGoingToDoIt%", -1, 4);
+    }
+    else
+    {
+        SMessage("%YoureGoingToDoIt%", -1, 4);
+        --UNINTERPRETED LINE:@Contact3 I want you to @RT(slap, beat, punch) your %Balls% <i>HARD<i> @RT(2,3) times during your cooldown time
+        --UNINTERPRETED LINE:If it didn't %Hurt%, <i>it does NOT count</i>!
+    }
+    SMessage(random("This should help you focus on not %Cumming%", "This should keep you focused on not %Cumming%"), -1, 4);
+    CMessage("Let\'s start then!");
+    switch(random("Game2_cooldown_time1", "Game2_cooldown_time2", "Game2_cooldown_time3"))
+    {
+        case "Game2_cooldown_time1":
+        Game2_cooldown_time1();
+        return;
+        break;
+        case "Game2_cooldown_time2":
+        Game2_cooldown_time2();
+        return;
+        break;
+        case "Game2_cooldown_time3":
+        Game2_cooldown_time3();
+        return;
+        break;
+    }
+    Game2_cooldown_time1();
+}
+function Game2_cooldown_time1()
+{
+    setVar("Game2_cooldown_time", getVar("%Random20%,25", 0));
+    setTempVar("tgr8_Game2_cooldown_time1", true);
+    switch(random("Edged_by_Domme", "Edged_by_Contact3"))
+    {
+        case "Edged_by_Domme":
+        Edged_by_Domme();
+        return;
+        break;
+        case "Edged_by_Contact3":
+        Edged_by_Contact3();
+        return;
+        break;
+    }
+    Game2_cooldown_time2();
+}
+function Game2_cooldown_time2()
+{
+    setVar("Game2_cooldown_time", getVar("%Random10%,15", 0));
+    setTempVar("tgr8_Game2_cooldown_time2", true);
+    switch(random("Edged_by_Domme", "Edged_by_Contact3"))
+    {
+        case "Edged_by_Domme":
+        Edged_by_Domme();
+        return;
+        break;
+        case "Edged_by_Contact3":
+        Edged_by_Contact3();
+        return;
+        break;
+    }
+    Game2_cooldown_time3();
+}
+function Game2_cooldown_time3()
+{
+    setVar("Game2_cooldown_time", getVar("%Random3%,5", 0));
+    setTempVar("tgr8_Game2_cooldown_time3", true);
+    switch(random("Edged_by_Domme", "Edged_by_Contact3"))
+    {
+        case "Edged_by_Domme":
+        Edged_by_Domme();
+        return;
+        break;
+        case "Edged_by_Contact3":
+        Edged_by_Contact3();
+        return;
+        break;
+    }
+    Edged_by_Domme();
+}
+function Edged_by_Domme()
+{
+    --UNINTERPRETED LINE:@RT(It's my turn now!,It's my turn to edge %SubName% now!,My turn!,Get ready to edge for %Me%!,Get ready to edge for %Me%,, %SubName%!) @RTOn @Goto(Edged_by_Domme_mode1, Edged_by_Domme_mode2)
+    Edged_by_Domme_mode1();
+}
+function Edged_by_Domme_mode1()
+{
+    --UNINTERPRETED LINE:%Edge% @Edge(NoHold) @MultipleEdges(%Var%[Game2_number_of_edges_per_round],%Var%[Game2_cooldown_time]) @RTOff @Goto(Game2_command_centre)
+    Edged_by_Domme_mode2();
+}
+function Edged_by_Domme_mode2()
+{
+    --UNINTERPRETED LINE:%Edge% @Edge(Hold) @MultipleEdges(%Var%[Game2_number_of_edges_per_round],%Var%[Game2_cooldown_time]) @RTOff @Goto(Game2_command_centre)
+    Edged_by_Contact3();
+}
+function Edged_by_Contact3()
+{
+    --UNINTERPRETED LINE:@Contact3 @RT(It's my turn now!,It's my turn to edge %SubName% now!,My turn!,Get ready to edge for %Me%!,Get ready to edge for %Me%,, %SubName%!) @RTOn @Goto(Edged_by_Contact3_mode1,Edged_by_Contact3_mode2)
+    Edged_by_Contact3_mode1();
+}
+function Edged_by_Contact3_mode1()
+{
+    --UNINTERPRETED LINE:@Contact3 %Edge% @Edge(NoHold) @MultipleEdges(%Var%[Game2_number_of_edges_per_round],%Var%[Game2_cooldown_time]) @RTOff @Goto(Game2_command_centre)
+    Edged_by_Contact3_mode2();
+}
+function Edged_by_Contact3_mode2()
+{
+    --UNINTERPRETED LINE:@Contact3 %Edge% @Edge(Hold) @MultipleEdges(%Var%[Game2_number_of_edges_per_round],%Var%[Game2_cooldown_time]) @RTOff @Goto(Game2_command_centre)
+    Game2_command_centre();
+}
+function Game2_command_centre()
+{
+    if (getVar("Game2_number_of_rounds", 0) == 0)
+    {
+        End_Game2();
+        return;
+    }
+    setVar("Game2_number_of_rounds", getVar("Game2_number_of_rounds", 0) - 1);
+    if(getVar("tgr8_Game2_cooldown_time1", false))
+    {
+        tgr8_Game2_cooldown_time1();
+        return;
+    }
+    if(getVar("tgr8_Game2_cooldown_time2", false))
+    {
+        tgr8_Game2_cooldown_time2();
+        return;
+    }
+    if(getVar("tgr8_Game2_cooldown_time3", false))
+    {
+        tgr8_Game2_cooldown_time3();
+        return;
+    }
+    tgr8_Game2_cooldown_time1();
+}
+function tgr8_Game2_cooldown_time1()
+{
+    delVar("tgr8_Game2_cooldown_time1");
+    switch(random("Game2_cooldown_time2", "Game2_cooldown_time3"))
+    {
+        case "Game2_cooldown_time2":
+        Game2_cooldown_time2();
+        return;
+        break;
+        case "Game2_cooldown_time3":
+        Game2_cooldown_time3();
+        return;
+        break;
+    }
+    tgr8_Game2_cooldown_time2();
+}
+function tgr8_Game2_cooldown_time2()
+{
+    delVar("tgr8_Game2_cooldown_time2");
+    switch(random("Game2_cooldown_time1", "Game2_cooldown_time3"))
+    {
+        case "Game2_cooldown_time1":
+        Game2_cooldown_time1();
+        return;
+        break;
+        case "Game2_cooldown_time3":
+        Game2_cooldown_time3();
+        return;
+        break;
+    }
+    tgr8_Game2_cooldown_time3();
+}
+function tgr8_Game2_cooldown_time3()
+{
+    delVar("tgr8_Game2_cooldown_time3");
+    switch(random("Game2_cooldown_time1", "Game2_cooldown_time2"))
+    {
+        case "Game2_cooldown_time1":
+        Game2_cooldown_time1();
+        return;
+        break;
+        case "Game2_cooldown_time2":
+        Game2_cooldown_time2();
+        return;
+        break;
+    }
+    End_Game2();
+}
+function End_Game2()
+{
+    setVar("Game2_number_of_edges", getVar("%VarGame2_number_of_rounds%", 0));
+    setVar("Game2_number_of_edges", getVar("Game2_number_of_edges", 0) * getVar("Game2_number_of_edges_per_round", 0));
+    delVar("Game2_number_of_rounds");
+    delVar("Game2_number_of_edges_per_round");
+    delVar("Game2_cooldown_time");
+    SMessage("That was the last edge you owed us " + random("%PetName%", "%SubName%"), -1, 4);
+    CMessage("That was amazing %Contact3%!");
+    --UNINTERPRETED LINE:@Contact3 I bet you want to %Cum% <i>soooo</i> desperately now %SubName%...
+    CMessage("You said it %Contact3%. We just edged him");
+    --Command:ShowVar(Game2_number_of_edges)
+    CMessage("times");
+    SMessage("He must have a massive load built up on those %Balls%", -1, 4);
+    delVar("Game2_number_of_edges");
+    CMessage("Look at his throbbing %Cock%!");
+    CMessage("I believe he\'s feeling all that %CumNoun% trying to find its way out");
+    CMessage("still he has to go against his instinct that tells him to %Cum%");
+    CMessage("and keep it stored in those %Balls%");
+    --UNINTERPRETED LINE:@Contact3 I bet I could make you %Cum% just with a gentle touch to your %Cock%' sweet spot %SubName%... @RTOn
+    CMessage("but we prefer an obedient %PetName% with a " + random("huge ", "big ") + random("pair ", "set ") + "of blue %Balls%!");
+    --UNINTERPRETED LINE:@Contact3 Like yours %SubName%! @RTOff
+    SMessage("Will you let him " + random("rest ", "%RelaxAndBreathe% ") + "now %ShortName%?", -1, 4);
+    CMessage("Just a bit, I have other plans for him %GeneralTime%");
+    CMessage("This is only the beginning %Contact3%");
+    CMessage("Real %Stroking% hasn\'t started yet!");
+    SMessage("Well then %SubName%...", -1, 4);
+    SMessage("Looks like your %Cock% is %Gonna% %Leak% and suffer a lot today %SubName%... %Grin%", -1, 4);
+    Goodbye_time();
+    return;
+    Goodbye_time();
+}
+function Goodbye_time()
+{
+    SMessage("Well, %DomName%, I have to go now", -1, 3);
+    SMessage("Well, %DomName%, I have to go now", -1, 4);
+    if (inGroup(1, 3))
+    {
+        CMessage("Already?");
+    }
+    if (inGroup(1, 3))
+    {
+        CMessage("I was hoping you could stay with us a bit more %EmoteSad%");
+    }
+    if (inGroup(1, 4))
+    {
+        CMessage("Already?");
+    }
+    if (inGroup(1, 4))
+    {
+        CMessage("I was hoping you could stay with us a bit more %EmoteSad%");
+    }
+    SMessage("I promise next time I\'ll spend more time with you %ShortName%...", -1, 3);
+    SMessage("I promise next time I\'ll spend more time with you %ShortName%...", -1, 4);
+    SMessage("...and obviously with you %SubName% %Grin%", -1, 3);
+    SMessage("...and obviously with you %SubName% %Grin%", -1, 4);
+    SMessage("You know, I also have some responsibilities...", -1, 4);
+    if (inGroup(1, 4))
+    {
+        CMessage("Your slaves need you...");
+    }
+    SMessage("But I had fun playing with you and %SubName% %GeneralTime%", -1, 4);
+    SMessage("So if you want to invite me again we could play other evil games %GrinEvil%", -1, 4);
+    SMessage("I have many other cruel ideas to %Torture% " + random("%SubName% ", "your %PetName% ") + "... %Grin%", -1, 4);
+    if (inGroup(1, 4))
+    {
+        CMessage("I can\'t wait until next time %Contact3%!");
+    }
+    SMessage("Yeah, I know... But I promise it\'ll be worth %ShortName%", -1, 4);
+    if (inGroup(1, 3))
+    {
+        CMessage("Ok then...");
+    }
+    if (inGroup(1, 4))
+    {
+        CMessage("Ok then...");
+    }
+    SMessage("%Bye% %DomName%!", -1, 3);
+    if (inGroup(1, 3))
+    {
+        CMessage("%Bye% %Contact2%!");
+    }
+    SMessage("%Bye% %SubName%!", -1, 3);
+    sleep(2);
+    if (inGroup(1, 3))
+    {
+        removeContact(3);
+    }
+    SMessage("%Bye% %DomName%!", -1, 4);
+    if (inGroup(1, 4))
+    {
+        CMessage("%Bye% %Contact3%!");
+    }
+    SMessage("%Bye% %SubName%!", -1, 4);
+    sleep(2);
+    if (inGroup(1, 4))
+    {
+        removeContact(4);
+    }
+    CMessage(random("So far it has been a great day, but I think it could still improve ", "So far it has been a great day, but I think we could still have many surprises ") + random("%SubName%", "%PetName%"));
+    --UNINTERPRETED LINE:I'll give you a few seconds to recover now. Then you'll go @RT(back, right back, back immediately) to @RT(%Stroking%, real %Stroking%, <i>real</i> %Stroking%) @sleep(%Random%(20,25)) @End
+    Modulo3();
+}
+function Modulo3()
+{
+    if (isStroking())
+    {
+        CMessage("%stopstroking%", 0);
+        stopStroking();
+    }
+    CMessage("So, you think you have control of your cock?");
+    CMessage("Do you think it\'s up to you when it gets hard, when it stays soft, when it explodes in orgasmic pleasure?");
+    CMessage("Well, let\'s put it to the test.");
+    CMessage("I\'ve got a little game.");
+    CMessage("Look at you.");
+    CMessage("You\'re already twitching.");
+    if (getOrgasmChance() == 0)
+    {
+        CMessage("It must be horrible to know that you\'re not going to be allowed to cum today, all because you just have no control over your own cock.");
+    }
+    CMessage("Poor boy. Just a horny little boy, aren\'t you?");
+    CMessage("You don\'t have any control at all. I control your cock.");
+    CMessage("How\'s that cock feeling? Good?");
+    CMessage("%StartStroking%");
+    CMessage("Imagine my soft, gentle, feminine fingers wrapping around it.");
+    CMessage("Gently stroking up and down the length of your shaft, my soft skin caressing your cock up and down.");
+    CMessage("Just slowly at first");
+    CMessage("My thumb rubbing against the tip of your cock");
+    CMessage("spreading the precum around your head.");
+    CMessage("Rubbing against that sensitive spot on the underside of your tip.");
+    CMessage("Stroking harder and harder. A little faster now.");
+    CMessage("Can you feel the blood rushing to your cock, filling it up?");
+    CMessage("It\'s getting harder and harder with my every word isn\'t it?");
+    CMessage("Oh, you poor boy. You have no chance, do you?");
+    setVar("edgingmode", "Goto");
+    setVar("edginggoto", "7fi7rf")
+    let answer0 = getInput("Are you " + random("near ", "getting ") + "to that edge yet?");
+    while (!(answer0.isLike("yes") || answer0.isLike("no")))
+    {
+        answer0 = getInput("%YesorNo% %SubName%?");
+    }
+    if (answer0.isLike("yes"))
+    {
+        CMessage("%Good%");
+        me894();
+        return;
+    }
+    else if (answer0.isLike("no"))
+    {
+        CMessage("You don\'t?");
+    }
+    CMessage("Edge for me and I\'ll make sure today will be a good day for you!");
+    CMessage("Just give it everything you\'ve got right now!");
+    me894();
+}
+function me894()
+{
+    CMessage("%Edge%");
+    a44yyhh();
+}
+function a44yyhh()
+{
+    CMessage(random("Edge it baby!", "You like to edge, you want to edge, you NEED to edge, so just do it now!"));
+    sleep(10);
+    CMessage(random("Come on, just a bit faster for me!", "You can go faster, I know you can!"));
+    sleep(10);
+    a44yyhh();
+    return;
+    a7fi7rf();
+}
+function a7fi7rf()
+{
+    CMessage("Ride the edge and keep yourself there.");
+    CMessage("I\'ll count you down.");
+    CMessage("10");
+    CMessage("Keep stroking. Stay on that edge");
+    CMessage("9");
+    CMessage("Nearly there");
+    setVar("edgingmode", "Normal");
+    CMessage("8");
+    CMessage("Think about my lips wrapping around your cock");
+    CMessage("7");
+    CMessage("And sucking and licking");
+    CMessage("6");
+    CMessage("Your cock deep inside my warm, wet mouth, taking you all the way down");
+    CMessage("5");
+    CMessage("So close");
+    CMessage("4");
+    CMessage("Concentrate on that cock of yours");
+    CMessage("3");
+    CMessage("Think of me fucking you");
+    CMessage("2");
+    CMessage("My warm, wet pussy sliding down your shaft");
+    CMessage("1");
+    CMessage("%stopstroking%", 0);
+    CMessage("Mmmmm.... That was intense.");
+    CMessage("I hope you enjoyed it.");
+    return;
+    Modulo4();
+}
+function Modulo4()
+{
+    if (isStroking())
+    {
+        CMessage("%stopstroking%", 0);
+        stopStroking();
+    }
+    CMessage(random("%PetName%", "%SubName%"));
+    CMessage("Party time...");
+    addContact(2);
+    addContact(3);
+    addContact(4);
+    CMessage("See you soon %Lol%");
+    removeContact(1);
+    SMessage("We\'re unbelievably horny. And we\'ve got a fresh body here ready to do whatever we say.", -1, 2);
+    SMessage("Wait... what if he doesn\'t do what we say?", -1, 3);
+    SMessage("Easy. We punish him.", -1, 4);
+    SMessage("You\'re just a body to us. You have no power, all you are is a pile of flesh.", -1, 3);
+    if(!getVar("AV_LikeAnal", false))
+    {
+        a34eh89fde();
+        return;
+    }
+    SMessage("Okay... I thought we were gonna fuck him.", -1, 4);
+    SMessage("Yeah, we know you are a little anal slut...", -1, 3);
+    SMessage("We known! I just wanted to... you know what? I\'ll explain it later. Go get your toy and some lube", -1, 2);
+    sleep(40);
+    SMessage("Not bad... I can get some serious work done with this.", -1, 4);
+    SMessage("I\'m... surprised. Didn\'t think he\'d have one of these there.", -1, 2);
+    SMessage("Huh. I wonder what else is around his place.", -1, 3);
+    SMessage("Yeah... I still feel a bit weird about it, but I can\'t really blame you.", -1, 2);
+    SMessage("Our slave here\'s a bit of a hoarder, huh?", -1, 4);
+    SMessage("We\'re calling him our slave now?", -1, 3);
+    SMessage("Why not? He deserves that treatment.", -1, 4);
+    SMessage("Whatever.", -1, 3);
+    SMessage("Alright, slave. Open that asshole of yours. Cause this cock ain\'t gonna fuck itself.", -1, 4);
+    SMessage("I even let you get some lube.", -1, 3);
+    sleep(35);
+    SMessage("Put your legs on the table...open it", -1, 3);
+    sleep(15);
+    SMessage("Now let me in...", -1, 3);
+    SMessage("There we go. A nice big cock for the asshole\'s asshole.", -1, 3);
+    SMessage("I\'m sure you\'ll be feeling plenty sore after this is over.", -1, 4);
+    if(!getVar("av_fetish_pain", false))
+    {
+        a34eh89fde();
+        return;
+    }
+    SMessage("this is a nice position to spank your balls.", -1, 4);
+    SMessage("Spank those balls", -1, 4);
+    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "G3Spank" + java.io.File.separator + "*.mp3");
+    sleep(20);
+    SMessage("Did that hurt? I bet you liked it, you freak.", -1, 4);
+    SMessage("Now fuck that ass...", -1, 4);
+    a34eh89fde();
+}
+function a34eh89fde()
+{
+    SMessage("Mmm... %DomName% conditioned him nicely.", -1, 2);
+    SMessage("%StartStroking%", -1, 2);
+    SMessage("Well well, someone\'s having fun.", -1, 3);
+    SMessage("I am having a lot of fun with it, but I don\'t mind sharing.", -1, 4);
+    SMessage("I wonder how the slave\'s doing...", -1, 2);
+    --UNINTERPRETED LINE:@Contact1 I can see it in his eyes. He's ~oh fuck!~ probably on the edge.
+    SMessage("I want to try something new.", -1, 3);
+    SMessage("Let\'s see if he can edge a lot...", -1, 3);
+    if(getVar("AV_LikeAnal", false))
+    {
+        SMessage("while fucking his ass...", -1, 3);
+    }
+    SMessage("without cumming", -1, 3);
+    SMessage("At the beginning, you\'ll have enough time to recover, but it\'s getting shorter and shorter.", -1, 3);
+    SMessage("At the end you\'ll have about 5 seconds to rest.", -1, 3);
+    SMessage("It\'s going to be very frequently. Much more than you had before.", -1, 3);
+    if(getVar("AV_LikeAnal", false))
+    {
+        SMessage("Remember, you fuck your ass only when you stroke", -1, 4);
+    }
+    SMessage("Let\'s begin. I\'ll give you as a lot time for the first ones.", -1, 3);
+    SMessage("%Edge%", -1, 3);
+    startEdging();
+    SMessage("Good boy.", -1, 3);
+    SMessage("%Edge%", -1, 3);
+    startEdging();
+    if (randomInteger(1, 100) <= 100)
+    {
+        var amountEdges = 2;
+        DoEdges(amountEdges, amountEdges, 0);
+    }
+    else
+    {
+        StartEdging()
+    }
+    SMessage("You see, we are starting very slow this time..", -1, 3);
+    SMessage("But don\'t worry, it\'s getting faster very soon.", -1, 3);
+    SMessage("Let me try", -1, 2);
+    SMessage("%Edge%", -1, 2);
+    startEdging();
+    if (randomInteger(1, 100) <= 100)
+    {
+        var amountEdges = 3;
+        DoEdges(amountEdges, amountEdges, 0);
+    }
+    else
+    {
+        StartEdging()
+    }
+    SMessage("I love these frequent edges.. --------- 6 -----------", -1, 2);
+    SMessage("There\'s nothing more intense than that.", -1, 4);
+    SMessage("%Edge%", -1, 4);
+    startEdging();
+    if (randomInteger(1, 100) <= 100)
+    {
+        var amountEdges = randomInt(2, 3);
+        DoEdges(amountEdges, amountEdges, 0);
+    }
+    else
+    {
+        StartEdging()
+    }
+    SMessage("Can you feel the frustration?", -1, 4);
+    SMessage("%Edge%", -1, 3);
+    startEdging();
+    if (randomInteger(1, 100) <= 100)
+    {
+        var amountEdges = randomInt(2, 3);
+        DoEdges(amountEdges, amountEdges, 0);
+    }
+    else
+    {
+        StartEdging()
+    }
+    SMessage("Good boy. You deserved a short rest.", -1, 3);
+    SMessage("But don\'t think we are finish.", -1, 3);
+    SMessage("No, no.", -1, 2);
+    SMessage("You have to do more.", -1, 2);
+    SMessage("Alright,", -1, 2);
+    SMessage("%Edge%", -1, 2);
+    startEdging();
+    if (randomInteger(1, 100) <= 100)
+    {
+        var amountEdges = randomInt(2, 3);
+        DoEdges(amountEdges, amountEdges, 0);
+    }
+    else
+    {
+        StartEdging()
+    }
+    SMessage("You\'re so good..", -1, 2);
+    SMessage("You love it!", -1, 2);
+    SMessage("We\'re not done..", -1, 4);
+    SMessage("%Edge%", -1, 4);
+    startEdging();
+    if (randomInteger(1, 100) <= 100)
+    {
+        var amountEdges = randomInt(2, 3);
+        DoEdges(amountEdges, amountEdges, 0);
+    }
+    else
+    {
+        StartEdging()
+    }
+    SMessage("You\'re all worked up over some STUPID little thing.", -1, 4);
+    SMessage("No, I know that look.", -1, 4);
+    CMessage("%stopstroking%", 0);
+    SMessage("I know that you want to be mad.. but I just don\'t have time for that right now.", -1, 4);
+    SMessage("You don\'t even mind when we are rude like that.", -1, 3);
+    CMessage("%stopstroking%", 0);
+    SMessage("I\'ll bet you will put up with we, no matter how much of a mean little cunt we\'re being?", -1, 3);
+    SMessage("Mmm let\'s put that to the test, shall we?", -1, 2);
+    SMessage("Get on your knees, %Slave%!", -1, 4);
+    if(getVar("AV_LikeAnal", false))
+    {
+        SMessage("You don\'t need to fuck your ass, but keep it full...", -1, 4);
+    }
+    SMessage("Trust me, you won\'t enjoy my torment.", -1, 4);
+    SMessage("Now you will suffer!", -1, 4);
+    SMessage("Crab that cock and stroke it!", -1, 4);
+    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStroke.mp3");
+    SMessage("Stroke it faster!", -1, 2);
+    SMessage("You shouldn\'t enjoy that.", -1, 3);
+    SMessage("I\'ve heard, you like it to hit the edge..", -1, 3);
+    SMessage("You like that moment, you\'re quite before releasing your desperate cock.", -1, 2);
+    SMessage("Oh boy. I will let you edge.", -1, 4);
+    SMessage("I will let you edge so damn hard!", -1, 4);
+    SMessage("Stroke it faster!", -1, 3);
+    SMessage("Harder!", -1, 4);
+    SMessage("Don\'t you dare edge before I say you can!", -1, 4);
+    SMessage("I won\'t just let you edge.", -1, 4);
+    SMessage("No, I will let you ride the edges.", -1, 4);
+    SMessage("Your cock will be so swollen, when I\'m done with you.", -1, 4);
+    SMessage("Are you already near the edge?", -1, 2);
+    SMessage("Not yet %Slave%", -1, 2);
+    SMessage("I tell you, when you can.", -1, 4);
+    SMessage("First you have to suffer for me.", -1, 4);
+    SMessage("Jerk it..", -1, 4);
+    SMessage("Stroke, stroke, stroke.", -1, 3);
+    SMessage("Now get on the edge, %Slave%!", -1, 4);
+    startEdging();
+    holdEdge();
+    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cEdge.mp3");
+    SMessage("You look a bit exhausted.", -1, 2);
+    SMessage("Maybe we should take a short break.", -1, 3);
+    SMessage("Nope", -1, 4);
+    SMessage("Get back on the edge now!", -1, 3);
+    startEdging();
+    holdEdge();
+    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cEdge.mp3");
+    SMessage("No cumming..", -1, 2);
+    SMessage("I would never let him cum.", -1, 4);
+    SMessage("No, I would deny him every single time.", -1, 4);
+    SMessage("No orgasm ever..", -1, 4);
+    SMessage("Feel the torture..", -1, 2);
+    SMessage("Suffer for your goddess!", -1, 3);
+    --UNINTERPRETED LINE:@Contact3 I want you to feel the ache.. @RTOn
+    SMessage("Just pure,", -1, 4);
+    SMessage("deep,", -1, 4);
+    --UNINTERPRETED LINE:@Contact3 ache. @RTOff
+    CMessage("Well,..");
+    setVar("edgingmode", "Goto");
+    setVar("edginggoto", "3edhd7")
+    CMessage("get back on the edge.");
+    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cEdge.mp3");
+    Loop21();
+}
+function Loop21()
+{
+    SMessage("Get on the edge and get ready to hold it!", -1, 3);
+    sleep(10);
+    SMessage("Let me see that edge...", -1, 4);
+    Loop21();
+    return;
+    a3edhd7();
+}
+function a3edhd7()
+{
+    SMessage("You will learn to love being denied.", -1, 4);
+    SMessage("\'Cause being denied is suffering for me.", -1, 4);
+    SMessage("And you suffering makes me happy.", -1, 4);
+    SMessage("Stay on that edge, %Slave%.", -1, 2);
+    SMessage("I don\'t think you\'re suffering enough.", -1, 2);
+    setVar("edgingmode", "Normal");
+    SMessage("You could always suffer more for me.", -1, 3);
+    CMessage("%stopstroking%", 0);
+    SMessage("You think I have enough?", -1, 4);
+    SMessage("Oh no. not at all.", -1, 3);
+    SMessage("Get back on the edge!", -1, 3);
+    startEdging();
+    holdEdge();
+    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cEdge.mp3");
+    SMessage("We have enough of you now", -1, 2);
+    if(getVar("AV_LikeAnal", false))
+    {
+        SMessage("You can sit, remove the plug and clean yourself", -1, 3);
+        sleep(45);
+    }
+    SMessage("You are ready for your Domme again", -1, 2);
+    addContact(1);
+    removeContact(2);
+    removeContact(3);
+    removeContact(4);
+    return;
+}

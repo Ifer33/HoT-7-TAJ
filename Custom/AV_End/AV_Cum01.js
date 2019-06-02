@@ -1,0 +1,334 @@
+DMessage("AV_Cum01: Beginning");
+main();
+DMessage("AV_Cum01: End");
+function main()
+{
+    CMessage("You won\'t have anything against a couple of overdrives, am I right?");
+    switch(random("Prep01", "Prep02", "Prep03", "Prep04", "Prep05", "Start"))
+    {
+        case "Prep01":
+        Prep01();
+        return;
+        break;
+        case "Prep02":
+        Prep02();
+        return;
+        break;
+        case "Prep03":
+        Prep03();
+        return;
+        break;
+        case "Prep04":
+        Prep04();
+        return;
+        break;
+        case "Prep05":
+        Prep05();
+        return;
+        break;
+        case "Start":
+        Start();
+        return;
+        break;
+    }
+    
+    Prep01();
+}
+function Prep01()
+{
+    if(getVar("AV_DommeMistress", false))
+    {
+        CMessage(random("And you know what else?", "And you know what?", "one last thing", "Besides that", "furthermore"));
+    }
+    if(getVar("AV_DommeMistress", false))
+    {
+        CMessage("%TieYourBalls%");
+    }
+    Start();
+    return;
+    
+    Prep02();
+}
+function Prep02()
+{
+    if(getVar("AV_DommeMistress", false))
+    {
+        CMessage(random("And you know what else?", "And you know what?", "one last thing", "Besides that", "furthermore"));
+    }
+    if(getVar("AV_DommeMistress", false))
+    {
+        CMessage("%KneelForMe%");
+    }
+    Start();
+    return;
+    
+    Prep03();
+}
+function Prep03()
+{
+    if(getVar("av_fetish_pain", false))
+    {
+        CMessage(random("And you know what else?", "And you know what?", "one last thing", "Besides that", "furthermore"));
+    }
+    if(getVar("av_fetish_pain", false))
+    {
+        CMessage("Put 4 clothespins on your %Balls%");
+        sleep(25);
+    }
+    Start();
+    return;
+    
+    Prep04();
+}
+function Prep04()
+{
+    if(getVar("AV_DommeMistress", false) && getVar("av_fetish_pain", false))
+    {
+        CMessage(random("And you know what else?", "And you know what?", "one last thing", "Besides that", "furthermore"));
+    }
+    if(getVar("AV_DommeMistress", false) && getVar("av_fetish_pain", false))
+    {
+        CMessage("%TieYourBalls%");
+    }
+    if(getVar("AV_DommeMistress", false) && getVar("av_fetish_pain", false))
+    {
+        CMessage("Put 2 clothespins on your nipples");
+        sleep(15);
+    }
+    Start();
+    return;
+    
+    Prep05();
+}
+function Prep05()
+{
+    //--UNINTERPRETED LINE:@Flag(@Flag(av_fetish_cei) @RT(And you know what else?, And you know what?, one last thing, Besides that, furthermore)
+    //--UNINTERPRETED LINE:@Flag(@Flag(av_fetish_cei) If I let you cum or ruin, you will swallow all of it
+    //--UNINTERPRETED LINE:@Flag(@Flag(av_fetish_cei) And you don't need to wait for my command, understood?
+	if(getVar("av_fetish_cei", false))
+    {
+        CMessage(random("And you know what else?", "And you know what?", "one last thing", "Besides that", "furthermore"));
+		CMessage("If I let you cum or ruin, you will swallow all of it");
+		CMessage("And you don't need to wait for my command, understood?");
+    }
+    Start();
+    return;
+    
+    Start();
+}
+function Start()
+{
+    CMessage("Follow the beat all the time");
+    CMessage("Ready?");
+    CMessage("Start now");
+    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "overdrive2.mp3");
+    sleep(randomInt(15, 30));
+	stopAudio();
+    CMessage("%stopstroking%", 0);
+    CMessage("%StartStrokingNS%");
+    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "overdrive1.mp3");
+    sleep(randomInt(20, 45));
+	stopAudio();
+    if (randomInteger(1, 100) <= 30)
+    {
+        NoMoreOD();
+        return;
+    }
+    CMessage("%stopstroking%", 0);
+    CMessage("%StartStrokingNS%");
+    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "overdrive3.mp3");
+    sleep(randomInt(10, 30));
+	stopAudio();
+    if (randomInteger(1, 100) <= 50)
+    {
+        NoMoreOD();
+        return;
+    }
+    CMessage("%stopstroking%", 0);
+    CMessage("%StartStrokingNS%");
+    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "overdrive*.mp3");
+    sleep(randomInt(10, 30));
+	stopAudio();
+    if (randomInteger(1, 100) <= 75)
+    {
+        NoMoreOD();
+        return;
+    }
+    CMessage("%stopstroking%", 0);
+    CMessage("%StartStrokingNS%");
+    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "overdrive*.mp3");
+    sleep(randomInt(10, 12));
+	stopAudio();
+    NoMoreOD();
+	return;
+}
+function NoMoreOD()
+{
+    var orgasmResult = decideOrgasm();
+    if (orgasmResult == 2)
+    {
+        Orgasm_Allow();
+        return;
+    }
+    else if (orgasmResult == 1)
+    {
+        Orgasm_Ruin();
+        return;
+    }
+    else if (orgasmResult == 0)
+    {
+        Orgasm_Deny();
+        return;
+    }
+    
+    Orgasm_Allow();
+	return;
+}
+function Orgasm_Allow()
+{
+	startEdging("%Edge%");
+    let answer0 = getInput("%CumForMe%");
+    if (answer0.isLike("came", "finished", "did"))
+    {
+        CMessage("%UserCame%");
+    }
+    else if (answer0.isLike("thank", "gracias", "merci", "grateful", "good", "amazing", "incredible"))
+    {
+        CMessage("You\'re welcome %PetName% %Grin%");
+    }
+    else
+    {
+        CMessage("%UserCame%");
+    }
+    setDate("AVLastOrgasm");
+	setDate("lastOrgasm");
+    delVar("AV_Denied");
+    setVar("AV_EndCum", getVar("AV_EndCum", 0) + 1);
+    setVar("AV_EndDenied", 0);
+    setVar("AV_EndRuin", 0);
+    EndFile();
+    return;
+    
+    Orgasm_Deny();
+}
+function Orgasm_Deny()
+{
+    edge("%Edge%");
+    CMessage("%AV_NoCum%");
+    setVar("AV_EndDenied", getVar("AV_EndDenied", 0) + 1);
+    setVar("AV_EndCum", 0);
+    setVar("AV_EndRuin", 0);
+    EndFileNoOrgasm();
+    return;
+    
+    Orgasm_Ruin();
+}
+function Orgasm_Ruin()
+{
+	startEdging("%Edge%");
+    let answer0 = getInput("%RuinYourOrgasm%");
+    if (answer0.isLike("ruined", "did"))
+    {
+        CMessage("Good %Grin%");
+    }
+    else if (answer0.isLike("fuck"))
+    {
+        CMessage("%Grin%");
+    }
+    else
+    {
+        CMessage("hehe just calm down now");
+    }
+    CMessage("%AV_UserRuined%");
+    setDate("AVLastRuinedOrgasm");
+	setDate("lastRuin");
+    delVar("AV_Denied");
+    setVar("AV_EndRuin", getVar("AV_EndRuin", 0) + 1);
+    setVar("AV_EndCum", 0);
+    setVar("AV_EndDenied", 0);
+    EndFile();
+    return;
+    
+    EndFile();
+}
+function EndFile()
+{
+    if(getVar("AV_EatCum", false))
+    {
+        if (randomInteger(1, 100) <= 30)
+        {
+            No_CEIav();
+            return;
+        }
+    }
+    if(getVar("AV_EatCum", false))
+    {
+        CMessage("%AV_CumEat%");
+        sleep(25);
+    }
+    if(getVar("AV_EatCum", false))
+    {
+        CMessage(random("You\'re going to swallow all of it", "Swallow all of it %PetName%", "You know you like it", "that is pretty disgusting", "T hat is so nasty", "You are so gross", "Better you than me", "Savor this taste in your mouth for a while"));
+    }
+    No_CEIav();
+	return;
+}
+function No_CEIav()
+{
+    CMessage("I hope you enjoyed that orgasm %SubName%");
+    if(getVar("AV_Persona30", false))
+    {
+        if (randomInteger(1, 100) <= 30)
+        {
+            PoT();
+            return;
+        }
+    }
+    CMessage("Who knows how many you\'re actually going to get?");
+	setTempVar("Extended_End_EndScript",true);
+    run("Structure" + java.io.File.separator + "End" + java.io.File.separator + "Extended_End.js");
+    return;
+    return;
+    PoT();
+}
+function PoT()
+{
+    CMessage("Now, since you like Post Orgasm Torture");
+    CMessage("%StartStroking%");
+    sleep(randomInt(10, 20));
+    if(!getVar("av_fetish_pain", false))
+    {
+        CMessage("Keep stroking");
+        sleep(randomInt(10, 20));
+    }
+    if(getVar("av_fetish_pain", false))
+    {
+        CMessage("Keep stroking and give yourself a HARD slap every 4 strokes.");
+        sleep(randomInt(15, 20));
+    }
+    CMessage("%Lol%");
+    sleep(randomInt(10, 20));
+    CMessage("%stopstroking%", 0);
+	setTempVar("Extended_End_EndScript",true);
+    run("Structure" + java.io.File.separator + "End" + java.io.File.separator + "Extended_End.js");
+    return;
+    return;
+    
+    EndFileNoOrgasm();
+}
+function EndFileNoOrgasm()
+{
+	setTempVar("Extended_End_EndScript",true);
+    run("Structure" + java.io.File.separator + "End" + java.io.File.separator + "Extended_End.js");
+    return;
+    return;
+    
+    End2();
+}
+function End2()
+{
+	setTempVar("Extended_End_BackFromCrush",true);
+    run("Structure" + java.io.File.separator + "End" + java.io.File.separator + "Extended_End.js");
+    return;
+    return;
+}

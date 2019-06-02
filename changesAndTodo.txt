@@ -1,0 +1,342 @@
+changed:
+for more glitter support, added delay,sender to the stroke/edge/getinput functions
+changed CMessage that you dont need SMessage when only one glitter is active and no domme
+SMessage only needed if more than one contact active
+TAIUtils works now
+PersonalityUtils
+ChatUtils
+TAIUtils
+
+added:
+HelperFunctions
+different stuff like dommelevel, oldApathylvl,edgemode, cbt, customtask, writing task...
+mostly only with basic function like cbt, tasks...
+sometimes i used eval but if i remember correct thats not a good idea
+also i wanted to create a function for easy use with taunts/vocabs/response
+that checks condidition sends a message and calls another command in one line
+but meanwhile i think that was a bad idea but i left it in just because it works where i used it
+
+Vars (need/should be set):
+hasChastity = bool
+chastityOn = bool
+cockTorture = bool
+ballTorture = bool
+cbtBallLevel = 1-5
+cbtCockLevel =1-5
+dommelevel = 1-10	//oldDommefunction for 1-5
+sendDelay = -1	//not sure if still needed
+sendSender = 1	//not sure if still needed
+setEdgeMode("Normal");	//not sure if needed
+maxextremholdinglength
+minextremholdinglength
+maxlongholdinglength
+minlongholdinglength
+setVar("ExtremeHold",chance);
+setVar("LongHold",chance);
+setTempVar("cbtActive",true);
+setTempVar("cbtCockActive",true);
+setTempVar("cbtBallActive",true);
+setTempVar("SessionCBTBalls"
+setTempVar("SessionCBTCock"
+setVar("firstRun",true);
+getVar("cockSmall",false))
+getVar("orgasmRestricted",false)
+setDate("lastRuin");
+setDate("AVLastRuinedOrgasm");
+setDate("lastOrgasm");
+setDate("AVLastOrgasm");
+
+changed in HoTStructure:
+setVar("moduletorun", "Custom" + java.io.File.separator + "Modules" + java.io.File.separator + "AV_RuinHorny1.js");
+setVar("linktorun", "Custom" + java.io.File.separator + "Link" + java.io.File.separator + "AV_SpecGlitterLinkEnd.js");
+
+
+Hot convert in pipeline needed for other scripts:
+				customModeOn()		//from getInput or so
+				customModeOff()
+				yesMode()
+				G2Session();G3Session(); next session g1,2,3 as dom?
+				%EmoteHer%		//vocab in vocab doesn't work??
+				playVideo("Videos" + java.io.File.separator + "45");
+				--Command:JumpVideo
+				%DomHonnorific%
+				%GeneralTime%
+				@RemoveTeaseTime(12 Minutes)
+				@AddTeaseTime(12 Minutes)
+				worshipMode(true);
+				//--Command:RestrictOrgasm(2 Weeks)
+				//--Command:Glitter(pvGL_WA2)	//GlitterApp
+				setDom(4);
+				//--Command:Worship(Pussy)
+				//--Command:DommeTag(pussy)
+				// @TagStrapon
+				//@AddEdgeHoldTime(15) 
+				//--Command:StartTaunts		for chastity???(link_chastity)
+				 [Before Tease][Before Tease End]	all responses
+				 [After Tease][After Tease End]		all responses
+				 
+	
+				%getClose%
+				%greetsub%		notfound
+				%one_ST_TagState% from %1_ST_TagState% check other scripts coming
+				
+				End_CHASTITY:	don't understand the mechanic how is it called???
+
+				
+				in general double audio checken always stopAudio() after playAudio();
+				maybe switch wait witch sleep in general
+				search files for # replace witch %...% (variablen)
+				
+				
+				
+				
+				run("Custom" + java.io.File.separator + "Memory" + java.io.File.separator + "AV_Trainning.js");
+				run("Custom" + java.io.File.separator + "Memory" + java.io.File.separator + "AV_Glitters.js");
+				run("Custom" + java.io.File.separator + "Memory" + java.io.File.separator + "AV_Crushes.js");
+				
+				run("Interrupt" + java.io.File.separator + "OpiateNPC.js");
+				run("Interrupt" + java.io.File.separator + "ERWins.js");
+				run("Interrupt" + java.io.File.separator + "ERLosses.js");
+				
+				run("Custom" + java.io.File.separator + "CallFromLink" + java.io.File.separator + "pvHadOrgasmStart.js");
+
+
+bugged:
+	stroking problem if no stroking function used, own instructions 
+	%startstroking%...playaudio...%stopstroking%
+	->responses don't recognice stroking
+	simple solution: change isStroking() to check a var not strokingtime and add setVar("isStroking") to start/stopStroking...
+
+	SMessage("<c=green b> %AV_GirlName% :%AV_ShowOmelegPics% <c=black b>%AV_OmLegStroke%"); colors in chat how does it work
+				
+				
+	video format problems different files webm/convert mp4 | change in files to mp4
+	mode23,29 bugged bookmarkmodule
+	edgingmode loops checken
+	edgingmode better solution catching return from edge often stuck in loop or middle of text
+				
+	House-Of-Tease-Java-7\Custom\RamdomLinks\LinksRamdom20.js'
+	ratePicture
+	Error in Mediautils sortPics: error was found in line 113
+Error: TypeError: Cannot read property "search" from undefined in <eval> at line number 113
+javax.script.ScriptException: TypeError: Cannot read property "search" from undefined in <eval> at line number 113
+						
+	check CollarDecide loop??
+
+
+	Omeleg still bugged, edgeloop, checkvars, checkvocabs vocabs %subname%%subname%
+	run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "AV_Omeleg.js");
+	%AV_PickGirls%
+	%AV_GirlName%
+	%AV_ShowOmelegPics%
+	%AV_OmLegStroke%
+	%AV_OmLegTaunts%
+	
+	mode23 bugged bookmarkmodule
+	mode29 bugged bookmarkmodule
+	
+	video format problems different files webm/converted mp4
+	modfetish3, modgeneral: 1,10,15
+	edgingmode/loopbugged:
+		run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "Edge for us.js");
+		run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "Edge for us"+ java.io.File.separator +"tgr8 special test"+ java.io.File.separator +"Choose Contact3 special test audio file.js");1-3
+		run("Interrupt" + java.io.File.separator + "AV_Controle.js");
+	
+	Matching audio file for path Audio\tease\SeSp\titjob01.mp3 does not exist.  didn't find the file at all
+	
+	%1_ST_Stroke%	response beginning with a number doesnt work?
+	%pthevCoCo-1%
+	
+	09:23:58 vorm. CHAT: 09:23 vorm. Anastacia: !AV_ChangeClothes!
+09:23:58 vorm. CHAT: 09:23 vorm. Anastacia: !Brb!
+09:23:58 vorm. SEVERE: Matching image file for path Images\System\Black.jpg does not exist.
+09:23:58 vorm. SEVERE: Matching image file for path Images\AV_RuinHorny1 does not exist.
+wichFile?
+
+
+				
+calling a function when running a script need to check which files				
+CheckFiles with function call: searched for ".txt,"
+@Call(Apps\Games\Risky Pick\Risky Pick.txt, Called From Module)
+@CallReturn(Custom\Memory\AV_Crushes.txt, 07qplik)
+@Call(Custom\CallFromLink\pvHadOrgasmStart.txt,had an orgasm)
+@Call(Stroke/End/pthev_Endscript_RESTRICTED.txt,not enough begging)??? from pvCr_EndScriptOrgasmControl wich is never called and pthev_Endscript_RESTRICTED does not exist
+@Call(Stroke/End/pthev_Endscript_RESTRICTED,tease end)???
+@CallReturn(Custom/CallReturn/pvCr_HadAnOrgasm.txt,first round)
+@Call(Custom/MIssBlue/pthev_Mod16RelaStat.txt,status reset)
+
+done todo check calls:
+@Call(Custom\AV_Scripts\AV_Mistress.txt, promise)
+@Call(Custom\AV_Scripts\AV_Mistress.txt, youslave)
+@CallReturn(Custom\AV_Scripts\AV_ChastityTalk.txt, AV_HaveChast)
+@Call(Custom\CallReturn\AV_PunishRND.txt, RNDPunish)
+@Call(Custom\CallReturn\AV_PunishRND.txt, Punish03)
+@Call(Custom\AV_Scripts\AlternativeStroking.txt, s02)
+@CallReturn(Custom\AV_Scripts\AV_EdgeAV.txt, FromVideo)
+@CallReturn(Custom\CallReturn\pvCr_Punishment.txt, yes to spanking)
+@Call(Custom\MIssBlue\pthev_Mod12AnalPlay.txt,guessed_it)
+@CallReturn(Modules\AV_ModGeneral23.txt, AV_MasuDone)
+@CallReturn(Custom\Shorts\Short26.txt, av002)				
+				
+
+
+totest:
+	%BallGagOff%
+	%BallGagOn%
+	%TimeToFindIfYouGetToCum%
+	%AV_CumEat%
+	%AV_UserRuined%
+	%AVX_TR_TVShow%
+	%AVX_TR_Movie%
+	%AV_Inter%
+	%AV_NoCum%
+	punishResponse();
+	abusedResponse();
+	wantCBTBallsResponse();
+	aV_wantAnalResponse();
+	start/link/end files
+	
+	setTempVar("AV_EdgeAV_FromVideo");
+	run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "AV_EdgeAV.js");
+	//videoProb webm stopplaying???
+	setTempVar("AV_PunishRND_Punish03")
+				run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_PunishRND.js");
+	
+	run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "AV_GlitterBye.js");
+	run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "AV_DommeBored.js");
+	run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "AV_GlitterTime.js");
+	run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "AV_GlitterBored.js");
+	run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "AV_RNDCumChances.js");
+	run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "HoTSetup.js");
+	run("Custom" + java.io.File.separator + "Miniscripts" + java.io.File.separator + "AV_FinalTaunt.js");
+	run("Custom" + java.io.File.separator + "Miniscripts" + java.io.File.separator + "AV_AnalPlay.js");
+	run("Custom" + java.io.File.separator + "Miniscripts" + java.io.File.separator + "pvMs_PunishMePlease.js");
+	run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "AV_Trivia.js");
+	run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "AV_Trivia2.js");
+	run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "AV_StarQ1.js");
+	run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "AV_StarQ2.js");
+	run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "AV_StarQ3.js");
+	run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "AV_StarQ4.js");
+	run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "DoAnalNight.js");
+	run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "Talks" + java.io.File.separator + "AV_ControlOrg.js");
+	run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "Talks" + java.io.File.separator + "AV_Chastity.js");
+	run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "Talks" + java.io.File.separator + "AV_Humiliation.js");
+	run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "Talks" + java.io.File.separator + "AV_Pegging.js");
+	run("Custom" + java.io.File.separator + "AV_Talk.js");
+	run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "Inter" + java.io.File.separator + "AV_Int_Main.js");
+	run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "Inter" + java.io.File.separator + "AV_Int_Humi.js");
+	run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "Inter" + java.io.File.separator + "AV_Int_Tease.js");
+	run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "Inter" + java.io.File.separator + "AV_Int_CEI.js");
+	run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "Inter" + java.io.File.separator + "AV_Int_Pain.js");
+	run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "Inter" + java.io.File.separator + "AV_Int_Base01-05.js");
+	run("Custom" + java.io.File.separator + "pvLinkChastityYes" + java.io.File.separator + "*.js");
+	run("Custom" + java.io.File.separator + "pvLinkChastityNo" + java.io.File.separator + "*.js");
+	run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "StartVariation.js");
+	run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_RuinHMain.js");
+	run("Interrupt" + java.io.File.separator + "pvIn_CBTBalls.js");
+	run("Custom" + java.io.File.separator + "AV_Start" + java.io.File.separator + "OrgasmCheck.js");
+	run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "AV_CumFun.js");
+	run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "AV_Denied.js");
+	
+
+	
+tested:
+	GenerralModules should work exept bugged
+	custom/linksRandomAll
+	run("Custom" + java.io.File.separator + "Shorts" + java.io.File.separator + "Short01.js");
+	short:01-37
+	run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_StrokeForCrush.js");
+	run("Custom" + java.io.File.separator + "Miniscripts" + java.io.File.separator + "AV_Kneel_Short.js");
+	run("Custom" + java.io.File.separator + "Miniscripts" + java.io.File.separator + "AV_Slow_Stroke.js");
+	run("Custom" + java.io.File.separator + "Interact" + java.io.File.separator + "AV_PainInter.js");
+	run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "pvCr_DrippingPrecum.js");
+	run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "pvCr_WantAnal.js");
+	run("Interrupt" + java.io.File.separator + "pvIn_WantAnal");
+	run("Custtom" + java.io.File.separator + "MIssBlue" + java.io.File.separator + "pthev_Mod12AnalPlay.js");
+	run("Interrupt" + java.io.File.separator + "pvIn_WantAnalDildo");
+	run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "pvCr_NotWantSuckDildo.js");
+	run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "pvCr_BreakStroking.js");
+	run("Interrupt" + java.io.File.separator + "AV_SecondTime.js");
+	%AV_Mem_LikeControl%
+	iLoveBeingControlledResponse();
+	gNMHornyResponse();
+	can_Handle_zResponse();
+	Can_Handle_notResponse();
+	youOwnMeResponse();
+	iCantHelpMyselfResponse();
+	thisIsMyPurposeInLifeResponse();
+	iLikeRuiningMyOrgasmResponse();
+	iDontLikeRuiningMyOrgasmResponse();
+	wantToServeResponse();
+	pvRs_WantToServeNoResponse();
+	putMeInChastityResponse();
+	i_Can_Take_MoreResponse();
+	regretMeetingYouResponse();
+	iWillDoWhateverResponse();
+	wantToSubmitResponse();
+	callMeResponse();
+	menNeedControlResponse();
+	imAddictedToYouResponse();
+	imAddictedToYouNotResponse();
+	wantToBeAGoodBoyResponse();
+	iLoveTeaseAndDenialResponse();
+	aV_002Response();	alle 001-006
+	youreMeanResponse();
+	ark_FrustratedResponse();
+	aV_SlowStrokeResponse();
+	aV_FastStrokeResponse();
+	drippingResponse();
+	pvRs_AnythingNoResponse();
+	want_to_Cum_So_BadResponse();
+	imAchingResponse();
+	ark_Having_FunResponse();
+	youControlMeResponse();	
+	im_in_Love_with_YouResponse();	
+	I_Will_Do_Anything_NotResponse();
+	dontHurtMeResponse();
+	wantToEatMyCumResponse();
+	WantToEatMyCumDontResponse();	
+	wantToWearCollarResponse();
+	blue_BallsResponse();	
+	i_Will_Do_AnythingResponse();
+	run("Interrupt" + java.io.File.separator + "AV_CEI");
+	run("Interrupt" + java.io.File.separator + "AV_Titjob");
+	run("Interrupt" + java.io.File.separator + "AV_Rough");
+	run("Interrupt" + java.io.File.separator + "AV_Feet");
+	run("Interrupt" + java.io.File.separator + "AV_Pain");
+	run("Interrupt" + java.io.File.separator + "AV_Pegging");
+	run("Interrupt" + java.io.File.separator + "AV_Wax");	
+	run("Interrupt" + java.io.File.separator + "AV_Anything.js");
+	run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_Beta.js");
+	run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "AV_Mistress"); //, promise);
+	run("Interrupt" + java.io.File.separator + "AV_Controle.js");
+	run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "AV_WantControlShort.js");
+	run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "Kneel.js");
+	run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "AV_Audio.js");
+	run("Custom" + java.io.File.separator + "Miniscripts" + java.io.File.separator + "AV_Kneel_Short.js");
+	run("Custom" + java.io.File.separator + "Miniscripts" + java.io.File.separator + "pvMs_WantToEatMyCum");
+	run("Custom" + java.io.File.separator + "Miniscripts" + java.io.File.separator + "AV_RND34.js");
+	run("Custom" + java.io.File.separator + "CallFromMod" + java.io.File.separator + "pvCall_FlagAnal.js");
+	run("Custom" + java.io.File.separator + "CallFromMod" + java.io.File.separator + "pvCall_FlagButtPlug.js");
+	%LAPLookAtPictures_85%
+	%LAPIllSaveThisOne_86%
+	%LAPLookForSomethingElse_85%
+	%LAPScratchThatOne_85%
+	%LAPWhatAboutThisOne_85%
+	%LAPYouNeedToSufferMore_85%		
+	%AV_Mem_Serve% + all %AV_Mem_...%
+	%AV_RepeatAL%
+	%DeniyMe%
+	%1_ST_Stroke%
+	%AV_AudioBeat%
+	%AV_GreenLight%
+	%RedLight%
+	%GNMCheerEdgeATon%
+	%PunishGame%
+	%AV_GlittersGame%
+	%secondtime%
+	%FYI%
+	%DoAsISay%
+	run("Custom" + separator + "AV_Scripts" + separator + "AlternativeStroking.js");
+	run("Custom" + java.io.File.separator + "AV_End" + java.io.File.separator + "*.js");
+		%AV_CrushMemRndTXT% AV_CumCrush
