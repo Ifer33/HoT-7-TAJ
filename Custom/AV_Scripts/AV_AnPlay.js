@@ -122,7 +122,7 @@ function ANAL1()
     CMessage("When it is fully inserted, just leave it there.");
     sleep(30);
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     sleep(20);
     CMessage("Get used to the feeling of fingers in your ass.");
     let answer0 = getInput("When you\'re satisfied, remove the finger and re-lube again.", 40);
@@ -158,7 +158,7 @@ function analtrain5()
     CMessage("All the way in, all the way out.");
     CMessage("I call this my \"1-2\" technique.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     sleep(20);
     CMessage("Keep rotating back and forth for 24 repetitions");
     sleep(30);
@@ -202,7 +202,7 @@ function analtrain6()
     CMessage("Let\'s continue then");
     CMessage("We are going try to fit 2 fingers up your ass.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     sleep(20);
     CMessage("Now, fuck your ass with 2 fingers");
     sleep(30);
@@ -336,7 +336,7 @@ function ANAL3()
     CMessage("Keep fucking that ass");
     CMessage("Oh, look how easily yours finger slides in and out.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("But dont stop the fucking...");
     CMessage("I\'m going to slowly fuck you");
     CMessage("Fuck, yes, moan for me, let me hear those sexy little whimpers and growls.");
@@ -381,7 +381,7 @@ function ANAL4()
     CMessage("I\'m going to edge you, %PetName%. But don\'t worry");
     CMessage("I have ways of keeping you from cuming.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("and start fucking that ass");
     CMessage("In and out");
     CMessage("You need to be put in your place.");
@@ -398,7 +398,7 @@ function ANAL4()
     if(getVar("av_fetish_pain", false))
     {
         //CMessage("%StartStroking%");
-		Stroking();
+		setStrokingNoTaunt();
     }
     CMessage("You like to be stretched.");
     CMessage("You\'re almost spent");

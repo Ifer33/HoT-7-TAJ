@@ -487,7 +487,7 @@ function Modulo2()
     CMessage("The idea of it turns me on and makes me want to touch myself.");
     CMessage("Why don\'t you touch yourself for me?");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("The name of this game is control.");
     if(getVar("av_fetish_rough", false))
     {
@@ -585,7 +585,7 @@ function Modulo2()
 function SKPA01()
 {
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Your balls will be such an interesting colour by the end of today.");
     CMessage("They may also be swollen.");
     CMessage("I trust you are not desperate to cum yet.");
@@ -616,7 +616,7 @@ function SKPA01()
 function SKPA02()
 {
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("no edging.");
     CMessage("Do you ache?");
     CMessage("Can you feel the desire to cum building within you?");
@@ -670,7 +670,7 @@ function Modulo3()
     CMessage("Longing for you to stroke it.");
     CMessage("Are you getting anxious %Slave%?");
     CMessage("%StartStroking%");
-	//Stroking();
+	//setStrokingNoTaunt();
     CMessage("Stroke it very slowly and softly");
     CMessage("Caress your achy balls with the other hand");
     CMessage("My oh my look at you..");
@@ -749,7 +749,7 @@ function AVSkipDouble()
     CMessage("Take one hand and cup your balls with it");
     CMessage("Are they starting to ache slave?");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Just pump that %Cock%");
     CMessage("Long frustrating strokes.");
     CMessage("I want to see you suffer for me slave");
@@ -768,7 +768,7 @@ function AVSkipDouble()
     CMessage("Your knees have to make contact");
     CMessage("Keep your back straight and point your cock torwards me slave");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("How are you feeling slave?");
     CMessage("Is the ache gettin bigger?");
     CMessage("Need to cum?");

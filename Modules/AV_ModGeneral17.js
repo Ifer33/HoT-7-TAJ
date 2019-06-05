@@ -435,7 +435,7 @@ function AV_Timeo28()
     CMessage("Mmmm, apparently, it does..");
     CMessage("who would have thought, you would want to be bossed around like this?");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Who would have thought you\'d like it when I.. call you names.");
     CMessage("That it would make you feel this powerful urge...");
     CMessage("to " + random("touch yourself", "jack off", "cum"));
@@ -527,7 +527,7 @@ function Modulo2()
     CMessage(random("Not yours. Mine", "And I mean it, you don\'t touch that cock without my express permission", "It belongs to me"));
     CMessage(random("When I want it, I will have it", "That cock is there for my pleasure, not yours"));
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("If I want to spend an hour teasing my clit with the head of your cock, that\'s what I\'m going to fucking do.");
     CMessage("And afterwards, if I want to be fucked by my cock, then I will be fucked by my cock.");
     if(getVar("AV_DommeMistress", false) && getVar("av_fetish_rough", false))
@@ -742,7 +742,7 @@ function AV_NoBall()
     CMessage("Round 4");
     CMessage("Tease just that sweet spot and the tip of that probably wet by now cock.");
     //playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStroke.mp3");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("I want your fingers caressing yourself");
     sleep(10);
     CMessage("thinking of my delicate but teasing touch");

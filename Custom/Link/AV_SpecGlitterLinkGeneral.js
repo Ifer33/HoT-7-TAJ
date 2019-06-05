@@ -25,7 +25,7 @@ function G1()
     SMessage("%RelaxAndBreathe%", -1, 2);
     sleep(30);
     SMessage("%StartStroking%", -1, 2);
-    Stroking();
+    setStrokingNoTaunt();
     return;
     G2();
 }
@@ -34,7 +34,7 @@ function G2()
     SMessage("%RelaxAndBreathe%", -1, 3);
     sleep(30);
     SMessage("%StartStroking%", -1, 3);
-    Stroking();
+    setStrokingNoTaunt();
     return;
     G3();
 }
@@ -43,6 +43,6 @@ function G3()
     SMessage("%RelaxAndBreathe%", -1, 4);
     sleep(30);
     SMessage("%StartStroking%", -1, 4);
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }

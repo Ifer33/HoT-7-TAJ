@@ -459,7 +459,7 @@ function Modulo2()
     }
     CMessage("That\'ll only get a lot worse %Slave%, so we best get you into the main event");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("We\'ll do some pure stroking first to get you more horny");
     CMessage("then it\'s time for pain...");
     CMessage("I guess there\'s some tease in the denial part.");
@@ -701,7 +701,7 @@ function c302()
     CMessage("Then you get a 5 second break before the next one, then back to flicking");
     CMessage("Ready?");
     CMessage("%StartStroking%");
-	//Stroking();
+	//setStrokingNoTaunt();
     CMessage("choose a peg and flick");
     sleep(10);
     CMessage("and remove that clothespin");

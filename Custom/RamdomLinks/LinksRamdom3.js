@@ -351,7 +351,7 @@ function Fim()
     CMessage("%1_ST_Tease%");
     setVar("AV_Link3", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -364,7 +364,7 @@ function Link1()
     CMessage("Build up that wonderful sexual frustration for me.");
     CMessage("Good thing you %Love% the feeling of that sexual frustration so much.");
     CMessage(random("You still have a ways to go %PetName%", "Imagine how frustrated you are going to start to %Feel%"));
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -415,13 +415,13 @@ function fim1()
     setVar("AV_Persona15", createInput().getAnswer());
     CMessage("Hmm");
     setVar("AV_Know_14", true);
-    Stroking();
+    setStrokingNoTaunt();
     return;
     AV_Know_14();
 }
 function AV_Know_14()
 {
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -517,7 +517,7 @@ function next1()
 }
 function pula6()
 {
-    Stroking();
+    setStrokingNoTaunt();
     return;
     next2();
 }
@@ -544,7 +544,7 @@ function next2()
 }
 function pula7()
 {
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -567,7 +567,7 @@ function Link4()
     CMessage(random("Made to pleasure me with no chance of getting any satisfaction yourself", "You want that little %Cock% to be locked away", "withered and useless and you want Mistress to be the one to hold the key"));
     showTaggedImage(4, ["LICKING"]);
     //--Command:TagCunnilingus
-    Stroking();
+    setStrokingNoTaunt();
     return;
     pula10();
 }
@@ -596,6 +596,6 @@ function AVRND01()
     CMessage("Take your right hand and wrap it around the shaft, no jerking!");
     CMessage("Just keep it still around that meat and keep playing with those balls.");
     CMessage("You\'re really desperate to stroke it now, aren\'t you?");
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }

@@ -159,12 +159,13 @@ function a004()
     CMessage("Let you stand naked and exposed in front of a window for a few minutes");
     setVar("AV_TPegg04", true);
     CMessage("Then I bend you over and fuck you from behind with my strap-on dildo.");
-    return;
+    //return;
     if(getVar("av_doanalnight", false))
     {
         anal01();
         return;
     }
+	return;
     a005();
 }
 function a005()
@@ -190,7 +191,7 @@ function a006()
 function a007()
 {
     CMessage("This is why I " + random("dream about ", "want to ") + random("peg ", "fuck ") + "you up in the " + random("butt", "ass"));
-    CMessage(""I want to do it because it’s a morally neutral act that carries no shame.");
+    CMessage("I want to do it because it’s a morally neutral act that carries no shame.");
 	setVar("AV_TPegg07",true);
     CMessage("and it fucks around with gender.");
     CMessage("It’s the thrill of sex mixed with the thrill of violating gender roles, and that’s a lot of thrill right there.");

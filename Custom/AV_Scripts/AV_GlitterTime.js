@@ -48,15 +48,15 @@ function a03()
 }
 function Start()
 {
-    if (inGroup([1, 2]))
+    if (inGroup([1,2]))
     {
         SMessage(random("Can ", "may ") + "I " + random("borrow ", "use ") + "%SubName% " + random("for a while", "a little"), -1, 2);
     }
-    if (inGroup([1, 3]))
+    if (inGroup([1,3]))
     {
         SMessage(random("Can ", "may ") + "I " + random("borrow ", "use ") + "%SubName% " + random("for a while", "a little"), -1, 3);
     }
-    if (inGroup([1, 4]))
+    if (inGroup([1,4]))
     {
         SMessage(random("Can ", "may ") + "I " + random("borrow ", "use ") + "%SubName% " + random("for a while", "a little"), -1, 4);
     }
@@ -106,7 +106,7 @@ function StartCont1()
 		sleep(randomInt(10, 15));
 		break;
 	}
-    CMessage("%stopstroking%", 0);
+    SMessage("%stopstroking%", 0,2);
     setVar("edgingmode", "Normal");
     FinishGlitter();
     return;
@@ -137,7 +137,7 @@ function StartCont2()
 		sleep(randomInt(10, 15));
 		break;
 	}
-    CMessage("%stopstroking%", 0);
+    SMessage("%stopstroking%", 0,3);
     setVar("edgingmode", "Normal");
     FinishGlitter();
     return;
@@ -154,7 +154,8 @@ function StartCont3()
 		sleep(10);
 		SMessage("%StrokeTaunts_1%", -1, 4);
 		sleep(randomInt(15, 18));
-		CMessage("%stopstroking%", 0);
+		stopAudio();
+		SMessage("%stopstroking%", 0,4);
 		SMessage("%StartStroking%", -1, 4);
 		sleep(01);
 		//--UNINTERPRETED LINE:@Contact3 @NullResponse @PlayAudio[tease\tgr8\Contact3 special test audio\tgr8_c3t*.mp3] @sleep(10)
@@ -164,7 +165,8 @@ function StartCont3()
 		sleep(randomInt(15, 18));
 		break;
 	}
-    CMessage("%stopstroking%", 0);
+	stopAudio();
+    SMessage("%stopstroking%", 0,4);
     setVar("edgingmode", "Normal");
     FinishGlitter();
     return;
@@ -177,17 +179,17 @@ function EdgeStopGlitter()
 	stopAudio();
     if (inGroup([1, 2]))
     {
-        CMessage("%stopstroking%", 0);
+        SMessage("%stopstroking%", 0,2);
         setVar("edgingmode", "Normal");
     }
     if (inGroup([1, 3]))
     {
-        CMessage("%stopstroking%", 0);
+        SMessage("%stopstroking%", 0,3);
         setVar("edgingmode", "Normal");
     }
     if (inGroup([1, 4]))
     {
-        CMessage("%stopstroking%", 0);
+        SMessage("%stopstroking%", 0,4);
         setVar("edgingmode", "Normal");
     }
     if (inGroup([1, 2]))
@@ -352,6 +354,7 @@ function punishmentC3()
     SMessage(random("Hit ", "Spank ") + "your balls", -1, 4);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "G3Spank" + java.io.File.separator + "*.mp3");
     sleep(20);
+	stopAudio();
     SMessage("That will teach it some control %lol%", -1, 4);
     FinishGlitter();
     return;
@@ -367,6 +370,7 @@ function punishmentC2()
     SMessage(random("Hit ", "Spank ") + "your balls", -1, 3);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "G2Spank" + java.io.File.separator + "*.mp3");
     sleep(20);
+	stopAudio();
     SMessage("That will teach it some control %lol%", -1, 3);
     FinishGlitter();
     return;

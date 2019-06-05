@@ -371,7 +371,7 @@ function Modulo1()
     CMessage("I am on the mood to see you edge...");
     CMessage("a lot");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Look into My eyes and don\'t you dare look away.");
     CMessage("I want to see you. All of you.");
     DoEdges(1, 3, 100);
@@ -380,7 +380,7 @@ function Modulo1()
     CMessage("Your secrets.");
     CMessage("Your shame.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Stroke your cock and stare into My eyes.");
     sleep(15);
     let answer0 = getInput("Are you man enough to withstand My fiere eyes and My demanding edges?",5);
@@ -475,7 +475,7 @@ function Modulo2()
     CMessage("%KneelForMe%");
     CMessage("I expect no less than complete and total obedience.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     let answer0 = getInput("Have you been a good boy or a bad naughty boy?", 5);
     if (answer0.isTimeout())
     {
@@ -641,7 +641,7 @@ function wd4ydmvvv()
 {
     CMessage("%Okay%");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("With the snap of my fingers I can transfix you");
     setVar("edgingmode", "Goto");
     setVar("edginggoto", "e390sk()")
@@ -791,7 +791,7 @@ function slo4wp()
     CMessage("It\'s okay though, %SubName%");
     CMessage("It\'s not like I need you for anything else");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("I\'m wasn\'t going to offer any sexual favours to you");
     CMessage("I was never going to debase myself by spreading my legs and begging you to fuck me");
     CMessage("You will always be a toy for me to play with and nothing more");
@@ -873,7 +873,7 @@ function sqw4hmf()
     CMessage("It seems that your %Cock% likes this too, he\'s rock hard.");
     CMessage("Let\'s see if I can make him twitch.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Oh wow, look at you leaking...");
     CMessage("Good boy, so obedient!");
     CMessage("Look at all that pre-cum, it\'s just leaking out of you.");

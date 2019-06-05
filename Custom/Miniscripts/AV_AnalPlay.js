@@ -4,7 +4,7 @@ DMessage("AV_AnalPlay: End");
 function main()
 {
     CMessage("Jerk your %Cock% and imagine what it will feel like");
-	Stroking();
+	setStrokingNoTaunt();
     setVar("AV_StartAnal", true);
     CMessage("as my girlcock penetrates your ass unmercifully.");
     CMessage("%StrokeSlower%");

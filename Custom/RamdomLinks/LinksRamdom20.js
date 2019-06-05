@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_Link20", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -389,7 +389,7 @@ function TheCumQuestion()
     }
     CMessage("Don\'t forget that %PetName%");
     setVar("AV_WantCumQuest", true);
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Reforce();
 }
@@ -398,7 +398,7 @@ function Reforce()
     CMessage("Just to reminde you...");
     CMessage("If I ask you \"Do you want to cum?\" And you will say \"no\"");
     CMessage("And if I ask \"If you want to cum for Me?\" you say \"yes\"");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -423,7 +423,7 @@ function Link2()
     }
     CMessage("I\'m sure if you knew  you\'d only be able to masturbate to me for the rest of your life");
     CMessage("that\'d still be worth it in the face of never cumming.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -537,7 +537,7 @@ function ImFinished()
 function Decline_Offer()
 {
     CMessage("%LAPYouNeedToSufferMore_85%");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -605,6 +605,6 @@ function fim1()
 {
     CMessage("Then get ready to stroke while I slide these panties off");
     CMessage("and try not to lose control.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }

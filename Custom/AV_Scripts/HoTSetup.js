@@ -71,7 +71,7 @@ function a002()
     }
     CMessage("Who is your favourite Pornstar?");
     setVar("AV_Persona04", createInput().getAnswer());
-    CMessage("Can you get a "+getVar("AV_Persona04")+" music video and put in the folder *TeaseAI\Images\av_imagens\04\*");
+    CMessage("Can you get a "+getVar("AV_Persona04")+" porn video and put in the folder *TeaseAI\Images\av_imagens\04\*");
 	setVar("AV_Know_03",true);
     a003();
 	return;
@@ -266,7 +266,7 @@ function a007()
     {
         CMessage("It\'s %Okay%");
     }
-    let answer8 = getInput("Do you like Gag ball?");
+    let answer8 = getInput("Do you like to be gaged?");
     while (!(answer8.isLike("yes") || answer8.isLike("no")))
     {
         answer8 = getInput("yes or no?");

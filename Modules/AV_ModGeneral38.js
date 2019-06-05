@@ -358,7 +358,7 @@ function Modulo1()
 {
 	if(!isStroking()){
 		//CMessage("%StartStroking%");
-		Stroking();
+		setStrokingNoTaunt();
 	}
     addContact(2);
     SMessage("Hey %DomName%, remember our talk about how hypnotize submissive boys?", -1, 2);
@@ -392,7 +392,7 @@ function Modulo2()
 {
     if(!isStroking()){
 		//CMessage("%StartStroking%");
-		Stroking();
+		setStrokingNoTaunt();
 	}
     addContact(3);
     SMessage("Hey %DomName%, I just finished that book about how hypnotize submissive males", -1, 3);
@@ -454,7 +454,7 @@ function Modulo3()
 {
     if(!isStroking()){
 		//CMessage("%StartStroking%");
-		Stroking();
+		setStrokingNoTaunt();
 	}
     addContact(4);
     SMessage("Hey %DomName%, did you finished that book about how hypnotize submissive males?", -1, 4);
@@ -1172,7 +1172,7 @@ function Intro()
 }
 function AV_TempCrushesRND3()
 {
-	Stroking();
+	setStrokingNoTaunt();
 	lockImages();
     CMessage("%AV_ImgType%");
     CMessage("I bet you wish she would sit on your face so you could bask in its full glory. %AV_ImgType%");
@@ -1200,7 +1200,7 @@ function a39j84hs()
     CMessage("%KneelForMe%");
     CMessage("Or better, on your hands and knees, like a dog.");
     setTempVar("AV_TempCrushesRND2", true);
-	Stroking();
+	setStrokingNoTaunt();
 	lockImages();
     CMessage("%AV_ImgType%");
     CMessage("brilliant %AV_ImgType%");

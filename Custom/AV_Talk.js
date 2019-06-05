@@ -365,32 +365,32 @@ function Fim()
 }
 function Pegging()
 {
-    setVar("AV_Talk_Decided", true);
-    setVar("AV_Talk_Pegging", true);
+    setTempVar("AV_Talk_Decided", true);
+    setTempVar("AV_Talk_Pegging", true);
     AV_Talk_Decided();
     return;
     Humiliation();
 }
 function Humiliation()
 {
-    setVar("AV_Talk_Decided", true);
-    setVar("AV_Talk_Humiliation", true);
+    setTempVar("AV_Talk_Decided", true);
+    setTempVar("AV_Talk_Humiliation", true);
     AV_Talk_Decided();
     return;
     Chastity();
 }
 function Chastity()
 {
-    setVar("AV_Talk_Decided", true);
-    setVar("AV_Talk_Chastity", true);
+    setTempVar("AV_Talk_Decided", true);
+    setTempVar("AV_Talk_Chastity", true);
     AV_Talk_Decided();
     return;
     Control();
 }
 function Control()
 {
-    setVar("AV_Talk_Decided", true);
-    setVar("AV_Talk_Control", true);
+    setTempVar("AV_Talk_Decided", true);
+    setTempVar("AV_Talk_Control", true);
     AV_Talk_Decided();
     return;
     AV_Talk_Decided();

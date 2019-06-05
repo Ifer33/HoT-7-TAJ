@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_Link28", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -360,7 +360,7 @@ function Link1()
     CMessage("if for different reasons.");
     CMessage("I know they\'re not always exactly how you\'d imagine them");
     CMessage("but as long as you recognize that mine come first we\'ll have some very pleasurable moments.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -389,7 +389,7 @@ function Link2()
     CMessage("Why should I care how much you have to cum right now?");
     CMessage("Your relief is a minor inconvenience on the road to a truly excellent relationship.");
     CMessage("It only matters to me how well you obey me.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -417,7 +417,7 @@ function Link3()
         pvRs_WantToServeNoResponse();
     }
     CMessage("And oh, how I love that you love it.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -440,6 +440,6 @@ function Link4()
     CMessage("You\'re living in a dreamworld, %PetName%.");
     CMessage("And all because you agreed to it.");
     delVar("AVp002");
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }

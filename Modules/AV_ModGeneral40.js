@@ -365,7 +365,7 @@ function Modulo1()
     CMessage("Mmm I can tell the idea of this turns you on, %PetName%.");
     CMessage("Go ahead and stroke that %Cock%");
     //playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStroke.mp3");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Grab a hold of it in your hand");
     if (getVar("cocksize", "NA") == "small")
     {
@@ -451,7 +451,7 @@ function Modulo2()
     CMessage("I control your cock.");
     CMessage("Every " + random("word ", "command ") + "of mine are his very reality.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("See how easy that was?");
     CMessage("You see... there is so much blood in you cock or so to speak in your other mind right now.");
     CMessage("What is left for you?");
@@ -602,7 +602,7 @@ function Modulo3()
 function wehje4s()
 {
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     let answer0 = getInput("Can you feel how much the submission excites you, how much the vulnerability excites you?", 5);
     while (!(answer0.isLike("yes mistress") ))
     {
@@ -638,7 +638,7 @@ function re457ik()
     CMessage("Those balls are so blue and huge.");
     CMessage("Meanwhile, I\'ve had orgasms left and right.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("I never thought I\'d like it so much.");
     CMessage("The way you begged and pleaded for release");
     CMessage("I\'m sorry %Name%, I just can\'t help myself.");
@@ -650,7 +650,7 @@ function re457ik()
     CMessage("I love watching you struggle and whimper.");
     sleep(20);
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Mmmmmm, your suffering turns me on.");
     if(getVar("AV_Denied", false))
     {
@@ -675,7 +675,7 @@ function re457ik()
     CMessage("There are consequences to that.");
     CMessage("OK, now let stroke a little again");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Oh my God, this is the hardest cock I\'ve ever felt.");
     CMessage("That\'s pretty good.");
     CMessage("Let\'s speed up a bit.");
@@ -689,7 +689,7 @@ function re457ik()
     CMessage("Mmm... look at your cock twitching there...");
     CMessage("that pre-cum dripping out.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Your legs are tensing...");
     CMessage("oh poor baby are you still close?");
     CMessage("%stopstroking%", 0);
@@ -801,7 +801,7 @@ function jeiu3f()
         return;
     }
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Mmmm fuck yes, let me hear you moan.");
     CMessage("Show me what I do to you, you little slut.");
     CMessage("Let me hear that fucking whimper of yours everytime you stroke.");

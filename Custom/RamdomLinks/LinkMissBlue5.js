@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_LinkMissBlue5", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -369,7 +369,7 @@ function Link1()
     CMessage("Well of course there is...");
     CMessage("Having actual sex still tops making you squirm, %SubName%");
     CMessage("But it\'s a close second %Smile%");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -388,7 +388,7 @@ function Link2()
     CMessage("Don\'t touch it yet...");
     CMessage("Not until I give you permission");
     CMessage("Get ready...");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -446,14 +446,14 @@ function pvPMEyes()
     CMessage("You have to be able to last longer that a minute or two");
     CMessage("Or she\'s not going to want to stick around");
     CMessage("So let\'s get back to some endurance practice %Smile%");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     pvPMEno();
 }
 function pvPMEno()
 {
     CMessage("Let\'s have some more of that then");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -464,6 +464,6 @@ function Link4()
     CMessage("You won\'t even know the difference between feeling bad and good");
     CMessage("And you won\'t care, %PetName%");
     CMessage("Because you\'re going to want more no matter how it feels %Grin%");
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }

@@ -365,7 +365,7 @@ function Modulo1()
     CMessage("I know how much you want to give yourself to me totally.");
     CMessage("And that makes me so happy.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Now, since you are so obedient, you are going to edge for me");
     CMessage("and hold it on edge for as long as I want to keep you there.");
     CMessage(random("You will beg", "You will suffer"));
@@ -414,7 +414,7 @@ function Modulo1()
     CMessage("I enjoy your suffering for me.");
     CMessage("Such a good boy.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("%GoodBoy%");
     CMessage("Now I\'m going to take advantage of watching you.");
     CMessage("You are so delicious, so obedient.");
@@ -462,7 +462,7 @@ function Modulo2()
     CMessage("I know it excites you.");
     CMessage("I know I said not to move a muscle, but... you can move your dominant hand and...");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Ahh, you\'re letting your posture slip a bit.");
     CMessage("Come now, your dick can stand at attention just fine, why not the rest of you?");
     CMessage("Hmm. You\'ve done quite well for me today.");
@@ -491,7 +491,7 @@ function Modulo2()
     CMessage("Only I do not want your finger to wrap around the sensitive underside.");
     CMessage("Just grab along the spine of your cock and stroke slowly.");
     //playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStroke.mp3");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Thats it! Not to fast, not too slow, just keep stroking the spine of your cock.");
     CMessage("I do not want your finger to wrap around the sensitive underside.");
     CMessage("Just grab along the spine of your cock and stroke slowly.");
@@ -537,7 +537,7 @@ function Modulo3()
     CMessage(random("%PetName%", "%SubName%"));
     CMessage("show me that cock of yours!");
     CMessage("Start stroking it!");
-	Stroking();
+	setStrokingNoTaunt();
     //playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStroke.mp3");
     CMessage("Only thing you have to do is stroke that cock");
     CMessage("As you can see we are all alone and no one will bother us.");
@@ -591,7 +591,7 @@ function Modulo3()
     CMessage("Makes me really hot!");
     CMessage("Stop");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Now I get to see how long you can go on stroking that cock before you have to give up and rest again!");
     CMessage("Oh yes just stroke that cock good now for me!");
     CMessage("Yes just aim that nice thick cock right here as you stroke it for me!");
@@ -631,7 +631,7 @@ function Modulo4()
     CMessage("%Okay%, stop touching");
     CMessage(random("So what I want you to do is stroke your cock just how you like it and follow my instructions", "All I want right now is for you to stroke your dick nice and smoothly"));
     //playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStroke.mp3");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("While you can stroke your cock however you like, I want you to go " + random("Not to fast now", "just nice and slow", "slow enough not to bring yourself to the edge"));
     CMessage("If you do get to the edge then you let me know.");
     CMessage("We have such a long, long ways to go before we are done with your dick today.");

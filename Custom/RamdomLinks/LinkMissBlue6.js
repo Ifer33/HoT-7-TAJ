@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_LinkMissBlue6", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -363,7 +363,7 @@ function Link1()
     CMessage("But remember, you make me feel amazing things even if you can\'t help it");
     CMessage("And I\'m grateful for it %Smile%");
     CMessage("Now then...");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -379,7 +379,7 @@ function Link2()
 	}
     CMessage("You %Balls% and your %Cock% and your cum are all mine");
     CMessage("I can do with them as I please, don\'t forget that");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -415,7 +415,7 @@ function only_ache_more()
     CMessage("That %Cock% looks like it needs something, doesn\'t it...");
     CMessage("I know what it needs");
     CMessage("What it needs is always the same thing, isn\'t it? %Giggles%");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -429,6 +429,6 @@ function Link4()
     CMessage("Why not enjoy ourselves while we can, right?");
     CMessage("Now, unfortunately for you I happen to enjoy tormenting boys like you %Grin%");
     CMessage("So let\'s go ahead and give life some meaning shall we...");
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }

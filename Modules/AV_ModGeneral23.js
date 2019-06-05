@@ -394,7 +394,7 @@ function Modulo1()
 		CMessage("You are going to get the privilege to be my little, mindless edge-slave.");
 		CMessage("I know you like that.");
 		//CMessage("%StartStroking%");
-		Stroking();
+		setStrokingNoTaunt();
 		CMessage("Come on, stroke that cock faster. I want you to edge soon.");
 		CMessage("Are you already near?");
 		CMessage("You should be.");
@@ -1966,7 +1966,7 @@ function f43gx9()
     CMessage("Look... it\'s almost there...");
     CMessage("Look my finger dissapearing into my pussy... hmmm feels so good, now baby, now you can stroke");
     //playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStroke.mp3");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Did you think you would be the only one having fun here?");
     CMessage("Oh no... I am going to play with you while you rub and stroke your hard dick for me");
     CMessage("because I can\'t help myself when I tell you to stroke your hard cock");
@@ -1979,7 +1979,7 @@ function f43gx9()
     CMessage("Instead... you can rub it with your hand, rub your shaft up and down. You can rub your balls too.");
     CMessage("That\'s it baby. Keep going as I watch you while I gently slid my hand down to caress my clit.");
     CMessage("Watching you really gets me wet already.");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("I can see in your face that you are so close.");
     CMessage("You want to cum already, right?");
     CMessage("But this is just the beginning baby, you can\'t cum yet.");

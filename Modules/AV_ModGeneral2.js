@@ -389,7 +389,7 @@ function AV_Timeo02()
     SMessage("Well I got some bad news..", -1, 3);
     //SMessage("Now isn\'t going to get any better. %StartStroking%", -1, 3);
 	SMessage("Now isn\'t going to get any better.", -1, 3);
-	Stroking(-1,3)
+	setStrokingNoTaunt(null,-1,3)
     SMessage("I bet you thought you were done stroking today, huh?", -1, 3);
     SMessage("I kinda LIKE the idea of you not being able to cum.", -1, 3);
     SMessage("In fact, I LOVE the idea of you not being able to cum.", -1, 3);
@@ -404,7 +404,7 @@ function AV_Timeo02()
     SMessage("so much better than some stupid movie.", -1, 3);
     SMessage("Seriously, I was dreading going to that rom-com, but this", -1, 3);
     //SMessage("%StartStroking%", -1, 3);
-	Stroking(-1,3);
+	setStrokingNoTaunt(null,-1,3);
     SMessage("this is something I could watch all day.", -1, 3);
     let answer1 = getInput("What is it...you want to stop?",5,-1,true,3);
     if (answer1.isTimeout())

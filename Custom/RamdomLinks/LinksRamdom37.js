@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_Link37", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     
     Link1();
@@ -361,7 +361,7 @@ function Link1()
     CMessage("You needs a good cock teasing all the time");
     CMessage("This doesn\'t mean you\'re going to have an orgasm....");
     CMessage("But you needs to be hard and brought to the edge of an orgasm again and again");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     
     Link2();
@@ -379,7 +379,7 @@ function Link2()
     CMessage("Yes, I know it is a tough thing to do");
     CMessage("but I also know that you, my submissive slut");
     CMessage("will do it to prove how devoted you truly are to Me.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     
     Link3();
@@ -397,7 +397,7 @@ function Link3()
     CMessage("but I do not care!");
     CMessage("As your Mistress, I give the order");
     CMessage("and you strive to give me the very best, biggest, creamiest load of cum you can, and then you eat it.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     
     Link4();
@@ -409,6 +409,6 @@ function Link4()
     CMessage("You get so much pleasure from stroking every day");
     CMessage("but teasing that cock gives you a different kind of pleasure");
     CMessage("one that can keep you horny until I say, \"Cum for");
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }

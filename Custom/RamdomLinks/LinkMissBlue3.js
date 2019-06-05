@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_LinkMissBlue3", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -363,7 +363,7 @@ function Link1()
     CMessage("You have the stamina to please your partner");
     CMessage("Just remember that you have me to thank for that, in part at least");
     CMessage("You\'re welcome, %PetName%");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -379,7 +379,7 @@ function Link2()
     CMessage("The corners that you barely want to admit to yourself exist");
     CMessage("Maybe we\'ll explore them someday");
     CMessage("But for now...");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -400,7 +400,7 @@ function Link3()
     CMessage("Which has it\'s own advantages of course");
     CMessage("Such as having a %PetName% glued to a screen, obeying every command %EmoteHappy%");
     CMessage("For example...");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -444,7 +444,7 @@ function but_apparently()
     }
     CMessage("Anyhow...");
     setVar("pthevLink11A", true);
-    Stroking();
+    setStrokingNoTaunt();
     return;
     pthevLink11A();
 }
@@ -492,12 +492,12 @@ function pthevLink11A()
     {
         CMessage("No chance of something like that happening to you I suppose...");
     }
-    Stroking();
+    setStrokingNoTaunt();
     return;
     pthevLink11B();
 }
 function pthevLink11B()
 {
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }

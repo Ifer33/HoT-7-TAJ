@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_Link36", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -361,7 +361,7 @@ function Link1()
     CMessage("And as he goes deeper and deeper into a trance your cock becomes more and more arroused.");
     CMessage("That\'s right.");
     CMessage("Your cock becomes deeply aroused by my powerful words.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     
     Link2();
@@ -371,7 +371,7 @@ function Link2()
     CMessage("Remember, an orgasm is not a right, it is a health necessity.");
     CMessage("It is not a reward either.");
     CMessage("Mine are important and only orgasms that should be cherished.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     
     Link3();
@@ -385,7 +385,7 @@ function Link3()
     CMessage("Emasculation kills the ego every man has.");
     CMessage("Ego is an absolute enemy.");
     CMessage("A pair of panties could also do the trick nicely.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     
     Link4();
@@ -397,6 +397,6 @@ function Link4()
     CMessage("Your cock knows what he wants while you are completely helpless.");
     CMessage("Your cock makes decisions all of its own.");
     CMessage("He twitches, he throbs, he stiffens.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }

@@ -427,7 +427,7 @@ function Modulo1()
     CMessage("About your hard cock, throbbing for me?");
     CMessage("Oops! Well, how about a little test?");
     CMessage("Take it out and start stroking");
-	Stroking();
+	setStrokingNoTaunt();
     //playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStroke.mp3");
     CMessage("Yeah, you " + random("have to do it", "can\'t help it"));
     CMessage("You know I\'m getting in your head, but I\'m already in your head");
@@ -544,7 +544,7 @@ function Modulo3()
     CMessage("You are getting what you want from me");
     CMessage("I intend to get what I want too.");
     CMessage("Touch yourself %SubName%, wank it for me.");
-	Stroking();
+	setStrokingNoTaunt();
     //playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStroke.mp3");
     CMessage("What do you want from your mistress?");
     CMessage("Good boy. As long as you continue to be so responsive and obedient...");
@@ -629,7 +629,7 @@ function AV_Pain()
 function AV_SP()
 {
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("And you know what I want when I get wet, don\'t you slave....");
     CMessage("Hmmm, you\'re doing a pretty good job, %PetName%.");
     CMessage("But, while I\'m no longer bored, I am getting horny");
@@ -685,7 +685,7 @@ function AV_Timeo84()
     CMessage("You haven\'t even touched it.");
     CMessage("Let\'s get it nice and ready for me.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("I want you to work up a nice big load for me.");
     sleep(randomInt(10, 20));
     SpePartFinal();
@@ -763,7 +763,7 @@ function SpePart2cbt()
     CMessage("You haven\'t even touched it.");
     CMessage("Let\'s get it nice and ready for me.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("I want you to work up a nice big load for me.");
     sleep(randomInt(10, 20));
     SpePart3cbt();
@@ -776,7 +776,7 @@ function SpePart2anal()
     CMessage("You haven\'t even touched it.");
     CMessage("Let\'s get it nice and ready for me.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("I want you to work up a nice big load for me.");
     sleep(randomInt(10, 20));
     SpePart3anal();

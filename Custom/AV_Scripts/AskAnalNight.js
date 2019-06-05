@@ -17,7 +17,7 @@ function main()
         Ass_Talk();
         return;
     }
-    else if (answer0.isLike("no", "nope", "sure"))
+    else if (answer0.isLike("no", "nope", "not sure"))
     {
         CMessage("%Okay%, " + random("that\'s fine %PetName%", "the choice is yours and only yours %PetName%"));
     }
@@ -33,13 +33,14 @@ function Ass_Talk()
     CMessage("Is to make your %Asshole% my personnal %Pussy% to fuck!");
     CMessage("Yes %PetName%, I\'ll make you fuck your %Ass% a lot %GeneralTime%");
     let answer0 = getInput("Do you have a dildo or buttplug, or both?");
-    while (!(answer0.isLike("yes") || answer0.isLike("no") || answer0.isLike("neither") || answer0.isLike("dildo") || answer0.isLike("buttplug") || answer0.isLike("both")))
+    while (!(answer0.isLike("no") || answer0.isLike("neither") || answer0.isLike("dildo") || answer0.isLike("buttplug") || answer0.isLike("both")))
     {
-        answer0 = getInput("That\'s very interesting, but do you own a dildo or buttplug?");
-    }
-    while (answer0.isLike("yes"))
-    {
-        answer0 = getInput("which one?");
+		if (answer0.isLike("yes"))
+		{
+			answer0 = getInput("which one?");
+		}else{
+			answer0 = getInput("That\'s very interesting, but do you own a dildo or buttplug?");
+		}
     }
     if (answer0.isLike("no", "neither"))
     {
@@ -64,33 +65,35 @@ function Ass_Talk()
         setVar("pthevButtPlug", true);
     }
     let answer1 = getInput("Go get it, let me know when you\'re ready. You might want to use a condom with that too");
-    while (!(answer1.isLike("yes") || answer1.isLike("back") || answer1.isLike("returned") || answer1.isLike("here") || answer1.isLike("it") || answer1.isLike("ready") || answer1.isLike("have") || answer1.isLike("got") || answer1.isLike("find") || answer1.isLike("found") || answer1.isLike("mind") || answer1.isLike("want") || answer1.isLike("me") || answer1.isLike("no") || answer1.isLike("it") || answer1.isLike("this") || answer1.isLike("wait") || answer1.isLike("sec") || answer1.isLike("second") || answer1.isLike("moment") || answer1.isLike("on") || answer1.isLike("ready")))
+    while (!(answer1.isLike("yes") || answer1.isLike("back") || answer1.isLike("returned") || answer1.isLike("here") || answer1.isLike("got it") || answer1.isLike("ready") || answer1.isLike("don't have") || answer1.isLike("haven't got") || answer1.isLike("couldn't find") || answer1.isLike("haven't found") || answer1.isLike("changed my mind") || answer1.isLike("don't want") || answer1.isLike("don't make me") ))
     {
-        answer1 = getInput("Are you ready?");
+		if (answer1.isLike("no","not"))
+		{
+			answer1 = getInput("Go get your dildo-shaped something %PetName%!");
+		} 
+		else if (answer1.isLike("don't like","dont like"))
+		{
+			answer1 = getInput("You don\'t have to like it, you\'re doing it for me remember %EmoteHappy%");
+		}
+		else if (answer1.isLike("wait", "sec", "second", "moment", "hold on", "not ready"))
+		{
+			answer1 = getInput("I\'ll wait");
+		}
+		else{
+			answer1 = getInput("Are you ready?");
+		}
     }
-    while (answer1.isLike("no"))
-    {
-        answer0 = getInput("Go get your dildo-shaped something %PetName%!");
-    }
-    while (answer1.isLike("it", "this"))
-    {
-        answer0 = getInput("You don\'t have to like it, you\'re doing it for me remember %EmoteHappy%");
-    }
-    while (answer1.isLike("wait", "sec", "second", "moment", "on", "ready"))
-    {
-        answer0 = getInput("I\'ll wait");
-    }
-    if (answer1.isLike("yes", "back", "returned", "here", "it", "ready"))
+    if (answer1.isLike("yes", "back", "returned", "here", "got it", "ready"))
     {
         CMessage("This is going to be interesting %Grin%");
     }
-    else if (answer1.isLike("have", "got", "find", "found"))
+    else if (answer1.isLike("don't have","haven't got","couldn't find","haven't found"))
     {
         CMessage("Oh well, maybe next time %EmoteSad%");
         nothingavailable();
         return;
     }
-    else if (answer1.isLike("mind", "want", "me"))
+    else if (answer1.isLike("changed my mind","don't want","don't make me"))
     {
         CMessage("Alright then... %EmoteSad%");
         End();

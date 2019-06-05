@@ -10,6 +10,6 @@ function main()
     //setVar("moduletorun", "AV_DommeBackModule")
     getLocalTeasePicture("Images" + java.io.File.separator + "AV_DommeBackModule");
     CMessage("%StartStroking%");
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }

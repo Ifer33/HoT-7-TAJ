@@ -876,7 +876,7 @@ function Modulo4()
         CMessage("Go on, get your asshole horny as well.");
     }
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Lick your fingers and start rubbing those nipples.");
     CMessage("Feels good, no?");
     CMessage("Keep rubbing and twisting them until they are as hard as your cock.");
@@ -995,7 +995,7 @@ function nopainhum()
     CMessage("I\'ll sit on your face, and suck and lick your cock through the cage");
     CMessage("and you\'ll stay denied while I cum and cum and cum again.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("and rub your balls for me");
     CMessage("I want them to be able to take more abuse soon.");
     edge();

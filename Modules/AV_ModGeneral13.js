@@ -406,7 +406,7 @@ function Modulo1()
     CMessage("In a moment I am going to have you stroke your cock but I want you to grab it backwards.");
     CMessage("I think you can do this for me, yes?");
     CMessage("Now you may stroke just like I said.");
-	Stroking();
+	setStrokingNoTaunt();
     //playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStroke.mp3");
     CMessage("Just like that, stroking your cock as you gently rub your balls.");
     CMessage("Focus your mind on that sweet spot!");

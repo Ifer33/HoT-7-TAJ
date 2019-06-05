@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_Link19", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -371,7 +371,7 @@ function Link1()
     {
         CMessage("Are you that little bitch?");
     }
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -385,7 +385,7 @@ function Link2()
     }
     CMessage("This goddess is destined to be worshiped.");
     CMessage("The mistress you know you want to succumb to.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -395,7 +395,7 @@ function Link3()
     CMessage("and turn them into my own personal bad boy.");
     CMessage("This can be everything from having you masturbate to my instructions");
     CMessage("or spanking yourself for me");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -407,6 +407,6 @@ function Link4()
     CMessage("My philosophy is simple go big or go home");
     CMessage("so if you\'re bad, and love to be naughty");
     CMessage("then you\'ve come to the right place");
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }

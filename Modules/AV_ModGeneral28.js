@@ -367,7 +367,7 @@ function Modulo2()
 	if(!isStroking() ){
 		CMessage("Start %Stroking% again");
 		//playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "Tri" + java.io.File.separator + "*.mp3");
-		Stroking();
+		setStrokingNoTaunt();
 	}
     else
     {
@@ -510,7 +510,7 @@ function Modulo3()
     CMessage("You will learn that you are here for my pleasure");
     CMessage("and you will be trained to obey without questioning.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("You may not enjoy everything that I decide to do with you");
     CMessage("but that is part of giving up control.");
     CMessage("In the end, you\'ll be glad to submit to my will.");
@@ -531,7 +531,7 @@ function Modulo3()
     setVar("edginggoto", "FailNotEdge2()")
     CMessage("If you are on the edge is already to late.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Now you\'re only supposed to feel your strokes. Nothing more...");
     CMessage("nothing less. And of course the incredible frustration, that you will never be able to spurt while I\'m with you");
     CMessage("Just... frustrating... strokes!");

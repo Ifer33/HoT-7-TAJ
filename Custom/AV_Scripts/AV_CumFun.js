@@ -1,8 +1,11 @@
 DMessage("AV_CumFun: Beginning");
+edged=false;
 main();
 DMessage("AV_CumFun: End");
 function main()
 {
+	Glitter03()
+	return;
     //--UNINTERPRETED LINE:@Variable[%DateDifference%(AV_FinishGlitter,Days)]>[15] @NullResponse @Chance50(FimGlitters)
 	if (getTimePassed("AV_FinishGlitter","days") > 15){
 		if (randomInteger(1, 100) <= 50)
@@ -927,7 +930,7 @@ function AV_Won()
 function AV_Lost()
 {
     edge("Give me one last edge");
-    startEdging();
+    //startEdging();
     CMessage(random("Just stop it...you haven't earned it. Try harder next time", "Stop jerking...you needed way more clothespins to stand a chance", "Stop, denied again! As if you could ever determine your own faith")+"!");
     return;
     NoDeal();
@@ -1273,36 +1276,51 @@ function Glitter03()
     sleep(15);
     edge("%Edge%", -1, 4);
     //startEdging();
-    SMessage(random("Now add one pin on each side of your balls", "Now add one clothespin on your balls. Or no, add two!", "Let\'s torture your nuts a bit", "place two clothespins"), -1, 4);
-    SMessage("%Edge%", -1, 4);
-    startEdging();
-    SMessage("%LetTheEdgeFade%", -1, 4);
+    SMessage(random("Now add one pin on each side of your balls", "Now add one clothespin on your balls. Or no, add two!", "Let\'s torture your nuts a bit, add two clothespins"), -1, 4);
+    edge("%Edge%", -1, 4);
+    //startEdging();
+    //SMessage("%LetTheEdgeFade%", -1, 4);
     SMessage("%KneelForMe%", -1, 4);
     sleep(15);
     SMessage(random("I don\'t want you to start doubting your decision. Start jerking off so your brain is deprived of oxygen...", "Not long now, jerk hard and fast!", "I can see the end now, start a sprinting jerk now!"), -1, 4);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStroke.mp3");
-    CMessage("%stopstroking%", 0);
+    //CMessage("%stopstroking%", 0);
+	SMessage(random("Don't stop jerking now", "You are going to keep jerking until the end now", "Keep jerking, feel the burn!"),-1,4);
     setVar("edgingmode", "Goto");
     setVar("edginggoto", "ce4tgf()")
     SMessage("Add two more clothespins on your balls, while you are still jerking!", -1, 4);
     sleep(20);
     SMessage("Edge for me, now!", -1, 4);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cEdge.mp3");
-    SMessage("Come on, just a bit faster for me!", -1, 4);
-    sleep(15);
-    SMessage("Why aren\'t you edging like I told you?", -1, 4);
-    SMessage("Just give it everything you\'ve got right now!", -1, 4);
-    SMessage("You can go faster, I know you can!", -1, 4);
-    sleep(15);
-    SMessage("Just a quick sprint to the finish now!", -1, 4);
-    sleep(15);
-    SMessage("You like to edge, you want to edge, you NEED to edge, so just do it now!", -1, 4);
-    sleep(15);
-    ce4tgf();
+	edged=false;
+	if(!edged){
+		SMessage("Come on, just a bit faster for me!", -1, 4);
+		sleep(15);
+	}
+	if(!edged){
+		SMessage("Why aren\'t you edging like I told you?", -1, 4);
+	}
+	if(!edged){
+		SMessage("Just give it everything you\'ve got right now!", -1, 4);
+	}
+	if(!edged){
+		SMessage("You can go faster, I know you can!", -1, 4);
+		sleep(15);
+	}
+	if(!edged){
+		SMessage("Just a quick sprint to the finish now!", -1, 4);
+		sleep(15);
+	}
+	if(!edged){
+		SMessage("You like to edge, you want to edge, you NEED to edge, so just do it now!", -1, 4);
+		sleep(15);
+		ce4tgf();
+	}
 	return;
 }
 function ce4tgf()
 {
+	edged=true;
     SMessage(random("Slow down your strokes to half speed", "Slow down a bit, but don't stop!"),-1,4);
     setVar("edgingmode", "Normal");
     SMessage(random("Hold it!", "Ride it!", "Keep on it!"), -1, 4);

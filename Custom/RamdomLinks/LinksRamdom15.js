@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_Link15", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -394,7 +394,7 @@ function Link1()
     {
         CMessage("Have a shot glass ready because guys that fuck their hands have to eat their own cum when I say so.");
     }
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -412,7 +412,7 @@ function Link2()
     CMessage("So edge for me, lose your mind for me, cum for me.");
     CMessage("Every time you try to run away this is how you\'re left.");
     CMessage("Defeated.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -424,7 +424,7 @@ function Link3()
     CMessage("There will even be parks and playgrounds with slaves tied to posts");
     CMessage("ready to be whipped and kicked in the balls.");
     delVar("AVLink15_3");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -479,7 +479,7 @@ function Link4()
     CMessage("that tightens into your neck when I pull on it!");
     CMessage("That might be my favorite one yet!");*/
     //--Command:YesMode(Normal)
-    Stroking();
+    setStrokingNoTaunt();
     return;
     CollarYes();
 }
@@ -487,7 +487,7 @@ function CollarYes()
 {
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "pvCr_CollarDecide.js");
     //--Command:YesMode(Normal)
-    Stroking();
+    setStrokingNoTaunt();
     return;
     
     collar_einstieg();
@@ -514,6 +514,6 @@ function AlreadyCollar()
     CMessage("Now bark for me " + randomInt(2, 6) + "times to show me that you have understood");
     sleep(12);
     //--Command:YesMode(Normal)
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }

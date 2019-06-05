@@ -369,7 +369,7 @@ function Modulo1()
         setVar("AV_PinDone", true);
     }
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Slowly.");
 	slowStroking();
     CMessage("Mmm. That\'s cute. You almost look like you enjoy this!");
@@ -394,7 +394,7 @@ function Modulo1()
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "Spank1*.mp3");
     sleep(20);
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     jeiu3f();
 }
 function jeiu3f()
@@ -432,7 +432,7 @@ function jeiu3f()
         return;
     }
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Mmmm fuck yes, let me hear you moan.");
     CMessage("Show me what I do to you, you little slut.");
     CMessage("Let me hear that fucking whimper of yours everytime you stroke.");
@@ -537,7 +537,7 @@ function Modulo2()
     CMessage("I am here to tell you the benefits of being denied.");
     CMessage("It\'s not my fault if you say you want tease and denial");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("and then realize that I will happily tease you.");
     CMessage("And deny you...");
     CMessage("%Stop%", 0);
@@ -553,7 +553,7 @@ function Modulo2()
     }
     CMessage("I am going to own your cock and your orgasms.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Once it\'s mine, I\'ll be making all of the decisions.");
     CMessage("Just as it should be.");
     CMessage("%Stop%", 0);
@@ -658,7 +658,7 @@ function Modulo3()
     CMessage("Even now, reading these relatively benign words gets you are thinking about touching your cock.");
     CMessage("Go ahead");
     //playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStroke.mp3");
-    Stroking();
+    setStrokingNoTaunt();
 	CMessage("Femdom control typically starts off as a fantasy");
     CMessage("maybe of a gorgeous, erotic woman taking control of you");
     CMessage("your penis, and your orgasm.");
@@ -700,7 +700,7 @@ function Modulo3()
 function a3hbu0a()
 {
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Men have a natural drive to serve women");
     CMessage("while women want to be pleased.");
     CMessage("Edging your cock and begging not to cum sounds odd, I know.");
@@ -743,7 +743,7 @@ function Modulo4()
     CMessage("Sure, that is the truth and what really gets the ball rolling for some.");
     CMessage("But not all.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("The D/s dynamic comes in many forms.");
     CMessage("As many forms as there are snowflakes,");
     CMessage("I\'d imagine.");
@@ -773,7 +773,7 @@ function ContinuePart2()
     CMessage("It\'s erotic to think of yourself as the center of a universe");
     CMessage("with focused erotic play with a sexy play partner.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("After all, It\'s all good and fun when Mistress is doing fun and erotic things");
     CMessage("things you think are fun and erotic.");
     CMessage("%Stop%", 0);
@@ -802,7 +802,7 @@ function ContinuePart2()
     CMessage("However, I can be demanding and exacting when a goal and the journey is important to me.");
     CMessage("You do not want to disappoint me.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("You come to me imperfect and willing to be so for me, for our journey.");
     CMessage("Together, we explore and learn about ourselves, and about what we are together.");
     DoEdges(1, 3, 0);

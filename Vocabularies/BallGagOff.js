@@ -1,4 +1,4 @@
-function BallGagOffVocabulary()
+function ballGagOffVocabulary()
 {
 	DMessage("BallGagOffVocabulary: start")
 	let answers = ["Take your ball gag off", 

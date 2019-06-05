@@ -414,7 +414,7 @@ function wernji9()
 function Ye456()
 {
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     SMessage("That\'s it. Anyway you like it.", -1, 2);
     CMessage("Oh you *are* enjoying yourself, aren\'t you?");
     CMessage("Who would have thought you\'d be such a greedy slut for an audience?");
@@ -525,7 +525,7 @@ function Modulo2()
 function a334fgt()
 {
     //CMessage("%StartStroking%");
-	Stroking()
+	setStrokingNoTaunt()
     if(getVar("AV_LikeAnal", false))
     {
         CMessage("Keep the dildo inside your ass");
@@ -680,7 +680,7 @@ function Modulo3()
 function a913gbdzw()
 {
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("That\'s it. That\'s a very good boy.");
     CMessage("Let all of your moans out.");
     CMessage("All of those little whimpers.");
@@ -834,7 +834,7 @@ function AV_Timeo857()
 {
     CMessage("Alright, let\'s get going then, shall we?");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     let answer0 = getInput("Tighten the grip on your balls! Were you still grabbing them?", 5);
     if (answer0.isTimeout())
     {
@@ -911,7 +911,7 @@ function AV_Timeo245()
     CMessage("Vulnerable and submissive.");
     CMessage("That should remind you of your position.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("with the other hand, rub around your asshole.");
     CMessage("I AM going to play with your ass a bit though.");
     CMessage("So here\'s the deal.");

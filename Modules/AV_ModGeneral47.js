@@ -385,7 +385,7 @@ function Modulo3()
     CMessage("will be torture in the end.");
     CMessage("It\'s my favorite way to control you, knowing there is no happy ending.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("I\'m just so happy to be with you when you are like this.");
     CMessage("I love it when your mind is open to suggestion.");
     CMessage("Open to my words. It makes me so happy.");
@@ -464,7 +464,7 @@ function Modulo3()
     CMessage("it\'s twitching and throbbing and PULSING away, just hovering above your stomach now.");
     CMessage("I\'m watching it... god it just looks so good....");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Your cock is just aching and throbbing and i know you love it.");
     CMessage("You can feel the THROB as drops of precum start to travel up your shaft.");
     CMessage("Now, because I am in control, I am going to command your %Cock% to edge for me.");
@@ -538,7 +538,7 @@ function Begging9()
     }
     CMessage("You think about it so much that it just consumes your thoughts.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("You want to cum for me so bad.");
     CMessage("%Stop%", 0);
 	stopStroking();

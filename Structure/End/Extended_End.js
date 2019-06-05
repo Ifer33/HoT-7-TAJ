@@ -764,7 +764,7 @@ function PoT()
 {
     CMessage("Now, since you like Post Orgasm Torture");
     CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     sleep(20);
     CMessage("Keep stroking and give yourself a HARD slap every 4 strokes.");
     sleep(10);
@@ -848,7 +848,7 @@ function ERSWin()
 {
     CMessage("I guess I still owe you a orgasm for winning the edge roulette game...");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     run("Interrupt" + java.io.File.separator + "ERWins.js");
     return;
     

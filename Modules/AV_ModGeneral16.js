@@ -461,7 +461,7 @@ function AV_Timeo56()
 {
     CMessage("Alright, %SubName%");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Slowly. My god, do you have any self control?");
     CMessage("You really should know better by now.");
     CMessage("Anyway, keep stroking.");
@@ -573,7 +573,7 @@ function AV_YesBJ()
 function AV_Painted()
 {
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("She slips her softs lips tightly around the head of your " + "...just the head mind you %PetName%");
     CMessage("Letting it slide in and out of those pretty painted lips");
     CMessage("Her lips pulling on the head of your cock. You begin to feel the ache in your %Balls%.");
@@ -666,7 +666,7 @@ function Modulo3()
     sleep(20);
     CMessage(random("Good, let\'s get you back up to 100% horny now", "Great, let\'s get you rock hard again now", "Perfect, you need to do some edges for me now"));
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     sleep(20);
     CMessage(random("This looks soo cool", "I wonder if that is as painful as it looks"));
     CMessage("You are getting me so damn hot");
@@ -834,7 +834,7 @@ function av_MG6a02()
 function av_MG6a03()
 {
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Does it pain slave");
     CMessage("your nuts must have been broken");
     CMessage("%Stroke% however youu like ...");

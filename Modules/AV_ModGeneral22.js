@@ -412,7 +412,7 @@ function Modulo1()
     CMessage("I bet it hurts doesn\'t it?");
     CMessage("To be so hard, so ready and not get to touch. Let me fix that for you.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Can you feel the floor on your knees?");
     CMessage("Feels so good doesn\'t it?");
     CMessage("You like being down there, don\'t you?");
@@ -472,7 +472,7 @@ function Modulo2()
     }
     CMessage("I think it\'s time to start the reprogramming");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     if(getVar("av_fetish_rough", false))
     {
         CMessage("Only being able to follow orders from superior women");
@@ -581,7 +581,7 @@ function Modulo3()
     CMessage("I\'m going to let you %Stroke% to pictures of her.");
     CMessage(random("I bet you\'re excited", "Aren\'t I just so nice?"));
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Isn\'t she just so hot?");
     getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
     CMessage("Look at her mouth.");
@@ -607,7 +607,7 @@ function Modulo3()
     CMessage("How do you think she likes to fuck?");
     getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
     CMessage("On her back with her feet in the air?");
     getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
@@ -650,7 +650,7 @@ function Modulo4()
     CMessage("FRUSTRATION");
     CMessage("and denial...");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Enjoy these strokes...");
     CMessage("No escaping, no tampering, no release from my control...");
     CMessage("I am going to transform you though, make it so that you never want to cum");

@@ -752,7 +752,7 @@ function Modulo2()
     CMessage("Look at that cock. So hard. So firm. So in my control.");
     CMessage("That\'s how I like it. I like it when it does what I tell it to do.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("%GoodBoy%");
     CMessage("You are here for gooning, right?");
     CMessage("That\'s mean absolutely no cumming, only stroking and stroking your %Cock%.");
@@ -802,7 +802,7 @@ function AV_we4tg()
 function dnmdjk9()
 {
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Hmmm... You think I should let you cum at the end?");
     CMessage("I know you need some relief.");
     CMessage("No, no, I don\'t think so. Keep storking!");
@@ -843,7 +843,7 @@ function dnmdjk9()
     CMessage("You want me to say it, don\'t you?");
     CMessage("Beg me. Beg me to say it.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Yes! Stroke! Yes!!");
     CMessage("Keep moaning it while you stroke that cock.");
     CMessage("You\'re gonna cum soon aren\'t you?");
@@ -884,7 +884,7 @@ function Modulo3()
         aV_NoBadResponse();
     }
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     if(!getVar("av_fetish_pain", false))
     {
         Keeping();
@@ -904,7 +904,7 @@ function Modulo3()
     sleep(20);
     CMessage("%GoodBoy%");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     Keeping();
 }
 function Keeping()
@@ -938,7 +938,7 @@ function Keeping()
     CMessage("If you want to earn that privilege today");
     CMessage("you\'ll have to follow my every command.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("You\'ll be entertaining me, turning me on, and, most importantly");
     CMessage("showing me just how far you\'ll go to cum for me.");
     CMessage(random("Is this cock throbing right now", "Is this %Balls% aching"));
@@ -1043,7 +1043,7 @@ function SkipPainZ1()
         aV_NoNeutralResponse();
     }
     SMessage("%StartStroking%", -1, 2);
-	//Stroking(-1,2);
+	//setStrokingNoTaunt(null,-1,2);
     SMessage("Fuck, right there...that\'s it, nice and slow...", -1, 4);
     sleep(12);
     SMessage("Oh my God, come on! I wanna go fucking crazy on it!", -1, 2);
@@ -1100,7 +1100,7 @@ function SkipPainZ1()
     SMessage("Oh what, naughty boy? You want a nice sloppy blowjob?", -1, 2);
     SMessage("You wanna feel three tongues sliding all over your cock?", -1, 2);
     //SMessage("%StartStroking%", -1, 3);
-	Stroking(-1,3);
+	setStrokingNoTaunt(null,-1,3);
     SMessage("Aw, poor boy. Listen to those little whimpers!", -1, 4);
     SMessage("But it\'s so soon, girls. I don\'t think he\'ll be able to take it.", -1, 2);
     SMessage("Oh fuck his hips are bucking. He\'s gonna fucking pop!", -1, 3);

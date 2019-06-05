@@ -96,6 +96,6 @@ function TaskReady()
 {
     CMessage("Now take that %Cock% out of your pants");
     //CMessage("And %StartStroking% for me");
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }

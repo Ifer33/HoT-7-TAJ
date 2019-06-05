@@ -382,7 +382,7 @@ function av_fetish_cei()
     edge();
     CMessage("If you edge long enough, maybe I WON\'T make you ruin your orgasm.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("lick up all your pre-cum while you stroke");
     CMessage("and maybe you\'ll be allowed to cum like a MAN.");
     let answer0 = getInput("Would you like that %PetName%");
@@ -437,7 +437,7 @@ function Modulo2()
     CMessage("you\'ll edge several times, each tougher than the last.");
     CMessage("The last will be special, your most devoted act to me.");
     CMessage("%StartStroking%");
-	//Stroking();
+	//setStrokingNoTaunt();
     CMessage("So for the first one, let\'s build to the edge slowly.");
     CMessage("Follow the beat");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b055.mp3");
@@ -480,7 +480,7 @@ function Modulo2()
     CMessage("You\'d like that, wouldn\'t you.");
     CMessage("Now wrap your whole hand around your whole cock, and");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("You know what I need right now?");
     CMessage("I need to hear you whimper. ");
     if (randomInteger(0, 100) <= 50)
@@ -505,7 +505,7 @@ function Modulo2()
     }
     CMessage("Give up all control to me?");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("We will work together to get you as close to orgasm as possible");
     CMessage("and make this as hard for you as possible,");
     CMessage("so that you can show me your maximum devotion.");
@@ -517,7 +517,7 @@ function Modulo2()
     CMessage("Let\'s take a minute to rest before the last build.");
     sleep(10);
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("You\'re already so close to the edge this won\'t take long.");
     CMessage("I want to hear you beg... ");
     if (randomInteger(0, 100) <= 50)
@@ -611,7 +611,7 @@ function Iniciar12()
         run("Custom" + java.io.File.separator + "Miniscripts" + java.io.File.separator + "AV_GetPins");
     }
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("%StrokeSlower%");
 	addStrokingBPM(-20);
     CMessage("Put a clothespin on each nipple");

@@ -396,7 +396,7 @@ function a25rreg()
     CMessage("I know a %PetName% have so little self-control.");
     CMessage("I\'m very pleased with you.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("I know you spent a lot of time with an erection for me.");
     CMessage("Yes %Name%. Thats very good. I like that you\'re stiff for me.");
     CMessage("Thats very good.");
@@ -470,7 +470,7 @@ function a3fw5yh()
     CMessage("But you aren\'t done yet.");
     CMessage("%KneelForMe%");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Do you enjoy the sensation of loss of control?");
     let answer0 = getInput("Would you like to lose some more control?");
     if (answer0.isLike("yes", "yea", "yep"))
@@ -639,7 +639,7 @@ function Modulo2()
 {
     if(!isStroking() ){
 		//CMessage("%StartStroking%");
-		Stroking();
+		setStrokingNoTaunt();
 	}
     addContact(2);
     CMessage("Hey %domFriend1Name%");
@@ -954,7 +954,7 @@ function Modulo4()
         CMessage("Look at how blue they\'re getting... %Lol%");
     }
     //CMessage("%StartStroking%");
-	Stroking(-1,3);
+	setStrokingNoTaunt(null,-1,3);
     CMessage("Don\'t worry, %SubName%");
     CMessage("I know you are and will always be a submissive boy");
     CMessage("I sometimes think about what it would be like if you were different");

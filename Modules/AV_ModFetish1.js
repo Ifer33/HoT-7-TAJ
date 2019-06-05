@@ -525,7 +525,7 @@ function Modulo3()
     addContact(3);
     SMessage("I like ordering you to jerk that little hard cock.", -1, 3);
     SMessage("%StartStroking%", -1, 3);
-	Stroking();
+	setStrokingNoTaunt();
     SMessage("I want to show you a few Mistress friends of mine that are  really nice to their strokerboys.", -1, 3);
     SMessage("In the event that %DomName% decides to sell you at auction just hope it is one of these.", -1, 3);
     //SMessage("Now you will give me an %EdgeNoun%", -1, 3);

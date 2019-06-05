@@ -378,7 +378,7 @@ function Modulo1()
     }
     CMessage("Well come on %Slave%, let\'s see some stroking.");
     //CMessage("%StartStroking%");
-	Stroking(-1,3)
+	setStrokingNoTaunt(null,-1,3)
     CMessage("Stroke your cock however you like");
     CMessage("I am offering you some control.");
     CMessage("You have to learn how to control that cock of yours");
@@ -434,7 +434,7 @@ function Modulo1()
         sleep(20);
     }
     //CMessage("%StartStroking%");
-	Stroking(-1,3);
+	setStrokingNoTaunt(null,-1,3);
     CMessage("I love watching you rattle away.");
     CMessage("Do you enjoy debasing yourself like this in front of me?");
     CMessage("Don\'t bother answering because if you don\'t you will learn to enjoy it %Slave%!");
@@ -550,7 +550,7 @@ function Modulo2()
     CMessage("I could laugh at you spanking yourself red raw for me all day");
     CMessage("I suppose I should let you %Stroke%");
     //CMessage("%StartStroking%");
-	Stroking(-1,4);
+	setStrokingNoTaunt(null,-1,4);
     if(getVar("av_fetish_rough", false) || getVar("av_fetish_humiliating", false))
     {
         CMessage("You\'re " + random("a bitch", "a slave", "a fucking play thing", "a stupid sissy fuck."));
@@ -757,7 +757,7 @@ function Modulo4()
         setTempVar("AV_Pins", true);
     }
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("And of course you are doing this for my entertainment");
     CMessage("so however you feel about it I expect you to try and obey.");
     CMessage("You are just mine to control");

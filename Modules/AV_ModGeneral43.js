@@ -378,7 +378,7 @@ function Modulo1()
     CMessage("You need to obey my instructions");
     CMessage("and right now I want you stroking your cock.");
     //playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStroke.mp3");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("I know you love stroking to me.");
     CMessage("Stroke because I say, stroke because you cannot resist.");
     CMessage("That\'s exactly what I want.");
@@ -444,7 +444,7 @@ function zruytc4456()
 {
     CMessage("Now stroke it even more intensely.");
     //playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStroke.mp3");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("It\'s so hot, isn\'t it?");
     CMessage("This feeling of desperation that I make you feel.");
     CMessage("Edge yourself, ride that edge, but don\'t cum.");
@@ -473,7 +473,7 @@ function Modulo2()
     CMessage("Forget whatever was in your mind");
     CMessage("Just move your hand on your cock for me.");
     //playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStroke.mp3");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("I am your Masturbatrix who allows you to loser yourself for me.");
     CMessage("You need your orders, you need your seduction.");
     CMessage("My poor pet, you desire more of my teasing, more of my torture.");
@@ -588,7 +588,7 @@ function NotBegged()
 function YouCanStroke()
 {
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Feel what I am doing to you.");
     CMessage("You love how I control you with my words");
     CMessage("You need me to humiliate you and put you in your place.");
@@ -672,7 +672,7 @@ function Modulo4()
     CMessage("I want you desperate for release.");
     CMessage("And then to know, that you\'re not going to get it.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("And that\'s the best part, isn\'t it?");
     CMessage("Not being able to get that release");
     CMessage("I personally think it\'s the best fucking part.");

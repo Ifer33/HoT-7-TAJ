@@ -7,6 +7,6 @@ function main()
     CMessage("Round 1: Stroking");
     CMessage("Things will get tougher but I\'ll help you out.");
     //CMessage("%StartStroking%");
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }

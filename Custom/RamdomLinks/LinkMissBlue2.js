@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_LinkMissBlue2", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -360,7 +360,7 @@ function Link1()
     CMessage("How long would it take for your %Cock% to get limp?");
     CMessage("A long time I bet %Laugh%");
     CMessage("I\'m not that patient, %Name%");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -374,7 +374,7 @@ function Link2()
     CMessage("Cupping it with my other hand so it wouldn\'t slip and fall");
     CMessage("I always tried to make the biggest water balloon of all");
     CMessage("Kind of like I\'m doing with your %Balls% right now %Lol%");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -383,7 +383,7 @@ function Link3()
     CMessage("Sometimes I think we should limit your orgasms to special occasions");
     CMessage("Like, I don\'t know, One at Christmas an one at Easter");
     CMessage("And maybe one ruined orgasm at your birthday %Laugh%");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -396,6 +396,6 @@ function Link4()
         ark_FrustratedResponse();
     }
     CMessage("I guess it\'s a good thing you like sexual frustration so much %Grin%");
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }

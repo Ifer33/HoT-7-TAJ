@@ -11,6 +11,6 @@ function main()
     getLocalTeasePicture("Images" + java.io.File.separator + "AV_SpecGlitter2Module1");
     SMessage("So don\'t disrespect me %Slave%.", -1, 3);
     //SMessage("%StartStroking%", -1, 3);
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }

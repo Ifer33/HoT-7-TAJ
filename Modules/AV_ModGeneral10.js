@@ -400,7 +400,7 @@ function Modulo1()
     CMessage("makes your orgasm approach quicker.");
     CMessage("However, you can control that muscle while you masturbate, and you can keep it relaxed.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("If you concentrate on keeping it relaxed the whole time while you %Stroke%");
     CMessage("you can go for a very long time without having that sensation of an impending orgasm.");
     CMessage("But everything still builds up inside you");
@@ -470,7 +470,7 @@ function Modulo2()
     CMessage("I don\'t want you to fucking talk.");
     CMessage("All I want is your body doing exactly what I tell you to.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("We both know the truth.");
     CMessage("You can\'t cum unless " + random("I tell you to", "you hear me say the fucking words", "I give you permission"));
     let answer0 = getInput("It never feels the same without me, does it?",10);
@@ -519,7 +519,7 @@ function a3345fy()
 {
     CMessage("Deep down, you know exactly what that means.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("I own you.");
     CMessage("You hate how much that turns you on, don\'t you?");
     CMessage("I know you do.");
@@ -565,7 +565,7 @@ function AV_Timeo05()
     CMessage("You\'re going to hold it.");
     CMessage("You\'re going to hold it for as long as I want you to.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("I want you tense and frustrated.");
     CMessage("Frustrated and desperate toys are the most obedient.");
     CMessage("You don\'t get anything more until I allow it.");
@@ -662,7 +662,7 @@ function AV_Timeo06()
     CMessage("I know it\'s intense.");
     CMessage("Oh look at your %Cock% jump");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Oh my, look at you!");
     CMessage("I\'m going to make you feel even better");
     CMessage("You\'re still so full.");
@@ -679,7 +679,7 @@ function SkipAnal67()
     if(!getVar("AV_LikeAnal", false))
     {
         //CMessage("%StartStroking%");
-		Stroking();
+		setStrokingNoTaunt();
     }
     CMessage("I love your moans.");
     CMessage("Give yourself to me.");

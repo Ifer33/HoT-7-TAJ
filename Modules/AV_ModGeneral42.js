@@ -397,7 +397,7 @@ function Modulo1()
     CMessage("How fucking sexy a thought for me.");
     CMessage("Ok, break time is over");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Shut your eyes, mumble my name, whisper what you want to do to me.");
     CMessage("Oh I know you\'ve been thinking about it.");
     CMessage("you have been thinking about fucking me.");
@@ -499,7 +499,7 @@ function Modulo2()
     setVar("edgingmode", "Goto");
     setVar("edginggoto", "e3h67ikd()")
     CMessage("I know your wants, your needs, and your desires.");
-    Stroking()
+    setStrokingNoTaunt()
 	CMessage("%Edge%");
     CMessage("And you do not need to cum.");
     CMessage("Stare at me and stroke.");
@@ -565,7 +565,7 @@ function n38efij()
         CMessage("%GoodBoy%");
     }
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     if(getVar("av_fetish_rough", false) || getVar("av_fetish_humiliating", false))
     {
         CMessage("I love teasing a loser like you who don\'t want to cum.");
@@ -578,7 +578,7 @@ function n38efij()
     sleep(20);
     CMessage("Now start stroking again, this time staring at my eyes.");
     //playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStroke.mp3");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("You begged for it, you don\'t want me to allow you to cum.");
     let answer1 = getInput("But doesn\'t it feel good stroking to me?");
     if (answer1.isLike("yes", "yea", "yep"))
@@ -616,7 +616,7 @@ function Modulo3()
     CMessage("The temptation is too great for you.");
     CMessage("You just love %Stroking% yourself to me");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     let answer1 = getInput("But you like being denied, don\'t you?");
     if (answer1.isLike("yes", "yea", "yep"))
     {
@@ -745,7 +745,7 @@ function Modulo4()
     CMessage("I know that you can\'t resist me.");
     CMessage("Admit it.");
     CMessage("So go on and stroke for me, let you mind melt.");
-	Stroking();
+	setStrokingNoTaunt();
     //playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStroke.mp3");
     CMessage("You like how that feels, don\'t you?");
     CMessage("You would love nothing more than to %Stroke% to me.");
@@ -761,7 +761,7 @@ function Modulo4()
     CMessage("No stroking, I don\'t want you to.");
     sleep(10);
     CMessage("You can stroke again now.");
-    Stroking();
+    setStrokingNoTaunt();
 	//playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStroke.mp3");
     CMessage("Stroke while you think about fucking me.");
     CMessage("I know how badly you want to.");
@@ -788,7 +788,7 @@ function Modulo4()
     CMessage("It\'s the right thing to do because you get off on being fucked with.");
     CMessage("Stroke it.");
     //playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStroke.mp3");
-	Stroking();
+	setStrokingNoTaunt();
     sleep(randomInt(10, 20));
     CMessage("And stop. LOL!");
     //playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStop.mp3");
@@ -800,7 +800,7 @@ function Modulo4()
     CMessage("And you can\'t get enough of it.");
     CMessage("You\'re too weak.");
     CMessage("Stroke it.");
-	Stroking();
+	setStrokingNoTaunt();
     //playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStroke.mp3");
     sleep(randomInt(10, 20));
     CMessage("And stop.");
@@ -808,7 +808,7 @@ function Modulo4()
     //playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStop.mp3");
     CMessage("Stroke and stop. I know how badly this fucks with your brain.");
     CMessage("Now %Stroke% hard");
-	Stroking();
+	setStrokingNoTaunt();
     //playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStroke.mp3");
     CMessage("Beg me to cum.");
     CMessage("I love teasing you.");

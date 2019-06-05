@@ -442,7 +442,7 @@ function Begging5()
 {
     CMessage("Stroke it, pump it how I tell you to.");
     //playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStroke.mp3");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Follow my instructions %PetName%.");
     CMessage("Show me how bad you want to pump it for me.");
     CMessage("Show me how hard I make you.");
@@ -511,7 +511,7 @@ function Modulo3()
     CMessage("You see how it stays hard?");
     CMessage("That is the power I have.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Look at my face");
     CMessage("get ready to edge and hold it there");
     holdEdge();

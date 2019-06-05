@@ -372,7 +372,7 @@ function Modulo1()
     CMessage("You make me happy, %PetName%.");
     CMessage("It\'s like you were fucking born to do this.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("I can feel you not only getting deeper and deeper into it");
     CMessage("but also that you\'re letting go");
     CMessage("thus allowing yourself to drift into an intense sexual bliss and with that under my control.");
@@ -389,7 +389,7 @@ function Modulo1()
     CMessage("I want you to feel my power over you %PetName%.");
     CMessage("Finding the triggers, are the things that turns you on the most, is the key.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Here are one of theses trigger words:");
     CMessage(random("Cock milked", "Draining genitals", "Forced ejaculation", "Controled male orgasm?"));
     CMessage("Does it tell you something %PetName%?");
@@ -562,7 +562,7 @@ function Modulo3()
     CMessage("Good boy.");
     CMessage("Now...");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Now reach down and feel those balls with your other hand.");
     CMessage("Nice.");
     CMessage("You can stop playing with your balls now, but keep stroking.");
@@ -596,7 +596,7 @@ function Modulo3()
     CMessage("It\'s pretty hard to distract you when you\'re about to cum, but we\'ll try.");
     CMessage("Well, it\'s been a good ammount of time at this point anyway");
     CMessage("back to stroking.");
-	Stroking();
+	setStrokingNoTaunt();
     //playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStroke.mp3");
     CMessage("A little harder to control this time, eh?");
     CMessage("You just want to cum so badly it\'s driving you crazy.");

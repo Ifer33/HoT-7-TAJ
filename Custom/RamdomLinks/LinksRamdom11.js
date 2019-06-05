@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_Link11", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }
 function Link1()
@@ -384,7 +384,7 @@ function Link1()
     {
         ark_FrustratedResponse();
     }
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -399,7 +399,7 @@ function Link2()
     CMessage("and you know there\'s no going back.");
     CMessage("You feel a rush of ecstasy that becomes more and more intense");
     CMessage("completely taking over your body.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }
 function Link3()
@@ -412,7 +412,7 @@ function Link3()
     CMessage("Feeling your heart pounding and your breathing becoming heavy.");
     CMessage("Your body tensing and a wave of pleasure surging through you");
     CMessage("as you feel yourself getting up to the edge.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }
 function Link4()
@@ -449,6 +449,6 @@ function Link4()
     }
     CMessage("You poor thing..");
     CMessage("Okay I won\'t keep you waiting any longer.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }

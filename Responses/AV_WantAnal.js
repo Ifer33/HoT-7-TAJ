@@ -1,7 +1,7 @@
 addResponseIndicator("Anal play", "fuck me", "fuck me in the ass", "get my ass", "my ass is yours", "want to be fucked", "fuck my ass", "want anal", "want to do anal", "like to do anal", "do anal");
 //run("allutils.js");
 
-function aV_WantAnalResponse(message) {
+function AV_WantAnalResponse(message) {
     DMessage("aV_WantAnal: BeginnningResponse");
     let separator = java.io.File.separator;
     if (getResponsesDisabled()) {

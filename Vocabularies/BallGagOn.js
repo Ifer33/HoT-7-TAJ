@@ -1,4 +1,4 @@
-function BallGagOnVocabulary()
+function ballGagOnVocabulary()
 {
 	DMessage("BallGagOn: start");
 	found=false;

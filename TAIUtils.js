@@ -74,31 +74,37 @@ function removeContact(contactNumber)
 
 function inGroup(arguments=null)
 {
-	var other=0;
+	//DMessage("inGroup");
+	//var other=0;
 	if(arguments instanceof Array){
 		for (var i = 0; i < arguments.length; i++)
 		{
 			var temp = false;
+			var other=0;
 			for (var j=0; j < activeContacts.length; j++)
 			{
 				if (activeContacts[j] === arguments[i])
 				{
 					temp = true;
+					//DMessage("inGroup TempTrue array");
 				}else if (activeContacts[j] >0){
+					//DMessage("inGroup other++ j="+j);
 					other++;
 				}
 			}
-			if (!temp || other>0) {
+			if (!temp || other>arguments.length-1) {
 				return false;
 			}
 		}
 	} else {
+		var other=0;
 		var temp = false;
 			for (var j=0; j < activeContacts.length; j++)
 			{
 				if (activeContacts[j] === arguments)
 				{
 					temp = true;
+					//DMessage("inGroup TempTrue single");
 				}else if (activeContacts[j] >0){
 					other++;
 				}
@@ -107,6 +113,7 @@ function inGroup(arguments=null)
 				return false;
 			}
 	}
+	//DMessage("inGroup return true");
     return true;
 }
 

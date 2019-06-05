@@ -377,7 +377,7 @@ function Modulo1()
     CMessage("You\'re " + random("so fucking hooked on me", "wrapped around my little finger"));
     CMessage("You should be locked away when you\'re anywhere near me.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Stroke and jerk your brain out, just allow it to become numb.");
     CMessage("You like that you don\'t have to think when you\'re stroking to me.");
     CMessage("You don\'t have to worry about anything real");
@@ -414,7 +414,7 @@ function Modulo1()
     if(getVar("AV_Know_12", false))
     {
         //CMessage("%StartStroking%");
-		Stroking();
+		setStrokingNoTaunt();
         getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
     }
     if(getVar("AV_Know_12", false))
@@ -458,7 +458,7 @@ function Modulo1()
     if(getVar("AV_Know_00", false))
     {
         //CMessage("%StartStroking%");
-		Stroking();
+		setStrokingNoTaunt();
         getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
     }
     if(getVar("AV_Know_00", false))
@@ -495,7 +495,7 @@ function Modulo1()
     if(getVar("AV_Know_01", false))
     {
         //CMessage("%StartStroking%");
-		Stroking();
+		setStrokingNoTaunt();
         getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
     }
     if(getVar("AV_Know_01", false))
@@ -531,7 +531,7 @@ function Modulo1()
     if(getVar("AV_Know_03", false))
     {
         //CMessage("%StartStroking%");
-		Stroking();
+		setStrokingNoTaunt();
         getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "04" + java.io.File.separator + "*.jpg");
     }
     if(getVar("AV_Know_03", false))
@@ -690,7 +690,7 @@ function Modulo2()
         CMessage("It\'s pathetic.");
     }
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("I also know that you like being told what to do by a woman.");
     CMessage("It makes you feel better about yourself.");
     CMessage("It makes you feel like you\'re getting some kind of acceptance from a woman who\'s too beautiful to ever want you.");
@@ -717,7 +717,7 @@ function Modulo2()
     CMessage("You thought you knew what you needed.");
     CMessage("But I know better.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("You need the thrill of being pushed past your limits.");
     CMessage("You made your boundaries clear, built out of fear and hesitation.");
     CMessage("I know how much you cling to them.");
@@ -739,7 +739,7 @@ function Modulo2()
     CMessage("not knowing whether pleasure or destruction awaits you.");
     CMessage("Isn\'t that exciting?");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Just thinking about it makes you cock throb.");
     CMessage("You ache for this. The thrill of danger.");
     CMessage("You know that I could destroy you.");

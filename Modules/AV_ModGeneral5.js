@@ -367,7 +367,7 @@ function Modulo1()
     CMessage("To see if you can be brought to the edge over and over again.");
     CMessage("Don\'t be sad %Slave%.");
     CMessage("I\'m sure you\'ll enjoy it");
-    Stroking();	
+    setStrokingNoTaunt();	
     CMessage("I love watching you %Stroke%.");
     CMessage("Watching you take your cock in your hand and pleasing yourself.");
     CMessage("Keep up that pace for a while.");
@@ -423,7 +423,7 @@ function AV_Jump50()
     CMessage(random("You\'d be thinking about stroking even more then you do now", "That cock would get hard all the time and you\'d drip precum all day long"));
     CMessage(random("I can tell that you would enjoy it", "I know you think it would be frustrating"));
     CMessage("but that wouldn\'t bother you after a few days.");
-    Stroking();
+    setStrokingNoTaunt();
     CMessage("If you went a good amount of time without letting any of that cum out of your balls");
     CMessage(random("your orgasm would feel so much better too", "That built up load would just explode out of you with more force then you could imagine"));
     let answer0 = getInput("Something tells me you\'d like that, wouldn\'t you?", 10);
@@ -530,7 +530,7 @@ function decidido()
     CMessage("I can tell that cock is about ready to cum.");
     CMessage("What do you say, one, maybe two more edges before we continue?");
     //CMessage("%StartStroking% again");
-	Stroking("%StartStroking% again");
+	setStrokingNoTaunt("%StartStroking% again");
     CMessage("Fast");
     CMessage("Lets get in at least two more really fast edges.");
     CMessage("I bet those balls of yours are begining to feel really tight?");
@@ -1375,7 +1375,7 @@ function Goodbou()
 {
     SMessage("Good Boy", -1,3);
     //SMessage("%StartStroking%", -1,3);
-	Stroking(-1,3);
+	setStrokingNoTaunt(null,-1,3);
     SMessage("The only real attention that cock is going to get is your own hand.", -1,3);
     SMessage("You\'re the one that agreed to this remember?", -1,3);
     SMessage("Now keep %Stroking% that %Cock% for me.", -1,3);
@@ -1423,7 +1423,7 @@ function Goodbou()
     SMessage("Get use to it slave.", -1,3);
     SMessage("Just " + random("think about how good it\'s going to feel to let go and cum", "think about spilling that load all over yourself while I watch"), -1,3);
     //SMessage("%StartStroking%", -1,3);
-	Stroking(-1,3);
+	setStrokingNoTaunt(null,-1,3);
     SMessage("slowly though.", -1,3);
     SMessage("You shouldn\'t be near the edge yet %Slave%.", -1,3);
     SMessage(random("We want a slave that we can play with for a long time", "We\'re gonna teach you to last as long as you can"), -1,3);

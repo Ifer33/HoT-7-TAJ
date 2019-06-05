@@ -378,7 +378,7 @@ function Modulo1()
     CMessage("You are my good little %Slave%.");
     CMessage("c\'mon make me proud! do as I say.");
     //CMessage("%StartStroking%");
-	Stroking(-1,4);
+	setStrokingNoTaunt(null,-1,4);
     let answer0 = getInput("Do you think you deserve to be my little pet?");
     if (answer0.isLike("yes", "yea", "yep"))
     {
@@ -408,7 +408,7 @@ function Modulo1()
     }
     CMessage("I\'m a big sadist and I love torturing your pathetic little cock.");
     //CMessage("%StartStroking%");
-	Stroking(-1,4);
+	setStrokingNoTaunt(null,-1,4);
     if(getVar("av_fetish_pain", false))
     {
         CMessage("Now grab yourself by the balls");
@@ -445,7 +445,7 @@ function Modulo1()
     CMessage("Make it sting.");
     CMessage("I just love knowing that you are hurting your own dick for me.");
     //CMessage("%StartStroking%");
-	Stroking(-1,4);
+	setStrokingNoTaunt(null,-1,4);
     CMessage("I\'m going to put you in so much pain today.");
     CMessage(random("I don\'t care how much it hurts", "you\'ll do anything for me", "I love taking advantage of you"));
     CMessage("It\'s time for you to be honest.");
@@ -464,7 +464,7 @@ function Modulo1()
     CMessage("No? That\'s alright.");
     CMessage("If pain won\'t break you, I know pleasure will.");
     //CMessage("%StartStroking%");
-	Stroking(-1,4);
+	setStrokingNoTaunt(null,-1,4);
     CMessage("I\'m going to tease your dick until your begging me to own it.");
     CMessage("Go ahead and touch it for me.");
     CMessage("Go ahead and admit just how badly you want me to dominate you.");
@@ -515,7 +515,7 @@ function Modulo2()
     CMessage("You can just give in to your submissive desires.");
     CMessage("I\'ll start off slow.");
     //CMessage("%StartStroking%");
-	Stroking(-1,2);
+	setStrokingNoTaunt(null,-1,2);
     CMessage("All you have to do is follow my instructions");
     CMessage("Doesn\'t that sound nice?");
     CMessage("I will tell you exactly what to do.");
@@ -628,7 +628,7 @@ function Modulo3()
     }
     CMessage("So take out your cock and do what you do best.");
     //CMessage("%StartStroking%");
-	Stroking(-1,3);
+	setStrokingNoTaunt(null,-1,3);
     CMessage("I know what I\'m doing to you");
     CMessage("you know what I am doing to you.");
     CMessage("Let\'s strip away the pretense for this one shall we?");
@@ -658,7 +658,7 @@ function Modulo3()
         sleep(20);
     }
     //CMessage("%StartStroking%");
-	Stroking(-1,3);
+	setStrokingNoTaunt(null,-1,3);
     CMessage("and don\'t forget");
     CMessage("I\'m smarter than you and I know better than you what belongs in your life");
     CMessage("and what doesn\'t");

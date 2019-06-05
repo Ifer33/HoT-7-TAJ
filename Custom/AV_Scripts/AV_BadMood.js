@@ -243,7 +243,7 @@ function a004()
     }
     CMessage("Now that your all squeezed in the right places...");
     //CMessage("%StartStroking%");
-	stroking();
+	setStrokingNoTaunt();
     CMessage("Nothing complex now, just a small fleeting glimpse of pleasure in the larger tease.");
     if(!getVar("av_fetish_pain", false))
     {

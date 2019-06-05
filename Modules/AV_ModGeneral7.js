@@ -383,7 +383,7 @@ function Modulo1()
     CMessage("You can\'t learn " + random("to control yourself if you don\'t touch yourself", "what frustration means if you\'re not masturbating"));
     CMessage("Can you, %PetName%?");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("You\'re only allowed to cum WHEN I SAY SO");
     CMessage("this is just like me jacking you off...");
     CMessage("just...HARDER...squeezing harder, and harder...oh this hurts doesn\'t it?");
@@ -469,7 +469,7 @@ function NOgofour()
     CMessage("%KneelForMe%");
     CMessage("you\'re afraid of cumming, though, aren\'t you, %PetName%?");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("you already feel yourself approaching the danger zone, don\'t you?");
     CMessage("I can hear it in the moans that are escaping from your throat.");
     CMessage("I know you\'re struggling.");
@@ -561,7 +561,7 @@ function Modulo2()
 	lockImages();
     getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
     CMessage("I know you perv on her");
     getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
@@ -615,7 +615,7 @@ function Modulo2()
     CMessage("I wanna know exactly how you " + random("pump ", "jack ") + "it");
     CMessage("and exactly how you squeeze it and rub it with your thumb.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
 	lockImages();
     getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
     CMessage("I wanna be able make it so perfect that if you close your eyes, you can\'t tell if it\'s your hand or her.");
@@ -673,7 +673,7 @@ function Modulo3()
     CMessage("You don\'t just have to sit there and watch");
     CMessage("but it needs more desperation.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Such a good boy, so obedient... you get a reward.");
     CMessage("I love looking down at you like this... so desperate");
     CMessage("I\'m going to give it to you a reward");
@@ -725,7 +725,7 @@ function Modulo3()
     CMessage("Get on your knees and look up at me, darling boy.");
     sleep(15);
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("A boy on his knees is a gorgeous thing to witness.");
     CMessage("A boy objectified and used for my amusement is even more splendid.");
     sleep(15);

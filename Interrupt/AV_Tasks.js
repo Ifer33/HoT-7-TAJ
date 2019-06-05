@@ -777,7 +777,7 @@ function AV_taskOP9()
     CMessage("So, 10 minutes of %Stroking% and edging, huh?");
     CMessage("%EmoteMoan%");
     CMessage("Your timer " + "...Now");
-	Stroking();	
+	setStrokingNoTaunt();	
     CMessage("Long way to go");
     sleep(50);
     CMessage("Check out this picture I found earlier");

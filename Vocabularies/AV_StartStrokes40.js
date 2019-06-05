@@ -1,4 +1,4 @@
-function aV_StartStrokes40Vocabulary() {
+function AV_StartStrokes40Vocabulary() {
     CMessage(random("Stroke", "Wank", "Masturbate") + random(" to the", " following the") + " beats");
     switch (randomInt(1, 7)) {
         case 1:

@@ -443,7 +443,7 @@ function AV_Timeo74()
     CMessage("or out and about, and suddenly come across a sexy sight");
     CMessage("one that made your cock stiffen in your pants and made you think of cumming?");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("I bet you ran to the bathroom and stroked your cock in the stall");
     CMessage("thinking of her the whole time.");
     CMessage("Do you think it\'s a sexy thought");
@@ -460,7 +460,7 @@ function Bondage()
     CMessage("You\'ve probably lied in your bed");
     CMessage("and stroked your cock");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Mmmmmmm, stroking fantasizing about this very situation.");
     JuntaTudo();
     return;
@@ -473,7 +473,7 @@ function cfnm()
     CMessage("wrap her arms around you and hold you tight?");
     CMessage("Maybe she\'d reach down and stroke your cock for you.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Do you think she could make you would cum?");
     CMessage("Mmmmmmmm. I would make you cum.");
     CMessage("Next time you see a mirror I bet you\'ll think of me taking you from behind");
@@ -498,7 +498,7 @@ function Anal()
     CMessage("Think of how hard you\'d shoot your cum if I stroked you this way.");
     CMessage("I don\'t think it would take much.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Just stroking");
     CMessage("stroooking");
     CMessage("strooooooking");
@@ -518,7 +518,7 @@ function Voyeur()
     CMessage("That\'s so sexy.");
     CMessage("Has it always been a fantasy of yours, a dominant woman watching you masturbate for her?");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("When you were a little boy I bet you thought about masturbating for your teenage babysitter");
     CMessage("standing naked in front of her stroking your little cock until you came.");
     CMessage("Or maybe you sat in the back of your classroom");
@@ -542,7 +542,7 @@ function JuntaTudo()
     }
     CMessage("Back to %Stroking% when you are done...");
 	if(!isStroking() ){
-		Stroking();
+		setStrokingNoTaunt();
 	}
     if(getVar("AV_DommeMistress", false) && getVar("av_fetish_rough", false))
     {
@@ -635,7 +635,7 @@ function Modulo2()
     sleep(30);
     CMessage("Looks like you\'ve earned your reward, so start stroking but make sure that them testicles of yours stay tied tight.");
     //playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStroke.mp3");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Yes, I know... I know.");
     let answer0 = getInput("Your %Balls% feels soooo sensitive right now after all that beating doesn\'t it, baby?",5);
     if (answer0.isLike("yes", "yea", "yep"))
@@ -677,7 +677,7 @@ function Modulo2()
     CMessage("And 2 on your nipples");
     sleep(20);
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("That\'s right... That\'s right..");
     CMessage("%GoodBoy%");
     let answer1 = getInput("Do you want to be a GOOD BOY for me again?", 5);
@@ -779,7 +779,7 @@ function Modulo3()
     }
     CMessage("She was laughing so much, and seemed to enjoy hearing about your torments.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Yes, like that.");
     if(getVar("av_fetish_pain", false))
     {
@@ -806,7 +806,7 @@ function Modulo3()
     if(getVar("av_fetish_pain", false))
     {
         //CMessage("%StartStroking%");
-		Stroking();
+		setStrokingNoTaunt();
     }
     CMessage("Don\'t get to the edge if I haven\'t told you to.");
     CMessage("Also, as I was saying before - I\'ve teased you, so many times.");
@@ -924,7 +924,7 @@ function AVTied()
         CMessage("Any pre-cum? Lick it up.");
     }
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Don\'t edge");
     let answer1 = getInput("Mmmmmm. How\'s that feel? Frustrating?",5);
     if (answer1.isLike("yes", "yea", "yep"))
@@ -970,7 +970,7 @@ function AVTied()
         return;
     }
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("but stop just before you get to the edge.");
     CMessage("And slap your %Balls% with the spoon 10 times");
     CMessage("And then, get back to %Stroking%");

@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_Link8", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -360,7 +360,7 @@ function Link1()
     CMessage("Feel the hot frustration...");
     CMessage("So close...");
     CMessage("Feels sooo gooood...");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -370,7 +370,7 @@ function Link2()
     CMessage("There\'s so much more to go...");
     CMessage("Take a deep breath.");
     CMessage("Prepare for more...");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -380,7 +380,7 @@ function Link3()
     CMessage("Must feel really good.");
     CMessage("Embrace that intense feeling.");
     CMessage("I bet it feels amazing!");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -390,6 +390,6 @@ function Link4()
     CMessage("I like watching you stroke at my command.");
     CMessage("I can watch you stroke all day...");
     CMessage("I know what\'s good for you!");
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }

@@ -33,7 +33,7 @@ function Sub_Not_Stroking()
     SMessage("You\'re here to " + random("learn to control yourself", "get lost in your own desire", "feel nothing else than pure frustration"), -1, 3);
     SMessage("I don\'t think you even know what that means, just yet.", -1, 3);
     //CMessage("%StartStroking%");
-	Stroking(-1,3);
+	setStrokingNoTaunt(null,-1,3);
     SMessage("Think about what you would do, just to keep me happy.", -1, 3);
     SMessage("And you really should want to keep me happy.", -1, 3);
     SMessage("That\'s your only hope of ever getting to come.", -1, 3);

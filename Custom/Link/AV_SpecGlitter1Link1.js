@@ -11,6 +11,6 @@ function main()
     SMessage("Lets hope he behaves unlike my last slave.", -1, 2);
     SMessage("Now is the little boy ready for some fun?", -1, 2);
     //SMessage("%StartStroking%", -1, 2);
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }

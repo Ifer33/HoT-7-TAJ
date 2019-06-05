@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_Link17", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -384,7 +384,7 @@ function Link1()
     }
     CMessage("I will do whatever  I want with you.");
     CMessage("%SitDown%");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     AV_DommeMistress();
 }
@@ -407,7 +407,7 @@ function AV_DommeMistress()
     {
         CMessage("Now bow down before me and swear to your new religion. You will accept me as your only goddess.");
     }
-    Stroking();
+    setStrokingNoTaunt();
     return;
     av_fetish_rough();
 }
@@ -419,7 +419,7 @@ function av_fetish_rough()
     CMessage("and give him a safe zone when he is obedient and follows her orders.");
     CMessage("I consider my work as art.");
     CMessage("Look at you, look how calm and obedient you are.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -431,7 +431,7 @@ function Link2()
     CMessage("You need to know how to serve me as your %Owner%");
     CMessage("I gave %domFriend3Name% a document that described exactly how I want you to be.");
     CMessage("%domFriend3Name% is very experienced in educating slaves.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -440,7 +440,7 @@ function Link3()
     CMessage("You know that I love my pet very much.");
     CMessage("You are my own creation.");
     CMessage("I\'m very pleased to be your %Owner%.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -449,6 +449,6 @@ function Link4()
     CMessage("Serving me will bring you much more satisfaction.");
     CMessage("Think about it.");
     CMessage("You are the slave...assistance of the HR manager. %Lol%");
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }

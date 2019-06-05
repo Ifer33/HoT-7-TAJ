@@ -435,6 +435,7 @@ function top_caning()
 }
 function another_one()
 {
+	sleep(1);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "whip.mp3");
     setVar("PtheVCaneCount", getVar("PtheVCaneCount", 0) + 1);
     if (getVar("PtheVCaneCount", 0) == getVar("AV_Cane", 0))
@@ -551,7 +552,8 @@ function caning_done()
     {
         wrong_number();
         return;
-    }else if (getVar("PtheVCaneCount", 0) == 0)
+    } 
+	if (getVar("PtheVCaneCount", 0) == 0)
     {
         right_number();
         return;

@@ -347,7 +347,7 @@ function Fim()
 {
     setVar("AV_Link1", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -380,7 +380,7 @@ function Link1()
     {
         CMessage("%EmoteSad%");
     }
-    Stroking();
+    setStrokingNoTaunt();
     return;
     PostTime();
 }
@@ -390,7 +390,7 @@ function PostTime()
     setVar("AV_Persona10", createInput().getAnswer());
     CMessage("%EmoteSquirm%");
     setVar("AV_Persona30", true);
-    Stroking();
+    setStrokingNoTaunt();
     return;
     AV_Know_11();
 }
@@ -401,7 +401,7 @@ function AV_Know_11()
     CMessage("The whole time I know your cock\'s getting bigger");
     CMessage("Even though your cock must be aching");
     CMessage("%StartStroking%");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -423,7 +423,7 @@ function Link2()
     setVar("AV_Persona20", createInput().getAnswer());
     CMessage("%EmoteLaugh%");
     setVar("AV_Know_21", true);
-    Stroking();
+    setStrokingNoTaunt();
     return;
     AV_Know_21();
 }
@@ -436,7 +436,7 @@ function AV_Know_21()
     CMessage("nothing gets me hotter than watching you when all you want to do is cum");
     CMessage("but you can\'t");
     CMessage("%StartStroking%");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -476,14 +476,14 @@ function a02b()
     setVar("AV_Persona05", createInput().getAnswer());
     CMessage("I will make you forget about her");
     setVar("AV_Know_04", true);
-    Stroking();
+    setStrokingNoTaunt();
     return;
     AV_Know_04();
 }
 function AV_Know_04()
 {
     CMessage("But you need to suffer more to make sure that happens");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -502,7 +502,7 @@ function Link4()
     setVar("AV_Persona07", createInput().getAnswer());
     CMessage("Putting on my Shop list");
     setVar("AV_Know_06", true);
-    Stroking();
+    setStrokingNoTaunt();
     return;
     AV_Know_06();
 }
@@ -510,6 +510,6 @@ function AV_Know_06()
 {
     CMessage("It\'s a feeling like your hands are tied down");
     CMessage("when there\'s this one sweet spot you just want to scratch.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }

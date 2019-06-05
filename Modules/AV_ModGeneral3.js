@@ -514,7 +514,7 @@ function Modulo3()
     SMessage("%DomName% always ask me how much she should deny you", -1, 2);
     SMessage("how long should I make YOU wait?", -1, 2);
     //SMessage("%StartStroking%", -1, 2);
-	Stroking(-1,2);
+	setStrokingNoTaunt(null,-1,2);
     SMessage("I mean, guys are different than girls right?", -1, 2);
     SMessage("A year for me isn\'t the same as a year for you.", -1, 2);
     SMessage("Hell, I bet making you just go a WEEK would be pretty rough...", -1, 2);
@@ -547,7 +547,7 @@ function Modulo3()
     SMessage("the more and more it wants to cum...", -1, 2);
     SMessage("the better my clit will feel.", -1, 2);
     //SMessage("%StartStroking%", -1, 2);
-	Stroking(-1,2);
+	setStrokingNoTaunt(null,-1,2);
     SMessage("So I will make you stroke until you absolutely can\'t take it anymore", -1, 2);
     SMessage("then let you go run back to %DomName%", -1, 2);
     SMessage("who thinks she\'s being all playful and respectful of your limits...", -1, 2);

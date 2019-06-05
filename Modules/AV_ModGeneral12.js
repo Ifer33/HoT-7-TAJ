@@ -447,7 +447,7 @@ function AV_Timeo07()
 function AV_Timeo08()
 {
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("That\'s right, jerk that cock.");
     CMessage("Jerk that cock and say \'thank you, mistress\'.");
     if(getVar("av_fetish_foot", false))
@@ -653,7 +653,7 @@ function Modulo3()
     }
     CMessage("Well, Fun for me at least.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("If you are a good boy then I will put the sexy, tight collar around your neck");
     CMessage("Attacking a whipping lead to it and lead you into my house!");
     CMessage("I have so many training to put you through and you are going to love every minute of it.");
@@ -710,7 +710,7 @@ function Sempain02()
     CMessage("It\'s so much fun hearing you beg for release.");
     CMessage("Just when you think you can\'t take it anymore");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("It\'s going to be so much fun teasing you and forcing you to edge.");
     CMessage("You will be begging me to let you cum!");
     edge();
@@ -736,7 +736,7 @@ function Modulo4()
     CMessage("It\'s my opinion Guided Masturbation can be more like sensual domination");
     CMessage("I have control over your %Cock% and orgasm.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("See? I tell you to %Stroke%, and you %Stroke%...");
     sleep(randomInt(10, 20));
     CMessage("Every session is not the same.");
@@ -789,7 +789,7 @@ function AV_Timeo10()
     CMessage("as I call you names such as loser hand fucker?");
     CMessage("Well, not waiting for me is Newton\'s Law on that, dear!");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Denying you pussy, while making you " + random("disappointingly ", "sadly ") + "%Stroke% your %Cock% who was SOOOOO close to hitting the fucking edge!");
     CMessage("As, I humiliate you is so much fucking fun!");
     AV_TeaseCont();
@@ -802,7 +802,7 @@ function AV_PulaHum()
     CMessage("via catching you and, then mercilessly taunting you that");
     CMessage("if you ONLY could have expressed a shred of self control");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Well, YOU could have had a squirty, pussy right now");
     CMessage("instead of that fuck puppet hand you are apparently so fond of!");
     CMessage("Too fond of, if you ask me!");

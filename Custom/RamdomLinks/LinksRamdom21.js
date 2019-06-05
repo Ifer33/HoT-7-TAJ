@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_Link21", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -369,7 +369,7 @@ function Link1()
     }
     CMessage("You just stay where I put you and do exactly what I want you to do and we\'ll have a perfect life together!");
     CMessage("I\'m going to be spending plenty of time with you.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -397,7 +397,7 @@ function Link2()
     CMessage("I love the smell of your cock.");
     CMessage("Sweaty, carnal, yummy.");
     CMessage("I love how dirty you make me feel.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -416,7 +416,7 @@ function Link3()
     }
     CMessage("I hope you dont feel ashamed to show your chastity cage to my friend...");
     CMessage("she knows how to keep a secret.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -425,6 +425,6 @@ function Link4()
     CMessage("you should purchase a tube of hair remover.");
     CMessage("And bathe and ensure your whole body is deeply cleaned.");
     CMessage("apply the hair removal cream to your genital and anal areas.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }

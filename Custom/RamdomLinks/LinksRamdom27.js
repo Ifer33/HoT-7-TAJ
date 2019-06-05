@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_Link27", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -405,7 +405,7 @@ function ke450m()
 {
     CMessage("Good, that\'s better, now...");
     CMessage("Let\'s put my property to work.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -431,7 +431,7 @@ function Link2()
     CMessage("feeling the shape of them");
     CMessage("squeezing them.");
     CMessage("Let it go...");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -480,7 +480,7 @@ function Opt2()
 }
 function Opt3()
 {
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -527,6 +527,6 @@ function Link4()
     {
         aV_NoBadResponse();
     }
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }

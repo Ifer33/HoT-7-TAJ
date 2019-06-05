@@ -379,7 +379,7 @@ function Modulo1()
     SMessage("This is how it starts. You expose yourself to me, make yourself as vulnerable as possible", -1, 4);
     SMessage("I\'m going to destroy you as a man", -1, 4);
     //SMessage("%StartStroking%", -1, 4);
-	Stroking();
+	setStrokingNoTaunt();
     SMessage("No, not quite like you did for %DomName%", -1, 4);
     SMessage("What she did was just a scratch", -1, 4);
     SMessage("compared to the wound that I\'m going to inflict", -1, 4);

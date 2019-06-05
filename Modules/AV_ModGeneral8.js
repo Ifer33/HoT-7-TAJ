@@ -441,7 +441,7 @@ function AVSKIPain1()
         CMessage("%BallGagOn%");
     }
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("I can feel your balls getting heavy with cum.");
     CMessage("It\'s all mine, do you understand?");
     CMessage("Every last drop.");
@@ -476,7 +476,7 @@ function AVSKIPain2()
 {
     CMessage("I knew you would follow instructions.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Move your hand over the head, and rub the base with your thumb.");
     CMessage("That\'s what my tongue would be doing to you %SubName%.");
     CMessage("Mmm, wouldn\'t it be so much better in my mouth?");
@@ -546,7 +546,7 @@ function Modulo2()
     sleep(15);
     CMessage("That\'s it. Good boy.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("That\'s it. Get yourself all worked up.");
     CMessage("Imagine my hand lightly going up and down.");
     CMessage("Up and down.");
@@ -690,7 +690,7 @@ function Modulo3()
     CMessage("But...the grass is always greener.");
     CMessage("So I want you to think about something as you stroke your cock for me...");
     //playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStroke.mp3");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Given the chance, would you give this up?");
     CMessage("If you could take a pill to switch off your arousal to femdom");
     if(getVar("av_fetish_rough", false))
@@ -753,7 +753,7 @@ function Modulo4()
     CMessage("But I am really fucking horny.");
     CMessage("Too horny for foreplay.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Bend your knees a little more for me.");
     CMessage("Keep stroking.");
     CMessage("Open your mouth, just a tiny bit.");

@@ -129,6 +129,7 @@ function Part1_9()
 }
 function Part1_12()
 {
+	setVar("AV_RuinHorny",0);
     return;
     Mod1();
 }

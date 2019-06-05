@@ -9,7 +9,7 @@ function main()
         AV_Talk002_NotFirstTime();
         return;
     }
-    if(getVar("pthevCompleteControlYES"){
+    if(getVar("pthevCompleteControlYES",false)){
 		CMessage(random("How I love controlling your orgasms", "Whether or not you get to cum is <i>always</i> up to me"));
 	}else{
 		CMessage(random("How I would love controlling ALL your orgasms", "Why whether or not you get to cum should be <i>always</i> up to me"));
@@ -114,23 +114,35 @@ function a002()
     CMessage("You want to do everything in your power to please me and will go to extraordinary lengths to do so.");
     setVar("edgingmode", "Goto");
     setVar("edginggoto", "a3uhu39()")
-    while(!edged){
+    if(!edged){
 		CMessage("%Edge%");
 		sleep(10);
+	}
+	if(!edged){
 		CMessage("%GetClose%");
 		sleep(10);
+	}
+	if(!edged){
 		CMessage("%GetClose%");
 		sleep(10);
+	}
+	if(!edged){
 		CMessage("%GetClose%");
 		sleep(15);
+	}
+	if(!edged){
 		CMessage("%GetClose%");
 		sleep(60);
 	}
+	if(!edged){
+		a3uhu39();
+	}
 	return;
-    a3uhu39();
+    
 }
 function a3uhu39()
 {
+	edged=true;
     CMessage("%HoldTheEdge%");
     CMessage("Your heart and cock make you worship the ground I walk on");
     setVar("edgingmode", "Normal");
@@ -150,10 +162,10 @@ function a003()
     setVar("AV_TControl03", true);
     CMessage("It is the proof that signifies that your sexual wants and needs have become inconsequential.");
     CMessage("And its not your choice any more so get used to it.");
-    CMessage("%Stroke% " + (java.lang.Math.round(randomInt(20, 40) / 10.0) * 10) + "times");
+    CMessage("%Stroke% " + (java.lang.Math.round(randomInt(20, 40) / 10.0) * 10) + " times");
     CMessage("The needs of the submissive male are outweighed by the greater power of the girl who owns you.");
     CMessage("I must deserve and demand all the pleasure, fulfillment, orgasms or anything else sexual or non-sexual.");
-    CMessage("%Stroke% " + (java.lang.Math.round(randomInt(20, 40) / 10.0) * 10) + "times");
+    CMessage("%Stroke% " + (java.lang.Math.round(randomInt(20, 40) / 10.0) * 10) + " times");
     CMessage("Eventually you will begin to realize that my happiness is your pleasure.");
     CMessage("Your selfless efforts are their own reward.");
     return;

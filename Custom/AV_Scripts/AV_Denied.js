@@ -372,7 +372,7 @@ function Dom1()
     CMessage("Like you are right now");
     CMessage(getVar("AV_DaysOfDenial", "") + "days");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("How long do you think you can go without an orgasm?");
     CMessage("Untill I seee how I feel about letting you cum %Smile%");
     CMessage("You can see this as a test for me to see what you are really made of");
@@ -429,6 +429,7 @@ function Dom2()
         CMessage(random("Hit ", "Spank ") + "your balls");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
         sleep(20);
+		stopAudio();
     }
     CMessage("%TieYourBalls%");
     run("Modules" + java.io.File.separator + "*.js");
@@ -492,7 +493,7 @@ function Dom4()
     CMessage("Feels wonderful doesn\'t it?");
     CMessage("Embrace that feeling. Orgasm is not your goal.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("This feeling is your goal.");
     CMessage("Why would you ever want to give this up?");
     CMessage("Deny yourself and you can do it again and again.");
@@ -523,7 +524,7 @@ function Dom5()
         aV_NoNeutralResponse();
     }
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("We are going to get you into a state of pure sexual frustration.");
     CMessage("It\'s going to feel so amazing.");
     CMessage("Struggle for me %PetName%.");
@@ -537,6 +538,7 @@ function Dom5()
         CMessage(random("Hit ", "Spank ") + "your balls");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
         sleep(20);
+		stopAudio();
     }
     run("Modules" + java.io.File.separator + "*.js");
     return;
@@ -549,7 +551,7 @@ function Dom6()
     CMessage("You still have a ways to go.");
     CMessage("Imagine how frustrated you are going to start to feel.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Get ready to edge for me, %SubName%");
     CMessage("This time is going to be a little different than before.");
     CMessage("Get as close as you can each time.");
@@ -891,6 +893,7 @@ function SuCBT01()
     CMessage(random("Hit ", "Spank ") + "your balls");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "DSpank" + java.io.File.separator + "001.mp3");
     sleep(55);
+	stopAudio();
     CMessage("%GoodBoy%");
     run("Modules" + java.io.File.separator + "*.js");
     return;
@@ -902,6 +905,7 @@ function SuCBT02()
     CMessage(random("Hit ", "Spank ") + "your balls");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "DSpank" + java.io.File.separator + "002.mp3");
     sleep(65);
+	stopAudio();
     CMessage("%GoodBoy%");
     run("Modules" + java.io.File.separator + "*.js");
     return;
@@ -913,6 +917,7 @@ function SuCBT03()
     CMessage(random("Hit ", "Spank ") + "your balls");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "DSpank" + java.io.File.separator + "003.mp3");
     sleep(70);
+	stopAudio();
     CMessage("%GoodBoy%");
     run("Modules" + java.io.File.separator + "*.js");
     return;
@@ -921,6 +926,7 @@ function SuCBT03()
 }
 function SuKn()
 {
+	stopAudio();
     CMessage("%KneelForMe%");
     CMessage("%GoodBoy%");
     run("Modules" + java.io.File.separator + "*.js");
@@ -1068,7 +1074,7 @@ function Contact2Cont()
     sleep(01);
     //--UNINTERPRETED LINE:@Contact2 @NullResponse @PlayAudio[tease\tgr8\Contact2 special test audio\*.mp3] 
 	playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "tgr8" + java.io.File.separator + "Contact2 special test audio" + java.io.File.separator + "*.mp3");
-	@sleep(10)
+	sleep(10)
     SMessage("%StrokeTaunts_1%", -1, 3);
     sleep(randomInt(10, 15));
     SMessage("%StrokeTaunts_1%", -1, 3);
@@ -2240,7 +2246,7 @@ function Crush()
     let answer0 = getInput("It feels good, doesn\'t it?");
     if (answer0.isLike("yes", "yea", "yep"))
     {
-        iLoveTeaseAndDenialResponse();
+        ILoveTeaseAndDenialResponse();
     }
     CMessage("You feel your need growing with each and every second.");
     if(getVar("av_fetish_rough", false) || getVar("av_fetish_humiliating", false))

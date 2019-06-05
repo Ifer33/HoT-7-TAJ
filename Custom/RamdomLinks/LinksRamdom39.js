@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_Link39", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     
     Link1();
@@ -360,7 +360,7 @@ function Link1()
     CMessage("Feel it come down and engulf your needy cock, boy.");
     CMessage("You better squirm and buck and moan for me, %PetName%.");
     CMessage("Let me see what you really are.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     
     Link2();
@@ -371,7 +371,7 @@ function Link2()
     CMessage("Feel all of your mind slipping away.");
     CMessage("I want you to be a mindless, rutting animal.");
     CMessage("I want you deeper and hotter and blanker with Every. Single. Stroke.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     
     Link3();
@@ -393,7 +393,7 @@ function Link3()
     {
         aV_NoNeutralResponse();
     }
-    Stroking();
+    setStrokingNoTaunt();
     return;
     
     Link4();
@@ -405,6 +405,6 @@ function Link4()
     CMessage("ready to explode.");
     CMessage("Thinking about your hand pumping up and down");
     CMessage("and getting you right to that edge.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }

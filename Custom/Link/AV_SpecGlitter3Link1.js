@@ -22,6 +22,6 @@ function main()
     }
     SMessage("Well, do you want to change that pathetic behaviour, slave?", -1, 4);
     SMessage("%StartStroking%", -1, 4);
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }

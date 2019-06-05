@@ -353,7 +353,7 @@ function Fim()
 {
     setVar("AV_Link10", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }
 function Link1()
@@ -368,7 +368,7 @@ function Link1()
     delVar("AVp001");
     CMessage("It\'s much better to do it in person.");
     //CMessage("%StartStroking%");		//not needed?
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }
 function Link2()
@@ -391,7 +391,7 @@ function Link2()
     CMessage("I know it hurts a little bit but once you get used to it");
     CMessage("you\'ll learn to love it.");
     CMessage("You\'re ridiculously hard right now.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }
 function Link3()
@@ -409,7 +409,7 @@ function Link3()
     CMessage("Because we\'re gonna do something real fun now");
     CMessage("Can you feel " + random("just how hot you make me?", "the effect I have on you...?"));
     CMessage("This is what you do to me...");
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }
 function Link4()
@@ -420,6 +420,6 @@ function Link4()
     CMessage("and you will give off so much energy.");
     CMessage("I knew you were the one.");
     CMessage("I just...knew it.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }

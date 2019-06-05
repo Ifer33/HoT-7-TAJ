@@ -397,7 +397,7 @@ function Modulo1()
     CMessage("you\'re going to do whatever I say right now.");
     CMessage("I don\'t have to coerce you into obeying me, you just do it.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("I\'m not going to tease you with My body because it\'s so unnecessary, isn\'t it?");
     CMessage("I dominate you so effortlessly.");
     if(getVar("av_fetish_foot", false))
@@ -471,7 +471,7 @@ function Modulo2()
     CMessage("I know you. You ache to have me deny you.");
     CMessage("Well, now I\'m going to see exactly how badly you want that.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Run your hand up and down the length of your cock.");
     CMessage("I need you as hard as possible right now.");
     CMessage("I want it so bad.");
@@ -504,7 +504,7 @@ function Modulo2()
     CMessage("But don\'t worry, I\'m not done with you yet.");
     CMessage("Oh no, oh no. Far from it.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Keep stroking, enjoy it while you can, because it's pretty much time for you to stop.");
     CMessage("Keep going");
     CMessage("I\'ve had some much fun with you today");
@@ -720,7 +720,7 @@ function Modulo4()
     getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "07.jpg");
     sleep(20);
     CMessage("Start stroking yourself in this subservient sissy position");
-	Stroking();
+	setStrokingNoTaunt();
     //playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStroke.mp3");
     CMessage("your rightful place is being kept horny, frustrated and ready to do anything you are told.");
     CMessage("Lick your thumb and some fingers on your left hand.");

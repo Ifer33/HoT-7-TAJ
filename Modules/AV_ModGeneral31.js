@@ -408,7 +408,7 @@ function Modulo2()
     }
     CMessage("Of course you do, that\'s the whole point. Your world here has been nothing but frustration.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Man can endure much more than he thinks he can.");
     CMessage("You will at some time today be begging me to let you cum.");
     CMessage("You will think you are at your end.");
@@ -463,7 +463,7 @@ function Modulo2()
     CMessage("How are those balls feeling?");
     CMessage(random("Did you tenderise them for me?", "Are they sore and sensitive?"));
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Well it doesn\'t matter how desperate you are.");
     CMessage("No semen better be coming out of the end of that thing");
     CMessage("Keep those balls tied up for me.");
@@ -680,7 +680,7 @@ function Modulo4()
     CMessage("I want you to entertain me.");
 	if (!isStroking())
     {
-        Stroking();
+        setStrokingNoTaunt();
     }
     CMessage("You are going to listen to my instructions and do EXACTLY as I say.");
     CMessage("That\'s right, stroke up and down while I fill your mind with naughty thoughts.");
@@ -706,7 +706,7 @@ function Modulo4()
     if(getVar("av_fetish_pain", false))
     {
         //CMessage("%StartStroking%");
-		Stroking();
+		setStrokingNoTaunt();
     }
     CMessage("Ooh, you really DO like it when I torment you like this.");
     CMessage("I think I just saw it twitch.");
@@ -770,7 +770,7 @@ function SubmitBack()
     CMessage("So just relax and embrace these feelings.");
     CMessage(random("Surrender everything to me", "Indulge your desires and let yourself grow weak, needy and submissive"));
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("I love knowing this turns you on.");
     CMessage("I want to own you and use you.");
     CMessage("To " + random("mold you into my docile, quivering fucktoy", "reprogram you to fit my every whim"));

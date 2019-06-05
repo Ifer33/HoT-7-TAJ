@@ -592,7 +592,7 @@ function Modulo2()
     CMessage("you don\'t seem to be all that well trained for a slave..");
     CMessage("Look at your leaking " + "you haven\'t even touched it yet..");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("you need this..");
     CMessage("Do you need it so badly so that youll go crazy if you dont shoot your juice?");
     let answer0 = getInput("Is it so bad so that you have trouble falling asleep at night?", 5);
@@ -721,7 +721,7 @@ function a3d380k()
     CMessage("Let\'s see if we can make that slavecock twitch some more for me..");
     CMessage("%KneelForMe%");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Look at me and keep stroking that helpless cock..");
     CMessage("Show me how happy you are that you\'re allowed to stroke for me %PetName%");
     CMessage("Do you crave this feeling strokerboy?");
@@ -817,7 +817,7 @@ function Modulo3()
 	slideShowOn();
     CMessage("Go ahead, %Stroke% to foot.");
     //playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStroke.mp3");
-	//Stroking();
+	//setStrokingNoTaunt();
 	CMessage("%StartStroking%");
     sleep(10);
     sleep(11);

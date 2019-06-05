@@ -374,7 +374,7 @@ function Modulo1()
         aV_NoBadResponse();
     }
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("As soon as you sit in front of Me");
     CMessage("you know you are a true submissive");
     CMessage("I\'m sure you know that you don\'t deserve to jerk to Me");
@@ -452,7 +452,7 @@ function Modulo2()
     CMessage("Second off all, you\'re doing this for my amusement.");
     CMessage("Alright, let\'s get started.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Here\'s what\'s going to happen today:");
     CMessage("I will give you orders and you will obey.");
     CMessage("I will make you feel humiliation, pleasure, frustration and much more.");
@@ -486,7 +486,7 @@ function Modulo2()
     CMessage("This is another great position to wait for orders.");
     CMessage("Now grab your dick.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Imagine being in this position by the front door, waiting for your Domme to come home.");
     CMessage("Tilt your head back as if you\'re looking up at her.");
     CMessage("%GoodBoy%.");

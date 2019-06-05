@@ -15,7 +15,7 @@ function main()
     }
     if(getVar("AV_Know_12", false))
     {
-        Stroking();
+        setStrokingNoTaunt();
         getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
     }
     if(getVar("AV_Know_12", false))
@@ -61,7 +61,7 @@ function main()
     }
     if(getVar("AV_Know_00", false))
     {
-        Stroking();
+        setStrokingNoTaunt();
         getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
     }
     if(getVar("AV_Know_00", false))
@@ -102,7 +102,7 @@ function main()
     }
     if(getVar("AV_Know_01", false))
     {
-        Stroking();
+        setStrokingNoTaunt();
         getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
     }
     if(getVar("AV_Know_01", false))
@@ -142,7 +142,7 @@ function main()
     }
     if(getVar("AV_Know_03", false))
     {
-        Stroking();
+        setStrokingNoTaunt();
         getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "04" + java.io.File.separator + "*.jpg");
     }
     if(getVar("AV_Know_03", false))

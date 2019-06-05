@@ -10,7 +10,7 @@ function main()
 		return;
 	}
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     //Command:Slideshow(Softcore,slow)
     //TODO: Turn Slideshow on
 	setSlideShow("SOFTCORE","slow");

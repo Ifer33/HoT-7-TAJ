@@ -389,7 +389,7 @@ function Modulo1()
     SMessage("We\'re just going to break your %Cock%", -1, 2);
     SMessage("What\'s that look for? It\'s not like we\'re going to physically snap it in half", -1, 2);
     //SMessage("%StartStroking%", -1, 2);
-	Stroking(-1,2);
+	setStrokingNoTaunt(null,-1,2);
     SMessage("Now, threats are all fine and good", -1, 2);
     SMessage("they keep you in line easily enough", -1, 2);
     SMessage("But you and I both know they aren\'t the only reason", -1, 2);

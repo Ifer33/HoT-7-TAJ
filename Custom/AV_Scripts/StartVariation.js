@@ -55,6 +55,7 @@ function a01()
     CMessage("It\'s going to feel amazing and yet...");
     CMessage("Somehow it\'s inevitably going to hurt too %Grin%");
     CMessage("That\'s just the way I like it, %Name%");
+	stopAudio();
     CMessage("%Stop%", 0);
     End();
     return;
@@ -88,6 +89,7 @@ function help_it()
 	}
     CMessage("To %JerkOff%");
     CMessage("Because that\'s all you\'re good for, right? %Smile%");
+	stopAudio();
     CMessage("%Stop%", 0);
     End();
     return;
@@ -107,6 +109,7 @@ function just_have_to_come_back()
     CMessage("You\'re that addicted to me");
     CMessage("You don\'t even have any control over it");
     CMessage("That\'s how bad you want me to tell you to %JerkOff%");
+	stopAudio();
     CMessage("%Stop%", 0);
     End();
     return;
@@ -126,6 +129,7 @@ function a03()
     CMessage("It\'s amazing how easy that is, %Name%");
     CMessage("I snap my fingers");
     CMessage("And your %Cock% is hard and erect");
+	stopAudio();
     CMessage("%Stop%", 0);
     End();
     return;
@@ -142,6 +146,7 @@ function a04()
     CMessage("So when you come crawling back to me like a horny addict...");
     CMessage("That\'s when you fulfil your true purpose in life");
     CMessage("It\'s when you reach your full potential %Smile%");
+	stopAudio();
     CMessage("%Stop%", 0);
     End();
     return;
@@ -156,6 +161,7 @@ function a05()
     CMessage("And lead you wherever I want to lead you");
     CMessage("Do with you whatever pleases me");
     CMessage("Oh, I know exactly what you need, %SubName% %Grin%");
+	stopAudio();
     CMessage("%Stop%", 0);
     End();
     return;
@@ -169,6 +175,7 @@ function a06()
     CMessage("But there\'s always a chance that I\'ll find your limit");
     CMessage("Maybe today\'s the day I finally truly break you");
     CMessage("Let\'s find out, %PetName%");
+	stopAudio();
     CMessage("%Stop%", 0);
     End();
     return;
@@ -196,6 +203,7 @@ function a07()
     CMessage("I especially love to keep you denied and frustrated");
     CMessage("So maybe I won\'t let you cum %GeneralTime% %Grin%");
     CMessage("You\'ll just have to wait and see");
+	stopAudio();
     CMessage("%Stop%", 0);
     End();
     return;
@@ -215,6 +223,7 @@ function already_restricted()
     }
     CMessage("%EmoteMoan%");
     CMessage("Nothing turns me on more than that");
+	stopAudio();
     CMessage("%Stop%", 0);
     End();
     return;

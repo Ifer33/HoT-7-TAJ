@@ -186,9 +186,15 @@ function Stroking(delay=0,sender=1) {
         //stroke 1000 for testing
         customStroke(duration, Math.floor(bpm));
     }
+	if(sender!=1){
+		SMessage("%stopstroking%", delay,sender);
+	}else{
+		CMessage("%stopstroking%");
+	}
+	stopStroking();
 }
 
-function strokeDuration(duration, message)
+function strokeDuration(duration, message,delay=-1,sender=1)
 {
     if (message == null)
     {
@@ -203,21 +209,29 @@ function strokeDuration(duration, message)
     //y = 52.2810035121697 + 6.42273993825994 * r * pS + 0.873930004197032 * r ^ 2 + 0.00137857491687123 * r * x ^ 2 - 0.00439450398010755 * x ^ 2
     let bpm = 52.2810 + 6.4227 * random * percentSession + 0.8739 * Math.pow(random, 2) + 0.0014 * random * Math.pow(apathyMoodIndex, 2) - 0.0044 * Math.pow(apathyMoodIndex, 2);
     DMessage("duration: " + duration, 0);
-    customSetStroking(duration, Math.floor(bpm), message)
+    customSetStroking(duration, Math.floor(bpm), message, delay, sender);
 }
 
 /**
 * customStroking method to have the sub start stroking with a custom message. This is the method you will primarily want to
 * call in scripts when you want a message other than the default.
 **/
-function customStroking(message) {
+function customStroking(message,delay=-1,sender=1) {
     if (strokingMethodsEnabled)
     {
         StartStrokingMethod();
     }
     else
     {
-        CMessage(message, 0);
+        if (message == null) {
+			message = "%startStroking%";
+		}
+		//CMessage(message, 0);
+		if(sender!=1){
+			SMessage(message, delay,sender);
+		}else{
+			CMessage(message);
+		}
         let strokeMinimum = getMinStrokingLength();
         let strokeMaximum = getMaxStrokingLength();
         let apathyMoodIndex = getApathyMoodIndex();
@@ -235,6 +249,12 @@ function customStroking(message) {
         DMessage("duration: " + duration, 0);
         customStroke(duration, Math.floor(bpm));
     }
+	if(sender!=1){
+		SMessage("%stopstroking%", delay,sender);
+	}else{
+		CMessage("%stopstroking%");
+	}
+	stopStroking();
 }
 
 /**
@@ -313,18 +333,34 @@ function speedUpStroking(amount) {
 * setStroking method that allows the developer to set the duration and
 * bpm manually. Normally, it's better to use Stroking.
 **/
-function setStroking(duration, bpm) {
-    CMessage("%startStroking%", 0);
+function setStroking(duration, bpm,delay=-1,sender=1) {
+    //CMessage("%startStroking%", 0);
+	if(sender!=1){
+		SMessage("%startStroking%", delay,sender);
+	}else{
+		CMessage("%startStroking%");
+	}
     customStroke(duration, bpm);
+	if(sender!=1){
+		SMessage("%stopstroking%", delay,sender);
+	}else{
+		CMessage("%stopstroking%");
+	}
+	stopStroking();
 }
 
 
-function setStrokingNoTaunt(message)
+function setStrokingNoTaunt(message,delay=-1,sender=1)
 {
     if (message == null) {
         message = "%startStroking%";
     }
-    CMessage(message, 0);
+    //CMessage(message, 0);
+	if(sender!=1){
+		SMessage(message, delay,sender);
+	}else{
+		CMessage(message);
+	}
     let strokeMinimum = getMinStrokingLength();
     let strokeMaximum = getMaxStrokingLength();
     let apathyMoodIndex = getApathyMoodIndex();
@@ -346,9 +382,20 @@ function setStrokingNoTaunt(message)
 * customSetStroking method that allows the developer to set the duration, bpm,
 * and message manually. Normally, it's better to use Stroking or customStroking.
 **/
-function customSetStroking(duration, bpm, message) {
-    CMessage(message, 0);
+function customSetStroking(duration, bpm, message,delay=-1,sender=1) {
+    //CMessage(message, 0);
+	if(sender!=1){
+		SMessage("%startStroking%", delay,sender);
+	}else{
+		CMessage("%startStroking%");
+	}
     customStroke(duration, bpm);
+	if(sender!=1){
+		SMessage("%stopstroking%", delay,sender);
+	}else{
+		CMessage("%stopstroking%");
+	}
+	stopStroking();
 }
 
 /**

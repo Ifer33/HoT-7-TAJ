@@ -6,11 +6,13 @@ function punishGameVocabulary()
 			CMessage(random("Spank ", "Hit ") + "your %Balls%");
 			playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
 			sleep(15);
+			stopAudio();
 			break;
 		case 2:
 			CMessage(random("Spank ", "Hit ") + "your %Cock%");
 			playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
 			sleep(15);
+			stopAudio();
 			break;
 		case 3:
 			CMessage(random("Put ", "Place ") + "a clothespin on your %Balls%");

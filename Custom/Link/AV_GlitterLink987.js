@@ -26,7 +26,7 @@ function Ball()
     setTempVar("AV_GlitBall34", true);
     CMessage("If they do re attach them until its all set and tight");
     //CMessage("%StartStroking%");
-    Stroking();
+    setStrokingNoTaunt();
     Nip();
 }
 function Nip()
@@ -44,6 +44,6 @@ function Nip()
     CMessage("Lets pitch a tent shall we?");
     CMessage("So how are the clothespins doing?");
     //CMessage("%StartStroking%");
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }

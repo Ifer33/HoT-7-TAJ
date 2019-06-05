@@ -18,7 +18,7 @@ function edge(message=null,delay=-1,sender=1){
 
 function greenLight(){
 	CMessage("<c=green b> GREEN LIGHT");
-	Stroking();
+	setStrokingNoTaunt();
 	return;
 }
 
@@ -58,7 +58,7 @@ function cbtLevel(lvl=3){
 /**idea: cbt files as vocabs, calculate rounds here
 * depending from moodApathyIndex?? or old mood/domlvl/apathylvl/cbtlvl
 **/
-function cbt(cockOrBalls = "both", delay = 0, sender = -1, rounds = 3){	
+function cbt(cockOrBalls = "both", delay = 0, sender = 1, rounds = 3){	
 	//todo calc rounds
 	DMessage("CBT: Beginning");
 	setVar("sendDelay",delay);

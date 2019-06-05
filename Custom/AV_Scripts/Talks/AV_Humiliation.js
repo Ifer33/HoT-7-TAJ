@@ -27,37 +27,37 @@ function AV_Talk004_NotFirstTime()
 		a002();
 		return;
 	}else if(!getVar("AV_THumil03",false) ){
-		a001();
+		a003();
 		return;
 	}else if(!getVar("AV_THumil04",false) ){
-		a001();
+		a004();
 		return;
 	}else if(!getVar("AV_THumil05",false) ){
-		a001();
+		a005();
 		return;
 	}else if(!getVar("AV_THumil06",false) ){
-		a001();
+		a006();
 		return;
 	}else if(!getVar("AV_THumil07",false) ){
-		a001();
+		a007();
 		return;
 	}else if(!getVar("AV_THumil08",false) ){
-		a001();
+		a008();
 		return;
 	}else if(!getVar("AV_THumil09",false) ){
-		a001();
+		a009();
 		return;
 	}else if(!getVar("AV_THumil10",false) ){
-		a001();
+		a010();
 		return;
 	}else if(!getVar("AV_THumil11",false) ){
-		a001();
+		a011();
 		return;
 	}else if(!getVar("AV_THumil12",false) ){
-		a001();
+		a012();
 		return;
 	}else if(!getVar("AV_THumil13",false) ){
-		a001();
+		a013();
 		return;
 	}
     a013();
@@ -127,7 +127,7 @@ function a003()
     let answer0 = getInput("Lick your cum off my feet or being snowballed?");
     while (!(answer0.isLike("lick") || answer0.isLike("cum") || answer0.isLike("snowballed") || answer0.isLike("cbt") || answer0.isLike("balls")))
     {
-        answer0 = getInput("cbt or lick %SubName%?");
+        answer0 = getInput("cbt snowballed or lick %SubName%?");
     }
     if (answer0.isLike("lick", "cum"))
     {
@@ -152,7 +152,7 @@ function a003a()
     }
     if(!getVar("av_fetish_cei", false))
     {
-        answer0 = getInput("You don\'t want eat your cum for me?",6);
+        answer0 = getInput("Oh realy You do want eat your cum for me?",6);
         if (answer0.isLike("yes", "yea", "yep"))
         {
             wantToEatMyCumResponse();
@@ -225,7 +225,7 @@ function a006()
     setVar("AV_THumil06", true);
     CMessage("Make you use a strapon when I want some fucking.");
     CMessage("Why should I have to suffer not having a good fucking just because you hasn\'t earned a place inside your Goddess?");
-    
+    return;
     a007();
 }
 function a007()

@@ -114,6 +114,7 @@ function AudioGoHere()
 }
 function a055()
 {
+	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "beats" + java.io.File.separator + "b055.mp3");
     Fase1();
     return;
@@ -121,6 +122,7 @@ function a055()
 }
 function a075()
 {
+	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "beats" + java.io.File.separator + "b075.mp3");
     Fase1();
 	return;

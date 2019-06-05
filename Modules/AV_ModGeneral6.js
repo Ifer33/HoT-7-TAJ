@@ -424,7 +424,7 @@ function Chega()
     CMessage("I give you a fair warning.");
     CMessage("You would not have any choice.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     let answer0 = getInput("Does it make it harder to stay away from the edge, if I talk about an Edge?", 7);
 	while(true){
 		if (answer0.isTimeout())
@@ -507,7 +507,7 @@ function Modulo2()
         SMessage("I am your Alpha and you are extremely lucky to have the chance to serve me.", -1,2);
     }
     //SMessage("%StartStroking%", -1,2);
-	Stroking(-1,2);
+	setStrokingNoTaunt(null,-1,2);
     SMessage("I enjoy seeing just how desperate I make you", -1,2);
     SMessage("I love seeing you melt", -1,2);
     SMessage("and I will continue to tease you into a horny oblivion to get exactly what I want", -1,2);
@@ -622,7 +622,7 @@ function Modulo3()
     SMessage("You should always be below me.", -1,3);
     SMessage("At my boot heels. Like a lap dog.", -1,3);
     //SMessage("%StartStroking%", -1,3);
-	Stroking(-1,3);
+	setStrokingNoTaunt(null,-1,3);
     SMessage("Eager for any spec of attention I allow you.", -1,3);
     SMessage("Hungry for any scraps I throw to the floor.", -1,3);
     SMessage("This is your life from now on.", -1,3);

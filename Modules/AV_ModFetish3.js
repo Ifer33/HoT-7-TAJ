@@ -499,7 +499,7 @@ function Modulo3()
     CMessage("I want to test your attention %SubName%");
     CMessage("Keep track of the numbers you see in the screen...");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     setVar("AV_AtentGame", 0);
     //--Command:TnASlowSlides
 	setSlideShow(["BOOBS","BUTTS"]);
@@ -1365,7 +1365,7 @@ function Modulo4()
     CMessage("%AV_Luxury%");
     CMessage(random("Good thing ", "Thankfully ") + "you have some videos on your computer");
     CMessage("Stroke to the beat %Grin%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Have fun");
     playVideo("Videos" + java.io.File.separator + "*.*");
     CMessage("%CensorContinue%");

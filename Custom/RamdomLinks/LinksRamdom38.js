@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_Link38", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     
     Link1();
@@ -361,7 +361,7 @@ function Link1()
     CMessage("Think about how hard it is.");
     CMessage("Focus on it.");
     CMessage("Focus on it throbbing gently, pulsing up and down.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     
     Link2();
@@ -371,7 +371,7 @@ function Link2()
     CMessage("Do you remember how fucking good it felt last time you came?");
     CMessage("Think about how fucking good it feels to cum.");
     CMessage("Imagine rope after rope shooting out of that cock...");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     
     Link3();
@@ -384,7 +384,7 @@ function Link3()
     CMessage("Imagine wrapping your hand around your shaft and just stroking up and down.");
     CMessage("Think about how good it would feel to feel your hand wrap round");
     CMessage("grip your shaft, and then pump up and down, over your head, over and over again.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     
     Link4();
@@ -406,6 +406,6 @@ function Link4()
     CMessage("Because you love the feeling of me making you horny.");
     CMessage("Well, whatever it is, remember");
     CMessage("whether or not you cum today is up to me.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }

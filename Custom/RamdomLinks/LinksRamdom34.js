@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_Link34", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -380,7 +380,7 @@ function Link1()
         menNeedControlResponse();
     }
     CMessage("And no safety keys – you must know you're committed.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -392,7 +392,7 @@ function Link2()
     CMessage("The impact of a good T&D session lasts...it's a cumulative thing. ");
     CMessage("If I tease and deny you over several days");
     CMessage("the tension will continue to build up and the ultimate release will be that much sweeter.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -402,7 +402,7 @@ function Link3()
     CMessage("Or we will really miss the best part of your surrender");
     CMessage("your demonstration of your total devotion to me");
     CMessage("and allowing me to make it formal and permanent.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -421,6 +421,6 @@ function Link4()
         aV_NoBadResponse();
     }
     CMessage("Don\'t worry, all guys secretly want to.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }

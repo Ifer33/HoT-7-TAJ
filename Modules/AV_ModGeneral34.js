@@ -931,7 +931,7 @@ function Modulo4()
     CMessage("Also, wet a finger or two on your other hand and massage your nipples for me.");
     CMessage("I want to warm you up a bit first.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("You are probably wondering " + random("where this all leads", "what it\'ll be like if you obey me"));
     CMessage("And I will tell you. You\'ll get a chance to cum. " + random("For me", "To make me happy", "To please me"));
     CMessage("And if you do cum when I tell you to, it\'ll feel just that much better, because you know it\'s what I want.");

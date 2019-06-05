@@ -432,7 +432,7 @@ function Modulo1()
     CMessage("Mmmm, your cock is literally throbbing, and your balls feel really full.");
     CMessage("Is that what all my teasing did to you?");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     if(getVar("av_fetish_rough", false))
     {
         CMessage("you really are a filthy slut. I love it.");
@@ -449,7 +449,7 @@ function Modulo1()
     CMessage("And " + randomInt(3, 5) + "in your %Balls%");
     sleep(20);
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     r237bg();
 }
 function r237bg()
@@ -526,7 +526,7 @@ function GLR02()
     }
     SMessage("Move your hand for me, release all your energy, make your desires come true.", -1, 3);
     //playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStroke.mp3");
-	Stroking();
+	setStrokingNoTaunt();
     SMessage("I am here for you. You need guidance, you need approval.", -1, 3);
     SMessage("I\'m going to keep you on the edge", -1, 3);
     SMessage("until I give the order, until my lips pronounce the words", -1, 3);
@@ -591,7 +591,7 @@ function GlitterGoes()
     CMessage("You love me to tell you exactly what I want you to do.");
     CMessage("You\'re practically drooling at the sight of me.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("You want me SOOOO badly.");
     CMessage("You want my pussy, my delicious ass, my breasts.");
     CMessage("You want to taste them all.");
@@ -739,7 +739,7 @@ function Modulo3()
 {
     CMessage("You know, I really do want to hear you moan though... can\'t a %Owner% want that?");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("I want to listen to you drowning in pleasure because of me.");
     CMessage("Yes baby, I hear it... it\'s sounds so... thick.");
     CMessage("Keep stroking and imagine its my hand on your cock %PetName%.");

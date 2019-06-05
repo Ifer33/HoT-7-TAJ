@@ -107,7 +107,7 @@ function end_cycle()
 		//--Command:ApathyLevel(5)
 		a20chance();
 		return;
-	else{
+	}else{
 		a60chance();
 		return;
 	}
@@ -135,7 +135,7 @@ function bad_mood()
 		//--Command:ApathyLevel(5)
 		a01chance();
 		return;
-	else{
+	}else{
 		a20chance();
 		return;
 	}
@@ -163,7 +163,7 @@ function good_mood()
 		//--Command:ApathyLevel(5)
 		a60chance();
 		return;
-	else{
+	}else{
 		a80chance();
 		return;
 	}

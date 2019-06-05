@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_Link25", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -360,7 +360,7 @@ function Link1()
     CMessage("You see, I\'ve always felt that the best way to truly get to know a man");
     CMessage("is to expose the most vulnerable and sensitive part of his body and see how he reacts");
     CMessage("You learn so much about a man when you do that.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -383,7 +383,7 @@ function Link2()
     {
         CMessage("You\'re not sure? Well, I think we will find out.");
     }
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -401,7 +401,7 @@ function Link3()
     }
     CMessage("Yes, you would. It\'s sooooo hypnotizing, isn\'t it?");
     CMessage("I can feel you starting to submit.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -410,6 +410,6 @@ function Link4()
     CMessage("I can feel those little balls of yours try to pull up into your body and hide from me.");
     CMessage("There\'s no hiding from me, %PetName%.");
     CMessage("It\'s all mine, %Name%. It\'s alllll mine.");
-    Stroking();
+    setStrokingNoTaunt();
     return;
 }

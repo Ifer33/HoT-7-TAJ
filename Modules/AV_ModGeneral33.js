@@ -397,7 +397,7 @@ function InicioCrush()
     }
 	if (!isStroking())
     {
-        Stroking();
+        setStrokingNoTaunt();
     }
     CMessage("%Stroke% for " + getVar("AV_Persona02", ""));
     getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
@@ -453,7 +453,7 @@ function AV_CrushNoMore1()
 {
 	if (!isStroking())
     {
-        Stroking();
+        setStrokingNoTaunt();
     }
     CMessage("%Stroke% for " + getVar("AV_Persona13", ""));
     getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
@@ -514,7 +514,7 @@ function AV_CrushNoMore2()
 {
 	if (!isStroking())
     {
-        Stroking();
+        setStrokingNoTaunt();
     }
     CMessage("%Stroke% for " + getVar("AV_Persona01", ""));
     getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
@@ -599,7 +599,7 @@ function already_kneeling()
     CMessage("Your knees should be at a perfect 90 degree angle");
     CMessage("Spread your knees a little bit further apart");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Look how frustrated you are.");
     CMessage("Don\'t worry, baby.");
     CMessage("After all, if there\'s any time that you could cum...");
@@ -818,7 +818,7 @@ function JumpMoreSpank()
         aV_NoNeutralResponse();
     }
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Fast and Hard.");
     CMessage("Harder.");
     CMessage("I wanna hear a sound when you slam your hand on that body of yours.");

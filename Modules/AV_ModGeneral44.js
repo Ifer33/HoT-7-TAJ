@@ -380,7 +380,7 @@ function Modulo1()
     CMessage("now thats obedience.");
     CMessage("That shows me how devoted you are to being a good slave.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("I want you to do that right now.");
     CMessage("Show me how devoted you are.");
     CMessage("Show me how much control I have over you.");
@@ -524,7 +524,7 @@ function Modulo2()
     CMessage("I know I have that effect on you.");
     CMessage("A beautiful dominant woman, teasing you.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Im going to count you down to your denial.");
     CMessage("Youre going to completely abandon that cock.");
     CMessage("When I get to one, youre going to completely take that hand off of your cock.");
@@ -655,7 +655,7 @@ function Modulo3()
     CMessage("Good I want you to feel like a sissy bitch for me with clothespins on your nipples");
     CMessage("Look what I\'ve turned you into.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("I like torturing your nipples.");
     CMessage("Now take the clothespins off again and then slap those sore nipples!");
     CMessage("Squeeze them again.");

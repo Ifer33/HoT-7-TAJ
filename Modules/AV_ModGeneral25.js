@@ -378,7 +378,7 @@ function Modulo1()
     CMessage("Ready to begin?");
     CMessage("I\'m going to get you hard first.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("You\'re already there, aren\'t you?");
     CMessage("Pathetic. Look at it, twitching and throbbing already.");
     CMessage("I bet if you went a little faster, you\'d cum all over yourself.");
@@ -429,7 +429,7 @@ function Modulo1()
     CMessage("Craving to my every need.");
     CMessage("%KneelForMe%");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("I bet you want to edge so bad but can\'t");
     CMessage("Stroke your hard cock some more");
     CMessage("Mmmmm so fucking hot seeing you stroking that hard cock for me.");
@@ -555,7 +555,7 @@ function AV_jy5s5()
     CMessage("%KneelForMe%");
     sleep(10);
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("Stroke it at a good pace until you get close to an edge...");
     CMessage("Beg me to allow you to edge in front of me...");
     CMessage("I SAID BEG BOY!");
@@ -640,7 +640,7 @@ function Modulo3()
     CMessage("Now we will be playing a rather cruel game I devised.");
     CMessage("Can you resist the game? Probably NOT.");
     //CMessage("%StartStroking%");
-	Stroking();
+	setStrokingNoTaunt();
     CMessage("I tease you into a horny oblivion your %Cock% thinks he are in heaven.");
     CMessage("Well you are whenever I am on your PC screen.");
     CMessage("Play my game because you should, because I deserve it.");
