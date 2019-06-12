@@ -7,9 +7,6 @@ setVar("firstRun",true);
 while (continueSession() || getVar("firstRun",false))
 {
 	DMessage("HoTStructure: chooseModule");
-	if(getVar("firstRun",false)){
-		run("Modules" + separator + "AV_ModGeneral23.js");
-	}else
     if(getVar("moduletorun", false)!=false ){
 		run(getVar("moduletorun", false) );
 		if(!getVar("dontDelMod",false)){
