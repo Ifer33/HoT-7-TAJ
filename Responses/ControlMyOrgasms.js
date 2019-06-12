@@ -57,7 +57,7 @@ function controlMyOrgasmsResponse(message) {
 			setVar("pvWantCoCo",true);
 		}
     }
-    else if (isStroking())
+    else if (isStrokingAll())
     {
         if(getVar("pthevCompleteControlYES",false) ){
 			CMessage(random("Whether or not you get to cum is <i>always up to me, %Name%",

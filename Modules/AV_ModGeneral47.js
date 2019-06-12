@@ -373,10 +373,10 @@ function Modulo2()
 }
 function Modulo3()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("Who doesn\'t love a good let down?");
     CMessage("I get you all hot and bothered while torturing you");
@@ -397,7 +397,7 @@ function Modulo3()
     CMessage("and you want to spend as much time as possible with me.");
     CMessage("I am the one who is guiding you.");
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("Now, I\'m going to give your body some commands. I hope you\'re ready...");
     CMessage("Whenever i say the word \"Pulse\"");
     CMessage("all of that blood in your veins will be pumped to that %Cock%");
@@ -500,10 +500,10 @@ function mcxs568j()
 }
 function Modulo4()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("you are such a good boy for Me.");
     CMessage("so I\'m going to do what I do best.");
@@ -541,7 +541,7 @@ function Begging9()
 	setStrokingNoTaunt();
     CMessage("You want to cum for me so bad.");
     CMessage("%Stop%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("I want to build that orgasm through some hot tease and denial.");
     CMessage("Over and over.");
     CMessage("Your dick feels so good");

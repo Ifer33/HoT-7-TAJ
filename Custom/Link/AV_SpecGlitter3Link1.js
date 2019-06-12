@@ -4,7 +4,7 @@ DMessage("AV_SpecGlitter3Link1: end");
 function main()
 {
     SMessage("%DomName% have been complaining. You don\'t really follow their instructions, do you?", -1, 4);
-    setVar("moduletorun", "Custom" + java.io.File.separator + "Modules" + java.io.File.separator + "AV_SpecGlitter3Module1.js");
+    setTempVar("moduletorun", "Custom" + java.io.File.separator + "Modules" + java.io.File.separator + "AV_SpecGlitter3Module1.js");
 	//setVar("moduletorun", "AV_SpecGlitter3Module1")
     getLocalTeasePicture("Images" + java.io.File.separator + "AV_SpecGlitter3Module1");
     let answer0 = getInput("You just ignore their punishments as you please, is that true?",null,-1,true,4);

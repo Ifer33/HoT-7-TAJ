@@ -1,6 +1,6 @@
 function AV_Mem_HurtMeVocabulary() {
 	DMessage("aV_Mem_HurtMe: VocabStart");
-	if(isStroking() ){
+	if(isStrokingAll() ){
 		let answers = ["Don\'t be silly, just %JerkOff% for me now, %PetName%"];
 	}else{
 		let answers = ["Oh c\'mon, you\'re begging me to hurt you? That\'s just pathetic, %SubName% %Lol%",

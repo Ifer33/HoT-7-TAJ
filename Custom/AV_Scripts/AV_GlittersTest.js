@@ -39,7 +39,7 @@ function main()
 function Glit01()
 {
     addContact(2);
-    CMessage(random("Hello ", "Hey ", "Hi ") + "%Contact1%, " + random("You know what to do ", "Do as we talked ", "He is all yours ") + "%EmoteHappy%");
+    CMessage(random("Hello ", "Hey ", "Hi ") + "%domFriend1Name%, " + random("You know what to do ", "Do as we talked ", "He is all yours ") + "%EmoteHappy%");
     SMessage(random("Hello ", "Hey ", "Hi ") + "%DomName%, %ThankYou% " + random("for your proposition ", "my dear ") + "I am so " + random("excited ", "ready ") + "for " + random("this ", "that ") + "...", -1, 2);
     removeContact(1);
 	sender = 2;
@@ -52,7 +52,7 @@ function Glit01()
 function Glit02()
 {
     addContact(3);
-    CMessage(random("Hello ", "Hey ", "Hi ") + "%Contact2%, " + random("You know what to do ", "Do as we talked ", "He is all yours ") + "%EmoteHappy%");
+    CMessage(random("Hello ", "Hey ", "Hi ") + "%domFriend2Name%, " + random("You know what to do ", "Do as we talked ", "He is all yours ") + "%EmoteHappy%");
     SMessage(random("Hello ", "Hey ", "Hi ") + "%DomName%, %ThankYou% " + random("for your proposition ", "my dear ") + "I am so " + random("excited ", "ready ") + "for " + random("this ", "that ") + "...", -1, 3);
     removeContact(1);
 	sender = 3;
@@ -65,7 +65,7 @@ function Glit02()
 function Glit03()
 {
     addContact(4);
-    CMessage(random("Hello ", "Hey ", "Hi ") + "%Contact2%, " + random("You know what to do ", "Do as we talked ", "He is all yours ") + "%EmoteHappy%");
+    CMessage(random("Hello ", "Hey ", "Hi ") + "%domFriend2Name%, " + random("You know what to do ", "Do as we talked ", "He is all yours ") + "%EmoteHappy%");
     SMessage(random("Hello ", "Hey ", "Hi ") + "%DomName%, %ThankYou% " + random("for your proposition ", "my dear ") + "I am so " + random("excited ", "ready ") + "for " + random("this ", "that ") + "...", -1, 4);
     removeContact(1);
 	sender = 4;

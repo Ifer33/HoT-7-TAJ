@@ -8,7 +8,7 @@ function main()
         AV_SubKnees();
         return;
     }
-    if (isStroking())
+    if (isStrokingAll())
     {
         Sub_Stroking();
         return;
@@ -23,7 +23,7 @@ function main()
 function Sub_Stroking()
 {
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     Sub_Not_Stroking();
 }
 function Sub_Not_Stroking()

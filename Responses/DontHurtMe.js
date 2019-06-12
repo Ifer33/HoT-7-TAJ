@@ -8,7 +8,7 @@ function dontHurtMeResponse(message) {
         DMessage("dontHurtMe: EndResponse Response is Disabled");
         return false;
     }
-	if(isStroking()){
+	if(isStrokingAll()){
 		let found = false;
 		while(!found){
 			let thisRandom = randomInt(1,8);

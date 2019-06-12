@@ -356,10 +356,10 @@ function Fim()
 }
 function Modulo1()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("%PetName%");
     CMessage("%domFriend1Name% asked me just asked me if she could make you edge a little for her");
@@ -399,7 +399,7 @@ function Modulo1()
     SMessage("because we both know", -1, 2);
     SMessage("that this the only kind of attention you deserve from women", -1, 2);
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     SMessage("You\'re going to elevate your own arousal to a level beyond pain, beyond suffering.", -1, 2);
     SMessage("The more you edge,the quicker you'll get there...",-1,2);
     //SMessage("so edge for me now.", -1, 2);
@@ -428,10 +428,10 @@ function Modulo1()
 }
 function Modulo2()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("%SubName%");
     CMessage("Get a cock ring or some sort of string or rope of your choice");
@@ -639,10 +639,10 @@ function Fim1()
 }
 function Modulo3()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     if(getVar("av_fetish_pegging", false))
     {
@@ -931,10 +931,10 @@ function AVRND07()
 }
 function Modulo4()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     if(getVar("av_fetish_pain", false))
     {

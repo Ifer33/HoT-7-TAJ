@@ -356,10 +356,10 @@ function Fim()
 }
 function Modulo1()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("You don\'t even have to say a word and I know that you\'re aching.");
     CMessage("Mmm I can tell the idea of this turns you on, %PetName%.");
@@ -440,10 +440,10 @@ function Modulo1()
 }
 function Modulo2()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("I bet you can already feel this arousal.");
     CMessage("And there is nothing you can do about it.");
@@ -463,7 +463,7 @@ function Modulo2()
     CMessage("But what am I saying? I control your cock.");
     CMessage("You will cum when I say so.");
     CMessage("%Stop%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("Sub men like being treated like objects or toys.");
     CMessage("So that\'s just what I need to do");
     CMessage("use you for my pleasure and needs");
@@ -541,10 +541,10 @@ function a3rrfue()
 }
 function Modulo3()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     if(!getVar("AV_PinDone", false))
     {
@@ -631,7 +631,7 @@ function re457ik()
     CMessage("The more submissive you get, the hornier you feel.");
     CMessage("The hornier you feel, the more you have to moan.");
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("%KneelForMe%");
     CMessage("Put your hands on your knees.");
     CMessage("I\'m glad you learned what I like so quickly.");
@@ -682,7 +682,7 @@ function re457ik()
     CMessage("Yeah, you like that feeling?");
     CMessage("Oh, are you close? Nope, not yet!");
     CMessage("%Stop%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("Oh, God %PetName%, this is fun.");
     CMessage("But I\'m not going to let you cum just yet");
     CMessage("We have plenty of time to keep you on the edge, %Name%.");
@@ -693,7 +693,7 @@ function re457ik()
     CMessage("Your legs are tensing...");
     CMessage("oh poor baby are you still close?");
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("Just relax and let that cock calm down");
     CMessage("We\'re not done yet though...");
     CMessage("oh no, definitely not done.");
@@ -731,10 +731,10 @@ function re457ik()
 }
 function Modulo4()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("You\'ve been here long enough to know that I don\'t ask twice.");
     if(!getVar("AV_PinDone", false))

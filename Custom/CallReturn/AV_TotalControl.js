@@ -3,10 +3,10 @@ main();
 DMessage("AV_TotalControl: end");
 function main()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     if(getVar("pthevGlitterIntroduced", false) )
     {
@@ -92,7 +92,7 @@ function repeatmyself()
     {
 		if (answer1.isLike("no"))
 		{
-			answer1 = getInput("%pthevCoCo-1%");
+			answer1 = getInput("%pthevCoCo1%");
 			//--Command:LoopAnswer
 		}
 		else{

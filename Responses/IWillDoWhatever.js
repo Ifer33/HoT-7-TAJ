@@ -96,7 +96,7 @@ function iWillDoWhateverResponse(message) {
 			}
 		}
     }
-    else if (isStroking())
+    else if (isStrokingAll())
     {
         let found = false;
 		while(!found){

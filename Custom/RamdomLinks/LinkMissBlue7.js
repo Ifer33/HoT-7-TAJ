@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_LinkMissBlue7", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -376,7 +376,7 @@ function Link1()
     CMessage("I want you to lay awake at night thinking about me");
     CMessage("When you do fall asleep I will appear in your dreams");
     CMessage("And when you wake up I will be the first thing you think about");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -394,7 +394,7 @@ function Link2()
     CMessage("And then I\'d go \"sorry but I have to go now bye bye\" %Lol%");
     CMessage("Some of those guys got pretty pissed off...");
     CMessage("If I\'d done that to you, you\'d just kiss my feet and thank me %Laugh%");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -413,7 +413,7 @@ function Link3()
     CMessage("Although making you squirm does make me wet");
     CMessage("I still have to rely on my own fingers to get me off");
     CMessage("Oh well...");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -422,6 +422,6 @@ function Link4()
     CMessage("What a life, huh?");
     CMessage("%JerkingOff% or a beautiful Goddess, floating on a cloud of sexual submission");
     CMessage("Everything a boy could ask for %Smile%");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
 }

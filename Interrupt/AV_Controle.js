@@ -4,7 +4,7 @@ main();
 DMessage("AV_Controle: end");
 function main()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         Sub_Stroking();
         return;
@@ -19,7 +19,7 @@ function main()
 function Sub_Stroking()
 {
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     Sub_Not_Stroking();
 }
 function Sub_Not_Stroking()
@@ -168,7 +168,7 @@ function Part1_12()
 }
 function Mod1()
 {
-    setVar("moduletorun", "Custom" + java.io.File.separator + "Modules" + java.io.File.separator + "AV_RuinHorny1.js")
+    setTempVar("moduletorun", "Custom" + java.io.File.separator + "Modules" + java.io.File.separator + "AV_RuinHorny1.js")
     //getLocalTeasePicture("Images" + java.io.File.separator + "AV_RuinHorny1");
     NoRuin();
     return;
@@ -176,7 +176,7 @@ function Mod1()
 }
 function Mod2()
 {
-    setVar("moduletorun", "Custom" + java.io.File.separator + "Modules" + java.io.File.separator + "AV_RuinHorny2.js")
+    setTempVar("moduletorun", "Custom" + java.io.File.separator + "Modules" + java.io.File.separator + "AV_RuinHorny2.js")
     //getLocalTeasePicture("Images" + java.io.File.separator + "AV_RuinHorny2");
     NoRuin();
     return;
@@ -184,7 +184,7 @@ function Mod2()
 }
 function Mod3()
 {
-    setVar("moduletorun", "Custom" + java.io.File.separator + "Modules" + java.io.File.separator + "AV_RuinHorny3.js")
+    setTempVar("moduletorun", "Custom" + java.io.File.separator + "Modules" + java.io.File.separator + "AV_RuinHorny3.js")
     //getLocalTeasePicture("Images" + java.io.File.separator + "AV_RuinHorny3");
     NoRuin();
     return;
@@ -544,7 +544,7 @@ function AV_NoPosi()
     CMessage(random("Good thing ", "Thankfully ") + "you have some " + random("porn videos ", "videos ", "nice videos ") + "on your " + random("PC", "computer"));
     CMessage("Stroke to the beat %Grin%");
     CMessage("Have fun");
-    playVideo("Videos" + java.io.File.separator + "*.*");
+    playVideo("Videos" + java.io.File.separator + "*.*",true);
     CMessage("%CensorContinue%");
     return;
     CrushesAV();
@@ -606,7 +606,7 @@ function EdgeForGoto()
 function V10()
 {
     CMessage("stay on the edge");
-    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "10" + java.io.File.separator + "*.webm");
+    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "10" + java.io.File.separator + "*.mp4",true);
     CMessage("%stopstroking%", 0);
     FimEdge();
     return;
@@ -615,7 +615,7 @@ function V10()
 function V15()
 {
     CMessage("stay on the edge");
-    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "15" + java.io.File.separator + "*.webm");
+    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "15" + java.io.File.separator + "*.mp4",true);
     CMessage("%stopstroking%", 0);
     FimEdge();
     return;
@@ -624,7 +624,7 @@ function V15()
 function V60()
 {
     CMessage("stay on the edge");
-    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "60" + java.io.File.separator + "*.webm");
+    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "60" + java.io.File.separator + "*.mp4",true);
     CMessage("%stopstroking%", 0);
     FimEdge();
     return;

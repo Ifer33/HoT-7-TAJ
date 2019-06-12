@@ -3,7 +3,7 @@ main();
 DMessage("AV_DommeBackModule: end");
 function main()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         Sub_Stroking();
         return;
@@ -18,7 +18,7 @@ function main()
 function Sub_Stroking()
 {
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     Sub_Not_Stroking();
 }
 function Sub_Not_Stroking()
@@ -47,7 +47,7 @@ function G01()
     addContact(1);
     CMessage("Hi %PetName%, miss me?");
     SMessage("He is fine %EmoteHappy%", -1, 2);
-    CMessage("Thanks %Contact1%, I will take control now");
+    CMessage("Thanks %domFriend1Name%, I will take control now");
     SMessage("You are welcome...cya", -1, 2);
     removeContact(2);
     return;
@@ -59,7 +59,7 @@ function G02()
     addContact(1);
     CMessage("Hi %PetName%, miss me?");
     SMessage("He is fine %EmoteHappy%", -1, 3);
-    CMessage("Thanks %Contact2%, I will take control now");
+    CMessage("Thanks %domFriend2Name%, I will take control now");
     SMessage("You are welcome...cya", -1, 3);
     removeContact(3);
     return;
@@ -71,7 +71,7 @@ function G03()
     addContact(1);
     CMessage("Hi %PetName%, miss me?");
     SMessage("He is fine %EmoteHappy%", -1, 4);
-    CMessage("Thanks %Contact3%, I will take control now");
+    CMessage("Thanks %domFriend3Name%, I will take control now");
     SMessage("You are welcome...cya", -1, 4);
     removeContact(4);
     return;

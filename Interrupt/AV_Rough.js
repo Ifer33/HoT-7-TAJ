@@ -4,7 +4,7 @@ DMessage("AV_Rough: end");
 function main()
 {
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     CMessage("%PetName%");
     switch(random("part1", "part2", "part3"))
     {

@@ -4,10 +4,10 @@ DMessage("Short12: end");
 function main()
 {
     CMessage("I like watching you " + random("service me like the obedient toy you are.", "do that"));
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-		stopStroking();
+		stopStrokingAll();
     }
     if(getVar("av_fetish_rough", false) || getVar("AV_Beta", false))
     {

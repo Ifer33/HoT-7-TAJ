@@ -58,7 +58,7 @@ function Break2()
     CMessage("Take as much time as you need.");
     CMessage("Just take care, that your %Cock% doesnt get soft.");
     CMessage("To keep your brain busy, I will show you one video of your nice collection");
-    playVideo("Videos" + java.io.File.separator + "*.*");
+    playVideo("Videos" + java.io.File.separator + "*.*",true);
     let answer0 = getInput("Give me a sign, when you feel ready to go.");
 	while (!(answer0.isLike("yes") || answer0.isLike("ready")))
     {

@@ -152,6 +152,6 @@ function GlitterTalk()
     {
         SMessage(random("Cool", "Thanks", "Nice"), -1, 4);
     }
-    setDate("AV_GlitterJoin");
+    setTempDate("AV_GlitterJoin");
     return;
 }

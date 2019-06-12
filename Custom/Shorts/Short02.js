@@ -3,13 +3,13 @@ main();
 DMessage("Short02: end");
 function main()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%StrokeSlower%");
         slowStroking();
     }
     CMessage("Feel that sexual " + random("frustration ", "tension ") + "building, feel how good it is on your cock.");
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("That repeated %Stroking%, sliding up and down the underside of your dick.");
     }
@@ -57,10 +57,10 @@ function CBT2()
 {
     CMessage("Maybe we didn\'t hurt your %Balls% enough to cool you down...");
     CMessage("Let\'s fix that");
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     cbt("ball");
     CMessage("%ThatsEnough%");

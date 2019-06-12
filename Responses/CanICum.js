@@ -23,7 +23,7 @@ function canICumResponse(message) {
             increaseAnger(3);
         }
     }
-    else if (isStroking())
+    else if (isStrokingAll())
     {
         let percentSession = (getMillisPassed() / 1000) / (getMinSessionLength() * 60);
         let apathyMood = getApathyMoodIndex();

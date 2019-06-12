@@ -356,10 +356,10 @@ function Fim()
 }
 function Modulo1()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("You\'ve been here long enough to know that I don\'t ask twice.");
     if(!getVar("AV_PinDone", false))
@@ -388,7 +388,7 @@ function Modulo1()
         return;
     }
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("Get the spoon ready");
     CMessage(random("Hit ", "Spank ") + "your balls");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "Spank1*.mp3");
@@ -486,10 +486,10 @@ function a32r8fs()
 }
 function Modulo2()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("What are you waiting for?");
     let answer0 = getInput("Will you obey your Mistress?");
@@ -541,7 +541,7 @@ function Modulo2()
     CMessage("and then realize that I will happily tease you.");
     CMessage("And deny you...");
     CMessage("%Stop%", 0);
-	stopStroking();
+	stopStrokingAll();
     let answer2 = getInput("You don\'t really expect me to let you cum do you?");
     if (answer2.isLike("yes", "yea", "yep"))
     {
@@ -557,7 +557,7 @@ function Modulo2()
     CMessage("Once it\'s mine, I\'ll be making all of the decisions.");
     CMessage("Just as it should be.");
     CMessage("%Stop%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("Instead of stroking, let\'s twitch your %Cock%");
     CMessage("Remember...");
     setVar("AV_twitchs", 0);
@@ -642,10 +642,10 @@ function EnoughTwitchs()
 }
 function Modulo3()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     if(!getVar("AV_PinDone", false))
     {
@@ -664,7 +664,7 @@ function Modulo3()
     CMessage("your penis, and your orgasm.");
     CMessage("There\'s no time to slow down and get to know one another.");
     //CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("That element is replaced by an instant and total submission of your body and mind to me");
     CMessage("for you to obey and do whatever pleases me.");
     CMessage("Playing in fantasy is fun and exciting.");
@@ -732,10 +732,10 @@ function a3hbu0a()
 }
 function Modulo4()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("The submission of your mind and body, to me, is something you give.");
     CMessage("A Gift, if you will.");
@@ -760,7 +760,7 @@ function Modulo4()
 function JustStop()
 {
     CMessage("%Stop%", 0);
-	stopStroking();
+	stopStrokingAll();
     ContinuePart2();
 }
 function ContinuePart2()
@@ -777,7 +777,7 @@ function ContinuePart2()
     CMessage("After all, It\'s all good and fun when Mistress is doing fun and erotic things");
     CMessage("things you think are fun and erotic.");
     CMessage("%Stop%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("But when you have been put to a task you don\'t particularly agree with or want to do");
     CMessage("then your submission is tested.");
     if(getVar("av_fetish_pain", false))

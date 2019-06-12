@@ -3,7 +3,9 @@ main();
 DMessage("AlternativeStroking: End_AV_Script");
 function main()
 {
-	
+	setEdgeMode("Goto", "EdgeStop()");
+	s01();
+	return;
 	if(getVar("AlternativeStroking_s02",false) ){
 		delVar("AlternativeStroking_s02");
 		s02();
@@ -29,6 +31,7 @@ function s01()
         Alts01();
         return;
     }
+	//try{
     CMessage("%StartStroking%");
     sleep(01);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "MetroAlt" + java.io.File.separator + "Masu1*.mp3");
@@ -56,11 +59,16 @@ function s01()
     //setVar("edgingmode", "Normal");
 	setEdgeMode();
     run("Modules" + java.io.File.separator + "*.js");
+	/*}catch(err){
+		DMessage("catch edge");
+		return;
+	}*/
     return;
     return;
     
     Alts01();
 }
+
 function Alts01()
 {
     if (randomInteger(1, 100) <= 50)
@@ -114,6 +122,7 @@ function Alts02()
     
     s02();
 }
+
 function s02()
 {
 	CrushStroke();
@@ -147,11 +156,18 @@ function s02()
 }
 function EdgeStop()
 {
+	/*try{
+	stopAudio();//new
+	throw Error("edge");
+	}catch(err){
+	throw Error("edge");
+	}
+	return true;*/
+	//return eval(throw Error("edge"));
     run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "Early edge.js");
     return;
-    return;
-    
-    CrushStroke();
+    //return;
+    //CrushStroke();
 }
 function CrushStroke()
 {
@@ -341,7 +357,7 @@ function ContactStroke()
 }
 function Gltter01()
 {
-    CMessage("So... " + random("%Contact1% made your %Cock% %Ache%", "you miss %Contact1%", "you want %Contact1% to tease you"));
+    CMessage("So... " + random("%domFriend1Name% made your %Cock% %Ache%", "you miss %domFriend1Name%", "you want %domFriend1Name% to tease you"));
     CMessage("Let\'s call her");
     addContact(2);
     SMessage(random("Hi %DomName%!", "Hello %ShortName%!", "Hi! How are you %DomName%?"), -1, 2);
@@ -357,7 +373,7 @@ function Gltter01()
 }
 function Gltter02()
 {
-    CMessage("So... " + random("%Contact2% made your %Cock% %Ache%", "you miss %Contact2%", "you want %Contact2% to tease you"));
+    CMessage("So... " + random("%domFriend2Name% made your %Cock% %Ache%", "you miss %domFriend2Name%", "you want %domFriend2Name% to tease you"));
     CMessage("Let\'s call her");
     addContact(3);
     SMessage(random("Hi %DomName%!", "Hello %ShortName%!", "Hi! How are you %DomName%?"), -1, 3);
@@ -380,9 +396,9 @@ function Gltter03()
     }
     if (getApathyMoodIndex() >= 75)
     {
-        CMessage("I will call %Contact3% to punish you");
+        CMessage("I will call %domFriend3Name% to punish you");
     }
-    CMessage("So... " + random("%Contact3% made your %Cock% %Ache%", "you miss %Contact3%", "you want %Contact3% to tease you"));
+    CMessage("So... " + random("%domFriend3Name% made your %Cock% %Ache%", "you miss %domFriend3Name%", "you want %domFriend3Name% to tease you"));
     CMessage("Let\'s call her");
     addContact(4);
     SMessage(random("Hi %DomName%!", "Hello %ShortName%!", "Hi! How are you %DomName%?"), -1, 4);
@@ -442,6 +458,7 @@ function GlitterSession()
     }
     if(getVar("AV_MEM_Contact1", false))
     {
+		stopAudio();
         CMessage("%stopstroking%", 0);
         //setVar("edgingmode", "Normal");
 		setEdgeMode();

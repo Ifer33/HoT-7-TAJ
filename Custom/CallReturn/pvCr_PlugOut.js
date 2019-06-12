@@ -2,10 +2,10 @@ main();
 function main()
 {
 	DMessage("pvCr_PlugOut CallReturn: Start");
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage(random("Go ahead take your buttplug out", "Take that plug out of your ass", "Take out your buttplug now"));
     CMessage(random("Your ass must be all stretched out", "Give that stretched hole a rest", "So your ass can finally relax a little"));

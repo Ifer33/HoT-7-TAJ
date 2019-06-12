@@ -356,10 +356,10 @@ function Fim()
 }
 function Modulo1()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("I need a man who knows how to control his %Cock%");
     CMessage("If you\'re %Submissive% enough...");
@@ -441,10 +441,10 @@ function AV_SkipKnee1()
 }
 function Modulo2()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("%LittleGame% %PetName%");
     CMessage("You will %Stroke% to the beat");
@@ -498,10 +498,10 @@ function ContinueStroke3()
 }
 function Modulo3()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("%AV_Break1%");
     CMessage("%AV_Luxury%");
@@ -531,7 +531,7 @@ function Modulo3()
     SMessage("so it would be priceless watching you", -1, 2);
     SMessage("have to worm your way out of all those orgasms she\'d want to give you", -1, 2);
     SMessage("%stopstroking%", -1, 2);
-	stopStroking();
+	stopStrokingAll();
     SMessage("Which brings us to our next question", -1, 2);
     SMessage("will I be gentle with you?", -1, 2);
     SMessage("Why should I be? That\'s what %DomName% for.", -1, 2);
@@ -563,17 +563,17 @@ function Modulo3()
     SMessage("Are you there...?", -1, 2);
     SMessage("Are you that close for me?", -1, 2);
     SMessage("%stopstroking%", -1, 2);
-	stopStroking();
+	stopStrokingAll();
     removeContact(2);
     return;
     Modulo4();
 }
 function Modulo4()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("%PetName%");
     CMessage("We should raise your pulse a bit.");

@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_Link4", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -373,7 +373,7 @@ function Link1()
     setVar("AV_Know_03", true);
     SMessage("Get 1 "+getVar("AV_Persona04")+" video and 10 pictures and put in the folder TeaseAI\\Images\\av_imagens\\04\\");
 	setVar("AV_Know_03_NOTREADY",true);
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     AV_Know_03_NOTREADY();
 }
@@ -389,7 +389,7 @@ function AV_Know_03()
         return;
     }
     CMessage("%secondtime%");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     av_basic_position();
 }
@@ -401,7 +401,7 @@ function av_basic_position()
     CMessage("and wait until you hear a stroking beat.");
     CMessage("Stroke to the beat and return when it stops.");
     unlockImages();
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -413,7 +413,7 @@ function Link2()
         return;
     }
     CMessage("%secondtime%");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     av_quest_done();
 }
@@ -421,7 +421,7 @@ function av_quest_done()
 {
     CMessage("I\'m about to make you start stroking again");
     CMessage("Right now %Lol%");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -452,7 +452,7 @@ function Link3()
         CMessage("%EmoteLaugh%");
         setVar("AV_Persona32b", true);
     }
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     AV_Know_22();
 }
@@ -461,7 +461,7 @@ function AV_Know_22()
     CMessage("I know, the \"Ruined Release\" is not easy");
     CMessage("so don\'t be disappointed if you can\'t achieve it today.");
     CMessage("We will keep practising.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -474,6 +474,6 @@ function Link4()
     CMessage("Every night I will make you lick me to orgasm after orgasm as your cock strains against its bondage");
     CMessage("and for the time being you will relish my position of authority over you");
     CMessage("and the excitement you feel from being so turned on but not allowed to climax.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
 }

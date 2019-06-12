@@ -12,6 +12,7 @@ function main()
     worshipMode(true);
 	//--Command:WorshipOn
     //SMessage("%StartStroking%", -1, 4);
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
+	Stroking();
     return;
 }

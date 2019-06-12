@@ -10,7 +10,7 @@ function punishResponse(message) {
     }
 	if(getVar("firstRun",false)) {
 		CMessage("Already? OK. %stopstroking%");
-		stopStroking();
+		stopStrokingAll();
 		cbt();
 	}
 	else if(getVar("cbtActive", false)){
@@ -88,7 +88,7 @@ function punishResponse(message) {
 			}
 		}
     }
-    else if (isStroking())
+    else if (isStrokingAll())
     {
         let found = false;
 		while(!found){
@@ -112,21 +112,21 @@ function punishResponse(message) {
 				case 4:
 					CMessage("If you want to be punished so bad I'm not %Gonna% stop you %PetName%.");
 					CMessage("%stopstroking%", 0);
-					stopStroking();
+					stopStrokingAll();
 					cbt();
 					found = true;
 					break;
 				case 5:
 					CMessage("You're so impatient to start be %Hurting% for me %PetName%.");
 					CMessage("%stopstroking%", 0);
-					stopStroking();
+					stopStrokingAll();
 					cbt();
 					found = true;
 					break;
 				case 6:
 					CMessage("If you're actually <i>asking</i> me to %Torture% you.");
 					CMessage("%stopstroking%", 0);
-					stopStroking();
+					stopStrokingAll();
 					cbt();
 					found = true;
 					break;
@@ -143,7 +143,7 @@ function punishResponse(message) {
 				case 9:
 					CMessage("OK I will %Hurting% you");
 					CMessage("%stopstroking%", 0);
-					stopStroking();
+					stopStrokingAll();
 					cbt();
 					found = true;
 					break;

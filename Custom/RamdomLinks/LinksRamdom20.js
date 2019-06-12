@@ -3,6 +3,8 @@ main();
 DMessage("LinksRandom20: end");
 function main()
 {
+	Link3();
+	return;
     if(getVar("AV_Link20_NotFirstTime", false))
     {
         AV_Link20_NotFirstTime();
@@ -350,7 +352,7 @@ function Fim()
 {
     setVar("AV_Link20", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -389,7 +391,7 @@ function TheCumQuestion()
     }
     CMessage("Don\'t forget that %PetName%");
     setVar("AV_WantCumQuest", true);
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Reforce();
 }
@@ -398,7 +400,7 @@ function Reforce()
     CMessage("Just to reminde you...");
     CMessage("If I ask you \"Do you want to cum?\" And you will say \"no\"");
     CMessage("And if I ask \"If you want to cum for Me?\" you say \"yes\"");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -423,7 +425,7 @@ function Link2()
     }
     CMessage("I\'m sure if you knew  you\'d only be able to masturbate to me for the rest of your life");
     CMessage("that\'d still be worth it in the face of never cumming.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -449,7 +451,8 @@ function Link3()
         return;
     }
     CMessage("Let\'s see what I can find");
-	showTeaseImage();
+	picture=getTeasePicture();
+	//showTeaseImage();
     lockImages();
     let answer1 = getInput("Do you like this one?");
     //--Command:ShowLocalImage
@@ -460,12 +463,14 @@ function Link3()
     if (answer1.isLike("yes", "yea", "yep", "yup", "do", "sexy", "hot", "amazing", "incredible", "crazy", "ache", "horny", "cum", "like", "beautiful"))
     {
         CMessage("%LAPIllSaveThisOne_86%");
-        sortPicture(getImagePath(), 3);
+        //sortPicture(getImagePath(), 3);
+		sortPicture(picture, 3);
     }
     else if (answer1.isLike("yes"))
     {
         CMessage("%LAPIllSaveThisOne_86%");
-        sortPicture(getImagePath(), 3);
+        //sortPicture(getImagePath(), 3);
+		sortPicture(picture, 3);
     }
     else if (answer1.isLike("maybe", "unsure", "dont know", "alright", "all right", "okay", "ok"))
     {
@@ -474,12 +479,14 @@ function Link3()
     else if (answer1.isLike("no", "nah", "not", "dont", "gross", "disgusting", "sick"))
     {
         CMessage("%LAPScratchThatOne_85%");
-        sortPicture(getImagePath(), 1);
+        //sortPicture(getImagePath(), 3);
+		sortPicture(picture, 1);
     }
     else if (answer1.isLike("no"))
     {
         CMessage("%LAPScratchThatOne_85%");
-        sortPicture(getImagePath(), 1);
+        //sortPicture(getImagePath(), 3);
+		sortPicture(picture, 1);
     }
     CMessage("Hmmm");
     What_About_This_One();
@@ -487,7 +494,8 @@ function Link3()
 }
 function What_About_This_One()
 {
-	showTeaseImage();
+	picture=getTeasePicture();
+	//showTeaseImage();
     lockImages();
     let answer0 = getInput("%LAPWhatAboutThisOne_85%");
     while (!(answer0.isLike("yes") || answer0.isLike("yea") || answer0.isLike("yep") || answer0.isLike("yup") || answer0.isLike("do") || answer0.isLike("sexy") || answer0.isLike("hot") || answer0.isLike("amazing") || answer0.isLike("incredible") || answer0.isLike("crazy") || answer0.isLike("ache") || answer0.isLike("horny") || answer0.isLike("cum") || answer0.isLike("like") || answer0.isLike("beautiful") || answer0.isLike("yes") || answer0.isLike("maybe") || answer0.isLike("unsure") || answer0.isLike("dont know") || answer0.isLike("alright") || answer0.isLike("all right") || answer0.isLike("okay") || answer0.isLike("ok") || answer0.isLike("no") || answer0.isLike("nah") || answer0.isLike("not") || answer0.isLike("dont") || answer0.isLike("gross") || answer0.isLike("disgusting") || answer0.isLike("sick") || answer0.isLike("no")))
@@ -497,12 +505,12 @@ function What_About_This_One()
     if (answer0.isLike("yes", "yea", "yep", "yup", "do", "sexy", "hot", "amazing", "incredible", "crazy", "ache", "horny", "cum", "like", "beautiful"))
     {
         CMessage("%LAPIllSaveThisOne_86%");
-        sortPicture(getImagePath(), 3);
+        sortPicture(picture, 3);
     }
     else if (answer0.isLike("yes"))
     {
         CMessage("%LAPIllSaveThisOne_86%");
-        sortPicture(getImagePath(), 3);
+        sortPicture(picture, 3);
     }
     else if (answer0.isLike("maybe", "unsure", "dont know", "alright", "all right", "okay", "ok"))
     {
@@ -511,12 +519,12 @@ function What_About_This_One()
     else if (answer0.isLike("no", "nah", "not", "dont", "gross", "disgusting", "sick"))
     {
         CMessage("%LAPScratchThatOne_85%");
-        sortPicture(getImagePath(), 1);
+        sortPicture(picture, 1);
     }
     else if (answer0.isLike("no"))
     {
         CMessage("%LAPScratchThatOne_85%");
-        sortPicture(getImagePath(), 1);
+        sortPicture(picture, 1);
     }
     if (randomInteger(1, 100) <= 20)
     {
@@ -537,7 +545,7 @@ function ImFinished()
 function Decline_Offer()
 {
     CMessage("%LAPYouNeedToSufferMore_85%");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -605,6 +613,6 @@ function fim1()
 {
     CMessage("Then get ready to stroke while I slide these panties off");
     CMessage("and try not to lose control.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
 }

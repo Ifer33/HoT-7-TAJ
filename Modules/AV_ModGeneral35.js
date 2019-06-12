@@ -356,10 +356,10 @@ function Fim()
 }
 function Modulo1()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("%AV_Break1%");
     CMessage("%AV_Luxury%");
@@ -467,10 +467,10 @@ function Modulo1()
 }
 function Modulo2()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("%AV_Break1%");
     CMessage("%AV_Luxury%");
@@ -585,7 +585,7 @@ function Modulo2()
 function brtfb2()
 {
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     NoEdgeQ();
     return;
     AllowEdgeQ();
@@ -637,10 +637,10 @@ function NoEdgeQ()
 }
 function Modulo3()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("%AV_Break1%");
     CMessage("%AV_Luxury%");
@@ -728,10 +728,10 @@ function Modulo3()
 }
 function Modulo4()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     if(!getVar("AV_PinDone", false))
     {
@@ -792,7 +792,7 @@ function Modulo4()
     CMessage("%Lol%");
     sleep(10);
     CMessage("%Stop%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("Now, let me tell you a little about ache.");
     CMessage("When you see a beautiful Goddess like me, you ache to serve me.");
     CMessage("To provide for me. To hope I\'ll let you get off");

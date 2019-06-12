@@ -356,10 +356,10 @@ function Fim()
 }
 function Modulo1()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("We need to get you throbbing.");
     CMessage("I want you to get yourself worked up");
@@ -522,10 +522,10 @@ function dsfd4v()
 }
 function Modulo2()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage(random("I think its time to have some fun", "I think you\'re gonna love this", "I bet my %Sexy% ass you\'re gonna love this!"));
     setVar("GNMGlitterDeny", true);
@@ -720,10 +720,10 @@ function FimGlitters()
 }
 function Modulo3()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     setVar("rounds", getVar("%DomLevel%", 0));
     setVar("max_rounds", getVar("rounds", 0));
@@ -905,10 +905,10 @@ function stop_loop()
 }
 function Modulo4()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("I will provide you with a proper purpose as my good boy, and in return, you will follow my every command.");
     CMessage("That means you and your cock belong to me");
@@ -936,7 +936,7 @@ function Modulo4()
     CMessage("And I will tell you. You\'ll get a chance to cum. " + random("For me", "To make me happy", "To please me"));
     CMessage("And if you do cum when I tell you to, it\'ll feel just that much better, because you know it\'s what I want.");
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     let answer1 = getInput("Are you still touching your nipples?",5);
     if (answer1.isLike("yes", "yea", "yep"))
     {

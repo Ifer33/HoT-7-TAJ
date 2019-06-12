@@ -356,10 +356,10 @@ function Fim()
 }
 function Modulo1()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("Oh my good boy.");
     CMessage("I know how much you want to give yourself to me totally.");
@@ -438,10 +438,10 @@ function Modulo1()
 }
 function Modulo2()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("Now, stand up for me.");
     CMessage("We will be doing something different.");
@@ -521,7 +521,7 @@ function Modulo2()
     CMessage("I know your cock is begging for that sweet spot to be petted and stroked but you just keep stroking the spine.");
     CMessage("Now wrap your hand all the way around your cock and stroke it one time all the way to the top and back down as slowly as you can");
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     //playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStop.mp3");
     CMessage("I think your cock is ready to move on now.");
     return;
@@ -529,10 +529,10 @@ function Modulo2()
 }
 function Modulo3()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage(random("%PetName%", "%SubName%"));
     CMessage("show me that cock of yours!");
@@ -582,7 +582,7 @@ function Modulo3()
     CMessage("You do know this is just going to get more and more difficult.");
     CMessage("I mean you just keep stroking your cock slower and slower trying not to edge.");
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("I want you to just relax, spread your legs over the table");
     CMessage("And touch your nipples for me");
     CMessage("Yeah, keep your dick nice and hard as you touch your nipples");
@@ -610,17 +610,17 @@ function Modulo3()
     CMessage("Come on we are almost done! Faster now!");
     CMessage("Oh fuck yes! Just a little longer!");
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("Your cock is good and hard so I am done for now!");
     return;
     Modulo4();
 }
 function Modulo4()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage(random("%PetName%", "%SubName%"));
     CMessage("Let your fingers drift down and cup over your cock.");
@@ -644,7 +644,7 @@ function Modulo4()
     CMessage(random("Your cock is going to feel better and better", "That looks so good starting to make me want more too"));
     CMessage(random("I can see just how good this feels to your cock", "I dont want you getting too worked up"));
     CMessage("And you can stop.");
-	stopStroking();
+	stopStrokingAll();
     //playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStop.mp3");
     CMessage("That should do well for now.");
     return;

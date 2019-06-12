@@ -2,10 +2,10 @@ main();
 function main()
 {
 	DMessage("pvCr_NotWantPlug: Start");
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("I don\'t like it when you say \'no\' to me, %Name%");
     increaseAnger(4)	//should be more??

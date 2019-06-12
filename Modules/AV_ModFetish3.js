@@ -356,10 +356,10 @@ function Fim()
 }
 function Modulo1()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "AV_Audio.js");
     return;
@@ -368,10 +368,10 @@ function Modulo1()
 }
 function Modulo2()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     if(getVar("av_fetish_bondage", false))
     {
@@ -384,7 +384,7 @@ function Modulo2()
     CMessage(random("Good thing ", "Thankfully ") + "you have some videos on your computer");
     CMessage("Stroke to the beat %Grin%");
     CMessage("Have fun");
-    playVideo("Videos" + java.io.File.separator + "*.*");
+    playVideo("Videos" + java.io.File.separator + "*.*",true);
     CMessage("%CensorContinue%");
     return;
     av_fetish_bondage();
@@ -491,10 +491,10 @@ function tied()
 }
 function Modulo3()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("I want to test your attention %SubName%");
     CMessage("Keep track of the numbers you see in the screen...");
@@ -613,7 +613,7 @@ function round1c()
 }
 function round1d()
 {
-    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "*.webm");
+    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "*.mp4",true);
     setVar("AV_GameGo", getVar("AV_GameGo", 0) + 1);
     if (getVar("AV_GameGo", 0) > 5)
     {
@@ -632,7 +632,7 @@ function round1d()
 function GameFinished()
 {
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("So, what is the sum of the numbers you saw?");
     setVar("AV_AtentResp", createInput().getAnswer());
     if (getVar("AV_AtentResp", 0) == getVar("AV_AtentGame", 0))
@@ -923,7 +923,7 @@ function round2d()
 function GameFinished2()
 {
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("So, what is the sum of the numbers you saw?");
     setVar("AV_AtentResp2", createInput().getAnswer());
     if (getVar("AV_AtentResp2", 0) == getVar("AV_AtentGame", 0))
@@ -1351,10 +1351,10 @@ function final3()
 }
 function Modulo4()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     if(getVar("av_fetish_pain", false))
     {
@@ -1367,7 +1367,7 @@ function Modulo4()
     CMessage("Stroke to the beat %Grin%");
 	setStrokingNoTaunt();
     CMessage("Have fun");
-    playVideo("Videos" + java.io.File.separator + "*.*");
+    playVideo("Videos" + java.io.File.separator + "*.*",true);
     CMessage("%CensorContinue%");
     return;
     av_fetish_pain();

@@ -40,7 +40,7 @@ function main()
     setVar("AV_Persona01", createInput().getAnswer());
     CMessage("Hmm... she is hot!");
     setVar("AV_Know_00", true);
-    CMessage("Put some "+getVar("AV_Persona01")+" pictures and put in the folder *TeaseAI\Images\av_imagens\02\*");
+    CMessage("Put some "+getVar("AV_Persona01")+" pictures and put in the folder *TeaseAI\\Images\\av_imagens\\02\\*");
     CMessage("So, maybe I can make a good use of that in the future");
     a001();
 	return;
@@ -56,8 +56,8 @@ function a001()
     setVar("AV_Persona02", createInput().getAnswer());
     CMessage("I don\'f know if you like her music or other thing %EmoteFace%");
     setVar("AV_Know_01", true);
-    CMessage("Can you get a "+getVar("AV_Persona02")+" music video and put in *TeaseAI\Video\AV_Clips* folder with the name AV_01.mp4");
-    CMessage("And pics in the folder *TeaseAI\Images\av_imagens\03\*");
+	CMessage("Can you get a "+getVar("AV_Persona02")+" music video and put in *TeaseAI\\Video\\AV_Clips* folder with the name AV_01.mp4");
+    CMessage("And pics in the folder *TeaseAI\\Images\\av_imagens\\03\\*");
     CMessage("I can make a good use of that in the future");
     a002();
 	return;
@@ -71,7 +71,7 @@ function a002()
     }
     CMessage("Who is your favourite Pornstar?");
     setVar("AV_Persona04", createInput().getAnswer());
-    CMessage("Can you get a "+getVar("AV_Persona04")+" porn video and put in the folder *TeaseAI\Images\av_imagens\04\*");
+    CMessage("Can you get a "+getVar("AV_Persona04")+" porn video and put in the folder *TeaseAI\\Images\\av_imagens\\04\\*");
 	setVar("AV_Know_03",true);
     a003();
 	return;
@@ -88,7 +88,7 @@ function a003()
     CMessage("Let me tell you... %EmoteFace%");
     setVar("AV_Know_12", true);
     CMessage("Look at her Facebook, instagram, etc");
-    CMessage("Find some "+getVar("AV_Persona13")+" pictures and put in the folder *TeaseAI\Images\av_imagens\01\*");
+    CMessage("Find some "+getVar("AV_Persona13")+" pictures and put in the folder *TeaseAI\\Images\\av_imagens\\01\\*");
     CMessage("Please, take note of the folders before contining, and put the pictures there before start a new session");
     a004();
 	return;

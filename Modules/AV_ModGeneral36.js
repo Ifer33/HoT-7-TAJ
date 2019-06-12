@@ -356,10 +356,10 @@ function Fim()
 }
 function Modulo1()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     let answer0 = getInput("How do you feel? Are you okay?", 5);
     if (answer0.isTimeout())
@@ -637,7 +637,7 @@ function EndNoAnal()
 }
 function Modulo2()
 {
-    if(!isStroking() ){
+    if(!isStrokingAll() ){
 		//CMessage("%StartStroking%");
 		setStrokingNoTaunt();
 	}
@@ -671,10 +671,10 @@ function Modulo2()
 }
 function NoEdgeC1()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("Sorry about that...I forgot you was %Stroking% yet %Lol%");
     CMessage("I can try to convince you to be more dominant, but it\'s just no use is it %Laugh%");
@@ -740,10 +740,10 @@ function Modulo3()
         AV_RubberCaning();
         return;
     }
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("I wanna hurt you bad");
     if(!getVar("av_fetish_pain", false))
@@ -877,10 +877,10 @@ function PunishmentL()
 }
 function AV_RubberCaning()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("Go fetch a large rubberband");
     CMessage("Large enough to fit arround your thigh");

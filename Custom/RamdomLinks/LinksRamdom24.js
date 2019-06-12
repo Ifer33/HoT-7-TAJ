@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_Link24", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -392,7 +392,7 @@ function Link1()
         CallFromLink24()
 		return;
     }
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     CallFromLink24();
 }
@@ -422,7 +422,7 @@ function CallFromLink24()
     CMessage("That doesn\'t mean you can\'t dream and drool over hot girls");
     CMessage("And just because you're not a <i>real</i> man doesn't mean you can't please a woman");
     CMessage("You just have to make a little bit more of an effort %Smile%");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     am_an_alpha();
 }
@@ -433,7 +433,7 @@ function am_an_alpha()
     //--Command:YesMode(Normal)
     CMessage("It can be good for Alpha males like yourself to know their place");
     CMessage("I mean, you're still a <i>guy</i>, which puts you below me by default %Smile%");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     
     Link2();
@@ -451,7 +451,7 @@ function Link2()
     }
     CMessage("It\'s very simple, all I have to do is show you what you\'ll never have.");
     CMessage("Don\'t believe it\'s that easy?");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -470,7 +470,7 @@ function Link3()
         wantToServeResponse();
     }
     CMessage("As I tease you I will explain to you exactly what I expect of you.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -490,6 +490,6 @@ function Link4()
     {
         CMessage("Be sure to catch it and swallow every drop for me like a good slave.");
     }
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
 }

@@ -4,7 +4,7 @@ DMessage("AV_ModGeneral12: end");
 function main()
 {
     //--UNINTERPRETED LINE:@Variable[%DateDifference%(AV_SessionTime,minutes)]<[15] %Stop% @StopStroking @Goto(IniModule)
-    if (isStroking())
+    if (isStrokingAll())
     {
         Sub_Stroking();
         return;
@@ -24,7 +24,7 @@ function Sub_Stroking()
         return;
     }
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     IniModule();
     return;
     DecidEdge();
@@ -537,7 +537,7 @@ function Modulo2()
     CMessage("Now start playing with your balls and keep that cock hard.");
     CMessage("It\'s so fun having a desperate little boy toy who will do whatever I say.");
     CMessage("You want to start");
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("again huh %PetName%?");
     }
@@ -658,7 +658,7 @@ function Modulo3()
     CMessage("Attacking a whipping lead to it and lead you into my house!");
     CMessage("I have so many training to put you through and you are going to love every minute of it.");
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     if(!getVar("av_fetish_pain", false))
     {
         Sempain02();
@@ -705,7 +705,7 @@ function Sempain02()
     CMessage("I love getting your cock all nice and hard");
     CMessage("and just when you think its going to explode...");
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
 	stopAudio();
     CMessage("It\'s so much fun hearing you beg for release.");
     CMessage("Just when you think you can\'t take it anymore");
@@ -811,7 +811,7 @@ function AV_PulaHum()
 function AV_TeaseCont()
 {
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("I love cock tease and how you sound so excited");
     CMessage("In fact, you will beg for more and more and more even when I brought tears to your eyes.");
     return;

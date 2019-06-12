@@ -1,4 +1,5 @@
 DMessage("AV_ModGeneral30: start");
+edged=false;
 main();
 DMessage("AV_ModGeneral30: end");
 function main()
@@ -356,10 +357,10 @@ function Fim()
 }
 function Modulo1()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("Look at Me.. Lust over Me..");
     CMessage("Feel that cock throb over Me..");
@@ -434,10 +435,10 @@ function Ye456()
 }
 function Modulo2()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     if(getVar("av_fetish_humiliating", false))
     {
@@ -604,10 +605,10 @@ function a33rv9pl()
 }
 function Modulo3()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     if(getVar("av_fetish_humiliating", false))
     {
@@ -784,10 +785,10 @@ function a913gbdzw()
 }
 function Modulo4()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage(random("%PetName%", "%SubName%"));
     CMessage("I will provide you with a proper purpose as my good boy");
@@ -948,15 +949,24 @@ function AV_Timeo245()
 }
 function bb345o()
 {
-    sleep(15);
-    CMessage("%CheerEdgeATon%");
-    sleep(15);
-    bb345o();
+	if(!edged){
+		sleep(15);
+	}
+	if(!edged){
+		CMessage("%CheerEdgeATon%");
+	}
+	if(!edged){
+		sleep(15);
+	}
+	if(!edged){
+		bb345o();
+	}
     return;
     a3dg4fh4();
 }
 function a3dg4fh4()
 {
+	edged=true;
     CMessage("Hold the edge!");
     setVar("edgingmode", "Normal");
 	delVar("edginggoto");
@@ -981,7 +991,7 @@ function a3dg4fh4()
     CMessage("...And ten");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "whip.mp3");
     CMessage("%Stop%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("%GoodBoy%");
     CMessage("%SitDown%");
     return;

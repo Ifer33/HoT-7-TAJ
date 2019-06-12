@@ -3,10 +3,10 @@ main();
 DMessage("pvCr_WantAnal: end");
 function main()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     delVar("pvWA");
     if(getVar("pthevAnal", false))

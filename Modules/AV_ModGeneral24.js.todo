@@ -354,10 +354,10 @@ function Fim()
 }
 function Modulo1()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage(random("%PetName%", "%SubName%"));
     CMessage("I think your hard rock %Cock% still needs more " + random("aching", "warm-up"));
@@ -494,10 +494,10 @@ function Warm_up_exercise_2()
 }
 function Modulo2()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage(random("I\'d like to play something new with you %GeneralTime% ", "I\'d like to do something new with you %GeneralTime% ", "I want to do something new with you %GeneralTime% ", "I want to play something new with you %GeneralTime% ", "I feel like doing something new with you %GeneralTime% ", "I feel like playing something new with you %GeneralTime% ") + random("%SubName%", "%PetName%"));
     CMessage(random("I think we should explore more ", "I think we should play some ", "I\'d like to play some ", "%GeneralTime% I feel like playing some ", "Why don\'t we play some ", "I think we should do some ") + "...");
@@ -828,7 +828,7 @@ function The_more_the_better()
     }
     if (inGroup(1, 4))
     {
-        CMessage("Don\'t you think %Contact3%?");
+        CMessage("Don\'t you think %domFriend3Name%?");
         --UNINTERPRETED LINE:@Group(D3) @Contact3 A %PetName% like %SubName% <i>MUST</i> always accept what his %DomHonorific% decides...
     }
     if (inGroup(1, 4))
@@ -892,7 +892,7 @@ function Too_much_edges()
     }
     if (inGroup(1, 3))
     {
-        CMessage("Okay %Contact2%. You convinced me");
+        CMessage("Okay %domFriend2Name%. You convinced me");
     }
     if (inGroup(1, 3))
     {
@@ -902,7 +902,7 @@ function Too_much_edges()
     }
     if (inGroup(1, 3))
     {
-        CMessage("But only for this time %Contact2%");
+        CMessage("But only for this time %domFriend2Name%");
     }
     if (inGroup(1, 3))
     {
@@ -910,7 +910,7 @@ function Too_much_edges()
     }
     if (inGroup(1, 3))
     {
-        CMessage("You should thank %Contact2% %SubName%");
+        CMessage("You should thank %domFriend2Name% %SubName%");
     }
     if (inGroup(1, 3))
     {
@@ -974,7 +974,7 @@ function Start_edging_for_the_last_time()
             return;
         }
         --UNINTERPRETED LINE:@Group(D) %Edge% @RTOff @Edge(Hold) @Goto(Command_centre)
-        --UNINTERPRETED LINE:@Group(D3) You may make him edge if you want now %Contact3% @RTOff
+        --UNINTERPRETED LINE:@Group(D3) You may make him edge if you want now %domFriend3Name% @RTOff
     }
     if (inGroup(1, 4))
     {
@@ -1659,13 +1659,13 @@ function Finished_edging()
 }
 function Contact2()
 {
-    CMessage("Do you remember my friend %Contact2% %SubName%?");
+    CMessage("Do you remember my friend %domFriend2Name% %SubName%?");
     addContact(3);
     SMessage("Hello %SubName%!", -1, 3);
     SMessage("I hope I didn\'t interrupt anything important...", -1, 3);
-    CMessage("Don\'t worry %Contact2%... We were about to play a game...");
+    CMessage("Don\'t worry %domFriend2Name%... We were about to play a game...");
     SMessage("A game?", -1, 3);
-    CMessage("Yes %Contact2%");
+    CMessage("Yes %domFriend2Name%");
     SMessage("What kind of game?", -1, 3);
     if(getVar("CBT_Game", false) && getVar("CBT_Game_Contact2", false))
     {
@@ -1699,11 +1699,11 @@ function Edging_Game_Contact2()
 }
 function Contact3()
 {
-    CMessage("Do you remember my friend %Contact3% %SubName%?");
+    CMessage("Do you remember my friend %domFriend3Name% %SubName%?");
     addContact(4);
     SMessage("Hello %SubName%!", -1, 4);
     SMessage("I hope I didn\'t interrupt anything important...", -1, 4);
-    CMessage("Don\'t worry %Contact3%... We were just playing a game...");
+    CMessage("Don\'t worry %domFriend3Name%... We were just playing a game...");
     SMessage("Mmm... Sounds interesting...", -1, 4);
     SMessage("I play games with my slaves too...", -1, 4);
     CMessage(random("Yeah, I saw you playing with your slaves ", "I know what kind of games you like ", "I saw what kind of games you like playing with your slaves ") + "...");
@@ -1728,7 +1728,7 @@ function CBT_Game_Contact3()
 {
     CMessage("I was thinking to %CBT% but, you know, after a while it gets repetitive...");
     SMessage("It seems you ran out of ideas %ShortName%...", -1, 4);
-    CMessage("I could really use some help: do you have any idea %Contact3%?");
+    CMessage("I could really use some help: do you have any idea %domFriend3Name%?");
     SMessage("Glad you asked it %DomName%", -1, 4);
     SMessage("Actually I have a few games in mind I think you\'ll like", -1, 4);
     SMessage("Get ready", -1, 4);
@@ -1753,7 +1753,7 @@ function Edging_Game_Contact3()
     CMessage("We were about to play a little edging game");
     SMessage("I love edging games!", -1, 4);
     SMessage("Can I stay here and watch?", -1, 4);
-    CMessage("Of course %Contact3%! You may even edge him yourself if you wish");
+    CMessage("Of course %domFriend3Name%! You may even edge him yourself if you wish");
     Start_edging_game();
     return;
     Contact3_CBT_Game1();
@@ -1765,7 +1765,7 @@ function Contact3_CBT_Game1()
     --UNINTERPRETED LINE:@Contact3 As the name says, you, @RT(%PetName%,%SubName%), are %Gonna% edge... @RTOn
     CMessage("and bust your %Balls% in your cooldown time");
     --UNINTERPRETED LINE:@Contact3 That's right %ShortName%! @RTOff
-    CMessage("I like it %Contact3%!");
+    CMessage("I like it %domFriend3Name%!");
     CMessage("Do you like it " + random("%PetName%", "%SubName%"));
     SMessage("He doesn\'t have to like it %ShortName%", -1, 4);
     SMessage("%YoureGoingToDoIt%", -1, 4);
@@ -1811,7 +1811,7 @@ function tell_Game1()
 function do_not_tell_Game1()
 {
     CMessage("No");
-    CMessage("I want to keep them for me %Contact3%");
+    CMessage("I want to keep them for me %domFriend3Name%");
     Continue_Game1();
     return;
     Continue_Game1();
@@ -1820,12 +1820,12 @@ function Continue_Game1()
 {
     SMessage("Now comes the ballbusting part...", -1, 4);
     --UNINTERPRETED LINE:@Contact3 In your cooldown time I want you to slap your %Balls% <i>HARD<i> @RT(3,6) times @RT(%PetName%,%SubName%)
-    CMessage("It\'s %Gonna% be a lot of %CBT% %Contact3%...");
+    CMessage("It\'s %Gonna% be a lot of %CBT% %domFriend3Name%...");
     SMessage("I know... I know...", -1, 4);
     SMessage("That\'s why I like so much this game %Grin%", -1, 4);
     SMessage("At the end, all he\'s %Gonna% able to feel will be " + random("ache ", "pain ") + "...", -1, 4);
     SMessage("A lot of " + random("ache ", "pain ") + "due to all that %CumNoun% built up in those aching %Balls% from all that %CBT%", -1, 4);
-    --UNINTERPRETED LINE:You're very cruel %Contact3%! @RTOn
+    --UNINTERPRETED LINE:You're very cruel %domFriend3Name%! @RTOn
     SMessage("No", -1, 4);
     SMessage("I\'m not", -1, 4);
     --UNINTERPRETED LINE:@Contact3 That's what he deserves @RTOff
@@ -1844,10 +1844,10 @@ function Continue_Game1()
         SMessage("Oh well. You just added 5 more edges to what you owe us %SubName%", -1, 4);
         setVar("Game1_number_of_edges", getVar("Game1_number_of_edges", 0) + 5);
     }
-    CMessage("%Contact3% I think you should have the honor of edging him");
+    CMessage("%domFriend3Name% I think you should have the honor of edging him");
     SMessage("Are you sure %ShortName%?", -1, 4);
     SMessage("You\'re his %DomHonorific%. I don\'t want to...", -1, 4);
-    CMessage("Don\'t worry %Contact3%");
+    CMessage("Don\'t worry %domFriend3Name%");
     CMessage("My toys are your toys, you know that");
     CMessage("However, I like watching my %PetName% being dominated by another %DomHonorific%, from time to time...");
     SMessage("Well %SubName%, you heard %ShortName%...", -1, 4);
@@ -1893,7 +1893,7 @@ function End_Game1()
     delVar("Game1_number_of_edges");
     delVar("Game1_cooldown_time");
     SMessage("Look how wet your %Pussy% is!", -1, 4);
-    CMessage("You made me really %DomHorny% %Contact3%");
+    CMessage("You made me really %DomHorny% %domFriend3Name%");
     CMessage("It was really %Hot%! And that last edge...");
     CMessage("Wow!");
     CMessage("I think I came " + randomInt(3, 6) + "times watching you");
@@ -1912,7 +1912,7 @@ function tgr8_Game1_normal_hold()
     --Command:SubName
     CMessage("to hold edges");
     SMessage("You can\'t afford to have a %PetName% that is barely able to hold a normal edge", -1, 4);
-    CMessage("Yeah, you\'re right %Contact3%");
+    CMessage("Yeah, you\'re right %domFriend3Name%");
     CMessage("I should really let him come by your house for some training sessions");
     Goodbye_time();
     return;
@@ -1923,11 +1923,11 @@ function tgr8_Game1_long_hold()
     SMessage("He seems a bit shocked, don\'t you think %DomName%?", -1, 4);
     SMessage("That long edge was too much to hold for you?", -1, 4);
     CMessage("It looks like that last edge was too much for him");
-    CMessage("Look %Contact3% all these veins pumping blood to that %Cock% head");
+    CMessage("Look %domFriend3Name% all these veins pumping blood to that %Cock% head");
     SMessage("I love making %Cock% throbbing...", -1, 4);
     SMessage("I bet that just a little gentle touch to your %Cock% sweet spot would make you %Cum% straight away %SubName%...", -1, 4);
     SMessage("but I prefer slaves with a big pair of blue balls!!! %Grin%", -1, 4);
-    CMessage("And this is only the beginning %Contact3%");
+    CMessage("And this is only the beginning %domFriend3Name%");
     --UNINTERPRETED LINE:<i>Real</i> %Stroking% hasn't started yet!
     SMessage("Well, then %SubName%...", -1, 4);
     SMessage("Looks like your %Cock% is %Gonna% %Leak% a lot %GeneralTime% %Grin%", -1, 4);
@@ -1940,11 +1940,11 @@ function tgr8_Game1_extreme_hold()
     SMessage("He seems a bit shocked", -1, 4);
     SMessage("That extreme hold must have consumed you", -1, 4);
     CMessage("It looks like that last edge was too much for him");
-    CMessage("Look %Contact3% all these veins pumping blood to that %Cock% head");
+    CMessage("Look %domFriend3Name% all these veins pumping blood to that %Cock% head");
     SMessage("I love making %Cock% throbbing...", -1, 4);
     SMessage("I bet that just a little gentle touch to your %Cock% sweet spot would make you %Cum% straight away %SubName%...", -1, 4);
     SMessage("but I prefer slaves with a " + random("huge ", "big ") + random("pair ", "set ") + "of blue %Balls%!!! %Grin%", -1, 4);
-    CMessage("And this is only the beginning %Contact3%");
+    CMessage("And this is only the beginning %domFriend3Name%");
     --UNINTERPRETED LINE:<i>Real</i> %Stroking% hasn't started yet!
     SMessage("Well, then %SubName%...", -1, 4);
     SMessage("Looks like your %Cock% is %Gonna% %Leak% a lot %GeneralTime% %Grin%", -1, 4);
@@ -1958,7 +1958,7 @@ function Contact3_CBT_Game2()
     SMessage("Each round has the same amount of edges", -1, 4);
     SMessage("but different cooldown times", -1, 4);
     SMessage("So %ShortName%...", -1, 4);
-    CMessage("Tell me %Contact3%. What do I need to do?");
+    CMessage("Tell me %domFriend3Name%. What do I need to do?");
     SMessage("I want you to think of two numbers", -1, 4);
     SMessage("The first will " + random("determine ", "decide ", "give us ", "indicate ", "specify ", "designate ") + "the number of rounds that %SubName% " + random("has to face", "will have to face"), -1, 4);
     SMessage("The second will " + random("determine ", "decide ", "give us ", "indicate ", "specify ", "designate ") + "the number of edges per round", -1, 4);
@@ -1987,7 +1987,7 @@ function Contact3_CBT_Game2()
 }
 function Game2_number_of_edges1()
 {
-    CMessage("I chose the number of rounds %Contact3%");
+    CMessage("I chose the number of rounds %domFriend3Name%");
     SMessage("Good. Now the number of edges per round %ShortName%", -1, 4);
     setVar("Game2_number_of_edges_per_round", getVar("%Random5%,8", 0));
     CMessage("Ok, I decided");
@@ -1997,7 +1997,7 @@ function Game2_number_of_edges1()
 }
 function Game2_number_of_edges2()
 {
-    CMessage("I chose the number of rounds %Contact3%");
+    CMessage("I chose the number of rounds %domFriend3Name%");
     SMessage("Good. Now the number of edges per round %ShortName%", -1, 4);
     setVar("Game2_number_of_edges_per_round", getVar("%Random4%,7", 0));
     CMessage("Ok, I decided");
@@ -2007,7 +2007,7 @@ function Game2_number_of_edges2()
 }
 function Game2_number_of_edges3()
 {
-    CMessage("I chose the number of rounds %Contact3%");
+    CMessage("I chose the number of rounds %domFriend3Name%");
     SMessage("Good. Now the number of edges per round %ShortName%", -1, 4);
     setVar("Game2_number_of_edges_per_round", getVar("%Random3%,6", 0));
     CMessage("Ok, I decided");
@@ -2017,7 +2017,7 @@ function Game2_number_of_edges3()
 }
 function Game2_number_of_edges4()
 {
-    CMessage("I chose the number of rounds %Contact3%");
+    CMessage("I chose the number of rounds %domFriend3Name%");
     SMessage("Good. Now the number of edges per round %ShortName%", -1, 4);
     setVar("Game2_number_of_edges_per_round", getVar("%Random3%,5", 0));
     CMessage("Ok, I decided");
@@ -2056,12 +2056,12 @@ function tell_Game2()
 function do_not_tell_Game2()
 {
     CMessage("No");
-    CMessage("I want to keep them for me %Contact3%");
+    CMessage("I want to keep them for me %domFriend3Name%");
     Prepare_for_Game2_start();
 }
 function Prepare_for_Game2_start()
 {
-    CMessage("Do you need my help for this game or can I relax and watch %Contact3%?");
+    CMessage("Do you need my help for this game or can I relax and watch %domFriend3Name%?");
     SMessage("Well the game is divided in rounds so we can alternate", -1, 4);
     CMessage("Fantastic!");
     SMessage("While we take care of your %Cock%", -1, 4);
@@ -2261,9 +2261,9 @@ function End_Game2()
     delVar("Game2_number_of_edges_per_round");
     delVar("Game2_cooldown_time");
     SMessage("That was the last edge you owed us " + random("%PetName%", "%SubName%"), -1, 4);
-    CMessage("That was amazing %Contact3%!");
+    CMessage("That was amazing %domFriend3Name%!");
     --UNINTERPRETED LINE:@Contact3 I bet you want to %Cum% <i>soooo</i> desperately now %SubName%...
-    CMessage("You said it %Contact3%. We just edged him");
+    CMessage("You said it %domFriend3Name%. We just edged him");
     --Command:ShowVar(Game2_number_of_edges)
     CMessage("times");
     SMessage("He must have a massive load built up on those %Balls%", -1, 4);
@@ -2277,7 +2277,7 @@ function End_Game2()
     --UNINTERPRETED LINE:@Contact3 Like yours %SubName%! @RTOff
     SMessage("Will you let him " + random("rest ", "%RelaxAndBreathe% ") + "now %ShortName%?", -1, 4);
     CMessage("Just a bit, I have other plans for him %GeneralTime%");
-    CMessage("This is only the beginning %Contact3%");
+    CMessage("This is only the beginning %domFriend3Name%");
     CMessage("Real %Stroking% hasn\'t started yet!");
     SMessage("Well then %SubName%...", -1, 4);
     SMessage("Looks like your %Cock% is %Gonna% %Leak% and suffer a lot today %SubName%... %Grin%", -1, 4);
@@ -2319,7 +2319,7 @@ function Goodbye_time()
     SMessage("I have many other cruel ideas to %Torture% " + random("%SubName% ", "your %PetName% ") + "... %Grin%", -1, 4);
     if (inGroup(1, 4))
     {
-        CMessage("I can\'t wait until next time %Contact3%!");
+        CMessage("I can\'t wait until next time %domFriend3Name%!");
     }
     SMessage("Yeah, I know... But I promise it\'ll be worth %ShortName%", -1, 4);
     if (inGroup(1, 3))
@@ -2333,7 +2333,7 @@ function Goodbye_time()
     SMessage("%Bye% %DomName%!", -1, 3);
     if (inGroup(1, 3))
     {
-        CMessage("%Bye% %Contact2%!");
+        CMessage("%Bye% %domFriend2Name%!");
     }
     SMessage("%Bye% %SubName%!", -1, 3);
     sleep(2);
@@ -2344,7 +2344,7 @@ function Goodbye_time()
     SMessage("%Bye% %DomName%!", -1, 4);
     if (inGroup(1, 4))
     {
-        CMessage("%Bye% %Contact3%!");
+        CMessage("%Bye% %domFriend3Name%!");
     }
     SMessage("%Bye% %SubName%!", -1, 4);
     sleep(2);
@@ -2358,10 +2358,10 @@ function Goodbye_time()
 }
 function Modulo3()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("So, you think you have control of your cock?");
     CMessage("Do you think it\'s up to you when it gets hard, when it stays soft, when it explodes in orgasmic pleasure?");
@@ -2455,10 +2455,10 @@ function a7fi7rf()
 }
 function Modulo4()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage(random("%PetName%", "%SubName%"));
     CMessage("Party time...");

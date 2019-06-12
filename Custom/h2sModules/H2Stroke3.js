@@ -14,14 +14,14 @@ function main()
     SMessage("I am here to have a nice workout with you together.", -1, 4);
     SMessage("just stay loose and relaxed", -1, 4);
     SMessage("Or are you not relaxed? %Grin%", -1, 4);
-    CMessage("I think he is a bit nervous %Contact3% %LOL%");
+    CMessage("I think he is a bit nervous %domFriend3Name% %LOL%");
     SMessage("Today it is going to be something special for you.", -1, 4);
     CMessage("Sounds very amazing, hmmm i wish i could stay longer %EmoteMoan%");
     SMessage("I have some tasks for you to fulfill", -1, 4);
     SMessage("Randomly selected for you", -1, 4);
     SMessage("If you are lucky, it will get easy for you...", -1, 4);
     SMessage("If not, then it will get very hard for you and you will be sweating", -1, 4);
-    CMessage("i hope that he gets sweating a lot %Contact3% %Lol%");
+    CMessage("i hope that he gets sweating a lot %domFriend3Name% %Lol%");
     SMessage("You can be sure of that, %ShortName% %Grin%", -1, 4);
     SMessage("Perhaps only a few tasks", -1, 4);
     SMessage("Maybe lots...", -1, 4);
@@ -29,7 +29,7 @@ function main()
     SMessage("But the only person, who decides that, is me!", -1, 4);
     SMessage("If I am that nice to you %PetName%, to offer you break", -1, 4);
     SMessage("Then use these breaks, you will need them!", -1, 4);
-    CMessage("Can you do it without breaks %Contact3%? %Grin%");
+    CMessage("Can you do it without breaks %domFriend3Name%? %Grin%");
     SMessage("sure we can %ShortName%, next time we can also take both care of him %Grin%", -1, 4);
     SMessage("%SubName%, as usual you have to do EVERYTHING i tell you.", -1, 4);
     SMessage("no exceptions!", -1, 4);
@@ -53,11 +53,11 @@ function Harry_cum_pos2()
     SMessage("Non dominant hand grabs %Cock%", -1, 4);
     SMessage("Keep doing until ordered otherwise, but at least for 1 minute!", -1, 4);
     SMessage("So that we have cleared that %SubName%, i think we can move on", -1, 4);
-    CMessage("%PetName% is not allowed to stop %Contact3%?")
+    CMessage("%PetName% is not allowed to stop %domFriend3Name%?")
     SMessage("No %ShortName%, today its so called ?Task_Forced? %Lol%", -1, 4);
     SMessage("This means NO STOP during a task.", -1, 4);
     SMessage("UNDER NO CIRCUMSTANCES!!", -1, 4);
-    CMessage("Wow that sounds so fucking hot %Contact3%");
+    CMessage("Wow that sounds so fucking hot %domFriend3Name%");
     CMessage("Awesome idea, will have to keep that in mind for later.");
     CMessage("Too bad that I have to leave now.");
     setVar("Contact3_unit", true);
@@ -91,7 +91,7 @@ function Contact3_unit()
     }
     SMessage("Nice to see you again %SubName%", -1, 4);
     SMessage("and of course thanks %ShortName% that you invited me another time %Grin%", -1, 4);
-    CMessage("No problem %Contact3%, you have always such great ideas %EmoteMoan%");
+    CMessage("No problem %domFriend3Name%, you have always such great ideas %EmoteMoan%");
     CMessage("I think I can learn a lot from you " + "-)");
     SMessage("OH thx %ShortName% for the compliment %Grin%", -1, 4);
     SMessage("I am doing my best %Lol%", -1, 4);
@@ -962,7 +962,7 @@ function Break3()
     SMessage("Just take a break without stroking", -1, 4);
     SMessage("Only watch this video and try to relax.", -1, 4);
     SMessage("Simply watch out, that your %Cock% stays hard.", -1, 4);
-    playVideo("Videos" + java.io.File.separator + "*.*");
+    playVideo("Videos" + java.io.File.separator + "*.*",true);
     SMessage("Ok your break is over", -1, 4);
     SMessage("But before we move on with working on your edgegoal, just give me one extra edge %Grin%", -1, 4);
     setRapidText(false);

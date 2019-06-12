@@ -356,10 +356,10 @@ function Fim()
 }
 function Modulo1()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("I already know that you are an amazing subject");
     CMessage("who gave himself up completely and with that turned into a " + random("screaming ", "begging ", "shivering ") + "and shaking love slave");
@@ -439,10 +439,10 @@ function Modulo1()
 }
 function Modulo2()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("I\'m in control. I make the rules.");
     let answer0 = getInput("Do you understand?", 10);
@@ -543,10 +543,10 @@ function KeepGoing()
 }
 function Modulo3()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage(random("%PetName%", "%SubName%"));
     CMessage("Lay back, relax,  and let me make you happy.");
@@ -568,7 +568,7 @@ function Modulo3()
     CMessage("You can stop playing with your balls now, but keep stroking.");
     CMessage("Good boy.");
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("Now, we\'re going to change things up.");
     CMessage("You know how there\'s that technique of rubbing 2 sticks together to start a fire?");
     CMessage("Do that with your cock.");
@@ -602,7 +602,7 @@ function Modulo3()
     CMessage("You just want to cum so badly it\'s driving you crazy.");
     CMessage("But lets take a break.");
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("You want to come so bad.");
     CMessage("You just want that release.");
     CMessage("It will feel so good.");
@@ -619,10 +619,10 @@ function Modulo3()
 }
 function Modulo4()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("%SubName%");
     CMessage("Clasp your hands together behind your back.");

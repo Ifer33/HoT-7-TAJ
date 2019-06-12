@@ -84,28 +84,37 @@ function Start()
 }
 function StartCont1()
 {
-    while(!edged){
+    //while(!edged){
+	if(!edged){
 		SMessage("%StartStroking%", -1, 2);
 		sleep(01);
 		//--UNINTERPRETED LINE:@Contact1 @NullResponse @PlayAudio[tease\tgr8\Contact1 special test audio\*.mp3] 
 		playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "tgr8" + java.io.File.separator + "Contact1 special test audio" + java.io.File.separator + "*.mp3");
 		sleep(10);
+	} if(!edged){
 		SMessage("%StrokeTaunts_1%", -1, 2);
 		sleep(randomInt(10, 15));
+	} if(!edged){
 		SMessage("%StrokeTaunts_1%", -1, 2);
 		sleep(randomInt(10, 15));
+	} if(!edged){
 		SMessage("%StrokeTaunts_1%", -1, 2);
 		sleep(randomInt(10, 12));
+	} if(!edged){
 		SMessage("%StrokeTaunts_1%", -1, 2);
 		sleep(randomInt(15, 18));
+	} if(!edged){
 		SMessage("%StrokeTaunts_1%", -1, 2);
 		sleep(randomInt(10, 15));
+	} if(!edged){
 		SMessage("%StrokeTaunts_1%", -1, 2);
 		sleep(randomInt(15, 20));
+	} if(!edged){
 		SMessage("%StrokeTaunts_1%", -1, 2);
 		sleep(randomInt(10, 15));
-		break;
+		//break;
 	}
+	stopAudio();
     SMessage("%stopstroking%", 0,2);
     setVar("edgingmode", "Normal");
     FinishGlitter();
@@ -115,28 +124,37 @@ function StartCont1()
 }
 function StartCont2()
 {
-	while(!edged){
+	//while(!edged){
+	if(!edged){
 		SMessage("%StartStroking%", -1, 3);
 		sleep(01);
 		//--UNINTERPRETED LINE:@Contact2 @NullResponse @PlayAudio[tease\tgr8\Contact2 special test audio\*.mp3]
 		playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "tgr8" + java.io.File.separator + "Contact2 special test audio" + java.io.File.separator + "*.mp3");
 		sleep(10);
+	} if(!edged){
 		SMessage("%StrokeTaunts_1%", -1, 3);
 		sleep(randomInt(10, 15));
+	} if(!edged){
 		SMessage("%StrokeTaunts_1%", -1, 3);
 		sleep(randomInt(10, 15));
+	} if(!edged){
 		SMessage("%StrokeTaunts_1%", -1, 3);
 		sleep(randomInt(10, 12));
+	} if(!edged){
 		SMessage("%StrokeTaunts_1%", -1, 3);
 		sleep(randomInt(15, 20));
+	} if(!edged){
 		SMessage("%StrokeTaunts_1%", -1, 3);
 		sleep(randomInt(10, 15));
+	} if(!edged){
 		SMessage("%StrokeTaunts_1%", -1, 3);
 		sleep(randomInt(15, 18));
+	} if(!edged){
 		SMessage("%StrokeTaunts_1%", -1, 3);
 		sleep(randomInt(10, 15));
-		break;
+		//break;
 	}
+	stopAudio();
     SMessage("%stopstroking%", 0,3);
     setVar("edgingmode", "Normal");
     FinishGlitter();
@@ -146,24 +164,28 @@ function StartCont2()
 }
 function StartCont3()
 {
-	while(!edged){
+	//while(!edged){
+	if(!edged){
 		SMessage("%StartStroking%", -1, 4);
 		sleep(01);
 		//--UNINTERPRETED LINE:@Contact3 @NullResponse @PlayAudio[tease\tgr8\Contact3 special test audio\tgr8_c3t*.mp3] 
 		playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "tgr8" + java.io.File.separator + "Contact3 special test audio" + java.io.File.separator + "tgr8_c3t*.mp3");
 		sleep(10);
+	} if(!edged){
 		SMessage("%StrokeTaunts_1%", -1, 4);
 		sleep(randomInt(15, 18));
 		stopAudio();
 		SMessage("%stopstroking%", 0,4);
+	} if(!edged){
 		SMessage("%StartStroking%", -1, 4);
 		sleep(01);
 		//--UNINTERPRETED LINE:@Contact3 @NullResponse @PlayAudio[tease\tgr8\Contact3 special test audio\tgr8_c3t*.mp3] @sleep(10)
 		playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "tgr8" + java.io.File.separator + "Contact3 special test audio" + java.io.File.separator + "tgr8_c3t*.mp3");
 		sleep(10);
+	} if(!edged){
 		SMessage("%StrokeTaunts_1%", -1, 4);
 		sleep(randomInt(15, 18));
-		break;
+		//break;
 	}
 	stopAudio();
     SMessage("%stopstroking%", 0,4);
@@ -234,18 +256,18 @@ function FinishGlitter()
     if (inGroup([1, 2]))
     {
         SMessage("That\'s " + random("was fun ", "enough ", "it ") + "bye %SubName%", -1, 2);
+		removeContact(2);
     }
     if (inGroup([1, 3]))
     {
         SMessage("That\'s " + random("was fun ", "enough ", "it ") + "bye %SubName%", -1, 3);
+		removeContact(3);
     }
     if (inGroup([1, 4]))
     {
         SMessage("That\'s " + random("was fun ", "enough ", "it ") + "bye %SubName%", -1, 4);
+		removeContact(4);
     }
-    removeContact(4);
-    removeContact(2);
-    removeContact(3);
     run("Modules" + java.io.File.separator + "*.js");
     return;
     return;

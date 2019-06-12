@@ -356,10 +356,10 @@ function Fim()
 }
 function Modulo1()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("You know, this is actually getting me off faster than if you were here.");
     CMessage("Don\'t get me wrong, I love a man who knows his way around a vagina");
@@ -481,7 +481,7 @@ function Position4()
 function FimPosition()
 {
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     return;
     
     Modulo2();
@@ -516,7 +516,7 @@ function e3h67ikd()
     CMessage("you\'re going to tell me that you don\'t want to cum.");
     CMessage("You\'re going to beg to be denied.");
     CMessage("%Stop%");
-	stopStroking();
+	stopStrokingAll();
 	setVar("edgingmode", "Normal");
     delVar("edginggoto");
     let answer0 = getInput("Now beg me not to let you cum.", 10);
@@ -591,7 +591,7 @@ function n38efij()
     }
     CMessage("I know it does.");
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("Since you\'ve been begging me not to cum");
     CMessage("I\'m going to be nice to you and give you your wish, complete denial.");
     CMessage("Isn\'t that nice of me?");
@@ -601,10 +601,10 @@ function n38efij()
 }
 function Modulo3()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     let answer0 = getInput("Haven\'t you had enough getting denied and tortured?");
     if (answer0.isLike("no", "nope", "nah", "not"))
@@ -735,10 +735,10 @@ function a7737esx()
 }
 function Modulo4()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("You are so horny and weak for me.");
     CMessage("I know how hard you get when you see me.");
@@ -754,7 +754,7 @@ function Modulo4()
     CMessage("And I love giving you instructions because I know you will follow every single one of them.");
     CMessage("You are so weak that you\'ll do exactly as I say without hesitation.");
     CMessage("%Stop%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("This is my game. I love fucking with you.");
     CMessage("I love breaking you down.");
     CMessage("I love making you ache for me.");
@@ -771,7 +771,7 @@ function Modulo4()
     }
     CMessage("I love making you ache for something that you\'ll never have.");
     CMessage("Now suffer, hands off of that cock!");
-    stopStroking();
+    stopStrokingAll();
 	//playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStop.mp3");
     let answer0 = getInput("I\'m so cruel but you love it so much, it\'s so confusing, isn\'t it?");
     if (answer0.isLike("yes", "yea", "yep"))
@@ -792,7 +792,7 @@ function Modulo4()
     sleep(randomInt(10, 20));
     CMessage("And stop. LOL!");
     //playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStop.mp3");
-	stopStroking();
+	stopStrokingAll();
     CMessage("I know how badly you want to squirt for me");
     CMessage("but I\'m just having too much fun fucking with you");
     CMessage("and leading you around in circles");
@@ -804,7 +804,7 @@ function Modulo4()
     //playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStroke.mp3");
     sleep(randomInt(10, 20));
     CMessage("And stop.");
-	stopStroking();
+	stopStrokingAll();
     //playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStop.mp3");
     CMessage("Stroke and stop. I know how badly this fucks with your brain.");
     CMessage("Now %Stroke% hard");

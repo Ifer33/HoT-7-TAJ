@@ -260,12 +260,12 @@ function customStroking(message,delay=-1,sender=1) {
 /**
 * isStroking method that will check if the sub is stroking. Note, if the sub is edging, this will return false.
 **/
-function isStroking() {
+/*function isStroking() {
     if (timeLeftStroking <= 0) {
         return false;
     }
     return true;
-}
+}*/
 
 /**
 * slowStroking method that will slow the pace of the stroking down. The arguments are 1-5. 1 will slow down a small amount,
@@ -402,7 +402,7 @@ function customSetStroking(duration, bpm, message,delay=-1,sender=1) {
 * getStrokingPercent method that will check the percent of time that the sub has stroked for out of this stroke cycle.
 **/
 function getStrokingPercent() {
-    if (isStroking) {
+    if (isStroking()) {
         return (strokeTime - timeLeftStroking) / strokeTime;
     }
     return null;
@@ -927,6 +927,7 @@ function continueSession()
 * CustomStroke internal stroking method. Do not call this directly!
 **/
 function customStroke(duration, bpm) {
+	strokingCycle=true;
     startStroking(bpm);
     lockImages();
     let tauntFreq = getTauntFrequency();
@@ -960,6 +961,10 @@ function customStroke(duration, bpm) {
     while (currentTime < secThreshold && timeLeftStroking != -1) {
         sleep(.5);
         currentTime = getMillisPassed() / 1000;
+		if (timeLeftStroking == -1)
+        {
+            break;
+        }
         timeLeftStroking = secThreshold - currentTime;
         if (timeLeftStroking == -1)
         {
@@ -989,6 +994,7 @@ function customStroke(duration, bpm) {
             tauntTime = currentTime + tauntIncrement;
         }
     }
+	strokingCycle=false;
     timeLeftStroking = 0;
     strokeTime = 0;
     unlockImages();

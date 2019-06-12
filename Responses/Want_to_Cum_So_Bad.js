@@ -153,7 +153,7 @@ function want_to_Cum_So_BadResponse(message) {
 			}
 		}
     }
-    else if (isStroking())
+    else if (isStrokingAll())
     {
         let found = false;
 		while(!found){

@@ -363,10 +363,10 @@ function Modulo1()
         a28huj38dop();
         return;
     }
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("Admit it, you want to be my whipping boy.");
     CMessage("Let\'s make it happen!");
@@ -708,10 +708,10 @@ function punishment_ending()
 }
 function a28huj38dop()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     if(getVar("AV_MEM_Crush", false))
     {
@@ -738,10 +738,10 @@ function a28huj38dop()
 }
 function Modulo2()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("Now, lay your hands on your sides for me.");
     CMessage("Take a deep breath in...... and breath out.");
@@ -759,7 +759,7 @@ function Modulo2()
     CMessage("Let\'s be honest, you know you don\'t need to cum at all.");
     CMessage("Only pure unending pleasure...");
     CMessage("%Stop%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("Just hold it by the base.");
     CMessage("Can you feel the cum streaming up to the tip?");
     CMessage("There might even be some precum there. I love that.");
@@ -808,7 +808,7 @@ function dnmdjk9()
     CMessage("No, no, I don\'t think so. Keep storking!");
     CMessage("Build it up even more than last time");
     CMessage("%Stop%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("That\'s my good fucking boy.");
     CMessage("Completely " + random("still", "in my control"));
     CMessage("Look at that cock. It is rock - fucking - hard.");
@@ -859,10 +859,10 @@ function dnmdjk9()
 }
 function Modulo3()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("I want to tease you...");
     CMessage("Not only do I want to tease you... I want to frustrate you...");
@@ -892,7 +892,7 @@ function Modulo3()
     }
     CMessage("and...");
     CMessage("%Stop%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("No, no, no... I don\'t want you to stroke...");
     CMessage("You gonna slap your balls for me.");
     CMessage(random("Hit ", "Spank ") + "your balls");
@@ -927,7 +927,7 @@ function Keeping()
         CMessage("because we have a long way to go till there...");
     }
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("Look at me.");
     CMessage("Reach down and rub your cock.");
     CMessage("It feels good, doesn\'t it?");
@@ -972,10 +972,10 @@ function MultEdges()
 }
 function Modulo4()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     addContact(2);
     addContact(3);

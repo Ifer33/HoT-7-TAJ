@@ -356,7 +356,7 @@ function Fim()
 }
 function Modulo1()
 {
-	if(!isStroking()){
+	if(!isStrokingAll()){
 		//CMessage("%StartStroking%");
 		setStrokingNoTaunt();
 	}
@@ -390,7 +390,7 @@ function Modulo1()
 }
 function Modulo2()
 {
-    if(!isStroking()){
+    if(!isStrokingAll()){
 		//CMessage("%StartStroking%");
 		setStrokingNoTaunt();
 	}
@@ -452,7 +452,7 @@ function zwio349()
 }
 function Modulo3()
 {
-    if(!isStroking()){
+    if(!isStrokingAll()){
 		//CMessage("%StartStroking%");
 		setStrokingNoTaunt();
 	}
@@ -517,7 +517,7 @@ function a34g68r()
     }
     SMessage("So that you will eventually understand that only girls cum!", -1, 4);
     edge("%Edge%", -1, 4);
-    CMessage("Very nice %Contact3%");
+    CMessage("Very nice %domFriend3Name%");
     CMessage("%ThankYou%");
     removeContact(4);
     return;
@@ -526,10 +526,10 @@ function a34g68r()
 }
 function Modulo4()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("Let\'s talk about your crushes, %SubName%...");
     CMessage("They are really super cute, aren\'t?");
@@ -1106,9 +1106,10 @@ function Intro()
         AV_TempCrushesRND3();
         return;
     }
-    CMessage("Stare into the eyes of that beautiful princess on your screen that you worship. %AV_ImgType%");
+    CMessage("Stare into the eyes of that beautiful princess on your screen that you worship.");
+	CMessage("%AV_ImgType%",0);
 	lockImages();
-    answer1=getInput("You\'re transfixed by her, aren\'t you? %AV_ImgType%",5);
+    answer1=getInput("You\'re transfixed by her, aren\'t you?",5);
     //lockImages();
     if (answer1.isLike("yes", "yea", "yep"))
     {
@@ -1118,33 +1119,42 @@ function Intro()
     {
         aV_NoNeutralResponse();
     }
-    CMessage("You can touch your cock- rub the head slowly %AV_ImgType%");
+    CMessage("You can touch your cock- rub the head slowly ");
+	CMessage("%AV_ImgType%",0);
     //unlockImages();
-    CMessage("making tiny little circles. %AV_ImgType%");
+    CMessage("making tiny little circles. ");
+	CMessage("%AV_ImgType%",0);
     if(getVar("av_fetish_rough", false) || getVar("av_fetish_humiliating", false))
     {
-        CMessage("I like to tease pathetic boys like you  %AV_ImgType%");
+        CMessage("I like to tease pathetic boys like you  ");
+		CMessage("%AV_ImgType%",0);
     }
-    CMessage("Now you may start jerking your cock SLOWLY %AV_ImgType%");
-    CMessage("but make sure to give those balls a good squeeze too whilst you do so.  %AV_ImgType%");
-    CMessage("You\'re going to continue jerking slowly %AV_ImgType%");
+    CMessage("Now you may start jerking your cock SLOWLY ");
+	CMessage("%AV_ImgType%",0);
+    CMessage("but make sure to give those balls a good squeeze too whilst you do so.  ");
+	CMessage("%AV_ImgType%",0);
+    CMessage("You\'re going to continue jerking slowly ");
+	CMessage("%AV_ImgType%",0);
     if(getVar("av_fetish_pain", false))
     {
-        CMessage("and for every 10 strokes you will slap your balls hard!  %AV_ImgType%");
+        CMessage("and for every 10 strokes you will slap your balls hard!  ");
+		CMessage("%AV_ImgType%",0);
     }
     if(getVar("av_fetish_pain", false))
     {
-        CMessage("If you break eye contact with her, then you slap your balls till I tell you to stop   %AV_ImgType%");
+        CMessage("If you break eye contact with her, then you slap your balls till I tell you to stop");
+		CMessage("%AV_ImgType%",0);
     }
     if(!getVar("av_fetish_pain", false))
     {
-        CMessage("If you break eye contact with her, then you stop %Stroking% %AV_ImgType%");
+        CMessage("If you break eye contact with her, then you stop %Stroking%");
+		CMessage("%AV_ImgType%",0);
     }
     CMessage("%AV_ImgType%");
     CMessage("%AV_ImgType%");
     CMessage("%AV_ImgType%");
     CMessage("%AV_ImgType%");
-    CMessage("%Stop% %AV_ImgType%");
+    CMessage("%Stop%");
 	unlockImages();
     CMessage("Nicely done, %PetName%!");
     CMessage("You\'re looking a tad uncomfortable there, are you feeling the urge to cum?");
@@ -1175,22 +1185,32 @@ function AV_TempCrushesRND3()
 	setStrokingNoTaunt();
 	lockImages();
     CMessage("%AV_ImgType%");
-    CMessage("I bet you wish she would sit on your face so you could bask in its full glory. %AV_ImgType%");
-    CMessage("That\'s it, you can stroke a little faster now %AV_ImgType%");
-    CMessage("but let\'s mix things up a bit %AV_ImgType%");
-    CMessage("I want you to show me how good your backhand is  %AV_ImgType%");
-    CMessage("How is that, did it feel awkward? %AV_ImgType%");
-    CMessage("Or have you had practise with that technique? %AV_ImgType%");
-    stopStroking();
-	CMessage("%Stop% %AV_ImgType%");
+    CMessage("I bet you wish she would sit on your face so you could bask in its full glory.");
+	CMessage("%AV_ImgType%",0);
+    CMessage("That\'s it, you can stroke a little faster now ");
+	CMessage("%AV_ImgType%",0);
+    CMessage("but let\'s mix things up a bit ");
+	CMessage("%AV_ImgType%",0);
+    CMessage("I want you to show me how good your backhand is  ");
+	CMessage("%AV_ImgType%",0);
+    CMessage("How is that, did it feel awkward? ");
+	CMessage("%AV_ImgType%",0);
+    CMessage("Or have you had practise with that technique? ");
+	CMessage("%AV_ImgType%",0);
+    stopStrokingAll();
+	CMessage("%Stop% ");
+	CMessage("%AV_ImgType%",0);
     if(!getVar("av_fetish_pain", false))
     {
         a39j84hs();
         return;
     }
-    CMessage("Anyway, now that you\'ve shown her ass some love, time to give some to yours %AV_ImgType%");
-    CMessage("bend over! %AV_ImgType%");
-    CMessage("I want to see 10 hard spanks on each cheek, right away. %AV_ImgType%");
+    CMessage("Anyway, now that you\'ve shown her ass some love, time to give some to yours ");
+	CMessage("%AV_ImgType%",0);
+    CMessage("bend over! ");
+	CMessage("%AV_ImgType%",0);
+    CMessage("I want to see 10 hard spanks on each cheek, right away. ");
+	CMessage("%AV_ImgType%",0);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "whip.mp3");
     sleep(30);
     a39j84hs();
@@ -1203,10 +1223,14 @@ function a39j84hs()
 	setStrokingNoTaunt();
 	lockImages();
     CMessage("%AV_ImgType%");
-    CMessage("brilliant %AV_ImgType%");
-    CMessage("Keep stroking  %AV_ImgType%");
-    CMessage("NO CUMMING.  %AV_ImgType%");
-    CMessage("If you edge, you stop for 10 seconds to cool off and then you start straight back up again. %AV_ImgType%");
+    CMessage("brilliant ");
+	CMessage("%AV_ImgType%",0);
+    CMessage("Keep stroking  ");
+	CMessage("%AV_ImgType%",0);
+    CMessage("NO CUMMING.  ");
+	CMessage("%AV_ImgType%",0);
+    CMessage("If you edge, you stop for 10 seconds to cool off and then you start straight back up again. ");
+	CMessage("%AV_ImgType%",0);
     CMessage("%AV_ImgType%");
     CMessage("%AV_ImgType%");
     CMessage("%AV_ImgType%");
@@ -1215,7 +1239,7 @@ function a39j84hs()
     CMessage("%AV_ImgType%");
 	unlockImages();
     CMessage("%Stop%", 0);
-	stopStroking();
+	stopStrokingAll();
     delVar("AV_IntCrush50");
     delVar("AV_IntCrush51");
     delVar("AV_IntCrush52");
@@ -1239,20 +1263,24 @@ function AV_TempCrushesRND2()
 {
 	lockImages();
     CMessage("I want to see you edge for her %AV_ImgType%");
+	CMessage("%AV_ImgType%",0);
     CMessage("As I\'m feeling nice %AV_ImgType%");
+	CMessage("%AV_ImgType%",0);
     CMessage("%AV_ImgType%");
-	//lockImages();
-	edge("%Edge% %AV_ImgType%");
-	edge("%Edge% %AV_ImgType%");
-	edge("%Edge% %AV_ImgType%");
+	edge("%Edge%");
+	CMessage("%AV_ImgType%",0);
+	edge("%Edge%");
+	CMessage("%AV_ImgType%",0);
+	edge("%Edge% ");
     /*CMessage("%Edge% %AV_ImgType%");
     startEdging();
     CMessage("%Edge% %AV_ImgType%");
     startEdging();
     CMessage("%Edge% %AV_ImgType%");
     startEdging();*/
-    CMessage("Can you take another one? %AV_ImgType%");
-	edge("%Edge% %AV_ImgType%");
+    CMessage("Can you take another one?");
+	CMessage("%AV_ImgType%",0);
+	edge("%Edge%");
 	unlockImages();
     delVar("AV_IntCrush50");
     delVar("AV_IntCrush51");

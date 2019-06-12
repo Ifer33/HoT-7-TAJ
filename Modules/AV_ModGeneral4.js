@@ -356,10 +356,10 @@ function Fim()
 }
 function Modulo1()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     if(getVar("AV_DommeMistress", false))
     {
@@ -535,10 +535,10 @@ function skip()
 }
 function Modulo2()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("Remember when I talked about the level of ache I want you to feel?");
     CMessage("The thing is...");
@@ -591,10 +591,10 @@ function AVRND10()
 }
 function Modulo3()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "AV_GlittersTest.js");
     return;
@@ -602,10 +602,10 @@ function Modulo3()
 }
 function Modulo4()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("Time for some edging practice.");
     CMessage("This is about edging you into a frenzy.");

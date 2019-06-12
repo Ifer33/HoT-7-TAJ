@@ -12,7 +12,7 @@ function main()
     }
     if (inGroup(2))
     {
-        CMessage("Sorry %Contact1%, it\'s time to finish the session");
+        CMessage("Sorry %domFriend1Name%, it\'s time to finish the session");
         removeContact(2);
     }
     if (inGroup(3))
@@ -22,7 +22,7 @@ function main()
     }
     if (inGroup(3))
     {
-        CMessage("Sorry %Contact2%, it\'s time to finish the session");
+        CMessage("Sorry %domFriend2Name%, it\'s time to finish the session");
         removeContact(3);
     }
     if (inGroup(4))
@@ -32,7 +32,7 @@ function main()
     }
     if (inGroup(4))
     {
-        CMessage("Sorry %Contact3%, it\'s time to finish the session");
+        CMessage("Sorry %domFriend3Name%, it\'s time to finish the session");
         removeContact(4);
     }
     CMessage("Sounds like you really can\'t take another stroke %Grin%");

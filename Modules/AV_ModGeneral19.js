@@ -4,7 +4,7 @@ DMessage("AV_ModGeneral19: end");
 function main()
 {
     //--UNINTERPRETED LINE:@Variable[%DateDifference%(AV_SessionTime,minutes)]<[15] %Stop% @StopStroking @Goto(IniModule)
-    if (isStroking())
+    if (isStrokingAll())
     {
         Sub_Stroking();
         return;
@@ -24,7 +24,7 @@ function Sub_Stroking()
         return;
     }
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     IniModule();
     return;
     DecidEdge();
@@ -640,14 +640,14 @@ function Modulo3()
     CMessage("Let\'s see you start jerking off that cock.");
     CMessage("Looking at my sexy body makes it hard for you to control yourself, doesn\'t it?");
     CMessage("<c=red b> RED LIGHT");
-	stopStroking();
+	stopStrokingAll();
     CMessage("seeing my sexiness but not being able to touch yourself?");
     CMessage("<c=green b> GREEN LIGHT");
 	setStrokingNoTaunt();
     CMessage("Mmmmm, look at me");
     CMessage("I can control anything, including your dick.");
 	CMessage("<c=red b> RED LIGHT %EmoteSquirm%");
-	stopStroking();
+	stopStrokingAll();
     //CMessage("%EmoteSquirm%");
     CMessage("You almost didn\'t make it on time.");
     CMessage("You would have lost.");
@@ -657,7 +657,7 @@ function Modulo3()
 	setStrokingNoTaunt();
     CMessage("Since you\'re doing so good, maybe I should just let you finish yourself off");
     CMessage("<c=red b> RED LIGHT");
-	stopStroking();
+	stopStrokingAll();
     CMessage("Because I don\'t know how you could contain yourself.");
     CMessage("But you can\'t. You have to stand there with that useless tool dangling in the air.");
     CMessage("<c=green b> GREEN LIGHT");
@@ -665,7 +665,7 @@ function Modulo3()
     CMessage("I\'m very shocked that you haven\'t lost.");
     CMessage("I guess you really can control yourself.");
     CMessage("<c=red b> RED LIGHT");
-	stopStroking();
+	stopStrokingAll();
     CMessage("Those balls look so swollen and ready to burst.");
     return;
     Modulo4();

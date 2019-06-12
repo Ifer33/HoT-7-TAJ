@@ -3,7 +3,7 @@ main();
 DMessage("pvIn_WantOrgasmControl: end");
 function main()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         Sub_Stroking();
         return;
@@ -18,7 +18,7 @@ function main()
 function Sub_Stroking()
 {
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     Sub_Not_Stroking();
 }
 function Sub_Not_Stroking()
@@ -57,7 +57,7 @@ function Sub_Not_Stroking()
     {
 		if (answer1.isLike("no"))
 		{
-			answer1 = getInput("%pthevCoCo-1%");
+			answer1 = getInput("%pthevCoCo1%");
 			//--Command:LoopAnswer
 		}
 		else{

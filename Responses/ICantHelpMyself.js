@@ -8,7 +8,7 @@ function iCantHelpMyselfResponse(message) {
         DMessage("iCantHelpMyself: EndResponse Response is Disabled");
         return false;
     }
-	if(isStroking()){
+	if(isStrokingAll()){
 		let answer0 = getInput("Hmmm... does that mean you'll do whatever I tell you to do?",5);
 		if (answer0.isLike("yes", "yea", "yep"))
 		{

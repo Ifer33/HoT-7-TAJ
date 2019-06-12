@@ -33,6 +33,8 @@ function main()
 }
 function AV_ModGeneral23_NotFirstTime()
 {
+	Modulo1()
+	return;
     if (getVar("AV_ModGeneral23", 0) == 0)
     {
         Part1_1();
@@ -375,10 +377,10 @@ function Fim()
 }
 function Modulo1()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
 	if(!getVar("mod23_1",false)){
 		CMessage("That\'s how I like it.");
@@ -398,8 +400,8 @@ function Modulo1()
 		CMessage("Come on, stroke that cock faster. I want you to edge soon.");
 		CMessage("Are you already near?");
 		CMessage("You should be.");
-		CMessage("Get to the edge for me!");
-		edge()
+		edge("Get to the edge for me!");
+		//edge()
 		CMessage("Wasn\'t that nice?");
 		CMessage("Calm down a bit. We have a lot more to do today.");
 		CMessage("You know, I could let you cum right now.");
@@ -463,7 +465,7 @@ function Modulo1()
 		edge("Edge again!");
 		CMessage("That\'s enough for now my edge-slave.");
 		CMessage("%SitDown%");
-		CMessage("Your training is not over yet. There\'s still a lot to.");
+		CMessage("Your training is not over yet. There\'s still a lot to do.");
 		CMessage("We will continue your training later.");
 		CMessage("%domFriend1Name% will take care of you till there");
 		addContact(2);
@@ -475,7 +477,7 @@ function Modulo1()
 		//--Command:BookmarkModule
 		setTempVar("moduletorun", "Modules" + java.io.File.separator + "AV_ModGeneral23.js");
 		setTempVar("mod23_1",true);
-		setTempVar("dontDelMod",false);
+		setTempVar("dontDelMod",true);
 		return;
 	}
 	delVar("mod23_1");
@@ -624,7 +626,8 @@ function a5gre34es()
     CMessage("I want you to edge one last time for now.");
     CMessage("One last intense edge..");
     setVar("edgingmode", "Goto");
-    setVar("edginggoto", "a34gerrez()")
+    setVar("edginggoto", "a34gerrez()");
+	edged=false;
     CMessage("Get on the edge and stay there.");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cEdge.mp3");
     Loop23();
@@ -632,17 +635,16 @@ function a5gre34es()
 }
 function Loop23()
 {
-	if(edged){
-		edged=false;
-		return;
-	}else{
+	if(!edged){
 		CMessage("Come on...");
+	}if(!edged){
 		sleep(10);
+	}if(!edged){
 		CMessage("Let me see that edge...");
 		Loop23();
 	}
+	//a34gerrez();
     return;
-    a34gerrez();
 }
 function a34gerrez()
 {
@@ -668,7 +670,7 @@ function a34gerrez()
 		setTempVar("linktorun", "Custom" + java.io.File.separator + "Link" + java.io.File.separator + "AV_Glitter2EdgeTrain.js");
 		setTempVar("moduletorun", "Modules" + java.io.File.separator + "AV_ModGeneral23.js");
 		setTempVar("mod23_12",true);
-		setTempVar("dontDelMod",false);
+		setTempVar("dontDelMod",true);
 		return;
 	}
 	delVar("mod23_12");
@@ -702,17 +704,17 @@ function a34gerrez()
     CMessage("Are you ready to hold an edge?");
     CMessage("I think it\'s time.");
     CMessage("At first I want you to hold it for 10 seconds.");
-    holdEdgeMT("So get on the edge.",10);
+    holdEdgeWT("So get on the edge.",10);
     //--Command:EdgeHold(10)
     //playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cEdge.mp3");
     CMessage("You\'re doing good.");
     CMessage("Next time it\'ll be 15 seconds.");
     CMessage("Get ready my edge-slave.");
-    holdEdgeMT("Now get back on the edge.",15);
+    holdEdgeWT("Now get back on the edge.",15);
     CMessage("This feels great, doesn\'t it?");
     CMessage("We will proceed until we reach one full minute.");
     CMessage("Prepare to hold this one 30 seconds.");
-    holdEdgeMT("Back on the edge.",30);
+    holdEdgeWT("Back on the edge.",30);
     CMessage("Very well, my slave. Take a long break this time.");
     CMessage("Just kidding.");
     edge("Give me an edge in your break!");
@@ -720,17 +722,17 @@ function a34gerrez()
     CMessage("Alright, back to our workout.");
     CMessage("Next edge will be 40 seconds.");
     CMessage("Get ready.");
-    holdEdgeMT("On the edge!",40);
+    holdEdgeWT("On the edge!",40);
     CMessage("Good boy. We are almost at the finish line.");
     CMessage("Keep that effort.");
     CMessage("50 seconds now.");
-    holdEdgeMT("Get on the edge!",50);
+    holdEdgeWT("Get on the edge!",50);
     CMessage("Relax");
     CMessage("One more time. And this time it\'ll be a full minute.");
     CMessage("Are you ready?");
     CMessage("Are you ready to make your mistress proud of you?");
     CMessage("Come on.");
-    holdEdgeMT("Get on the edge.",60);
+    holdEdgeWT("Get on the edge.",60);
     CMessage("You made it to a full minute.");
     CMessage("I\'m really proud of you.");
     CMessage("I bet, I can bring you to hold an edge up to an hour.");
@@ -750,7 +752,7 @@ function a34gerrez()
     CMessage("%GoodBoy%");
     CMessage("We where at one minute.");
     CMessage("So you\'re going to hold the next one 1 minute and 15 seconds..");
-    holdEdgeMT("Get on the edge my puppy.",75);
+    holdEdgeWT("Get on the edge my puppy.",75);
     CMessage("Say that you love to suffer for your Mistress.");
     CMessage("Your mistress knows that.");
     CMessage("And your mistress lets you suffer.");
@@ -758,13 +760,13 @@ function a34gerrez()
     CMessage("Take a short breath.");
     CMessage("Next one will be one and a half minute.");
     CMessage("Alright");
-    holdEdgeMT("Get on the edge slave.",90);
+    holdEdgeWT("Get on the edge slave.",90);
     CMessage("Very well.");
     CMessage("Take your time to rest, my puppy.");
     CMessage("You know, what\'s coming next?");
     CMessage("Oh yes. The next time you\'ll hold it two full minutes.");
     CMessage("You\'d better be ready...");
-    holdEdgeMT("Get on the edge one last time slave.",120);
+    holdEdgeWT("Get on the edge one last time slave.",120);
     CMessage("You have done two minutes!");
     CMessage("What a good boy you are.");
     CMessage("I appreciate that.");
@@ -780,7 +782,7 @@ function a34gerrez()
 	setTempVar("linktorun", "Custom" + java.io.File.separator + "Link" + java.io.File.separator + "AV_Glitter3EdgeTrain.js");
 	setTempVar("moduletorun", "Modules" + java.io.File.separator + "AV_ModGeneral23.js");
 	setTempVar("mod23_13",true);
-	setTempVar("dontDelMod",false);
+	setTempVar("dontDelMod",true);
     return;
 }
 function a34gerrez2()
@@ -868,10 +870,10 @@ function a34gerrez2()
 }
 function Modulo2()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage(random("%PetName%", "%SubName%"));
     if(getVar("AV_MasuDone", false))
@@ -949,7 +951,7 @@ function Modulo2()
 }
 function AV_MasuDone()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         Sub_Stroking();
         return;
@@ -964,7 +966,7 @@ function AV_MasuDone()
 function Sub_Stroking()
 {
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     Sub_Not_Stroking();
 }
 function Sub_Not_Stroking()
@@ -1162,10 +1164,10 @@ function MasuEnds()
 }
 function Modulo3()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     setVar("AV_EdglCo", 0);
     CMessage(random("So I was talking to some friends yesterday", "I had a discussion with some of my friends yesterday", "I had an interesting conversation yesterday"));
@@ -1920,10 +1922,10 @@ function FimDoJogo()
 }
 function Modulo4()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage(random("%PetName%", "%SubName%"));
     CMessage("It\'s been a lot of hard work to get here.");
@@ -1972,7 +1974,7 @@ function f43gx9()
     CMessage("because I can\'t help myself when I tell you to stroke your hard cock");
     CMessage("So... let\'s see... can you imagine me just there in front of you?");
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("All naked and standing for you, watching your hard throbbing cock as I wish to touch it... stroke it... and lick it up and down.");
     CMessage("I bet you want to stroke it already, don\'t you?");
     CMessage("But you can\'t until I say.");

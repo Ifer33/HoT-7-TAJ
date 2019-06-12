@@ -4,7 +4,7 @@ DMessage("AV_Beta: end");
 function main()
 {
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     CMessage("There\'s something I\'d like to know about you...");
     CMessage("I love that you\'re doing all this for me");
     CMessage("The stroking, the edging, following commands...");

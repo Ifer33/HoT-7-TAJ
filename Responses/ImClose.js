@@ -12,6 +12,9 @@ function imCloseResponse(message) {
 		DMessage("ImClose: edgeMode: Goto: " + getVar("edginggoto", "error") );
 		DMessage("ImClose: EndResponse");
 		return eval(getVar("edginggoto") );
+		//eval(getVar("edginggoto") );
+		//return;
+		//return throwEdge();
 	}else if( mode == "Video" ){
 		if(isPlayingVideo()) {
 			stopVideo();
@@ -19,6 +22,8 @@ function imCloseResponse(message) {
 		DMessage("ImClose: edgeMode: Video: " + getVar("edginggoto", "error") );
 		DMessage("ImClose: EndResponse");
 		return eval(getVar("edginggoto") );
+		//eval(getVar("edginggoto") );
+		//return eval("return");
 	}
 	
     if (getResponsesDisabled()) {
@@ -33,24 +38,43 @@ function imCloseResponse(message) {
         timesClose++;
         setTempVar("edging", false);
     }
-    else if (isStroking())
+    else if (isStrokingAll())//||stroking)
     {
         timesClose++;
         let apmIndex = getApathyMoodIndex();
         let random = randomInteger(1, 5);
         let percentStroking = getStrokingPercent();
+		if(!percentStroking>=0 && !percentStroking<=100){
+			percentStroking=randomInteger(1,100);
+		}
         let decision = 1.054196 + (0.004457 * apmIndex * random) + (0.470061 * percentStroking * Math.pow(random, 2)) - (0.105613 * random) - (1.553526 * percentStroking * random)
         if (decision < 0) {
             decision = 0;
         }
+		if (decision > 4) {//new
+            decision = randomInteger(0,4);
+        }
         DMessage("random " + random + " apm " + apmIndex + " percentstroke " + percentStroking, 0);
         DMessage(decision, 0);
+		
+		/*CMessage("This is really hard for you %petname%.");
+		CMessage("Strangely though, I'm feeling generous...")
+		//CMessage("%stopstroking%");
+		//if(isStroking()){
+			//stopStroking();
+			//endStroking();
+		stopStrokingAll();	
+		//}
+		*/
         switch (Math.round(decision))
         {
             case 0:
                 CMessage("This is really hard for you %petname%.");
                 CMessage("Strangely though, I'm feeling generous...")
-                endStroking();
+                //endStroking();
+				//CMessage("%stopstroking%");
+				//stopStroking();
+				stopStrokingAll();
                 break;
             case 1:
                 CMessage("I can't have you edging so easily %petname%.");

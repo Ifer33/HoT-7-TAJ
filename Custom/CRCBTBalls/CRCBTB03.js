@@ -3,10 +3,10 @@ main();
 DMessage("CRCBTB03: end")
 function main()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("You know what? I\'m going to make you hurt those poor %Balls% right now... %Grin%");
     CMessage("Not because you\'re a bad boy");

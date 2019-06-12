@@ -4,7 +4,7 @@ DMessage("AV_ModGeneral16: end");
 function main()
 {
     //--UNINTERPRETED LINE:@Variable[%DateDifference%(AV_SessionTime,minutes)]<[15] %Stop% @StopStroking @Goto(IniModule)
-    if (isStroking())
+    if (isStrokingAll())
     {
         Sub_Stroking();
         return;
@@ -24,7 +24,7 @@ function Sub_Stroking()
         return;
     }
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     IniModule();
     return;
     DecidEdge();
@@ -610,7 +610,7 @@ function AV_Painted()
 function EdgeForGoto1()
 {
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     setVar("edgingmode", "Normal");
     AV_SecondP();
     return;

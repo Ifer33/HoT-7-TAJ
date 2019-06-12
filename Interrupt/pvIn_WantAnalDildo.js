@@ -3,7 +3,7 @@ main();
 DMessage("pvIn_WantAnalDildo: end");
 function main()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         Sub_Stroking();
         return;
@@ -18,7 +18,7 @@ function main()
 function Sub_Stroking()
 {
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     Sub_Not_Stroking();
 }
 function Sub_Not_Stroking()
@@ -200,7 +200,7 @@ function look_at_yourself()
     CMessage("I think your ass is getting ready for more %Grin%");
     addContact(2);
     SMessage("Anal action still going on?", -1, 2);
-    CMessage("You\'re just in time for things to get real, %Contact1%");
+    CMessage("You\'re just in time for things to get real, %domFriend1Name%");
     SMessage("Awesome %EmoteHappy%", -1, 2);
     CMessage("Here we go, %SubName%");
     CMessage("Sit down on top of that dildo until it\'s all the way in your ass");

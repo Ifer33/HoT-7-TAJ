@@ -4,7 +4,7 @@ DMessage("AV_ModGeneral13: end");
 function main()
 {
     //--UNINTERPRETED LINE:@Variable[%DateDifference%(AV_SessionTime,minutes)]<[15] %Stop% @StopStroking @Goto(IniModule)
-    if (isStroking())
+    if (isStrokingAll())
     {
         Sub_Stroking();
         return;
@@ -24,7 +24,7 @@ function Sub_Stroking()
         return;
     }
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     IniModule();
     return;
     DdecidEdge();
@@ -447,7 +447,7 @@ function AV_Timeo11()
     CMessage("Hands to your side.");
     //playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStop.mp3");
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     return;
     Modulo2();
 }

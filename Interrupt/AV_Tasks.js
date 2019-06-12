@@ -3,7 +3,7 @@ function main()
 {
 	DMessage("AV_Tasks Interrupt: Start");
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     CMessage("Let\'s check those extra tasks");
     if(getVar("AV_taskOP1", false))
     {
@@ -823,7 +823,7 @@ function AV_taskOP9()
     CMessage("Almost there...keep going");
     sleep(50);
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("Looks like you have completed your task today");
     delVar("AV_TaskON");
     CMessage("%AV_MoveOn%");

@@ -1,6 +1,42 @@
 DMessage("helperFunctions: Start");
 //let separator = java.io.File.separator;
 
+let stroking=false;
+let strokingCycle=false;
+
+//function to stop all stroking no matter if with metro, stroke by own instructions or stroking cycle
+function stopStrokingAll(message=null,delay=0,sender=1){
+	if(isStroking() || stroking){
+		if(isStroking()&& strokingCycle){
+			//strokingCycle=false;
+			endStroking();
+		}else{
+			if(isStroking()){
+				stopStroking();
+			}
+			if(message == null){
+				message="%stopstroking%";
+			}/*else{
+				stroking=false;
+			}*/
+			if(sender!=1){
+				SMessage(message, delay,sender);
+			}else{
+				CMessage(message);
+			}
+		}
+	}
+}
+
+//extended isStroking to detect stroking without metro
+function isStrokingAll(){
+	if (isStroking()||stroking){
+		return true;
+	}else{
+		return false;
+	}
+}
+
 function chance(percent){
 	return randomInteger(1, 100) <= percent;
 }
@@ -11,7 +47,7 @@ function edge(message=null,delay=-1,sender=1){
 	}else{
 		startEdging(message,delay,sender);
 	}
-	SMessage("%stopstroking%", 0,sender);
+	SMessage("%stopstrokingedge%", delay,sender);
     SMessage("%LetTheEdgeFade%",delay,sender);
 	return;
 }
@@ -24,7 +60,7 @@ function greenLight(){
 
 function redLight(){
 	CMessage("<c=red b> RED LIGHT");
-	stopStroking();
+	stopStrokingAll();
 	stopAudio();
 	stopVideo();
 	return;
@@ -382,7 +418,7 @@ function flag(flags = null, or = false){
 function decideEdge(){	//decide holdEdge or stop atm just stop
 	//todo real decision
 	DMessage("decideEdge: Beginning");
-	if(isStroking() ){
+	if(isStrokingAll() ){
 		DMessage("decideEdge: isStroking");
 		CMessage("%stopstrokingedge%", null, false);
 		CMessage("%lettheedgefade%");
@@ -924,10 +960,10 @@ function worshipMode(on=false){
 }
 
 /**
-* holdEdge method to make the sub hold an edge. This is the method you will want to call most of the time to make
+* holdEdge method to make the sub hold an edge with time option. This is the method you will want to call most of the time to make
 * the sub hold an edge.
 **/
-function holdEdgeMT(message=null, time=null, delay=-1, sender=1) {
+function holdEdgeWT(message=null, time=null, delay=-1, sender=1) {
     if (!getVar("edging", false))
     {
         //SMessage("%edge%", delay, sender);
@@ -968,9 +1004,9 @@ function holdEdgeMT(message=null, time=null, delay=-1, sender=1) {
         lengthPercent = 0;
     }
     if(time==null){
-		let length = lengthPercent * (getMaxHoldingLength() - getMinHoldingLength()) + getMinHoldingLength();
+		length = lengthPercent * (getMaxHoldingLength() - getMinHoldingLength()) + getMinHoldingLength();
 	}else{
-		let length = time;
+		length = time;
 	}
 
     let tauntTime = tauntIncrement;
@@ -981,7 +1017,7 @@ function holdEdgeMT(message=null, time=null, delay=-1, sender=1) {
         sleep(.5);
         timeHolding += .5;
         if (tauntTime == timeHolding) {
-            SMessage("%edgingholdtaunts1%", delay, sender);
+            SMessage("%edgingholdtaunts1%", 0, sender);
             switch (tauntFreq) {
                 case 5:
                     tauntIncrement = randomInteger(1, 3);

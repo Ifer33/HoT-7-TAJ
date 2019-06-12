@@ -356,10 +356,10 @@ function Fim()
 }
 function Modulo1()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("%AV_Break1%");
     CMessage("%AV_Break2%");
@@ -400,7 +400,7 @@ function AV_Timeo02()
     SMessage("It will be mine.", -1, 3);
     SMessage("Oh, and something I\'ll be WAY better at than my friend...", -1, 3);
     SMessage("%stopstroking%", 0,3);
-	stopStroking();
+	stopStrokingAll();
     SMessage("so much better than some stupid movie.", -1, 3);
     SMessage("Seriously, I was dreading going to that rom-com, but this", -1, 3);
     //SMessage("%StartStroking%", -1, 3);
@@ -441,10 +441,10 @@ function AV_Timeo03()
 }
 function Modulo2()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("I love playing with boys who need to cum.");
     CMessage("So, let\'s have you %Stroke% in a way that\'s more appropriate.");
@@ -558,10 +558,10 @@ function a03()
 }
 function Modulo3()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     let answer0 = getInput("Are you starting to feel better?");
     while (!(answer0.isLike("yes") || answer0.isLike("no")))
@@ -651,10 +651,10 @@ function AVRND01()
 }
 function Modulo4()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("I think its time for a little test");
     CMessage("I think its important for a %PetName%");

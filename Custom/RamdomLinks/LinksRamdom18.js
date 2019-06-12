@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_Link18", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -363,7 +363,7 @@ function Link1()
     CMessage("He is carrying it, but you are the owner. No one besides you decide when it will be released.");
     CMessage("The most precious thing to any male is his cock.");
     CMessage("Losing control on it for you, The key holder, will make him your obedient bitch.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -376,7 +376,7 @@ function Link2()
     CMessage("Since you are the dominant, and he is your subject, he will eat you on demand anytime.");
     CMessage("It is really worth spending the time and train him how to lick you.");
     CMessage("He is yours and unlike a vanilla man, he will do all efforts to follow your instructions in order to please you.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -388,7 +388,7 @@ function Link3()
     CMessage("There are many devices you can attach to your submissive and make him your sex slave.");
     CMessage("He will become an object, and his only purpose is to please you.");
     CMessage("Exactly like any sex toy you have, but this human toy can follow voice commands");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -403,7 +403,7 @@ function Link4()
     CMessage("Because you " + random("deserve it", "deserve to be used", "deserved that"));
     CMessage("I will not hold back");
     CMessage("I\'m so damn horny " + random("%PetName%", "%SubName%"));
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     AV_Peg();
 }
@@ -417,6 +417,6 @@ function AV_Peg()
     CMessage("Personally, I love the Feeldoe for this purpose.");
     CMessage("It is built to bring the woman satisfaction when penetrating his ass.");
     CMessage("Since you are the dominant, and he is your slave, you can do it anytime you like.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
 }

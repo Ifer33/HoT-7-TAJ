@@ -62,7 +62,7 @@ function wantToWearCollarResponse(message) {
 			setVar("AV_WantCollar", true);
 		}
     }
-    else if (isStroking())
+    else if (isStrokingAll())
     {
         if(getVar("pvCollared", false))
 		{

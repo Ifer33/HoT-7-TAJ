@@ -3,10 +3,10 @@ main();
 DMessage("HCBTB01: End");
 function main()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     if(getVar("pvBallsTied", false))
     {

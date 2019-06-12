@@ -357,10 +357,10 @@ function Fim()
 }
 function Modulo1()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("A good slave puts My happiness as the highest priority.");
     CMessage("A good slave " + random("makes sure I am content and comfortable", "puts Me first"));
@@ -383,7 +383,7 @@ function Modulo1()
     CMessage("because you\'ve conditioned yourself to get hard and jerk for ME.");
     CMessage("It\'s all worth being My %PetName%.");
     CMessage("%Stop%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("I\'m going to torture your cock, balls, ego and anything else I please.");
     CMessage("That %Cock% and %Balls% belongs to Me");
     CMessage("and it\'s time to have some fun with it.");
@@ -441,10 +441,10 @@ function Modulo1()
 }
 function Modulo2()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("Before we continue I\'d like to make a few things clear.");
     CMessage("First off, I will tell you to do things for me");
@@ -473,7 +473,7 @@ function Modulo2()
     CMessage("You need me, otherwise you wouldn\'t be here");
     CMessage("So do yourself a favor and obey my commands.");
     CMessage("%Stop%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("Now that we know where we have each other, let\'s have some fun.");
     CMessage("Go ahead and stand up.");
     CMessage("Spread your legs a bit, let my toy dangle free.");
@@ -495,7 +495,7 @@ function Modulo2()
     CMessage("Being in this position and stroking for me.");
     CMessage("Well, all good things must come to an end.");
     CMessage("%Stop%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("Bend forward and get on all four.");
     CMessage("Arch your back for me.");
     CMessage("This is how I\'d like you if I was going to play with your ass.");
@@ -530,10 +530,10 @@ function Modulo2()
 }
 function Modulo3()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     if(!getVar("AV_PinDone", false))
     {
@@ -644,10 +644,10 @@ function a2339hndr9()
 }
 function Modulo4()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("We\'re going to do something a bit elaborate.");
     CMessage("I want you to get a towel");

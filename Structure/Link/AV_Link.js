@@ -63,7 +63,7 @@ function main()
         ResetCam();
         return;
     }
-    setVar("moduletorun", "Custom" + java.io.File.separator + "Modules" + java.io.File.separator +"WebCam.js");
+    setTempVar("moduletorun", "Custom" + java.io.File.separator + "Modules" + java.io.File.separator +"WebCam.js");
     SkipCam();
     return;
     ResetCam();
@@ -522,7 +522,7 @@ function Continue9()
     setTempVar("AV_BreakOne", true);
     CMessage(random("Good thing ", "Thankfully ") + "you have some " + random("porn videos ", "videos ", "nice videos ") + "on your " + random("PC", "computer"));
     CMessage("Have fun");
-    playVideo("Videos" + java.io.File.separator + "*.*");
+    playVideo("Videos" + java.io.File.separator + "*.*",true);
     CMessage("%CensorContinue%");
 	setTempVar("AV_EdgeAV_FromVideo");
     run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "AV_EdgeAV.js");
@@ -595,7 +595,7 @@ function NotBored()
         return;
     }
     run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "AV_Denied.js");
-    return;
+    //return;
     NoMoreDenied();
 }
 function NoMoreDenied()

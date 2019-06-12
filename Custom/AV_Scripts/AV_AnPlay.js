@@ -2,7 +2,7 @@ main();
 function main()
 {
 	DMessage("AV_AnPlay: Beginning");
-    if (isStroking())
+    if (isStrokingAll())
     {
         Sub_Stroking();
 		DMessage("AV_AnPlay: End");
@@ -20,7 +20,7 @@ function main()
 function Sub_Stroking()
 {
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     Sub_Not_Stroking();
 }
 function Sub_Not_Stroking()
@@ -149,7 +149,7 @@ function ANAL1()
 function analtrain5()
 {
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     sleep(10);
     CMessage("Now insert your lubed pointer finger slowly.");
     CMessage("Give it a long stroke all the way in and out.");
@@ -213,7 +213,7 @@ function analtrain6()
     CMessage("Then remove them completely before pushing them all the way back in, at least 3 times.");
     sleep(30);
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     sleep(30);
     CMessage("Hmmm...");
     EndAnal2();
@@ -388,7 +388,7 @@ function ANAL4()
     if(getVar("av_fetish_pain", false))
     {
         CMessage("%stopstroking%", 0);
-		stopStroking();
+		stopStrokingAll();
     }
     if(getVar("av_fetish_pain", false))
     {
@@ -446,9 +446,9 @@ function NoAudioFuck76()
 }
 function EndAnal2()
 {
-	if (isStroking()){
+	if (isStrokingAll()){
 		CMessage("%stopstroking%", 0);
-		stopStroking();
+		stopStrokingAll();
 	}
 	CMessage("%sitDown% and clean yourself");
     sleep(30);

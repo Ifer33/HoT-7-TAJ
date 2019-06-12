@@ -2,10 +2,10 @@ main();
 function main()
 {
 	DMessage("pvCr_UnTieMyBalls CallReturn: Start");
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage(random("You can ", "Go ahead and ", "You should ", "Why don\'t you ") + "untie those %Balls% now");
     delVar("pvBallsTied");

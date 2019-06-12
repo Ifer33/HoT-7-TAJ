@@ -49,14 +49,14 @@ function wantCBTBallsResponse(message) {
 					found = true;
 					break;
 				case 9:
-					if(isStroking()){
+					if(isStrokingAll()){
 						CMessage("That does sound like fun... %EmoteHappy%");
 						run("Interrupt" + java.io.File.separator + "pvIn_CBTBalls.js");
 						found = true;
 					}
 					break;
 				case 10:
-					if(isStroking()){
+					if(isStrokingAll()){
 						CMessage("That does sound like fun... %EmoteHappy%");
 						setTempVar("AV_MEM_CBT", true);
 						found = true;

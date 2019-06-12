@@ -356,10 +356,10 @@ function Fim()
 }
 function Modulo1()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("That %Cock% is no longer yours, it\'s my property");
     CMessage("and I\'m the only one that decides when my property needs to be touched...");
@@ -372,7 +372,6 @@ function Modulo1()
     else if (answer0.isLike("no", "nope", "nah", "not"))
     {
         aV_NoBadResponse();
-        return;
     }
     CMessage("Start playing with them, roll them in your palm.");
     CMessage(random("How\'s my cock doing? Is it as hard as it gets?", "How bad do you want to touch it right now?"));
@@ -383,19 +382,23 @@ function Modulo1()
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b055.mp3");
     CMessage("slowly... all the way to the tip... and down to the base.");
     CMessage("That\'s it, keep it slow and frustrating,");
+	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b075.mp3");
     CMessage("you know how much I love to watch you squirm.");
     CMessage("Good boy, keep going like that and don't stop fondling the balls.", 0);
+	stopAudio();
     CMessage("%stopstroking%", 0);
     CMessage("Now stroke it fast! Up-down, up-down, up-down.");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b180.mp3");
     CMessage("Keep it up...");
+	stopAudio();
     CMessage("%stopstroking%", 0);
     CMessage("You didn\'t think I\'d let you cum that easy, did you?");
     CMessage("Is it throbbing? It better be!...");
     CMessage("Start stroking again, slowly, up... down... up... down");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b075.mp3");
     CMessage("Now go as fast as you can, work that cock for me!");
+	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b210.mp3");
     CMessage("I\'m going to count down from 10 and you better be right on the edge of cumming by the time I reach 1");
     CMessage("10");
@@ -403,6 +406,7 @@ function Modulo1()
     setRapidText(true);
     CMessage("8");
     CMessage("7");
+	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b210.mp3");
     setRapidText(false);
     CMessage("6");
@@ -410,6 +414,7 @@ function Modulo1()
     setRapidText(true);
     CMessage("4");
     CMessage("3");
+	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b210.mp3");
     setRapidText(false);
     CMessage("2");
@@ -417,6 +422,7 @@ function Modulo1()
     CMessage("Are you there slave? Are you on the brink? Hold it!");
     CMessage("That\'s right, hold it for Mistress!");
     CMessage("Almost there...");
+	stopAudio();
     CMessage("%stopstroking%", 0);
     CMessage("Aww, look at it bobbing up and down...");
     CMessage("It really wanted to cum, didn\'t it?");
@@ -426,10 +432,10 @@ function Modulo1()
 }
 function Modulo2()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     if(getVar("av_fetish_hothax", false))
     {
@@ -516,10 +522,10 @@ function av_fetish_hothax()
 }
 function Modulo3()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("Look who is here");
     addContact(3);
@@ -557,10 +563,10 @@ function Modulo3()
 }
 function Modulo4()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     if(getVar("av_fetish_rough", false))
     {

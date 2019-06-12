@@ -3,7 +3,7 @@ main();
 DMessage("Short08: end");
 function main()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%StrokeSlower%");
         slowStroke();

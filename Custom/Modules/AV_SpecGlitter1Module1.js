@@ -3,7 +3,7 @@ main();
 DMessage("AV_SpecGlitter1Module1: end");
 function main()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         Sub_Stroking();
         return;
@@ -18,7 +18,7 @@ function main()
 function Sub_Stroking()
 {
     SMessage("%stopstroking%", -1, 2);
-    stopStroking();
+    stopStrokingAll();
     Sub_Not_Stroking();
 }
 function Sub_Not_Stroking()
@@ -49,7 +49,7 @@ function Sub_Not_Stroking()
     SMessage("I haven\'t made you do anything too scary or painful.", -1, 2);
     SMessage("Only a bit of sexual torment and teasing.", -1, 2);
     SMessage("It\'s time you repay me.", -1, 2);
-	setVar("linktorun", "Custom" + java.io.File.separator + "Link" + java.io.File.separator + "AV_SpecGlitterLinkEnd.js");
+	setTempVar("linktorun", "Custom" + java.io.File.separator + "Link" + java.io.File.separator + "AV_SpecGlitterLinkEnd.js");
     //--Command:SetLink(AV_SpecGlitterLinkEnd)
     var amountEdges = 4;
     DoEdges(amountEdges, amountEdges, 0, -1, 2);

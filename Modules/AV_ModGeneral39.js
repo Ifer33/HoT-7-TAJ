@@ -1,4 +1,5 @@
 DMessage("AV_ModGeneral39: start");
+edged=false;
 main();
 DMessage("AV_ModGeneral39: end");
 function main()
@@ -356,10 +357,10 @@ function Fim()
 }
 function Modulo1()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("Look who\'s here");
     addContact(2);
@@ -425,10 +426,10 @@ function d3466ahr()
 }
 function Modulo2()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("Look who\'s here");
     addContact(3);
@@ -572,10 +573,10 @@ function Modulo3()
 }
 function Modulo4()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("Look who\'s here");
     addContact(4);
@@ -643,17 +644,23 @@ function c301()
     setVar("edginggoto", "EdgeSpank()")
     CMessage("%Edge%");
     LoopSpankStroke();
+	return;
 }
 function LoopSpankStroke()
 {
-    sleep(01);
-	CMessage("%edgingtaunts1%");
-    LoopSpankStroke();
+    if(!edged){
+		sleep(01);
+	} if(!edged){
+		CMessage("%edgingtaunts1%");
+	} if(!edged){
+		LoopSpankStroke();
+	}
     return;
     EdgeSpank();
 }
 function EdgeSpank()
 {
+	edged=true;
     CMessage("Hold that edge %Slave%!");
     CMessage("But stop smacking yourself...");
     CMessage("Drop your ruler.");

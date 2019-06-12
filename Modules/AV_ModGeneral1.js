@@ -356,10 +356,10 @@ function Fim()
 }
 function Modulo1()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("This tease is extremely simple but don\'t underestimate it.");
     CMessage(random("I guarantee you will get have a raging Angry Cock before the end", "You may even start to sweat you will be so stimulated"));
@@ -404,10 +404,10 @@ function Modulo1()
 }
 function Modulo2()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("%PetName%, you have been such a good boy for the past half hour");
     CMessage("I think it\'s time to let you edge again.");
@@ -640,10 +640,10 @@ function AV_Timeo01()
 }
 function Modulo3()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("I " + random("think I\'ll take ", "need to take ") + "a " + random("short break", "break", "pause", "short pause"));
     CMessage("%AV_Luxury%");
@@ -718,10 +718,10 @@ function ContinueCH4()
 }
 function Modulo4()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("On second thought");
     CMessage("%Edge%");
@@ -768,7 +768,7 @@ function Modulo4()
 function edge1()
 {
     CMessage("While you watch this %Smile%");
-    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "ruin001.webm",true);
+    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "ruin001.mp4",true);
     CMessage("%stopstroking%", 0);
     return;
     edge2();
@@ -776,7 +776,7 @@ function edge1()
 function edge2()
 {
     CMessage("While you watch this %Smile%");
-    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "ruin002.webm",true);
+    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "ruin002.mp4",true);
     CMessage("%stopstroking%", 0);
     return;
     edge3();
@@ -784,7 +784,7 @@ function edge2()
 function edge3()
 {
     CMessage("While you watch this %Smile%");
-    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "ruin003.webm",true);
+    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "ruin003.mp4",true);
     CMessage("%stopstroking%", 0);
     return;
     edge4();
@@ -792,7 +792,7 @@ function edge3()
 function edge4()
 {
     CMessage("While you watch this %Smile%");
-    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "ruin004.webm",true);
+    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "ruin004.mp4",true);
     CMessage("%stopstroking%", 0);
     return;
     edge5();
@@ -800,7 +800,7 @@ function edge4()
 function edge5()
 {
     CMessage("While you watch this %Smile%");
-    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "ruin005.webm",true);
+    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "ruin005.mp4",true);
     CMessage("%stopstroking%", 0);
     return;
     edge6();
@@ -808,7 +808,7 @@ function edge5()
 function edge6()
 {
     CMessage("While you watch this %Smile%");
-    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "ruin006.webm",true);
+    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "ruin006.mp4",true);
     CMessage("%stopstroking%", 0);
     return;
     edge7();
@@ -816,7 +816,7 @@ function edge6()
 function edge7()
 {
     CMessage("While you watch this %Smile%");
-    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "ruin007.webm",true);
+    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "ruin007.mp4",true);
     CMessage("%stopstroking%", 0);
     return;
     edge8();
@@ -824,7 +824,7 @@ function edge7()
 function edge8()
 {
     CMessage("While you watch Dianna %Smile%");
-    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "d010.webm",true);
+    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "d010.mp4",true);
     CMessage("%stopstroking%", 0);
     return;
 }

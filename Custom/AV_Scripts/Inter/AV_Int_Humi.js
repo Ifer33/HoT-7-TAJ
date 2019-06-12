@@ -84,7 +84,7 @@ function SubAsn()
 function SubLie()
 {
     CMessage("What? Why you\'re lying, %SubName%?");
-    CMessage("Are you ashamed because %Contact1% saw you like that?");
+    CMessage("Are you ashamed because %domFriend1Name% saw you like that?");
     if(getVar("AV_MEM_CBT", false))
     {
         CMessage("Can be worse, want see?");

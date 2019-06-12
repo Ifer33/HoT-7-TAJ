@@ -611,10 +611,10 @@ function punishment_ending()
 }
 function a28huj38dop()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     if(getVar("AV_MEM_Crush", false))
     {

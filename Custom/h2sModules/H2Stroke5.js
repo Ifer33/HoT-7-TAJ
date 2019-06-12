@@ -119,7 +119,7 @@ function Break()
     CMessage("Just take a break without stroking");
     CMessage("Just watch this video and DO NOT TOUCH YOUR %Cock%");
     CMessage("Have some drink in this break, and if necessary lube your %Cock% up again");
-    playVideo("Videos" + java.io.File.separator + "*.*");
+    playVideo("Videos" + java.io.File.separator + "*.*",true);
     Edges_no_hold_2();
 }
 function Edges_no_hold_2()

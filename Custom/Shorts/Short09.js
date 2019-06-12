@@ -3,7 +3,7 @@ main();
 DMessage("Short09: end");
 function main()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%StrokeSlower%");
         slowStroke();
@@ -67,10 +67,10 @@ function d28efiw()
         NoPlay();
         return;
     }
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage(random("Go get your dildo", "Take out your dildo", "Get your dildo for me"));
     //--Command:CustomMode(%pvDontWantTo%,Goto,not want)
@@ -202,10 +202,10 @@ function a22mdrr()
 function e4grsss()
 {
     CMessage("Later, when I\'m tired of abusing you, maybe I\'ll leave you here sore and frustrated and desperate.");
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
         CMessage(random("Hit", "Slap", "Spank")+" your %Balls%");
 		playAudio("tease" + java.io.File.separator + "spank" + java.io.File.separator + "Belle*.mp3");
 		sleep(13);

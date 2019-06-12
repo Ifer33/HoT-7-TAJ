@@ -6,7 +6,7 @@ DMessage("AV_GlittersTest: End");
 //delay,sender from other skript
 function main()
 {	
-    if (isStroking())
+    if (isStrokingAll())
     {
         Sub_Stroking();
         return;
@@ -21,7 +21,7 @@ function main()
 function Sub_Stroking()
 {
     SMessage("%stopstroking%", 0,sender);
-    stopStroking();
+    stopStrokingAll();
     Sub_Not_Stroking();
 }
 function Sub_Not_Stroking()

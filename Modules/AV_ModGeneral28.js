@@ -364,7 +364,7 @@ function Modulo1()
 function Modulo2()
 {
     //--Command:NotStroking
-	if(!isStroking() ){
+	if(!isStrokingAll() ){
 		CMessage("Start %Stroking% again");
 		//playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "Tri" + java.io.File.separator + "*.mp3");
 		setStrokingNoTaunt();
@@ -491,7 +491,7 @@ function Modulo2()
 function uuyhbdf()
 {
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     CMessage("That was fun.");
     setVar("edgingmode", "Normal");
     sleep(15);
@@ -500,10 +500,10 @@ function uuyhbdf()
 }
 function Modulo3()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("During your training, you will be taught to worship me");
     CMessage("and you will beg me to allow your relief.");
@@ -542,7 +542,7 @@ function Modulo3()
     CMessage("But don\'t concentrate on just one thing.");
     CMessage("The rest of my body is very hot also");
     CMessage("%Stop%", 0);
-	stopStroking();
+	stopStrokingAll();
     setVar("edgingmode", "Normal");
     return;
     FailNotEdge2();
@@ -550,7 +550,7 @@ function Modulo3()
 function FailNotEdge2()
 {
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     setVar("edgingmode", "Normal");
     CMessage("I love that look on your face, that look of pain.");
     CMessage("We’re going to be seeing a lot more of that before we’re through today.");
@@ -560,10 +560,10 @@ function FailNotEdge2()
 }
 function Modulo4()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("This will be a test of endurance, or maybe it will be easy for you.");
     addContact(2);

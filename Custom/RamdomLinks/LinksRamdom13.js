@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_Link13", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -383,7 +383,7 @@ function Link1()
     }
     CMessage("To feel that excitement build up inside you until you feel like your going to burst. Hmm?");
     CMessage("I know that\'s what you want.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -399,7 +399,7 @@ function Link2()
     CMessage("and NO ONE to help finish you off..");
     CMessage("Cause I can tease, too, dear.");
     CMessage("Just wanted to make sure we were clear on that, %PetName%");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -415,7 +415,7 @@ function Link3()
     CMessage("Yeah, I love knowing you don\'t stand a chance against me.");
     CMessage("I love how fucking hot you think I am.");
     CMessage("And how amazing that makes me feel.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -442,6 +442,6 @@ function Link4()
     CMessage("and you need to let it out.");
     CMessage("The pressure baby, it\'s just tooo much");
     CMessage("It\'s impossible to think of anything else...");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
 }

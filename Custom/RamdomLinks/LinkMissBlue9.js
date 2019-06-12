@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_LinkMissBlue9", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -427,7 +427,7 @@ function if_I_loved_you()
     CMessage("I\'d want you to hold me and make love to me");
     CMessage("But that\'s not the way things are");
     CMessage("And they never will be...");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -443,7 +443,7 @@ function Link2()
 		CMessage("I guess I can be as cruel as I want, whenever I want to");
 		cbt("cock");
 	}
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -459,7 +459,7 @@ function Link3()
     CMessage("There are so many ways to use that in and around the house");
     CMessage("I guess they\'re afraid of hurting the male \'ego\'");
     CMessage("Well, I don\'t have any such qualms about it %Smile%");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -487,7 +487,7 @@ function Link4()
     }
     CMessage("You always want to ache more");
     increaseAnger(-3)
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     oh_really();
 }
@@ -537,7 +537,7 @@ function oh_really()
     CMessage("Get to the edge, %PetName%");
     DoEdges(5, 5, 100);
     CMessage("And don\'t think you\'ll get much time to recuperate, %PetName%");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     what_you_wanted();
 }
@@ -551,6 +551,6 @@ function what_you_wanted()
     CMessage("Get to the edge, %PetName%");
     DoEdges(5, 5, 100);
     CMessage("And don\'t think you\'ll get much time to recuperate, %PetName%");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
 }

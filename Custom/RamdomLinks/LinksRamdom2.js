@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_Link2", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -395,7 +395,7 @@ function Link1()
     {
         CMessage("%Good%");
     }
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -444,7 +444,7 @@ function Link2()
     CMessage("And I take care of the rest.");
     setVar("AV_NewCrushDONE", true);
     CMessage("Just remember to use the folders in the numerical order.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     AV_NewCrushDONE();
 }
@@ -483,7 +483,7 @@ function AV_NewCrushDONE()
         CMessage("%EmoteLaugh%");
         setVar("AV_Persona18c", true);
     }
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     AV_Know_19();
 }
@@ -501,7 +501,7 @@ function AV_Know_19()
     CMessage("You deceive women just so you can cum, then you forget all about them.");
     CMessage("Well I\'m going to be the one to punish your cock by making *it* forget all about cumming");
     CMessage("So I think the best thing for us to do is make sure it really, *really* wants to.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -529,7 +529,7 @@ function Link3()
     setVar("AV_Persona12", createInput().getAnswer());
     edge("so, %Edge% with " + getVar("AV_Persona12", ""));
     CMessage("aaannd no rest for you");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     AV_Know_13();
 }
@@ -553,14 +553,14 @@ function AV_Know_13()
     {
         CMessage("hmm...");
     }
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     bad();
 }
 function bad()
 {
     edge()
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -614,7 +614,7 @@ function Cont()
     setVar("AV_Persona09", createInput().getAnswer());
     CMessage("%EmoteLaugh%");
     setVar("AV_Know_17", true);
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     AV_Know_17();
 }
@@ -632,6 +632,6 @@ function AV_Know_17()
     CMessage("Be a " + getVar("AV_Persona09", "") + "Keep the CUM inside.");
     CMessage("You don\'t need to CUM anyways.");
     CMessage(random("This is better than cumming", "This is way more fun for both of us"));
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
 }

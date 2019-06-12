@@ -9,7 +9,8 @@ function main()
     //--Command:WorshipOn
 	worshipMode(true);
     //SMessage("%StartStroking%", -1, 2);
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
+	Stroking();
 	DMessage("AV_Glitter1EdgeTrain: end");
     return;
 }

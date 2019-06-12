@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_Link31", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -373,7 +373,7 @@ function Link1()
     {
         CMessage("And filthy fucking slaves get fucked hard.");
     }
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -390,7 +390,7 @@ function Link2()
     {
         CMessage("Getting on top of a woman and fucking her isn\'t ever going to be good anymore...");
     }
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -411,7 +411,7 @@ function Link3()
 function skip056()
 {
     CMessage("I want to be every little dirty thought you\'ve had");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -449,6 +449,6 @@ function Link4()
     {
         aV_NoBadResponse();
     }
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
 }

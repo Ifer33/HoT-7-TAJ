@@ -356,10 +356,10 @@ function Fim()
 }
 function Modulo1()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("I know why you\'re here. I know the exact reason.");
     CMessage("You want your Mistress to make you cum. You need it.");
@@ -450,10 +450,10 @@ function a2s24sg()
 }
 function Modulo2()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("I\'m going to transform you into what I want you to be");
     CMessage("and I feel that only girls deserve to cum.");
@@ -570,10 +570,10 @@ function Modulo2()
 }
 function Modulo3()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("OK, so here\'s what were\'re going to do...");
     CMessage("You know that girl you " + random("have a massive crush on", "think about all the time"));
@@ -667,7 +667,7 @@ function Modulo4()
         CMessage("So I think a bit of ballbusting will help make your balls ache...");
     }
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     if(getVar("av_fetish_pain", false))
     {
         CMessage(random("Hit ", "spank ") + "your %Balls%");

@@ -109,7 +109,7 @@ function can_Handle_zResponse(message) {
 			}
 		}
     }
-    else if (isStroking())
+    else if (isStrokingAll())
     {
         let found = false;
 		while(!found){

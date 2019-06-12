@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_Link33", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -365,7 +365,7 @@ function Link1()
     CMessage("And then all it gets is a single finger.");
     CMessage("Slide your finger up and down your shaft, light as a feather.");
     CMessage("It knows something is there, and it wants more.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -384,7 +384,7 @@ function Link2()
     CMessage("Take a moment...");
     CMessage("then do it again.");
     sleep(10);
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -401,7 +401,7 @@ function Link3()
     sleep(10);
     CMessage("okay, relax.");
     CMessage("%GoodBoy%");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -417,6 +417,6 @@ function Link4()
     CMessage("It might hurt a little, but if you do it right it should make you extra hard.");
     CMessage("That\'s right, keep going...");
     CMessage("And stop.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
 }

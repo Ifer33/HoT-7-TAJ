@@ -56,7 +56,7 @@ function CMessage(message, delay=-1, showTyping=true)
 		CustomizedMessage(message, delay, 1, null, null, showTyping);
 	}
 }
-function SMessage(message, delay=0, sender=-1)
+function SMessage(message, delay=-1, sender=-1)
 {
     if (sender == -1)
     {

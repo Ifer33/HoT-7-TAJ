@@ -356,10 +356,10 @@ function Fim()
 }
 function Modulo1()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("%AV_Break1%");
     CMessage("%AV_Luxury%");
@@ -384,7 +384,7 @@ function Modulo1()
     CMessage("I bet if you went a little faster, you\'d cum all over yourself.");
     CMessage("So I'll just stop.");
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("What\'s that? Shut your mouth, when I want you to beg, I\'ll tell you to beg.");
     CMessage("You want your hand back on this dick, don\'t you?");
     CMessage("Well, how about instead you slap it?");
@@ -465,10 +465,10 @@ function Modulo1()
 }
 function Modulo2()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("%AV_Break1%");
     CMessage("%AV_Luxury%");
@@ -628,10 +628,10 @@ function AV_4grag6jf()
 }
 function Modulo3()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("I literally have broken you down so much I have you wrapped around my little finger.");
     CMessage("I love playing games with you, fucking with your head.");

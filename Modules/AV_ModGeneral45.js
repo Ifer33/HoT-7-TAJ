@@ -356,10 +356,10 @@ function Fim()
 }
 function Modulo1()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("Beg to touch that twitching cock");
     setTempVar("AV_Begging", true);
@@ -418,10 +418,10 @@ function NotBegged3()
 }
 function Modulo2()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("And even though you already know I\'m going to leave you with blue balls");
     CMessage("you still want to stroke your cock so badly to me.");
@@ -495,7 +495,7 @@ function Modulo3()
     CMessage("You really have no control over that %Cock%");
     CMessage("You are going to obey me");
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     CMessage("Show me some control.");
     CMessage("I\'ll tell you when you can stroke");
     CMessage("Now go on and jerk it again while you worship me %PetName%.");

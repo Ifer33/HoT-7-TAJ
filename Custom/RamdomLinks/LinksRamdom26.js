@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_Link26", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -374,7 +374,7 @@ function Link1()
     {
         CMessage("I know how you\'re always thinking about my big dick flopping around in that strap-on.");
     }
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -385,7 +385,7 @@ function Link2()
     CMessage("like making them masturbate with their pants around their ankles");
     CMessage("or telling them that they had to go out in public and find a quiet spot and jack off in the car for me while I listened.");
     CMessage("I liked making them feel like a pervert or a nasty slut.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -396,7 +396,7 @@ function Link3()
     CMessage("tease their cock and maybe never let them cum.");
     CMessage("Perhaps I would just leave them to jack off by themselves");
     CMessage("or maybe I wouldn\'t satisfy them at all, but get off and hang up on them.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -409,6 +409,6 @@ function Link4()
     CMessage("I got off on telling them how I was going to put a collar on them");
     CMessage("and lock them between my legs to service me.");
     CMessage("I enjoyed the thought of using them as a sex toy and as an object only to fulfill my needs.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
 }

@@ -2,7 +2,7 @@ main();
 function main()
 {
 	DMessage("pvInt_Punishment Interrupt: Start");
-    if (isStroking())
+    if (isStrokingAll())
     {
         Sub_Stroking();
 		DMessage("pvInt_Punishment Interrupt: End");
@@ -19,7 +19,7 @@ function main()
 function Sub_Stroking()
 {
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     Sub_Not_Stroking();
 }
 function Sub_Not_Stroking()

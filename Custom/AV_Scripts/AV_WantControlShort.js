@@ -3,7 +3,7 @@ main();
 DMessage("AV_WantControlShort: end");
 function main()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         Sub_Stroking();
         return;
@@ -18,7 +18,7 @@ function main()
 function Sub_Stroking()
 {
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     Sub_Not_Stroking();
 }
 function Sub_Not_Stroking()
@@ -36,7 +36,7 @@ function Sub_Not_Stroking()
     {
 		if (answer0.isLike("no"))
 		{
-			answer0 = getInput("%pthevCoCo-1%");
+			answer0 = getInput("%pthevCoCo1%");
 		}
 		else{
 			answer0 = getInput("%YesOrNo%");

@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_Link7", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -365,7 +365,7 @@ function Link1()
     CMessage("What you get out of this is just that... you get to completely give up control.");
     CMessage("It just ensures that, in fact, I do own your cock...");
     CMessage("it just happens to be attached to your body, but it will be my property.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -396,7 +396,7 @@ function Link2()
         CMessage("and that kinda upsets me. I'm not mad at you of course... you're just doing what I say");
     }
     CMessage("It\'s just, I don\'t know..");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -409,7 +409,7 @@ function Link3()
     cbt();
     CMessage("I hope you learned your lesson");
     CMessage("But I suspect you to enjoy those punishments a little too much %Emote%");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -431,6 +431,6 @@ function Link4()
         CMessage("I bet that makes you super horny!!! %lol%");
     }
     CMessage("Keep thinking about it and let\'s see if I can make you even more obedient");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
 }

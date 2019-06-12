@@ -4,10 +4,10 @@ main();
 DMessage("Edge for us: end");
 function main()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage(random("Let me explain you what\'s %Gonna% happen ", "That\'s what you\'re %Gonna% do ", "Here\'s what you\'re %Gonna% do ", "Let %Me% explain what I planned for you %GeneralTime% ", "Here\'s what you\'re %Gonna% do for %Me% ", "Let %Me% tell you what I have in mind for you ", "Let %Me% tell you what I have in mind for you %GeneralTime% ") + random("%PetName%", "%SubName%"));
     CMessage("edges, a lot of edges... " + random("%Grin%", "%GrinEvil%"));

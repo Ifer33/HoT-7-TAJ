@@ -5,7 +5,7 @@ DMessage("AV_ModGeneral20: end");
 function main()
 {
     //--UNINTERPRETED LINE:@Variable[%DateDifference%(AV_SessionTime,minutes)]<[15] %Stop% @StopStroking @Goto(IniModule)
-    if (isStroking())
+    if (isStrokingAll())
     {
         Sub_Stroking();
         return;
@@ -25,7 +25,7 @@ function Sub_Stroking()
         return;
     }
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     IniModule();
     return;
     DecidEdge();
@@ -541,7 +541,7 @@ function JuntaTudo()
         CMessage("%BallGagOn%");
     }
     CMessage("Back to %Stroking% when you are done...");
-	if(!isStroking() ){
+	if(!isStrokingAll() ){
 		setStrokingNoTaunt();
 	}
     if(getVar("AV_DommeMistress", false) && getVar("av_fetish_rough", false))
@@ -559,7 +559,7 @@ function JuntaTudo()
         CMessage("It was good Right?");
     }
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("Look at you...all worked up already!");
     CMessage("I can\'t help but giggle as you try *so hard* to keep your mind focused.");
     CMessage("Hands on your head! Keep them there!");
@@ -792,7 +792,7 @@ function Modulo3()
     if(getVar("av_fetish_pain", false))
     {
         CMessage("%stopstroking%", 0);
-		stopStroking();
+		stopStrokingAll();
     }
     if(getVar("av_fetish_pain", false))
     {
@@ -860,7 +860,7 @@ function EdgeForGoto84()
         setVar("AV_EatCum", true);
     }
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     setVar("edgingmode", "Normal");
     if(getVar("av_fetish_pain", false))
     {
@@ -945,7 +945,7 @@ function AVTied()
         CMessage("I\'d squeeze one ball until you squealed.");
     }
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     if(getVar("av_fetish_pain", false))
     {
         CMessage("squeeze both balls hard!");
@@ -983,7 +983,7 @@ function AVTied()
     CMessage("is it hard to stop stroking that hard?");
     sleep(20);
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     JumPain();
 }
 function JumPain()

@@ -71,7 +71,7 @@ function domme1()
 }
 function a02()
 {
-    CMessage("%Contact3% want to try something with you");
+    CMessage("%domFriend3Name% want to try something with you");
     addContact(4);
     removeContact(1);
     SMessage("%LittleGame%", -1, 4);
@@ -93,7 +93,7 @@ function a02()
 }
 function a03()
 {
-    CMessage("%Contact1% want to try something with you");
+    CMessage("%domFriend1Name% want to try something with you");
     addContact(2);
     removeContact(1);
     SMessage("%LittleGame%", -1, 3);

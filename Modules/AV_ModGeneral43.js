@@ -356,10 +356,10 @@ function Fim()
 }
 function Modulo1()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     if(!getVar("AV_PinDone", false))
     {
@@ -453,7 +453,7 @@ function zruytc4456()
     CMessage("You stop listening, you stop obsessing, you turn off your sexual brain as soon as you cum.");
     CMessage("But I found a way around that.");
     CMessage("%Stop%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("I\'m not going to let you cum.");
     CMessage("I think it\'s best for both of us.");
     CMessage("Accept your fate, embrace it");
@@ -463,10 +463,10 @@ function zruytc4456()
 }
 function Modulo2()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("%KneelForMe%");
     CMessage("It\'s so easy to tease you.");
@@ -507,10 +507,10 @@ function Modulo2()
 }
 function Modulo3()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     let answer0 = getInput("Are you horny?",10);
     if (answer0.isLike("yes", "yea", "yep"))
@@ -641,7 +641,7 @@ function YouCanStroke()
 function CountStop()
 {
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("I know you want to squirt so badly.");
     CMessage("But don\'t, not yet...");
     return;
@@ -650,10 +650,10 @@ function CountStop()
 }
 function Modulo4()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     if(!getVar("AV_PinDone", false))
     {

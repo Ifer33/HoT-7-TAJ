@@ -3,7 +3,7 @@ main();
 DMessage("AV_Feet: end");
 function main()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         Sub_Stroking();
         return;
@@ -18,7 +18,7 @@ function main()
 function Sub_Stroking()
 {
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     Sub_Not_Stroking();
 }
 function Sub_Not_Stroking()
@@ -48,6 +48,6 @@ function part2()
 	sleep(10);
     CMessage("** %DomName% turned off the mic **");
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     return;
 }

@@ -514,7 +514,7 @@ function Sim12()
     getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
     sleep(10);
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
 	stopAudio();
     Pausa();
     return;
@@ -533,7 +533,7 @@ function Sim00()
     getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
     sleep(10);
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
 	stopAudio();
     Pausa();
     return;
@@ -552,7 +552,7 @@ function Sim01()
     getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
     sleep(10);
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
 	stopAudio();
     Pausa();
     return;
@@ -571,7 +571,7 @@ function Sim03()
     getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "04" + java.io.File.separator + "*.jpg");
     sleep(10);
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
 	stopAudio();
     Pausa();
     return;
@@ -590,7 +590,7 @@ function Sim50()
     getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "10" + java.io.File.separator + "*.jpg");
     sleep(10);
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
 	stopAudio();
     Pausa();
     return;
@@ -609,7 +609,7 @@ function Sim51()
     getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "11" + java.io.File.separator + "*.jpg");
     sleep(10);
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
 	stopAudio();
     Pausa();
     return;
@@ -628,7 +628,7 @@ function Sim52()
     getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "12" + java.io.File.separator + "*.jpg");
     sleep(10);
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
 	stopAudio();
     Pausa();
     return;
@@ -647,7 +647,7 @@ function Sim53()
     getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "13" + java.io.File.separator + "*.jpg");
     sleep(10);
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
 	stopAudio();
     Pausa();
     return;
@@ -666,7 +666,7 @@ function Sim54()
     getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "14" + java.io.File.separator + "*.jpg");
     sleep(10);
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
 	stopAudio();
     Pausa();
     return;
@@ -685,7 +685,7 @@ function Sim55()
     getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "15" + java.io.File.separator + "*.jpg");
     sleep(10);
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
 	stopAudio();
     Pausa();
     return;
@@ -704,7 +704,7 @@ function Sim56()
     getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "16" + java.io.File.separator + "*.jpg");
     sleep(10);
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
 	stopAudio();
     Pausa();
     return;
@@ -723,7 +723,7 @@ function Sim57()
     getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "17" + java.io.File.separator + "*.jpg");
     sleep(10);
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
 	stopAudio();
     Pausa();
     return;
@@ -742,7 +742,7 @@ function Sim58()
     getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "18" + java.io.File.separator + "*.jpg");
     sleep(10);
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
 	stopAudio();
     Pausa();
     return;
@@ -761,7 +761,7 @@ function Sim59()
     getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "19" + java.io.File.separator + "*.jpg");
     sleep(10);
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
 	stopAudio();
     Pausa();
     return;

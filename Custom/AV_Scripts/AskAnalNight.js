@@ -99,7 +99,7 @@ function Ass_Talk()
         End();
         return;
     }
-    CMessage("This is going to be interesting %Grin%");
+    //CMessage("This is going to be interesting %Grin%");
     setTempVar("av_doanalnight", true);
     CMessage("Leave it ready, we are going to use it a lot later %EmoteHappy%");
     return;

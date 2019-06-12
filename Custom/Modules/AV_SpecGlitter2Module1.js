@@ -3,7 +3,7 @@ main();
 DMessage("AV_SpecGlitter2Module1: end");
 function main()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         Sub_Stroking();
         return;
@@ -18,7 +18,7 @@ function main()
 function Sub_Stroking()
 {
     SMessage("%stopstroking%", -1, 3);
-    stopStroking();
+    stopStrokingAll();
     Sub_Not_Stroking();
 }
 function Sub_Not_Stroking()
@@ -27,7 +27,7 @@ function Sub_Not_Stroking()
     setVar("AV_GlitterControl", getVar("AV_GlitterControl", 0) + 2);
     SMessage("that they can\'t handle that much of cum, trying so desperately to get out.", -1, 3);
     //--Command:SetLink(AV_SpecGlitterLinkEnd)
-	setVar("linktorun", "Custom" + java.io.File.separator + "Link" + java.io.File.separator + "AV_SpecGlitterLinkEnd.js");
+	setTempVar("linktorun", "Custom" + java.io.File.separator + "Link" + java.io.File.separator + "AV_SpecGlitterLinkEnd.js");
     SMessage("Don\'t worry. I think they can handle much more. ;)", -1, 3);
     SMessage("You\'re not here to spray your load all over the place.", -1, 3);
     SMessage("You\'re here to " + random("learn to control yourself", "get lost in your own desire", "feel nothing else than pure frustration"), -1, 3);

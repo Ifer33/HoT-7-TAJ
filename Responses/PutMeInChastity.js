@@ -93,7 +93,7 @@ function putMeInChastityResponse(message) {
     {
         CMessage("That will not save you from this edge %PetName% %Grin%");
     }
-    else if (isStroking())
+    else if (isStrokingAll())
     {
         let found = false;
 		while(!found){

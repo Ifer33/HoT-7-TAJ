@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_Link35", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -405,7 +405,7 @@ function hate_it()
     CMessage("Suddenly you\'re reduced to a bulge and a wet spot and little else");
     CMessage("With an intense desire to go home and %JerkOff%");
     CMessage("At least I\'ve got your habit under control, %Name%");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -425,7 +425,7 @@ function Link2()
 	}
     CMessage("<i>You have no idea how cruel I can be, you're about to find out though...</i>");
     CMessage("Well, they\'re thinking it in your mind, anyway %Laugh%");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -467,7 +467,7 @@ function Link3()
     showTaggedImage(4, ["boobs"]);
     CMessage("Well, just try to control yourself when that happens, %SubName%");
     unlockImages();
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -486,6 +486,6 @@ function Link4()
     CMessage("And you want to make sure that don\'t miss a single thing I say");
     CMessage("How can you obey my commands if you don\'t know the command, right?");
     CMessage("Don\'t lose your focus, %PetName%");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
 }

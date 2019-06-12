@@ -4,7 +4,7 @@ DMessage("AV_ModGeneral10: end");
 function main()
 {
     //--UNINTERPRETED LINE:@Variable[%DateDifference%(AV_SessionTime,minutes)]<[15] %Stop% @StopStroking @Goto(IniModule)
-    if (isStroking())
+    if (isStrokingAll())
     {
         Sub_Stroking();
         return;
@@ -24,7 +24,7 @@ function Sub_Stroking()
         return;
     }
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     IniModule();
     return;
     DdecidEdge();
@@ -431,21 +431,21 @@ function Modulo1()
 }
 function pc01()
 {
-    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "15" + java.io.File.separator + "*.webm");
+    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "15" + java.io.File.separator + "*.mp4",true);
     pcont();
     return;
     pc02();
 }
 function pc02()
 {
-    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "10" + java.io.File.separator + "*.webm");
+    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "10" + java.io.File.separator + "*.mp4",true);
     pcont();
     return;
     pcont();
 }
 function pcont()
 {
-    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "60" + java.io.File.separator + "*.webm");
+    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "60" + java.io.File.separator + "*.mp4",true);
     CMessage("wow...you did not edge all that time...");
     CMessage("Good work %SubName%");
     EdgePC();
@@ -491,7 +491,7 @@ function Modulo2()
     CMessage("But don\'t think you won\'t have to earn it.");
     setTempVar("av_intera_007", true);
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     if(!getVar("av_fetish_pain", false))
     {
         a3345fy();
@@ -576,7 +576,7 @@ function AV_Timeo05()
     CMessage("Are you ready to cum? I bet you are.");
     CMessage("I bet you\'re so close to the edge.");
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("Get your  hand off my property.");
     CMessage("You don\'t get anything unless I allow it.");
     CMessage("All I want right now is to watch you whimper and cry and beg.");

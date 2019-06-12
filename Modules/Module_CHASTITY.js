@@ -4,7 +4,7 @@ DMessage("ModuleCHASTITY: end");
 function main()
 {
     //--Command:SetLink(Link_CHASTITY)
-	setVar("linktorun", "Stroke" + java.io.File.separator + "Link" + java.io.File.separator + "Link_CHASTITY.js");
+	setTempVar("linktorun", "Stroke" + java.io.File.separator + "Link" + java.io.File.separator + "Link_CHASTITY.js");
     switch(random("one", "two", "three", "four"))
     {
         case "one":
@@ -531,7 +531,7 @@ function glitter_not_introduced_yet()
     CMessage("In fact, I think I\'m going to need some time for myself right now...");
     CMessage("I\'ll let you watch a video in the meantime");
     CMessage("I\'ll be right back");
-    playVideo("Videos" + java.io.File.separator + "*.*");
+    playVideo("Videos" + java.io.File.separator + "*.*",true);
     setAFK(true);
     sleep(randomInt(20, 40));
 	setAFK(true);
@@ -625,7 +625,7 @@ function two_no_device()
     sleep(7);
     CMessage("Alright, found one");
     CMessage("Have fun, %PetName%");
-    playVideo("Videos" + java.io.File.separator + "*.*");
+    playVideo("Videos" + java.io.File.separator + "*.*",true);
     return;
     three();
 }
@@ -689,7 +689,7 @@ function three_balls_not_tied()
 {
     CMessage("And want you to be at least as horny at the end of the video as you are now");
     CMessage("So, good luck with that, %PetName% %EmoteHappy%");
-    playVideo("Videos" + java.io.File.separator + "*.*");
+    playVideo("Videos" + java.io.File.separator + "*.*",true);
     CMessage("After that I bet you\'re just aching to start stroking again");
     CMessage("But I want to keep you denied a little bit longer");
     //--Command:BallTorture

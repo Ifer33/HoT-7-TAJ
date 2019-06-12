@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_Link40", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     
     Link1();
@@ -362,7 +362,7 @@ function Link1()
     CMessage("But, %Name%... did i say you could cum?");
     CMessage("Did i give you my permission?");
     CMessage("No.... right now, I want to just keep on teasing you.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     
     Link2();
@@ -391,7 +391,7 @@ function Link2()
     {
         aV_NoNeutralResponse();
     }
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     
     Link3();
@@ -406,7 +406,7 @@ function Link3()
     CMessage("I love being with you and having this effect on your body...");
     CMessage("But cumming early?");
     CMessage("No, thats not what I want you to do.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     
     Link4();
@@ -420,6 +420,6 @@ function Link4()
     CMessage("BUT, you\'re going to have to wait, %Name%.");
     CMessage("I still have some more plans in store for you!");
     CMessage("After all, I haven\'t given you my permission.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
 }

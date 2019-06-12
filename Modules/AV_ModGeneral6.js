@@ -356,10 +356,10 @@ function Fim()
 }
 function Modulo1()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("%SubName%");
     CMessage("Now you will stroke, but are not allowed to edge");
@@ -460,22 +460,22 @@ function AV_Jump53()
     CMessage("that you\'re currently living in denial?");
     CMessage("Tormented by me, who has you completely controlled.");
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStop.mp3");
     return;
     Modulo2();
 }
 function Modulo2()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("%AV_Break1%");
     CMessage("%AV_Luxury%");
     CMessage("%AV_Break2%");
-    CMessage("Hey %Contact1%");
+    CMessage("Hey %domFriend1Name%");
     addContact(2);
     SMessage("HI %EmoteLaugh%", -1, 2);
     CMessage("%AV_Break3%");
@@ -544,15 +544,15 @@ function Modulo2()
 }
 function Modulo3()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("%AV_Break1%");
     CMessage("%AV_Luxury%");
     CMessage("%AV_Break2%");
-    CMessage("Hey %Contact2%");
+    CMessage("Hey %domFriend2Name%");
     addContact(3);
     SMessage("HI %EmoteLaugh%", -1, 3);
     CMessage("%AV_Break3%");
@@ -646,15 +646,15 @@ function Modulo3()
 }
 function Modulo4()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("%AV_Break1%");
     CMessage("%AV_Luxury%");
     CMessage("%AV_Break2%");
-    CMessage("Hey %Contact3%");
+    CMessage("Hey %domFriend3Name%");
     addContact(4);
     SMessage("HI %EmoteLaugh%", -1, 4);
     CMessage("%AV_Break3%");

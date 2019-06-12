@@ -22,7 +22,7 @@ function main()
 function break_one()
 {
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("Actually, I want you to sit on your hands, do it %PetName%");
     CMessage("You taking a break means I can take on too");
     CMessage("I wouldn\'t want to bore you too much, tough");
@@ -294,11 +294,11 @@ function pthevBreak1Timer()
 function break_two()
 {
     CMessage("%stopstroking%", 0);
-	stopStroking();;
+	stopStrokingAll();;
     CMessage("I\'m going to play you one of your videos to enjoy");
     CMessage("But no touching that %Cock%");
     CMessage("Have fun %Smile%");
-    playVideo("Videos" + java.io.File.separator + "*.*");//,true);
+    playVideo("Videos" + java.io.File.separator + "*.*",true);
     sleep(15);
     let answer0 = getInput("Hey, did you enjoy your video?");
     while (!(answer0.isLike("yes") || answer0.isLike("no")))
@@ -321,7 +321,7 @@ function break_two()
 function break_three()
 {
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("I\'m going to take a break too %SubName%");
     CMessage("I\'ll leave you with some pictures of boobs and butts");
     CMessage("And to make sure you\'re paying attention");

@@ -3,7 +3,7 @@ main();
 DMessage("AV_WantToRuin: end");
 function main()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         Sub_Stroking();
         return;
@@ -18,7 +18,7 @@ function main()
 function Sub_Stroking()
 {
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     Sub_Not_Stroking();
 }
 function Sub_Not_Stroking()
@@ -84,8 +84,7 @@ function Now_Im_Gonna_Make_You_Ache()
 function OpRu1()
 {
     //setVar("moduletorun", "AV_RuinHorny1")
-	setVar("moduletorun", "Custom" + java.io.File.separator + "Modules" + java.io.File.separator + "AV_RuinHorny1.js")
-    getLocalTeasePicture("Images" + java.io.File.separator + "AV_RuinHorny1");
+	setTempVar("moduletorun", "Custom" + java.io.File.separator + "Modules" + java.io.File.separator + "AV_RuinHorny1.js")
     DONE();
     return;
     OpRu2();
@@ -93,8 +92,7 @@ function OpRu1()
 function OpRu2()
 {
     //setVar("moduletorun", "AV_RuinHorny2")
-	setVar("moduletorun", "Custom" + java.io.File.separator + "Modules" + java.io.File.separator + "AV_RuinHorny2.js")
-    getLocalTeasePicture("Images" + java.io.File.separator + "AV_RuinHorny2");
+	setTempVar("moduletorun", "Custom" + java.io.File.separator + "Modules" + java.io.File.separator + "AV_RuinHorny2.js")
     DONE();
     return;
     OpRu3();
@@ -102,8 +100,7 @@ function OpRu2()
 function OpRu3()
 {
     //setVar("moduletorun", "AV_RuinHorny3")
-	setVar("moduletorun", "Custom" + java.io.File.separator + "Modules" + java.io.File.separator + "AV_RuinHorny3.js")
-    getLocalTeasePicture("Images" + java.io.File.separator + "AV_RuinHorny3");
+	setTempVar("moduletorun", "Custom" + java.io.File.separator + "Modules" + java.io.File.separator + "AV_RuinHorny3.js")
     DONE();
 }
 function DONE()

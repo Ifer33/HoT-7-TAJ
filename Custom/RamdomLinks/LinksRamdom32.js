@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_Link32", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -363,7 +363,7 @@ function Link1()
     CMessage("Generate some heat.");
     CMessage("Maybe a bit of pleasure.");
     CMessage("Stop...");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -373,7 +373,7 @@ function Link2()
     CMessage("I think I will let you cum...right now.");
     sleep(10);
     CMessage("%No% changed my mind.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -386,7 +386,7 @@ function Link3()
     {
         youOwnMeResponse();
     }
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -405,6 +405,6 @@ function Link4()
         i_Will_Do_Anything_NotResponse();
     }
     CMessage("because ultimately, me and only me will decide if and when that orgasm comes.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
 }

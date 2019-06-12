@@ -622,10 +622,10 @@ function end3430()
 }
 function Modulo3()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage(random("%PetName%", "%SubName%"));
     if(!getVar("av_fetish_pain", false))
@@ -854,10 +854,10 @@ function a6723fjs()
 }
 function Modulo4()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("It looks like I get to test your submission now");
     CMessage("I think my goal will be to get you as horny as possible");
@@ -881,7 +881,7 @@ function Modulo4()
     CMessage("Feels good, no?");
     CMessage("Keep rubbing and twisting them until they are as hard as your cock.");
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("Go on, try to see how horny you can get by just playing with your nipples.");
     CMessage("hmm...");
     CMessage("Reach down and caress your cock and balls");

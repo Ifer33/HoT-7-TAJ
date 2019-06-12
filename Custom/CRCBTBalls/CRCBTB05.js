@@ -4,10 +4,10 @@ DMessage("CRCBTB05: end")
 function main()
 {
     CMessage(random("Alright then ", "Now then ", "Well now ", "Alright then ") + "...");
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("It\'s " + random("about time for ", "time for ") + random("another round ", "a round ") + "of ballbusting");
     CMessage("I know you enjoy it so much my little %PetName%");

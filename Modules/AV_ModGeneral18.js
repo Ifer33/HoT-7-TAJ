@@ -4,7 +4,7 @@ DMessage("AV_ModGeneral18: end");
 function main()
 {
     //--UNINTERPRETED LINE:@Variable[%DateDifference%(AV_SessionTime,minutes)]<[15] %Stop% @StopStroking @Goto(IniModule)
-    if (isStroking())
+    if (isStrokingAll())
     {
         Sub_Stroking();
         return;
@@ -24,7 +24,7 @@ function Sub_Stroking()
         return;
     }
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     IniModule();
     return;
     DecidEdge();
@@ -513,7 +513,7 @@ function DiceLater()
 {
 	if(getVar("dicelater",false) ) {
 		CMessage("But I will give you some time to recover...");
-		setVar("moduletorun", "Modules" + java.io.File.separator + "AV_ModGeneral18.js");
+		setTempVar("moduletorun", "Modules" + java.io.File.separator + "AV_ModGeneral18.js");
 		setTempVar("dicelater",true);
 		//--Command:BookmarkModule
 		return;

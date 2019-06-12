@@ -25,9 +25,11 @@ function main()
 }
 function Loop()
 {
-	while(!edged){
+	if(!edged){
 		CMessage("%GetClose%");
 		sleep(1);
+	}
+	if(!edged){
 		Loop();
 	}
     return;
@@ -59,7 +61,7 @@ function EdgeForGoto()
 function V10()
 {
     CMessage("stay on the edge");
-    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "10" + java.io.File.separator + "*.webm");
+    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "10" + java.io.File.separator + "*.mp4",true);
     CMessage("%stopstroking%", 0);
     FimEdge();
     return;
@@ -68,7 +70,7 @@ function V10()
 function V15()
 {
     CMessage("stay on the edge");
-    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "15" + java.io.File.separator + "*.webm");
+    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "15" + java.io.File.separator + "*.mp4",true);
     CMessage("%stopstroking%", 0);
     FimEdge();
     return;
@@ -77,7 +79,7 @@ function V15()
 function V60()
 {
     CMessage("stay on the edge");
-    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "60" + java.io.File.separator + "*.webm");
+    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "60" + java.io.File.separator + "*.mp4",true);
     CMessage("%stopstroking%", 0);
     FimEdge();
     return;

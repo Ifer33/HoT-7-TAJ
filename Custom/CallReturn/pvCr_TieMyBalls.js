@@ -2,10 +2,10 @@ main();
 function main()
 {
 	DMessage("pvCr_TieMyBalls CallReturn: Start");
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage(random("Go ahead and ", "You should ", "I want you to ", "Why don\'t you ", "You\'re going to ") + "tie up those %Balls% " + random("for me ", "right now ", "now ") + "%Name%");
     CMessage(random("So go get a ", "Now get out that ", "That is why you have that ") + "shoelace");

@@ -3,10 +3,10 @@ main();
 DMessage("pvCr_DrippingPrecum: end");
 function main()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("Scoop some of that precum up with your finger, %PetName%");
     let answer0 = getInput("Will you lick it off your fingers for me?");

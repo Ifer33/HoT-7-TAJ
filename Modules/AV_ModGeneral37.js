@@ -356,10 +356,10 @@ function Fim()
 }
 function Modulo1()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("Someone is coming...");
     CMessage("And it\'s not you %SubName% %Lol%");
@@ -450,10 +450,10 @@ function Modulo1()
 }
 function Modulo2()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("Someone is coming...");
     CMessage("And it\'s not you %SubName% %Lol%");
@@ -539,7 +539,7 @@ function badboy()
     CMessage("because I\'m in a bit of a ball busting mood.");
     CMessage("Not the pain variety.");
     CMessage("%Stop%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("The \"You will do what you are fucking told");
     let answer0 = getInput("are you ready to start with a damn good spanking?",5);
     if (answer0.isLike("yes", "yea", "yep"))
@@ -591,10 +591,10 @@ function a8ideioq()
 }
 function Modulo3()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("Someone is coming...");
     CMessage("And it\'s not you %SubName% %Lol%");
@@ -722,10 +722,10 @@ function B01()
 {
     CMessage("You\'re enjoying those strokes a little bit too much, %Name%");
     CMessage("But we can fix that... by busting your %Balls%");
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("Get your spoon ready");
     sleep(15);
@@ -742,10 +742,10 @@ function B02()
 {
     CMessage("Making you %JerkOff% is a lot of fun...");
     CMessage("But so is busting your %Balls% %Grin%");
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("Get your spoon ready");
     sleep(15);
@@ -760,10 +760,10 @@ function B02()
 }
 function StopNoPain()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("Just sit there...");
     //Command:Slideshow(Softcore,slow)
@@ -799,7 +799,7 @@ function slo4wp()
     CMessage("But to do this, you need to completely surrender to me.");
     CMessage("You need to give up all of your control, all of your power, and do EVERYTHING I say.");
     CMessage("%Stop%", 0);
-	stopStroking();
+	stopStrokingAll();
     let answer0 = getInput("Do you give up your will, do you SURRENDER to me?");
     while (!(answer0.isLike("yes") || answer0.isLike("no")))
     {
@@ -927,7 +927,7 @@ function h65tds()
 function a2nk0()
 {
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     if (randomInteger(1, 100) <= 65)
     {
         EndNoAn();

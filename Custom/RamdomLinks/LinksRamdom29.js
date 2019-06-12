@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_Link29", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -361,7 +361,7 @@ function Link1()
     CMessage("They just get to watch and worship.");
     CMessage("I love to be worshiped.");
     CMessage("I\'m making your balls fill up...you\'ll feel it soon enough.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -384,7 +384,7 @@ function Link2()
     CMessage("ready");
     CMessage("wanting");
     delVar("AVp006");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -448,7 +448,7 @@ function Link3()
 }
 function f37d9()
 {
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -473,6 +473,6 @@ function Link4()
     CMessage("Because you\'re starting to understand how much more pleasurable it is for you to want than to have.");
     CMessage("You\'re starting to understand how this relationship works.");
     delVar("AVp004");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
 }

@@ -356,10 +356,10 @@ function Fim()
 }
 function Modulo1()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     if(getVar("AV_MEM_Crush", false))
     {
@@ -386,10 +386,10 @@ function Modulo1()
 }
 function Modulo2()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("I know I make you feel so submissive");
     if(getVar("av_fetish_pain", false))
@@ -424,7 +424,7 @@ function Modulo2()
         CMessage("Get used to it.");
     }
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     let answer0 = getInput(random("Is that resentment I see in your eyes?", "Is there still some rebellion in that inadequate mind of yours?"),5);
     if (answer0.isLike("yes", "yea", "yep"))
     {
@@ -678,7 +678,7 @@ function FimMod1()
 function Modulo4()
 {
     CMessage("I want you to entertain me.");
-	if (!isStroking())
+	if (!isStrokingAll())
     {
         setStrokingNoTaunt();
     }
@@ -696,7 +696,7 @@ function Modulo4()
     if(getVar("av_fetish_pain", false))
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     if(getVar("av_fetish_pain", false))
     {
@@ -777,7 +777,7 @@ function SubmitBack()
     CMessage("And with each stroke of your cock, my power over you grows ever so slightly.");
     CMessage("So stroke, submit, and obey, MY good boy.");
     CMessage("%Stop%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("%GoodBoy%");
     CMessage("I know you want to touch it so badly");
     CMessage("but you MUST obey my instructions.");

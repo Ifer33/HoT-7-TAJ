@@ -356,10 +356,10 @@ function Fim()
 }
 function Modulo1()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     if(getVar("av_fetish_cei", false))
     {
@@ -401,7 +401,7 @@ function av_fetish_cei()
     }
     CMessage("Can you achieve that?");
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("When it drips from your peehole");
     CMessage("you must clean all drips by " + random("Dabbing your finger in your mess and feeding it to yourself", "Kneeling on all fours and tonguing your mess manually"));
     edge();
@@ -427,10 +427,10 @@ function av_fetish_cei()
 }
 function Modulo2()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("I\'m so glad you\'re here.");
     CMessage("To allow you maximum opportunity to show your devotion me,");
@@ -566,10 +566,10 @@ function Modulo3()
 }
 function Modulo4()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     if(getVar("av_fetish_pain", false))
     {
@@ -581,7 +581,7 @@ function Modulo4()
     CMessage(random("Good thing ", "Thankfully ") + "you have some videos on your computer");
     CMessage("Stroke to the beat %Grin%");
     CMessage("Have fun");
-    playVideo("Videos" + java.io.File.separator + "*.*");
+    playVideo("Videos" + java.io.File.separator + "*.*",true);
     CMessage("%CensorContinue%");
     return;
     av_fetish_pain();

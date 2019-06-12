@@ -351,7 +351,7 @@ function Fim()
     CMessage("%1_ST_Tease%");
     setVar("AV_Link5", 0);
     run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "AV_Audio.js");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -389,7 +389,7 @@ function Link1()
         }
     }
     CMessage("For now start %Stroking% %PetName%");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     ExtTime();
 }
@@ -404,7 +404,7 @@ function ExtTime()
     {
         //--Command:AddTeaseTime(10 Minutes,15 Minutes)
     }
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -415,7 +415,7 @@ function Link2()
     CMessage(random("Kinky ", "perverted ", "humiliating ") + "things.");
     CMessage("I want to strip you of your " + random("pride", "ego", "masculinity"));
     CMessage("And transform you into my sexy, slutty, obedient boytoy");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -428,7 +428,7 @@ function Link3()
     CMessage("instead of the giant orgasm blasts you\'re used to");
     CMessage("it will feel better and better the longer you go");
     CMessage("and I\'ll be more and more in control of you.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -457,7 +457,7 @@ function NoPeg()
     {
         CMessage("Well, we know this will never happens %EmoteLaugh%");
     }
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     av_fetish_pegging();
 }
@@ -469,6 +469,6 @@ function av_fetish_pegging()
     CMessage("And, of course, some nights I\'m going to want to bend you over and fuck that beautiful ass of yours.");
     CMessage("Over time I will add thicker and longer strap-ons to the mix.");
     CMessage("You will become more and more nervous with every session, but more and more aroused as well.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
 }

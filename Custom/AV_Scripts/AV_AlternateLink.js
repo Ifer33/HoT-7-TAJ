@@ -3,10 +3,10 @@ main();
 DMessage("AV_AlternateLink: end");
 function main()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("%SubName% ...");
     if(getVar("AV_MEM_Contact1", false))
@@ -782,7 +782,8 @@ function Intro()
     unlockImages();
     CMessage("%stopstroking%", 0);
     CMessage("Ok then, ...");
-    CMessage("Gently stroke your cock " + random("20 ", "25 ", "30 ") + "times, as slow as you can bear. %AV_ImgType%");
+    CMessage("Gently stroke your cock " + random("20 ", "25 ", "30 ") + "times, as slow as you can bear. ");
+	CMessage("%AV_ImgType%",0);
     lockImages();
     let answer0 = getInput("You always must tell me when you have done your strokings!");
     unlockImages();
@@ -903,8 +904,9 @@ function Stroke01()
     setVar("AV_StrokeIntLink", getVar("AV_StrokeIntLink", 0) + 1);
     CMessage("fondle your balls");
     sleep(20);
-    CMessage("%AV_ImgType%");
-    let answer0 = getInput("Now use the other hand to stroke at a medium pace " + random("50 ", "60 ", "40 ", "55 ") + "times, while continuing to caress your own balls. %AV_ImgType%");
+    CMessage("%AV_ImgType%",0);
+	CMessage("Now use the other hand to stroke at a medium pace " + random("50 ", "60 ", "40 ", "55 ") + "times, while continuing to caress your own balls.")
+    let answer0 = getInput("%AV_ImgType%");
     while (!(answer0.isLike("done")))
     {
         answer0 = getInput("Tell me when you are done ...");
@@ -922,14 +924,16 @@ function Stroke02()
     setVar("AV_StrokeIntLink", getVar("AV_StrokeIntLink", 0) + 1);
     CMessage("Use one hand to rub your nipple, and use the other one to slowly stroke");
     sleep(20);
-    CMessage("%AV_ImgType%");
+    CMessage("%AV_ImgType%",0);
     CMessage("Swap hands and stroke at a medium pace.");
     sleep(10);
-    CMessage("%AV_ImgType%");
+    CMessage("%AV_ImgType%",0);
     CMessage("Move your hand back down to your balls and fondle them while stroking, make sure to have a light grip.");
     sleep(20);
-	CMessage("%AV_ImgType%");
+	CMessage("%AV_ImgType%",0);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b210.mp3");
+	sleep(20);
+	stopAudio();
     CMessage("%stopstroking%", 0);
     StrokeCheck();
     return;
@@ -939,7 +943,8 @@ function Stroke02()
 function Stroke03()
 {
     setVar("AV_StrokeIntLink", getVar("AV_StrokeIntLink", 0) + 1);
-    let answer0 = getInput("All right, tighten your grip and continue for another " + random("50 ", "35 ", "40 ", "45 ") + "fast strokes. %AV_ImgType%");
+	CMessage("All right, tighten your grip and continue for another " + random("50 ", "35 ", "40 ", "45 ") + "fast strokes.");
+    let answer0 = getInput("%AV_ImgType%");
     while (!(answer0.isLike("done")))
     {
         answer0 = getInput("Tell me when you are done ...");
@@ -948,11 +953,11 @@ function Stroke03()
     {
     }
     CMessage("Reach the edge, now!");
-	CMessage("%AV_ImgType%");
+	CMessage("%AV_ImgType%",0);
 	lockImages();
     startEdging();
 	CMessage("%stopstrokingedge%", null, false);
-    //CMessage("%AV_ImgType%");
+    //CMessage("%AV_ImgType%",0);
     CMessage("let go completely");
 	unlockImages();
     StrokeCheck();
@@ -965,7 +970,8 @@ function Stroke04()
     setVar("AV_StrokeIntLink", getVar("AV_StrokeIntLink", 0) + 1);
     CMessage("Put your hands behind your back and focus on your breathing");
     sleep(20);
-    let answer0 = getInput("Stroke your cock at a slow pace " + random("20 ", "25 ", "30 ") + "times and say \'I love beautiful girls.\' at least once. %AV_ImgType%");
+	CMessage("Stroke your cock at a slow pace " + random("20 ", "25 ", "30 ") + "times and say \'I love beautiful girls.\' at least once.");
+    let answer0 = getInput("%AV_ImgType%");
     while (!(answer0.isLike("done")))
     {
         answer0 = getInput("Tell me when you are done ...");
@@ -981,7 +987,8 @@ function Stroke04()
 function Stroke05()
 {
     setVar("AV_StrokeIntLink", getVar("AV_StrokeIntLink", 0) + 1);
-    CMessage("Stroke fast 20 times, then medium 20 times, then slow 20 times. %AV_ImgType%");
+    CMessage("Stroke fast 20 times, then medium 20 times, then slow 20 times.");
+	CMessage("%AV_ImgType%",0);
     lockImages();
     let answer0 = getInput("Tighten your grip as you go along.");
     unlockImages();
@@ -1015,7 +1022,8 @@ function Stroke07()
 {
     setVar("AV_StrokeIntLink", getVar("AV_StrokeIntLink", 0) + 1);
     CMessage("Stand up now.");
-    let answer0 = getInput("Stroke fast " + (java.lang.Math.round(randomInt(20, 100) / 10.0) * 10) + "times. %AV_ImgType%");
+	CMessage("Stroke fast " + (java.lang.Math.round(randomInt(20, 100) / 10.0) * 10) + " times.");
+    let answer0 = getInput("%AV_ImgType%");
     while (!(answer0.isLike("done")))
     {
         answer0 = getInput("Tell me when you are done ...");
@@ -1023,7 +1031,8 @@ function Stroke07()
     if (answer0.isLike("done"))
     {
     }
-    let answer1 = getInput("Stroke fast " + (java.lang.Math.round(randomInt(20, 100) / 10.0) * 10) + "times. %AV_ImgType%");
+    CMessage("Stroke fast " + (java.lang.Math.round(randomInt(20, 100) / 10.0) * 10) + " times.");
+    let answer1 = getInput("%AV_ImgType%");
     while (!(answer1.isLike("done")))
     {
         answer1 = getInput("Tell me when you are done ...");
@@ -1041,7 +1050,8 @@ function Stroke08()
 {
     setVar("AV_StrokeIntLink", getVar("AV_StrokeIntLink", 0) + 1);
     CMessage("%KneelForMe%");
-    let answer0 = getInput("Stroke fast " + (java.lang.Math.round(randomInt(20, 50) / 10.0) * 10) + "times. %AV_ImgType%");
+    CMessage("Stroke fast " + (java.lang.Math.round(randomInt(20, 50) / 10.0) * 10) + " times.");
+    let answer0 = getInput("%AV_ImgType%");
     while (!(answer0.isLike("done")))
     {
         answer0 = getInput("Tell me when you are done ...");
@@ -1049,7 +1059,8 @@ function Stroke08()
     if (answer0.isLike("done"))
     {
     }
-    let answer1 = getInput("Stroke fast " + (java.lang.Math.round(randomInt(20, 50) / 10.0) * 10) + "times. %AV_ImgType%");
+    CMessage("Stroke fast " + (java.lang.Math.round(randomInt(20, 50) / 10.0) * 10) + " times.");
+    let answer1 = getInput("%AV_ImgType%");
     while (!(answer1.isLike("done")))
     {
         answer1 = getInput("Tell me when you are done ...");
@@ -1066,7 +1077,8 @@ function Stroke08()
 function Stroke09()
 {
     setVar("AV_StrokeIntLink", getVar("AV_StrokeIntLink", 0) + 1);
-    let answer0 = getInput("Stroke slowly " + (java.lang.Math.round(randomInt(10, 50) / 10.0) * 10) + "times. %AV_ImgType%");
+    CMessage("Stroke slowly " + (java.lang.Math.round(randomInt(20, 50) / 10.0) * 10) + " times.");
+    let answer0 = getInput("%AV_ImgType%");
     while (!(answer0.isLike("done")))
     {
         answer0 = getInput("Tell me when you are done ...");
@@ -1083,19 +1095,22 @@ function Stroke10()
 {
     setVar("AV_StrokeIntLink", getVar("AV_StrokeIntLink", 0) + 1);
     CMessage("%Stroke%");
-	CMessage("%AV_ImgType%");
+	CMessage("%AV_ImgType%",0);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "bite.mp3");
     sleep(randomInt(4, 7));
+	stopAudio();
     CMessage("%stop%", 0);
     CMessage("%Stroke%");
-	CMessage("%AV_ImgType%");
+	CMessage("%AV_ImgType%",0);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "bite.mp3");
     sleep(randomInt(4, 9));
+	stopAudio();
     CMessage("%stop%", 0);
     CMessage("%Stroke%");
-	CMessage("%AV_ImgType%");
+	CMessage("%AV_ImgType%",0);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "bite.mp3");
     sleep(randomInt(4, 7));
+	stopAudio();
     CMessage("%stop%", 0);
     StrokeCheck();
     return;
@@ -1105,7 +1120,8 @@ function Stroke10()
 function Stroke11()
 {
     setVar("AV_StrokeIntLink", getVar("AV_StrokeIntLink", 0) + 1);
-    let answer0 = getInput("Stroke " + (java.lang.Math.round(randomInt(20, 80) / 10.0) * 10) + "times at medium speed. %AV_ImgType%");
+    CMessage("Stroke " + (java.lang.Math.round(randomInt(20, 80) / 10.0) * 10) + " times.");
+    let answer0 = getInput("%AV_ImgType%");
     while (!(answer0.isLike("done")))
     {
         answer0 = getInput("Tell me when you are done ...");
@@ -1121,7 +1137,8 @@ function Stroke11()
 function Stroke12()
 {
     setVar("AV_StrokeIntLink", getVar("AV_StrokeIntLink", 0) + 1);
-    let answer0 = getInput("Stroke fast " + (java.lang.Math.round(randomInt(20, 100) / 10.0) * 10) + "times. %AV_ImgType%");
+    CMessage("Stroke fast " + (java.lang.Math.round(randomInt(20, 100) / 10.0) * 10) + " times.");
+    let answer0 = getInput("%AV_ImgType%");
     while (!(answer0.isLike("done")))
     {
         answer0 = getInput("Tell me when you are done ...");
@@ -1137,7 +1154,8 @@ function Stroke12()
 function Stroke13()
 {
     setVar("AV_StrokeIntLink", getVar("AV_StrokeIntLink", 0) + 1);
-    let answer0 = getInput("Spread your legs and stroke 50 times at medium pace with a strong grip. %AV_ImgType%");
+	CMessage("Spread your legs and stroke 50 times at medium pace with a strong grip.");
+    let answer0 = getInput("%AV_ImgType%");
     while (!(answer0.isLike("done")))
     {
         answer0 = getInput("Tell me when you are done ...");
@@ -1153,7 +1171,7 @@ function Stroke13()
 function Stroke14()
 {
     setVar("AV_StrokeIntLink", getVar("AV_StrokeIntLink", 0) + 1);
-    CMessage("%AV_ImgType%");
+    CMessage("%AV_ImgType%",0);
     lockImages();
     //run("Custom" + java.io.File.separator + "Tasks" + java.io.File.separator + "AV_StrokeNumber.js");
 	customTask("AV_StrokeNumber");
@@ -1167,7 +1185,8 @@ function Stroke14()
 function Stroke15()
 {
     setVar("AV_StrokeIntLink", getVar("AV_StrokeIntLink", 0) + 1);
-    let answer0 = getInput("Stroke 50 times at a medium pace and a strong grip, then switch hands and stroke 30 times at a slow pace with a light grip. %AV_ImgType%");
+	CMessage("Stroke 50 times at a medium pace and a strong grip, then switch hands and stroke 30 times at a slow pace with a light grip.");
+    let answer0 = getInput("%AV_ImgType%");
     while (!(answer0.isLike("done")))
     {
         answer0 = getInput("Tell me when you are done ...");
@@ -1183,23 +1202,13 @@ function Stroke15()
 function Stroke16()
 {
     setVar("AV_StrokeIntLink", getVar("AV_StrokeIntLink", 0) + 1);
-    if (inGroup(2))
+	CMessage("Look at the girl, stroke 30 times as slowly as you can.");
+    let answer0 = getInput("%AV_ImgType%");
+    while (!(answer0.isLike("done")))
     {
-        CMessage("Look at me, stroke 30 times as slowly as you can. %AV_ImgType%");
+        answer0 = getInput("Tell me when you are done ...");
     }
-    if (inGroup(3))
-    {
-        CMessage("Look at me, stroke 30 times as slowly as you can. %AV_ImgType%");
-    }
-    if (inGroup(4))
-    {
-        CMessage("Look at me, stroke 30 times as slowly as you can. %AV_ImgType%");
-    }
-    if (inGroup(1))
-    {
-        CMessage("Look at the girl, stroke 30 times as slowly as you can. %AV_ImgType%");
-    }
-    if (answer-1.isLike("done"))
+    if (answer0.isLike("done"))
     {
     }
     StrokeCheck();
@@ -1213,6 +1222,7 @@ function Stroke17()
     CMessage(random("I want ", "give me ", "Let\'s see ") + "an overdrive");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "StrokePattern" + java.io.File.separator + "overdrive*.mp3");
     sleep(40);
+	stopAudio();
     CMessage("%stop%", 0);
     StrokeCheck();
     return;
@@ -1225,6 +1235,7 @@ function Stroke18()
     CMessage("Follow the beats");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "Tri" + java.io.File.separator + "*.mp3");
     sleep(randomInt(40, 50));
+	stopAudio();
     CMessage("%stop%", 0);
     StrokeCheck();
     return;
@@ -1237,6 +1248,7 @@ function Stroke19()
     CMessage("Follow the beats");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "Tri" + java.io.File.separator + "*.mp3");
     sleep(randomInt(40, 50));
+	stopAudio();
     CMessage("%stop%", 0);
     StrokeCheck();
     return;
@@ -1282,7 +1294,7 @@ function StrokeDone()
 function Edge01()
 {
     CMessage("%KneelForMe%");
-	CMessage("%AV_ImgType%");
+	CMessage("%AV_ImgType%",0);
 	lockImages();
     //CMessage("%Edge%");
     //startEdging();
@@ -1301,7 +1313,7 @@ function Edge02()
     CMessage("Stroke at a slow pace.");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b055.mp3");
     sleep(19);
-	CMessage("%AV_ImgType%");
+	CMessage("%AV_ImgType%",0);
 	lockImages();
     //CMessage("%Edge%");
     //startEdging();
@@ -1318,8 +1330,9 @@ function Edge03()
 {
     CMessage("play with your nipples");
     sleep(20);
-    CMessage("%AV_ImgType%");
-    let answer0 = getInput("Stroke at a medium pace " + (java.lang.Math.round(randomInt(10, 50) / 10.0) * 10) + "times. %AV_ImgType%");
+    CMessage("%AV_ImgType%",0);
+	CMessage("Stroke at a medium pace " + (java.lang.Math.round(randomInt(10, 50) / 10.0) * 10) + "times. ");
+    let answer0 = getInput("%AV_ImgType%");
     while (!(answer0.isLike("done")))
     {
         answer0 = getInput("Tell me when you are done ...");
@@ -1327,7 +1340,7 @@ function Edge03()
     if (answer0.isLike("done"))
     {
     }
-	CMessage("%AV_ImgType%");
+	CMessage("%AV_ImgType%",0);
 	lockImages();
     //CMessage("%Edge%");
     //startEdging();
@@ -1344,13 +1357,13 @@ function Edge04()
 {
     CMessage("Using your hands, try to guide your penis downwards so the tip points as far backwards as possible.");
     CMessage("Make yourself hard while in this position by rubbing your cock with one finger.");
-	CMessage("%AV_ImgType%");
+	CMessage("%AV_ImgType%",0);
 	lockImages();
     //CMessage("%Edge%");
     //startEdging();
     holdEdge();
     unlockImages();
-	CMessage("%AV_ImgType%");
+	CMessage("%AV_ImgType%",0);
 	lockImages();
     //CMessage("%Edge%");
     //startEdging();
@@ -1363,12 +1376,9 @@ function Edge04()
 }
 function Edge05()
 {
-	CMessage("%AV_ImgType%");
+	CMessage("%AV_ImgType%",0);
 	lockImages();
-    CMessage("%Edge%");
-    startEdging();
-	CMessage("%stopstrokingedge%", null, false);
-	CMessage("%lettheedgefade%");
+    edge("%Edge%");
     unlockImages();
     TasksMain();
     return;
@@ -1379,7 +1389,7 @@ function Edge06()
 {
     CMessage("Stand up now.");
     CMessage("%Edge%");
-	CMessage("%AV_ImgType%");
+	CMessage("%AV_ImgType%",0);
 	lockImages();
     startEdging();
 	CMessage("%stopstrokingedge%", null, false);
@@ -1570,7 +1580,7 @@ function anal_stuff()
         CMessage("Then you should consider to buy one");
     }
     CMessage("Rub the skin between your balls and your butt while stroking slowly.");
-    CMessage("%AV_ImgType%");
+    CMessage("%AV_ImgType%",0);
 	sleep(20);
     let answer2 = getInput("Lube up the butt plug, tell me when you are done");
     while (!(answer2.isLike("done")))
@@ -1580,12 +1590,14 @@ function anal_stuff()
     if (answer2.isLike("done"))
     {
     }
-    CMessage("put the tip of the plug slightly into your ass, just the tip, only 1 cm deep %AV_ImgType%");
+    CMessage("put the tip of the plug slightly into your ass, just the tip, only 1 cm deep");
+	CMessage("%AV_ImgType%",0);
     CMessage("... and start stroking");
-	CMessage("%AV_ImgType%");
+	CMessage("%AV_ImgType%",0);
 	lockImages();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStroke.mp3");
-    CMessage("Slowly start fucking yourself with your plug. %AV_ImgType%");
+    CMessage("Slowly start fucking yourself with your plug.");
+	CMessage("%AV_ImgType%",0);
     CMessage("Don\'t push it in, use only the upper part of the plug");
     CMessage("Moan softly once you feel comfortable and speed up.");
     sleep(30);
@@ -1593,41 +1605,44 @@ function anal_stuff()
     CMessage("Keep going and repeat this 5 times:");
     CMessage("\"I want to have a cock inside me");
     sleep(30);
-    CMessage("%AV_ImgType%");
+    CMessage("%AV_ImgType%",0);
     CMessage("Keep fucking yourself while ...");
-    if (inGroup(2))
+    /*if (inGroup(2))
     {
         CMessage("Edge for me");
-		CMessage("%AV_ImgType%");
+		CMessage("%AV_ImgType%",0);
 		lockImages();
         startEdging();
     }
     if (inGroup(3))
     {
         CMessage("Edge for me");
-		CMessage("%AV_ImgType%");
+		CMessage("%AV_ImgType%",0);
 		lockImages();
         startEdging();
     }
     if (inGroup(4))
     {
         CMessage("Edge for me");
-		CMessage("%AV_ImgType%");
+		CMessage("%AV_ImgType%",0);
 		lockImages();
         startEdging();
     }
     if (inGroup(1))
     {
         CMessage("Edge for this girl");
-		CMessage("%AV_ImgType%");
+		CMessage("%AV_ImgType%",0);
 		lockImages();
         startEdging();
-    }
-    CMessage("%stopstroking%", 0);
+    }*/
+	CMessage("%AV_ImgType%",0);
+	lockImages();
+	edge("Edge for this girl");
+    //CMessage("%stopstroking%", 0);
     unlockImages();
     CMessage("Start fucking again");
     CMessage("also start wanking again");
-	CMessage("%AV_ImgType%");
+	CMessage("%AV_ImgType%",0);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStroke.mp3");
     lockImages();
 	sleep(30);
@@ -1647,7 +1662,8 @@ function spanking_stuff()
     CMessage("HARD!");
     //if (inGroup(2))
     //{
-        CMessage("Imagine I would do the spanking while you are all tied up %AV_ImgType%");
+        CMessage("Imagine I would do the spanking while you are all tied up");
+		CMessage("%AV_ImgType%",0);
         lockImages();
     /*}
     if (inGroup(3))
@@ -1669,7 +1685,7 @@ function spanking_stuff()
     //run("CBT" + java.io.File.separator + "CBTBalls_First.js");
 	cbt("ball");
     unlockImages();
-    if (inGroup(2))
+    /*if (inGroup(2))
     {
         CMessage("Maybe you would prefer me to do those spanks %AV_ImgType%");
         lockImages();
@@ -1688,14 +1704,17 @@ function spanking_stuff()
     {
         CMessage("Maybe you would prefer her to do those spanks %AV_ImgType%");
         lockImages();
-    }
+    }*/
+	CMessage("Maybe you would prefer her to do those spanks");
+	CMessage("%AV_ImgType%",0);
+    lockImages();
     CMessage("%Grin%");
     //run("CBT" + java.io.File.separator + "CBTBalls_First.js");
 	cbt("ball");
     unlockImages();
     CMessage("Oh, does it hurt?!");
     CMessage("We are not done, %Petname%");
-    if (inGroup(2))
+    /*if (inGroup(2))
     {
         CMessage("What if I would spank your ass %AV_ImgType%");
         lockImages();
@@ -1714,7 +1733,10 @@ function spanking_stuff()
     {
         CMessage("What if she would spank your ass %AV_ImgType%");
         lockImages();
-    }
+    }*/
+	CMessage("What if she would spank your ass");
+	CMessage("%AV_ImgType%",0);
+    lockImages();
     CMessage("%Grin%");
     if (inGroup(2))
     {
@@ -1741,7 +1763,8 @@ function spanking_stuff()
         sleep(20);
     }
     unlockImages();
-    CMessage("Or she " + "%AV_ImgType%");
+    CMessage("Or she ");
+	CMessage("%AV_ImgType%",0);
     lockImages();
     CMessage("%Grin%");
     //run("CBT" + java.io.File.separator + "CBTBalls_First.js");
@@ -1749,7 +1772,7 @@ function spanking_stuff()
     unlockImages();
     CMessage("Stings, doesn\'t it?!");
     CMessage("Come on, one more time");
-    if (inGroup(2))
+    /*if (inGroup(2))
     {
         CMessage("Imagine me doing the spanking while you are all tied up %AV_ImgType%");
         lockImages();
@@ -1768,7 +1791,10 @@ function spanking_stuff()
     {
         CMessage("Imagine she would do the spanking while you are all tied up %AV_ImgType%");
         lockImages();
-    }
+    }*/
+	CMessage("Imagine me doing the spanking while you are all tied up");
+	CMessage("%AV_ImgType%",0);
+    lockImages();
     CMessage("Let\'s get started %Grin%");
     if (inGroup(2))
     {
@@ -2008,7 +2034,7 @@ function chooses_denial_without_cage()
     unlockImages();
     CMessage("You can look, but you can\'t touch");
 	//todo jump video
-    playVideo("Videos" + java.io.File.separator + "*.*");
+    playVideo("Videos" + java.io.File.separator + "*.*",true);
     //--Command:JumpVideo
     let answer0 = getInput("Do you want to %JerkOff% again?");
     while (!(answer0.isLike("yes") || answer0.isLike("no")))

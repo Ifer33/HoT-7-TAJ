@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_Link9", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -360,7 +360,7 @@ function Link1()
     CMessage("especially when it\'s for me and not because they like it.");
     CMessage("Since you\'ve been a good boy");
     CMessage("I\'m going to give you some pleasure.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -368,7 +368,7 @@ function Link2()
 {
     CMessage("It\'s people like you that gets me fired up.");
     CMessage("I love a submissive who will go through pain just for my sake.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -386,7 +386,7 @@ function Link3()
     }
     CMessage("I certainly hope you are smarter than that");
     CMessage("My vision is your only passion from now on");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -396,6 +396,6 @@ function Link4()
     CMessage("Your balls must be aching right now..");
     CMessage("But i can help you..");
     CMessage("We can make them blue, %PetName%.. %Lol%");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
 }

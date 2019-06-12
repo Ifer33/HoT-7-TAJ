@@ -1,5 +1,6 @@
 function AV_ImgTypeVocabulary() 
 {
+	DMessage("Vocab: AV_ImgType Begin");
     if(getVar("AV_Softcore", false))
     {
         showTaggedImage(4, ["softcore"]);
@@ -77,5 +78,6 @@ function AV_ImgTypeVocabulary()
     {
         getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
     }
-	return "";// "<dontsend>";
+	DMessage("Vocab: AV_ImgType End");
+	return "<dontsend>";
 }

@@ -356,10 +356,10 @@ function Fim()
 }
 function Modulo1()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("Your training is going so well and you don\'t have much left.");
     CMessage("Now we will see how long you can stroke that %Cock%.");
@@ -458,7 +458,7 @@ function AV_Jump51()
     if (getOrgasmChance() == 0)
     {
         CMessage("%stopstroking%", 0);
-		stopStroking();
+		stopStrokingAll();
         decidido();
         return;
     }
@@ -546,15 +546,15 @@ function decidido()
 }
 function Modulo2()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("%AV_Break1%");
     CMessage("%AV_Luxury%");
     CMessage("%AV_Break2%");
-    CMessage("Hey %Contact1%");
+    CMessage("Hey %domFriend1Name%");
     addContact(2);
     SMessage("Hi %EmoteLaugh%", -1, 2);
     CMessage("%AV_Break3%");
@@ -708,15 +708,15 @@ function GameAcaba()
 }
 function Modulo3()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("%AV_Break1%");
     CMessage("%AV_Luxury%");
     CMessage("%AV_Break2%");
-    CMessage("Hey %Contact3%");
+    CMessage("Hey %domFriend3Name%");
     addContact(4);
     SMessage("Hi %EmoteLaugh%", -1, 4);
     CMessage("%AV_Break3%");
@@ -1236,15 +1236,15 @@ function Parte5()
 }
 function Modulo4()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("%AV_Break1%");
     CMessage("%AV_Luxury%");
     CMessage("%AV_Break2%");
-    CMessage("Hey %Contact2%");
+    CMessage("Hey %domFriend2Name%");
     addContact(3);
     SMessage("Hi %EmoteLaugh%", -1, 3);
     CMessage("%AV_Break3%");

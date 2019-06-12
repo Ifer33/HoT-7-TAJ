@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_Link14", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -362,7 +362,7 @@ function Link1()
     CMessage("I want you to be terrified of orgasming");
     CMessage("in case that next edge is never quite as good as it could have been if you just left yourself...");
     CMessage("blue balled, teased and denied.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -390,7 +390,7 @@ function BackHer()
     CMessage("It\'s not cumming that you enjoy");
     CMessage("it\'s that blissful edge right before you do.");
     CMessage("It\'s that cresting that you lust after.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     AV_NotControl();
 }
@@ -427,7 +427,7 @@ function Link3()
     CMessage("Mmmhmm, give in to how good losing all of your power feels.");
     CMessage("There is liberty in letting go.");
     CMessage("Give yourself to me.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -449,6 +449,6 @@ function Link4()
     CMessage("It\'s just a joystick, attached to your weak, vulnerable body");
     CMessage("which becomes more and more submissive for me with every pump of MY dick.");
     CMessage("feel my cock throb, feel my balls ache.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
 }

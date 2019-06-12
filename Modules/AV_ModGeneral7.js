@@ -356,10 +356,10 @@ function Fim()
 }
 function Modulo1()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("God damn it...");
     CMessage("you\'re still hard, shouldn\'t you go soft from being exposed like this?");
@@ -391,7 +391,7 @@ function Modulo1()
     CMessage("Do you want me to rip them off?");
     CMessage("No?");
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     if(getVar("av_fetish_pain", false))
     {
         CMessage("Put 2 clothespins on your nipples");
@@ -481,7 +481,7 @@ function NOgofour()
     CMessage("Hey, what\'s that glistening on the end of your spew stick?");
     CMessage("Is it...could it be...Yes! It\'s precum.");
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     if(getVar("av_fetish_cei", false))
     {
         CMessage("Wipe it all up and eat it like a good little %PetName%.");
@@ -551,10 +551,10 @@ function NOgofour()
 }
 function Modulo2()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("You\'ve been such a good obedient boy.");
     CMessage("I think you deserve a little treat.");
@@ -609,7 +609,7 @@ function Modulo2()
     getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
     unlockImages();
 	CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("Can you believe she go out in public like that in skimpy bikinis?");
     CMessage("And pose for pictures that you can %Stroke% to?");
     CMessage("I wanna know exactly how you " + random("pump ", "jack ") + "it");
@@ -655,10 +655,10 @@ function Modulo2()
 }
 function Modulo3()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("Oh, you\'re getting goosebumps, standing there all naked like that...");
     CMessage("Showing off your body while I\'m just sitting here, enjoying the view");
@@ -730,7 +730,7 @@ function Modulo3()
     CMessage("A boy objectified and used for my amusement is even more splendid.");
     sleep(15);
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("Take the spoon");
     setTempVar("av_intera_004", true);
     CMessage("Now strike the spoon against your balls. Make sure you tap it over the clothespins.");
@@ -771,10 +771,10 @@ function skippain451()
 }
 function Modulo4()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("Now.. you\'ll do exactly as I tell you to");
     if(getVar("av_fetish_cei", false))

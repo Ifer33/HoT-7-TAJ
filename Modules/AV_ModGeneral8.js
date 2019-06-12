@@ -356,10 +356,10 @@ function Fim()
 }
 function Modulo1()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("Do you want to be a good boy for me %GeneralTime%?");
     CMessage("I know it\'s hard to be so vulnerable, but the fact you trust me to take care of you means the world to me.");
@@ -528,10 +528,10 @@ function AVSKIPain4()
 }
 function Modulo2()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("Don\'t you wish you were here to play with me?");
     CMessage("That softness, that weight would feel so good in your hands, wouldn\'t it? %EmoteMoan%");
@@ -555,7 +555,7 @@ function Modulo2()
     CMessage("Squeeze.");
     CMessage("Work your thumb over the tip.");
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("Your balls are just bursting for their own orgasm, aren\'t they?");
     CMessage("Well it\'s not time for that yet.");
     if(!getVar("AV_LikeAnal", false))
@@ -679,10 +679,10 @@ function AVSKIPAn1()
 }
 function Modulo3()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("I know that when all is said and done");
     CMessage("when you\'ve squeezed the last few drops of cum out of your %Cock%");
@@ -728,16 +728,16 @@ function Modulo3()
         CMessage("exactly why you come here in the first place.");
     }
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     return;
     Modulo4();
 }
 function Modulo4()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("Here I am, looking at you.");
     CMessage("Thinking about what we\'re going to do...");
@@ -797,7 +797,7 @@ function Modulo4()
 function SkipCEI4()
 {
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("Stretch your legs out.");
     CMessage("Stretch your arms out.");
     CMessage("Show me what I\'m working with.");

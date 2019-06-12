@@ -5,7 +5,7 @@ DMessage("AV_ModGeneral21: end");
 function main()
 {
     //--UNINTERPRETED LINE:@Variable[%DateDifference%(AV_SessionTime,minutes)]<[15] %Stop% @StopStroking @Goto(IniModule)
-    if (isStroking())
+    if (isStrokingAll())
     {
         Sub_Stroking();
         return;
@@ -25,7 +25,7 @@ function Sub_Stroking()
         return;
     }
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     IniModule();
     return;
     DecidEdge();
@@ -444,7 +444,7 @@ function Modulo1()
         return;
     }
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("Get two clothespins and put them on your nipples.");
     CMessage("And " + randomInt(3, 5) + "in your %Balls%");
     sleep(20);
@@ -459,7 +459,7 @@ function r237bg()
     CMessage("Today I am in teasing mood");
     CMessage("and you know that the tease comes with the denial most of the times");
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("but this time is even more special because");
     switch(random("GLR01", "GLR02", "GLR03"))
     {
@@ -489,7 +489,7 @@ function GLR01()
     SMessage("Forget whatever was in your mind", -1, 2);
     SMessage("All I want to do is play with your cock and your mind.", -1, 2);
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     sleep(10);
     SMessage("You are nothing but a mere mortal before your Goddess.", -1, 2);
     SMessage("Just move your hand on your cock for me.", -1, 2);
@@ -599,7 +599,7 @@ function GlitterGoes()
     CMessage("My smitten jerk boy just can\'t get enough.");
     CMessage("If you\'re a good jerk boy, I may let you sniff my panties someday.");
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     return;
     Modulo2();
 }
@@ -859,7 +859,7 @@ function AV_FimRGB()
 function YouFaill()
 {
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
 	stopAudio();
     setVar("edgingmode", "Normal");
     CMessage("You dont edge in time %SubName%");

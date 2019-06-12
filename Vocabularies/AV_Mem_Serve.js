@@ -1,6 +1,6 @@
 function AV_Mem_ServeVocabulary() {
 	DMessage("aV_Mem_Serve: VocabStart");
-	if(isStroking() ){
+	if(isStrokingAll() ){
 		let answers = ["You can do that by stroking that %Cock% right now, %Name%"];
 	}else{
 		let answers = ["Good, because that\'s all I ask of you %Name%",

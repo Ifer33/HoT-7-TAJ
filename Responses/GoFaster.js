@@ -7,7 +7,7 @@ function goFasterResponse(message) {
         DMessage("GoFaster: EndResponse Response is Disabled");
         return false;
     }
-    if (isEdging() || isStroking())
+    if (isEdging() || isStrokingAll())
     {
         let apathyMood = getApathyMoodIndex();
         let random = randomInteger(0, 4);

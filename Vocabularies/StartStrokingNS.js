@@ -1,5 +1,8 @@
 function startStrokingNSVocabulary()
 {
+	DMessage("Vocab: startStrokingNS Beginn");
+	//setStrokingActive();
+	stroking=true;
 	switch(randomInteger(1,36) ){
 		case 1:
 			CMessage("Start stroking");
@@ -110,5 +113,6 @@ function startStrokingNSVocabulary()
 			CMessage("Now stroke and %Imagine% all the crazy, fucked-up things I would totally do to you, if you were here right now, %PetName%");
 			break;
 	}
+	DMessage("Vocab: startStrokingNS End");
 	return "<dontsend>";
 }

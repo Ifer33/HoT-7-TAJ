@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_LinkMissBlue8", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -358,7 +358,7 @@ function Link1()
 {
     CMessage("I hope you\'re reading for more, %Name%");
     CMessage("Because I\'m far from done with you");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -371,7 +371,7 @@ function Link2()
     CMessage("Is is me or is it getting hot in here...");
     CMessage("No it\'s definitely me %Lol%");
     unlockImages();
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -385,7 +385,7 @@ function Link3()
         ark_FrustratedResponse();
     }
     CMessage("I guess it\'s a good thing you like sexual frustration so much %Grin%");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -404,6 +404,6 @@ function Link4()
     CMessage("Now you only jerk that %Cock% because I said so");
     CMessage("And your gonna do it some more right now");
     CMessage("Because it turns you into a mindless toy, just the way I want you");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
 }

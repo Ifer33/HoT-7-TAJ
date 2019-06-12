@@ -8,7 +8,7 @@ function aV_FastStrokeResponse(message) {
         DMessage("aV_FastStroke: EndResponse Response is Disabled");
         return false;
     }
-    else if (isStroking())
+    else if (isStrokingAll())
     {
         run("Custom" + java.io.File.separator + "Miniscripts" + java.io.File.separator + "AV_FastStroke.js");
     }

@@ -356,15 +356,15 @@ function Fim()
 }
 function Modulo1()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("%AV_Break1%");
     CMessage("%AV_Luxury%");
     CMessage("%AV_Break2%");
-    CMessage("Hey %Contact3%");
+    CMessage("Hey %domFriend3Name%");
     addContact(4);
     SMessage("Hi %EmoteLaugh%", -1, 2);
     CMessage("%AV_Break3%");
@@ -392,7 +392,7 @@ function Modulo1()
     CMessage("I love teasing you and confusing your cock.");
     CMessage("You`re very good at this.");
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     if(!getVar("AV_PinDone", false))
     {
         setVar("AV_PinDone", true);
@@ -431,7 +431,7 @@ function Modulo1()
         CMessage("I want you to be so sore that it hurts next time you jerk off.");
     }
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("Now slap your cock.");
     if(getVar("av_fetish_pain", false))
     {
@@ -452,7 +452,7 @@ function Modulo1()
     CMessage("You need to acknowledge your craving for domination.");
     CMessage("You need a woman to take control of you.");
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     if(getVar("av_fetish_pain", false))
     {
         CMessage("Put " + randomInt(3, 4) + "clothespins on your %Balls%");
@@ -493,15 +493,15 @@ function Modulo1()
 }
 function Modulo2()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("%AV_Break1%");
     CMessage("%AV_Luxury%");
     CMessage("%AV_Break2%");
-    CMessage("Hey %Contact1%");
+    CMessage("Hey %domFriend1Name%");
     addContact(2);
     SMessage("Hi %EmoteLaugh%", -1, 2);
     CMessage("%AV_Break3%");
@@ -581,15 +581,15 @@ function Modulo2()
 }
 function Modulo3()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("%AV_Break1%");
     CMessage("%AV_Luxury%");
     CMessage("%AV_Break2%");
-    CMessage("Hey %Contact2%");
+    CMessage("Hey %domFriend2Name%");
     addContact(3);
     SMessage("Hi %EmoteLaugh%", -1, 3);
     CMessage("%AV_Break3%");
@@ -639,7 +639,7 @@ function Modulo3()
     CMessage("to do anything for goddess.");
     CMessage("You would do the sickest things at a drop of a hat for me wouldn\'t you %Slave%?");
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     if(!getVar("AV_PinDone", false))
     {
         run("Custom" + separator + "Miniscripts" + separator + "AV_GetPins");
@@ -681,10 +681,10 @@ function Modulo3()
 }
 function Modulo4()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("I am granting you a rare privilege now");
     CMessage("I\'m going to let you stroke yourself at my command.");

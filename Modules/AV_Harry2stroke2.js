@@ -4,7 +4,7 @@ DMessage("AV_Harry2stroke2: end");
 function main()
 {
     setTempVar("av_intera_019", true);
-    if (isStroking())
+    if (isStrokingAll())
     {
         Sub_Stroking();
         return;
@@ -24,7 +24,7 @@ function Sub_Stroking()
         return;
     }
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     IniModule();
     return;
     DecidEdge();

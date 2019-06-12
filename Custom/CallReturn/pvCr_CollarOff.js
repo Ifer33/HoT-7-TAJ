@@ -2,10 +2,10 @@ main();
 function main()
 {
 	DMessage("pvCr_CollarOff CallReturn: Start");
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage(random("Take off ", "Remove ") + "your collar, %Name%");
     CMessage(random("Put it away for now", "Put it to the side", "You can put it away for now"));

@@ -30,6 +30,6 @@ function main()
     CMessage("you do want to make me happy right %Slave%?");
     CMessage("Then fuck me better you useless slut!");
     CMessage("I slowly stops fucking you and pulls out my strapon...");
-	stopStroking();
+	stopStrokingAll();
     return;
 }

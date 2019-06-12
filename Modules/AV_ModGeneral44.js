@@ -356,10 +356,10 @@ function Fim()
 }
 function Modulo1()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("%AV_Break1%");
     CMessage("%AV_Luxury%");
@@ -441,10 +441,10 @@ function a22hcf8e()
 }
 function Modulo2()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("%AV_Break1%");
     CMessage("%AV_Luxury%");
@@ -568,7 +568,7 @@ function Modulo2()
 function CountStop3()
 {
     CMessage("%Stop%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("You may remove all clothespins");
     CMessage("%SitDown%");
     SMessage("Your Domme is back", -1, 4);
@@ -581,10 +581,10 @@ function CountStop3()
 }
 function Modulo3()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("%AV_Break1%");
     CMessage("%AV_Luxury%");
@@ -665,7 +665,7 @@ function Modulo3()
     CMessage("And this pain will intensify your orgasm.");
     CMessage("Good bitch.");
     CMessage("%Stop%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("Rulers ready, and...");
     SMessage(random("Hit ", "Spank ") + "your balls", -1, 3);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "G2Spank" + java.io.File.separator + "*.mp3");
@@ -711,7 +711,7 @@ function c347dka()
     CMessage("%holdtheedge%");
     setTempVar("edging", false);
     setTempVar("holdingedge", true);
-    //stopStroking();
+    //stopStrokingAll();
     CMessage("You love that sensation of feeling yourself building");
     CMessage("working closer and closer without going over.");
     CMessage("It almost feels like you\'re putting yourself in a trance.");

@@ -405,7 +405,7 @@ function i_Will_Do_AnythingResponse(message) {
 					{
 						CMessage("%Grin% Let\'s put that promise to the test");
 						CMessage("%stopstroking%",0);
-						stopStroking();
+						stopStrokingAll();
 						setTempVar("AV_Mistress_promise",true);
 						run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "AV_Mistress.js"); //, promise)
 						found = true;
@@ -455,7 +455,7 @@ function i_Will_Do_AnythingResponse(message) {
 			}
 		}
     }
-    else if (isStroking())
+    else if (isStrokingAll())
     {
         let found = false;
 		while(!found){
@@ -675,7 +675,7 @@ function i_Will_Do_AnythingResponse(message) {
 					{
 						CMessage("See, %FYI%, when you promise me everything, I fully intend to take it %Grin%");
 						CMessage("%stopstroking%",0);
-						stopStroking();
+						stopStrokingAll();
 						setTempVar("AV_Mistress_promise",true);
 						run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "AV_Mistress.js"); //, promise)
 						found = true;

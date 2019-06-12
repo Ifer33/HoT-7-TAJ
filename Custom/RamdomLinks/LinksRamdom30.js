@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_Link30", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -366,7 +366,7 @@ function Link1()
         CMessage("You can\'t deny you\'re really not much of a man.");
     }
     CMessage("Aww, don\'t pout. That\'s exactly the kind of thing I\'m talking about.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -380,7 +380,7 @@ function Link2()
     CMessage("Oh my little %PetName% you\'re adorable you know that?");
     CMessage("You really are.");
     CMessage("You\'re a good slave, always so quick to do as your told.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -389,7 +389,7 @@ function Link3()
     CMessage("Do you wanna cum?");
     CMessage("I\'ve never seen you so desperate before, I mean I\'ve only been teasing for a few minutes");
     CMessage("I\'ve only edged you what?... %SessionEdges% times... I\'m just not sure you\'ve earned it.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -430,6 +430,6 @@ function AV_Timeo15()
     }
     CMessage("Remember that.");
     CMessage("Remember that you deserve it.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
 }

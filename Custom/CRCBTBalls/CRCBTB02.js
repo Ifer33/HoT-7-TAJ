@@ -3,10 +3,10 @@ main();
 DMessage("CRCBTB02: end")
 function main()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("Your %Balls% are " + random("enjoying themselves a bit too much ", "having too much fun ", "not looking blue enough ") + "I\'m going to make you hurt them for a bit now");
     setDate("RespToCBTBalls");

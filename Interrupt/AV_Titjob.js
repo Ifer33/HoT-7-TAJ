@@ -3,7 +3,7 @@ main();
 DMessage("AV_Titjob: end");
 function main()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         Sub_Stroking();
         return;
@@ -18,7 +18,7 @@ function main()
 function Sub_Stroking()
 {
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     Sub_Not_Stroking();
 }
 function Sub_Not_Stroking()
@@ -41,7 +41,7 @@ function Sub_Not_Stroking()
     sleep(10);
     sleep(15);
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     SMessage("%DomName% turned off the mic");
     sleep(10);
     CMessage("%ThatsEnough%");

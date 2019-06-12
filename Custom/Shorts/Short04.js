@@ -3,7 +3,7 @@ main();
 DMessage("Short04: end");
 function main()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%StrokeSlower%");
         slowStroke();
@@ -75,10 +75,10 @@ function CBT2()
 {
     CMessage("Maybe we didn\'t hurt your %Balls% enough to cool you down...");
     CMessage("Let\'s fix that");
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     cbt("ball");
     CMessage("%ThatsEnough%");

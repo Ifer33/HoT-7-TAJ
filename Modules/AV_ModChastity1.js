@@ -3,10 +3,10 @@ main();
 DMessage("AV_ModChastity1: end");
 function main()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     if(getVar("AV_ModChastity1_NotFirstTime", false))
     {
@@ -386,7 +386,7 @@ function Modulo1()
     SMessage("As I\'m sure %DomName% explained to you", -1, 4);
     SMessage("you\'re going to jerking off over me", -1, 4);
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     SMessage("I have no problem exposing myself to you", -1, 4);
     SMessage("as long as I know that seeing my body is making you suffer", -1, 4);
     SMessage("Go ahead. Stare at me all you want, that\'s what you wanted, isn\'t it?", -1, 4);

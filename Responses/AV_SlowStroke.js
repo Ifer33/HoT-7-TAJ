@@ -8,7 +8,7 @@ function aV_SlowStrokeResponse(message) {
         DMessage("aV_SlowStroke: EndResponse Response is Disabled");
         return false;
     }
-    else if (isStroking())
+    else if (isStrokingAll())
     {
         run("Custom" + java.io.File.separator + "Miniscripts" + java.io.File.separator + "AV_Slow_Stroke.js");
     }

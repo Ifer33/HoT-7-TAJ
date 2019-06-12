@@ -237,6 +237,7 @@ function WaitEdge()
 }
 function Edgesucess()
 {
+	stopAudio();
     CMessage("%HoldTheEdge%");
     sleep(randomInt(10, 15));
     setVar("edgingmode", "Normal");

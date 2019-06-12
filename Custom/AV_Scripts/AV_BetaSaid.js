@@ -40,10 +40,10 @@ function a01()
 }
 function a02()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     let answer0 = getInput("You would do a lot for my Attention, wouldn\'t you?");
     if (answer0.isLike("yes", "yea", "yep"))
@@ -65,10 +65,10 @@ function a02()
 }
 function a03()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     let answer0 = getInput("So, %PetName%. Are you willing to submit to me?");
     if (answer0.isLike("yes", "yea", "yep"))

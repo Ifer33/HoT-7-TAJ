@@ -4,7 +4,7 @@ DMessage("AV_Pegging: end");
 function main()
 {
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     switch(random("part1", "part2", "part3", "part4"))
     {
         case "part1":
@@ -39,7 +39,7 @@ function part1()
     CMessage("before I take your little cherry asshole.");
     CMessage("Come on %Slave%, take that monster cock deeper, deeper you slut boy.");
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     return;
     part2();
 }
@@ -57,7 +57,7 @@ function part2()
 	sleep(10);
     SMessage("%DomName% turned off the mic");
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     return;
     part3();
 }
@@ -76,7 +76,7 @@ function part3()
 	sleep(10);
     SMessage("%DomName% turned off the mic");
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     return;
     part4();
 }
@@ -99,6 +99,6 @@ function part4()
 	sleep(13);
     SMessage("%DomName% turned off the mic");
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     return;
 }

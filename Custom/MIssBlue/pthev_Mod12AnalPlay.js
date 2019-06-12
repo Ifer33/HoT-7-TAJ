@@ -675,7 +675,7 @@ function proud_of_you()
         CMessage("Yeah, I didn't think you'd want to stop");
     }
     CMessage("We\'re just getting into a groove here %EmoteHappy%");
-	setVar("moduletorun", "Custom" + java.io.File.separator + "MIssBlue" + java.io.File.separator + "pthev_Mod12AnalPlay.js");
+	setTempVar("moduletorun", "Custom" + java.io.File.separator + "MIssBlue" + java.io.File.separator + "pthev_Mod12AnalPlay.js");
 	setTempVar("pthev_Mod12AnalPlay_GoOn",true);
     //--Command:BookmarkModule
     return;
@@ -737,7 +737,7 @@ function nothingavailable()
 function pthevAnal()
 {
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     if(getVar("pthevDildo", false))
     {
         pthevDildo();
@@ -1044,7 +1044,7 @@ function one()
 function two()
 {
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     let answer0 = getInput("Mmm would you have liked to keep going?");
     while (!(answer0.isLike("yes") || answer0.isLike("no")))
     {

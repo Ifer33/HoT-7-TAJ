@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_Link23", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -380,7 +380,7 @@ function Link1()
     CMessage("You\'re safe with me");
     CMessage("but that doesn\'t mean I\'m not going to force you to admit that you enjoy being a submissive little slut");
     CMessage("and it doesn\'t mean I\'m not going to push your boundaries.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -398,7 +398,7 @@ function Link2()
     CMessage("Now, get back to work.");
     CMessage("I want to see some precum come out of you but don\'t you dare come until I\'ve given you permission!");
     delVar("AVp003");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -425,7 +425,7 @@ function Link3()
     CMessage("Who knows, where this might lead. %Lol%");
     CMessage("Simple right?");
     CMessage("Its not rocket science honey! Even you can remember this right?!");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -435,6 +435,6 @@ function Link4()
     CMessage("to feel the sweet torment of being on edge");
     CMessage("wanting me to allow you to cum.");
     CMessage("But that it\'s not what I had planned for now.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
 }

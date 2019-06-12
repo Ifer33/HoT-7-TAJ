@@ -1,6 +1,6 @@
 function AV_Mem_WantTeaseVocabulary() {
 	DMessage("aV_Mem_WantTease: VocabStart");
-	if(isStroking() ){
+	if(isStrokingAll() ){
 		let answers = ["I love teasing you, %Name%",
 			"I\'m going to tease you until you break down and cry %Grin%",
 			"I love how your perverted little mind works... %Laugh%",

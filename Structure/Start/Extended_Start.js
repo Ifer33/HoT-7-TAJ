@@ -211,7 +211,7 @@ function AV_NewVersion()
     CMessage("Pictures like this one");
     showTaggedImage(4, ["softcore"]);
     CMessage("Or this video to %Stroke%");
-    playVideo("Videos" + java.io.File.separator + "*.*");
+    playVideo("Videos" + java.io.File.separator + "*.*",true);
     start1_not_surprised();
     return;
     HornyStart();
@@ -259,7 +259,7 @@ function SkipSomeTime()
     showTaggedImage(4, ["blowjob"]);
     CMessage("Those lips wrapped around your %Cock%");
     CMessage("%Stroke% to this should help you");
-    playVideo("Videos" + java.io.File.separator + "*.*");
+    playVideo("Videos" + java.io.File.separator + "*.*",true);
     start1_not_surprised();
     return;
     start1_not_surprised();

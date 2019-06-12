@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_Link16", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -375,7 +375,7 @@ function Link1()
     {
         CMessage("I want you to kiss my shoes when we meet. I want you to lick them shine. Do you understand\'");
     }
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     AV_DommeMistress();
 }
@@ -389,7 +389,7 @@ function AV_DommeMistress()
     CMessage("I will play with you mind and recreate you, but at the end you will be happy.");
     CMessage("happy to serve me.");
     CMessage("Trust me, In a few days, you will worship me as your god and kiss the ground I\'m waling on.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     av_fetish_rough();
 }
@@ -404,7 +404,7 @@ function av_fetish_rough()
     CMessage("How long it will take\'");
     CMessage("You will see the progress every week.");
     CMessage("Every week I give you more restrictions until you does not do anything but serving me.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -420,7 +420,7 @@ function Link2()
         CMessage("Kiss my feet and show me respect.");
     }
     CMessage("I am your %Owner%.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -432,7 +432,7 @@ function Link3()
     CMessage("You are obedient and worshipful.");
     CMessage("I\'m so proud of you since you took the oath to serve me as my slave.");
     CMessage("We will have a great future together.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -450,6 +450,6 @@ function Link4()
     {
         CMessage("You are my bitch. You will stay here with spread legs until I cum.");
     }
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
 }

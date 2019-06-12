@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_Link22", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -370,7 +370,7 @@ function Link1()
     {
         aV_NoNeutralResponse();
     }
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -386,7 +386,7 @@ function Link2()
     CMessage("I even see some precum starting to dribble!");
     CMessage("But we need to take our time and really get you ready to explode");
     CMessage("that way your body will let as much of it out as possible.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -406,7 +406,7 @@ function Link3()
     CMessage("But where is the fun in that?");
     CMessage("I want to satisfy myself just as much as I want to play with you.");
     CMessage("Awww, poor baby. Is it really that difficult to resist me?");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -439,6 +439,6 @@ function Link4()
     CMessage("Of course you will.");
     CMessage("It\'s what a good slave does, and I can already tell you\'re going to be the best");
     CMessage("Don\'t look so down! It\'ll be fun!");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
 }

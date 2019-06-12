@@ -4,7 +4,7 @@ DMessage("AV_ModGeneral17: end");
 function main()
 {
     //--UNINTERPRETED LINE:@Variable[%DateDifference%(AV_SessionTime,minutes)]<[15] %Stop% @StopStroking @Goto(IniModule)
-    if (isStroking())
+    if (isStrokingAll())
     {
         Sub_Stroking();
         return;
@@ -24,7 +24,7 @@ function Sub_Stroking()
         return;
     }
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     IniModule();
     return;
     DecidEdge();
@@ -751,7 +751,7 @@ function AV_NoBall()
     sleep(10);
     CMessage("If you could get any more desperate... %EmoteWink%");
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     sleep(20);
     CMessage("You are so obedient.");
     CMessage("Such a good boy.  I\'m so proud of you.");

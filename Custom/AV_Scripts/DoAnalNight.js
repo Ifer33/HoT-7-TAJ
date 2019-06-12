@@ -13,14 +13,14 @@ function main()
     }
     CMessage(random("Stand and bend over the desk", "put your legs over the table...open it"));
     sleep(15);
-    if(!getVar("AV_AshDone", false))
+    /*if(!getVar("AV_AshDone", false))
     {
         if (randomInteger(1, 100) <= 30)
         {
             AshAnal();
             return;
         }
-    }
+    }*/
     if(getVar("AV_DommeMistress", false) && getVar("av_fetish_rough", false))
     {
 		if (randomInteger(1, 100) <= 30)
@@ -199,7 +199,7 @@ function AshAnal()
         av_Ashanal01();
         return;
     }
-    playVideo("Videos" + java.io.File.separator + "AshleyAlban" + java.io.File.separator + "Ash01.mp4");
+    playVideo("Videos" + java.io.File.separator + "AshleyAlban" + java.io.File.separator + "Ash01.mp4",true);
     setVar("av_Ashanal01", true);
     End();
     return;
@@ -207,7 +207,7 @@ function AshAnal()
 }
 function av_Ashanal01()
 {
-    playVideo("Videos" + java.io.File.separator + "AshleyAlban" + java.io.File.separator + "Ash02.mp4");
+    playVideo("Videos" + java.io.File.separator + "AshleyAlban" + java.io.File.separator + "Ash02.mp4",true);
     setVar("av_Ashanal02", true);
     End();
     return;
@@ -215,7 +215,7 @@ function av_Ashanal01()
 }
 function av_Ashanal02()
 {
-    playVideo("Videos" + java.io.File.separator + "AshleyAlban" + java.io.File.separator + "Ash03.mp4");
+    playVideo("Videos" + java.io.File.separator + "AshleyAlban" + java.io.File.separator + "Ash03.mp4",true);
     setVar("AV_AshDone", true);
     End();
     return;

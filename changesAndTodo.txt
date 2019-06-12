@@ -46,10 +46,12 @@ setDate("AVLastRuinedOrgasm");
 setDate("lastOrgasm");
 setDate("AVLastOrgasm");
 setDate("AV_FinishGlitter"); init only once in setup or something like that
+let stroking=false;
+let strokingCycle=false;
 
 changed in HoTStructure:
-setVar("moduletorun", "Custom" + java.io.File.separator + "Modules" + java.io.File.separator + "AV_RuinHorny1.js");
-setVar("linktorun", "Custom" + java.io.File.separator + "Link" + java.io.File.separator + "AV_SpecGlitterLinkEnd.js");
+setTempVar("moduletorun", "Custom" + java.io.File.separator + "Modules" + java.io.File.separator + "AV_RuinHorny1.js");
+setTempVar("linktorun", "Custom" + java.io.File.separator + "Link" + java.io.File.separator + "AV_SpecGlitterLinkEnd.js");
 
 
 Hot convert in pipeline needed for other scripts:
@@ -76,26 +78,23 @@ Hot convert in pipeline needed for other scripts:
 				 [Before Tease][Before Tease End]	all responses
 				 [After Tease][After Tease End]		all responses
 				 
+				 
+				isStroking recognize:
+				start/stop Stroking methods, imClose changed
+				personalutility: endStroking,setStrokingActive,isStroking
+				good attempt but problems with stop/endStroking()
 	
 				%getClose%
 				%greetsub%		notfound
-				%one_ST_TagState% from %1_ST_TagState% check other scripts coming
+				
 				
 				End_CHASTITY:	don't understand the mechanic how is it called???
 				
 				run("Custom" + java.io.File.separator + "AV_Start" + java.io.File.separator + "OrgasmCheck.js"); looks weired maybe check by time
-
 				
-				in general double audio checken always stopAudio() after playAudio();
-				maybe switch wait witch sleep in general
-				search files for # replace witch %...% (variablen)
-				
-				(?<![\w\d])Stroking(\()(?![\w\d])
-				searches for "Stroking("
 				
 				
 				%GlitterName%
-				
 				
 				run("Custom" + java.io.File.separator + "Memory" + java.io.File.separator + "AV_Trainning.js");
 				run("Custom" + java.io.File.separator + "Memory" + java.io.File.separator + "AV_Glitters.js");
@@ -106,32 +105,23 @@ Hot convert in pipeline needed for other scripts:
 				run("Interrupt" + java.io.File.separator + "ERLosses.js");
 				
 				run("Custom" + java.io.File.separator + "CallFromLink" + java.io.File.separator + "pvHadOrgasmStart.js");
-
+				
+				
+general stuff to keep an eye on, new scripts:
+	in general double audio checken always stopAudio() after playAudio();
+	maybe switch wait witch sleep in general
+	search files for # replace witch %...% (variablen)
+				
+	(?<![\w\d])Stroking(\()(?![\w\d])
+	searches for "Stroking("
+	replace with "setStrokingNoTaunt("
+	
+	%one_ST_TagState% from %1_ST_TagState% check other scripts coming
+	%pthevCoCo1% from %pthevCoCo-1% check other scripts coming
 
 bugged:
-	stroking problem if no stroking function used, own instructions 
-	%startstroking%...playaudio...%stopstroking%
-	->responses don't recognice stroking
-	simple solution: change isStroking() to check a var not strokingtime and add setVar("isStroking") to start/stopStroking...
-
 	SMessage("<c=green b> %AV_GirlName% :%AV_ShowOmelegPics% <c=black b>%AV_OmLegStroke%"); colors in chat how does it work
 				
-				
-	video format problems different files webm/convert mp4 | change in files to mp4
-	mode23,29 bugged bookmarkmodule
-	edgingmode loops checken
-	edgingmode better solution catching return from edge often stuck in loop or middle of text
-	while only works in short loops more complex use if for every line
-				
-	House-Of-Tease-Java-7\Custom\RamdomLinks\LinksRamdom20.js'
-	ratePicture
-	Error in Mediautils sortPics: error was found in line 113
-Error: TypeError: Cannot read property "search" from undefined in <eval> at line number 113
-javax.script.ScriptException: TypeError: Cannot read property "search" from undefined in <eval> at line number 113
-						
-	check CollarDecide loop??
-
-
 	Omeleg still bugged, edgeloop, checkvars, checkvocabs vocabs %subname%%subname%
 	run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "AV_Omeleg.js");
 	%AV_PickGirls%
@@ -140,27 +130,39 @@ javax.script.ScriptException: TypeError: Cannot read property "search" from unde
 	%AV_OmLegStroke%
 	%AV_OmLegTaunts%
 	
-	mode23 bugged bookmarkmodule
+	
 	mode29 bugged bookmarkmodule
 	
-	video format problems different files webm/converted mp4
-	av_edgeAV, modfetish3, modgeneral: 1,10,15
+	
 	edgingmode/loopbugged:
+	edgingmode loops checken
+	edgingmode better solution catching return from edge often stuck in loop or middle of text
+	while only works in short loops more complex use if for every line
 	search for "while(!edged){"
 		run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "Edge for us.js");
 		run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "Edge for us"+ java.io.File.separator +"tgr8 special test"+ java.io.File.separator +"Choose Contact3 special test audio file.js");1-3
 		run("Interrupt" + java.io.File.separator + "AV_Controle.js");
+		av_cum07.js long text unlikely that someone edge there but if then long loop
+			every line with "if" would be pain in the ass
 	
 	Matching audio file for path Audio\tease\SeSp\titjob01.mp3 does not exist.  didn't find the file at all
 	
-	%1_ST_Stroke%	response beginning with a number doesnt work?
-	%pthevCoCo-1%
+bugged done? longer testing?:	
+	playVideo("Videos" + java.io.File.separator + "*.*",true); 
+		plays random video even subfolder?
+		random category video better?
+		video format problems different files webm/converted mp4 
+		should work now
+	DoAnalNight.js: ash videos dont exist -> deactivated
 	
-	09:23:58 vorm. CHAT: 09:23 vorm. Anastacia: !AV_ChangeClothes!
-09:23:58 vorm. CHAT: 09:23 vorm. Anastacia: !Brb!
-09:23:58 vorm. SEVERE: Matching image file for path Images\System\Black.jpg does not exist.
-09:23:58 vorm. SEVERE: Matching image file for path Images\AV_RuinHorny1 does not exist.
-wichFile?
+	stroking problem if no stroking function used, own instructions 
+	%startstroking%...playaudio...%stopstroking%
+	->responses don't recognice stroking
+	added global vars let stroking=false; let strokingCycle=false;
+	added functions stopStrokingAll(),isStrokingAll()
+	seems to work all replaced
+	
+	mode23 bugged bookmarkmodule seems to work
 
 
 				
@@ -197,8 +199,8 @@ totest:
 	
 
 	
-tested:
-	GenerralModules should work exept bugged
+tested: should work except bugged
+	GenerralModules should work except bugged
 	custom/linksRandomAll
 	run("Custom" + java.io.File.separator + "Shorts" + java.io.File.separator + "Short01.js");
 	short:01-37

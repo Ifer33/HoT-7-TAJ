@@ -3,10 +3,10 @@ main();
 DMessage("Short20: end");
 function main()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("Well..... I\'m very disappointed.");
     let answer0 = getInput("What is the problem, %SubName%?");

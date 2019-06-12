@@ -1,6 +1,6 @@
 function AV_Mem_BallHurtVocabulary() {
 	DMessage("aV_Mem_BallHurt: VocabStart");
-	if(isStroking() ){
+	if(isStrokingAll() ){
 		let answers = ["I know it\'s so mean of me. But your little blue balls should be the least of your concerns.",
 			"Blue is the color we want, right?",
 			"Do you think they are swollen and aching enough for me?",

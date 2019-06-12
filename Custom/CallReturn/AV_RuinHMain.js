@@ -136,18 +136,18 @@ function Part1_12()
 function Mod1()
 {
     //setVar("moduletorun", "AV_RuinHorny1")
-	setVar("moduletorun", "Custom" + java.io.File.separator + "Modules" + java.io.File.separator + "AV_RuinHorny1.js");
+	setTempVar("moduletorun", "Custom" + java.io.File.separator + "Modules" + java.io.File.separator + "AV_RuinHorny1.js");
     return;
     Mod2();
 }
 function Mod2()
 {
-    setVar("moduletorun", "Custom" + java.io.File.separator + "Modules" + java.io.File.separator + "AV_RuinHorny2.js");
+    setTempVar("moduletorun", "Custom" + java.io.File.separator + "Modules" + java.io.File.separator + "AV_RuinHorny2.js");
     return;
     Mod3();
 }
 function Mod3()
 {
-    setVar("moduletorun", "Custom" + java.io.File.separator + "Modules" + java.io.File.separator + "AV_RuinHorny3.js");
+    setTempVar("moduletorun", "Custom" + java.io.File.separator + "Modules" + java.io.File.separator + "AV_RuinHorny3.js");
     return;
 }

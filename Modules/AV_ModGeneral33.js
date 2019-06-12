@@ -395,7 +395,7 @@ function InicioCrush()
         AV_CrushNoMore1();
         return;
     }
-	if (!isStroking())
+	if (!isStrokingAll())
     {
         setStrokingNoTaunt();
     }
@@ -427,7 +427,7 @@ function InicioCrush()
 function JustStop2()
 {
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
     EdgeDone2();
 }
@@ -451,7 +451,7 @@ function EdgeDone2()
 }
 function AV_CrushNoMore1()
 {
-	if (!isStroking())
+	if (!isStrokingAll())
     {
         setStrokingNoTaunt();
     }
@@ -488,7 +488,7 @@ function AV_CrushNoMore1()
 function JustStop()
 {
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
     EdgeDone();
 }
@@ -512,7 +512,7 @@ function EdgeDone()
 }
 function AV_CrushNoMore2()
 {
-	if (!isStroking())
+	if (!isStrokingAll())
     {
         setStrokingNoTaunt();
     }
@@ -546,7 +546,7 @@ function AV_CrushNoMore2()
 function JustStop3()
 {
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
     EdgeDone3();
 }
@@ -571,10 +571,10 @@ function EdgeDone3()
 }
 function Modulo3()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     if(getVar("AV_SubKnees", false))
     {
@@ -721,10 +721,10 @@ function want_more()
 }
 function Modulo4()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage(random("%PetName%", "%SubName%"));
     if(!getVar("AV_PinDone", false))

@@ -47,7 +47,7 @@ function ark_Having_FunResponse(message) {
 					if (getMood() >= 70)
 					{
 						CMessage("We can't have that, %PetName%, stop stroking");
-						stopStroking();
+						stopStrokingAll();
 						found = true;
 					}
 					break;
@@ -55,7 +55,7 @@ function ark_Having_FunResponse(message) {
 					if (getMood() >= 70)
 					{
 						CMessage("I don't want you to enjoy yourself too much, %PetName%, stop stroking");
-						stopStroking();
+						stopStrokingAll();
 						found = true;
 					}
 					break;
@@ -273,7 +273,7 @@ function ark_Having_FunResponse(message) {
 			}
 		}
     }
-    else if (isStroking())
+    else if (isStrokingAll())
     {
         let found = false;
 		while(!found){
@@ -325,7 +325,7 @@ function ark_Having_FunResponse(message) {
 					if (getMood() >= 70)
 					{
 						CMessage("We can't have that, %PetName%, stop stroking");
-						stopStroking();
+						stopStrokingAll();
 						found = true;
 					}
 					break;
@@ -333,7 +333,7 @@ function ark_Having_FunResponse(message) {
 					if (getMood() >= 70)
 					{
 						CMessage("I don't want you to enjoy yourself too much, %PetName%, stop stroking");
-						stopStroking();
+						stopStrokingAll();
 						found = true;
 					}
 					break;
@@ -424,7 +424,7 @@ function ark_Having_FunResponse(message) {
 					if (getMood() >= 70)
 					{
 						CMessage("Whatever, %PetName%");
-						stopStroking();
+						stopStrokingAll();
 						found = true;
 					}
 					break;

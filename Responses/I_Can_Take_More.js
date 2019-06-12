@@ -292,7 +292,7 @@ function i_Can_Take_MoreResponse(message) {
 			}
 		}
     }
-    else if (isStroking())
+    else if (isStrokingAll())
     {
         let found = false;
 		while(!found){

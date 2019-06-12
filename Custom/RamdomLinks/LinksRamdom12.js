@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_Link12", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -365,7 +365,7 @@ function Link1()
     CMessage("Because you " + random("deserve it", "deserve to be used", "deserved that"));
     CMessage("I will not hold back");
     CMessage("I\'m so damn horny " + random("%PetName%", "%SubName%"));
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     AV_CEI2();
 }
@@ -377,7 +377,7 @@ function AV_CEI2()
     CMessage("Look down at your swollen dick.");
     CMessage("Look at the head, look at the precum.");
     CMessage("You want that load, you need to do it for me.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -392,7 +392,7 @@ function Link2()
     CMessage("Because you " + random("deserve it", "deserve to be used", "deserved that"));
     CMessage("I will not hold back");
     CMessage("I\'m so damn horny " + random("%PetName%", "%SubName%"));
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     AV_CEI();
 }
@@ -412,7 +412,7 @@ function AV_CEI()
     CMessage("We\'re gonna do it.");
     CMessage("We\'re gonna break you in.");
     CMessage("You\'re gonna love it.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -427,7 +427,7 @@ function Link3()
     CMessage("Because you " + random("deserve it", "deserve to be used", "deserved that"));
     CMessage("I will not hold back");
     CMessage("I\'m so damn horny " + random("%PetName%", "%SubName%"));
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     AV_Peg();
 }
@@ -438,7 +438,7 @@ function AV_Peg()
     CMessage("A little over the top?");
     CMessage("Noo...");
     CMessage("You want to be my ass slut.");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -453,7 +453,7 @@ function Link4()
     CMessage("Because you " + random("deserve it", "deserve to be used", "deserved that"));
     CMessage("I will not hold back");
     CMessage("I\'m so damn horny " + random("%PetName%", "%SubName%"));
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     AV_pe();
 }
@@ -473,6 +473,6 @@ function AV_pe()
     {
         aV_NoBadResponse();
     }
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
 }

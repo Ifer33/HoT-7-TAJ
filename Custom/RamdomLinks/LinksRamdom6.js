@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_Link6", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -362,7 +362,7 @@ function Link1()
         return;
     }
     CMessage("%secondtime%");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     av_submissive_position();
 }
@@ -374,7 +374,7 @@ function av_submissive_position()
     CMessage("and wait until you hear a stroking beat.");
     CMessage("Stroke to the beat and return when it stops");
     unlockImages();
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -396,7 +396,7 @@ function Link2()
     {
         CMessage("Think about that as you reach down and curl your fingers firmly around your cock");
     }
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -433,7 +433,7 @@ function Link3()
         CMessage("%EmoteLaugh%");
         setVar("AV_Persona26c", true);
     }
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     AV_Know_26();
 }
@@ -464,7 +464,7 @@ function AVRND02()
     unlockImages();
     CMessage("All that pleasure gets snatched away from you forever");
     CMessage("Just when it was starting to feel good %Grin%");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -499,7 +499,7 @@ function Link4()
     setVar("AV_Persona14", createInput().getAnswer());
     CMessage("noted %EmoteLaugh%");
     setVar("AV_Know_16", true);
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
     AV_Know_16();
 }
@@ -532,6 +532,6 @@ function AVRND20()
     CMessage("I bet those %Balls% are feeling so sensitive right now");
     CMessage("Throbbing with ache");
     CMessage("Getting absolutely battered by all that cum crashing around inside them");
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
     return;
 }

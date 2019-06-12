@@ -356,10 +356,10 @@ function Fim()
 }
 function Modulo1()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     if(!getVar("AV_PinDone", false))
     {
@@ -467,10 +467,10 @@ function ContTea2()
 }
 function Modulo2()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     if(!getVar("AV_PinDone", false))
     {
@@ -520,7 +520,7 @@ function Modulo2()
         CMessage("separates the good from the bad boys.");
     }
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("%KneelForMe%");
     CMessage("Look at you laying down, your throbbing cock can hardly wait.");
     CMessage("Are you aroused?");
@@ -626,7 +626,7 @@ function SKPA02()
     CMessage("Squeeze it now and see your cock rise.");
     delVar("av_intera_006");
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("So here is your exercise regime.");
     CMessage("Clench your PC muscle " + (java.lang.Math.round(randomInt(10, 30) / 10.0) * 10) + " times quickly");
     sleep(33);
@@ -640,10 +640,10 @@ function SKPA02()
 }
 function Modulo3()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("Whats the matter %Slave%?");
     CMessage("Is this little bit of stroking too much for you?");
@@ -774,7 +774,7 @@ function AVSkipDouble()
     CMessage("Need to cum?");
     CMessage("You look a bit shaky over there");
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     //CMessage("Sit in your chair");
 	CMessage("%SitDown%");
     if(getVar("av_fetish_pain", false))
@@ -787,10 +787,10 @@ function AVSkipDouble()
 }
 function Modulo4()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("%LittleGame%");
     CMessage("We will pick a card and whoever has the highest card wins the round");

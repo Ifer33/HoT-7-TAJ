@@ -350,7 +350,7 @@ function Fim()
 {
     setVar("AV_LinkMissBlue4", 0);
     run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "AV_CrushBreakLink.js");
-    setStrokingNoTaunt();
+    ////setStrokingNoTaunt();
     return;
     Link1();
 }
@@ -366,7 +366,7 @@ function Link1()
     CMessage("Because the more you stroke");
     CMessage("The more aroused you become");
     CMessage("And the more you ache when I finally deny your orgasm %Grin%");
-    setStrokingNoTaunt();
+    ////setStrokingNoTaunt();
     return;
     Link2();
 }
@@ -438,7 +438,7 @@ function do_you_know()
     CMessage("I would teach you to give me orgasm after orgasm...");
     CMessage("Too bad you\'re not here %EmoteSad%");
 	unlockImages();
-    setStrokingNoTaunt();
+    ////setStrokingNoTaunt();
     return;
     Link3();
 }
@@ -457,7 +457,7 @@ function Link3()
     {
         CMessage("Good");
     }
-    setStrokingNoTaunt();
+    ////setStrokingNoTaunt();
     return;
     Link4();
 }
@@ -490,7 +490,7 @@ function Link4()
     CMessage("Lightly touch the skin of your %Cock% with your fingertips");
     CMessage("Feel how it\'s aching to be stroked again");
     CMessage("I know it\'s ready for more");
-    setStrokingNoTaunt();
+    ////setStrokingNoTaunt();
     return;
     getadrink();
 }
@@ -542,6 +542,6 @@ function getadrink()
 }
 function startstroking()
 {
-    setStrokingNoTaunt();
+    ////setStrokingNoTaunt();
     return;
 }

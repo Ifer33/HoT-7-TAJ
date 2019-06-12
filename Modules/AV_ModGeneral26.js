@@ -374,7 +374,7 @@ function Modulo1()
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "Glitter3" + java.io.File.separator + "5toStop.mp3");
     sleep(10);
     SMessage("%Stop%", 0,4);
-    stopStroking();
+    stopStrokingAll();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "Glitter3" + java.io.File.separator + "GoodBoy*.mp3");
     sleep(10);
     if(!getVar("AV_MasuDone", false))
@@ -582,10 +582,10 @@ function end3430()
 }
 function Modulo2()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("Let\'s see if you can follow my orders %SubName%..");
     CMessage("Hmm...can you make your cock even harder %PetName%");
@@ -785,10 +785,10 @@ function AV_Timeo1375()
 }
 function Modulo3()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     let answer0 = getInput("Do you think you deserve to look at the sexy nude body of a girl like me?");
     while (!(answer0.isLike("yes") || answer0.isLike("no")))
@@ -830,17 +830,17 @@ function Modulo3()
     sleep(10);
 	slideShowOff();
     CMessage("%Stop%", 0);
-	stopStroking();
+	stopStrokingAll();
     //TODO: Turn Slideshow off
     return;
     Modulo4();
 }
 function Modulo4()
 {
-    if (isStroking())
+    if (isStrokingAll())
     {
         CMessage("%stopstroking%", 0);
-        stopStroking();
+        stopStrokingAll();
     }
     CMessage("%AV_Break1%");
     CMessage("%AV_Luxury%");

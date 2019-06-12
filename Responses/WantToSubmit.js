@@ -74,7 +74,7 @@ function wantToSubmitResponse(message) {
     {
 		CMessage("Good, then edge for me %Name%");
     }
-    else if (isStroking())
+    else if (isStrokingAll())
     {
         let found = false;
 		while(!found){

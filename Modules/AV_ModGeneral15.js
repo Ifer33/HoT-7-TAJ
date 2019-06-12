@@ -4,7 +4,7 @@ DMessage("AV_ModGeneral15: end");
 function main()
 {
     //--UNINTERPRETED LINE:@Variable[%DateDifference%(AV_SessionTime,minutes)]<[15] %Stop% @StopStroking @Goto(IniModule)
-    if (isStroking())
+    if (isStrokingAll())
     {
         Sub_Stroking();
         return;
@@ -24,7 +24,7 @@ function Sub_Stroking()
         return;
     }
     CMessage("%stopstroking%", 0);
-    stopStroking();
+    stopStrokingAll();
     IniModule();
     return;
     DecidEdge();
@@ -513,7 +513,7 @@ function Modulo2()
     CMessage("If I just said fuck it and let you.");
     CMessage("mmm... this is a tough choice.");
     CMessage("%stopstroking%", 0);
-	stopStroking();
+	stopStrokingAll();
     CMessage("I am really loving watching you abuse and frustrate yourself");
     CMessage("No breaks for you, time for some more edges.");
     CMessage("Get on your knees and edge once as quick as you can");
@@ -593,7 +593,7 @@ function Serie1()
 function Serie2()
 {
     CMessage(random("Pump that meat for me", "Go for it", "Grab your dick and stroke", "Stroke", "Wank", "Jerk it"));
-    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "60" + java.io.File.separator + "*.mp4");
+    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "60" + java.io.File.separator + "*.mp4",true);
     CMessage("%stopstroking%", 0);
 	//stopVideo();
     AV_CheckRounds();
@@ -618,7 +618,7 @@ function Serie4()
 {
     CMessage("Now, " + random("make your Mistress proud and ", "Just ", "Go on ", "Simply ", "You have to ", "I want you ", "you will ") + "%Stroke% " + random("really fast ", "as fast you can ") + "watching the next short video...");
     CMessage(random("Pump that meat for me", "Go for it", "Grab your dick and stroke", "Stroke", "Wank", "Jerk it"));
-    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "10" + java.io.File.separator + "*.mp4");
+    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "10" + java.io.File.separator + "*.mp4",true);
 	//stopVideo();
     CMessage("%stopstroking%", 0);
     AV_CheckRounds();
@@ -629,7 +629,7 @@ function Serie5()
 {
     CMessage("Now, " + random("make your Mistress happy and ", "can you do me a favour and ", "go on ", "simply ", "you have to ", "I want you to ", "you will ") + "%Stroke% " + random("really fast ", "as fast you can ") + "watching the next short video...");
     CMessage(random("Pump that meat for me", "Go for it", "Grab your dick and stroke", "Stroke", "Wank", "Jerk it"));
-    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "15" + java.io.File.separator + "*.mp4");
+    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "15" + java.io.File.separator + "*.mp4",true);
 	//stopVideo();
     CMessage("%stopstroking%", 0);
     AV_CheckRounds();
@@ -730,7 +730,7 @@ function Modulo4()
     }
     CMessage("Ok time for one of your videos.");
     CMessage("Keep stroking your little dicklet");
-    playVideo("Videos" + java.io.File.separator + "*.*");
+    playVideo("Videos" + java.io.File.separator + "*.*",true);
     CMessage("%Stop%", 0);
     CMessage("%SitDown%");
     CMessage("Now spread your legs for me and raise your legs up the table");
