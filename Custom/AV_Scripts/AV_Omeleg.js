@@ -143,6 +143,7 @@ function AV_OM_NoEdge1()
 		SMessage("<c=green b> %AV_GirlName% : %AV_ShowOmelegPics% <c=black b>"+random("Spank", "hit")+" your "+random("balls","testicles"));
 		playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "Spank*.mp3");
 		sleep(15);
+		stopAudio();
 	}
     //--UNINTERPRETED LINE:@SystemMessage <Font color="green"> %AV_GirlName% :</Font> <Font color="black" size="4"> @RT(On your knees, Get on your knees, Stand up, Stand) </Font>  %AV_ShowOmelegPics% @sleep(10)
 	SMessage("<c=green b> %AV_GirlName% : %AV_ShowOmelegPics% <c=black b>"+random("On your knees", "Get on your knees", "Stand up", "Stand"));
@@ -180,6 +181,7 @@ function AV_OM_NoEdge2()
 		SMessage("<c=green b> %AV_GirlName% : %AV_ShowOmelegPics% <c=black b>"+random("Spank", "hit")+" your "+random("balls","testicles"));
 		playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "Spank*.mp3");
 		sleep(15);
+		stopAudio();
 	}
     //--UNINTERPRETED LINE:@SystemMessage <Font color="green"> %AV_GirlName% :</Font> <Font color="black" size="4"> %SitDown%  </Font> %AV_ShowOmelegPics% @DeleteFlag(AV_OmStrokeNumber) @DeleteFlag(AV_OmStrokeBeat) @DeleteFlag(AV_OmStrokeSimple) @DeleteFlag(AV_OmStrokeOver)
 	SMessage("<c=green b> %AV_GirlName% : %AV_ShowOmelegPics% <c=black b>%SitDown%");

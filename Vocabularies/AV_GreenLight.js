@@ -8,7 +8,7 @@ function AV_GreenLightVocabulary()
 				if(getVar("AV_Know_00", false))
 				{
 					CMessage("<c=green b> GREEN LIGHT");
-					getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
+					showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
 					//--UNINTERPRETED LINE:@Flag(AV_Know_00) <Font color="green">GREEN LIGHT</Font> @ShowImage[av_imagens\02\*.jpg] 
 					found=true;
 				}
@@ -17,7 +17,7 @@ function AV_GreenLightVocabulary()
 				if(getVar("AV_Know_01", false))
 				{
 					CMessage("<c=green b> GREEN LIGHT");
-					getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
+					showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
 					found=true;
 				}
 				break;
@@ -25,7 +25,7 @@ function AV_GreenLightVocabulary()
 				if(getVar("AV_Know_12", false))
 				{
 					CMessage("<c=green b> GREEN LIGHT");
-					getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
+					showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
 					found=true;
 				}
 				break;
@@ -33,18 +33,18 @@ function AV_GreenLightVocabulary()
 				if(getVar("AV_Know_03", false))
 				{
 					CMessage("<c=green b> GREEN LIGHT");
-					getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "04" + java.io.File.separator + "*.jpg");
+					showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "04" + java.io.File.separator + "*.jpg");
 					found=true;
 				}
 				break;
 			case 5:
 				CMessage("<c=green b> GREEN LIGHT");
-				getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "gifs" + java.io.File.separator + "*.gif");
+				showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "gifs" + java.io.File.separator + "*.gif");
 				found=true;
 				break;
 			case 6:
 				CMessage("<c=green b> GREEN LIGHT");
-				getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Girls" + java.io.File.separator + "*.jpg");
+				showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Girls" + java.io.File.separator + "*.jpg");
 				found=true;
 				break;
 			case 7:

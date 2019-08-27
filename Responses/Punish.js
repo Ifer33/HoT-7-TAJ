@@ -43,21 +43,21 @@ function punishResponse(message) {
 				case 5:
 					if(!getVar("av_standing_position",false) ){
 						CMessage("You will now get into the Standing Position until I say to stop edging");
-						getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01.jpg");
+						showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01.jpg");
 						found = true;
 					}
 					break;
 				case 6:
 					if(!getVar("av_submissive_position",false) ){
 						CMessage("You will now get into the Submissive Position until I say to stop edging");
-						getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "04.jpg");
+						showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "04.jpg");
 						found = true;
 					}
 					break;
 				case 7:
 					if(!getVar("av_basic_position",false) ){
 						CMessage("You will now get into the Basic Position until I say to stop edging");
-						getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02.jpg");
+						showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02.jpg");
 						found = true;
 					}
 					break;
@@ -150,21 +150,21 @@ function punishResponse(message) {
 				case 10:
 					if(!getVar("av_standing_position",false) ){
 						CMessage("You will now get into the Standing Position until I say to stop edging");
-						getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01.jpg");
+						showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01.jpg");
 						found = true;
 					}
 					break;
 				case 11:
 					if(!getVar("av_submissive_position",false) ){
 						CMessage("You will now get into the Submissive Position until I say to stop edging");
-						getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "04.jpg");
+						showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "04.jpg");
 						found = true;
 					}
 					break;
 				case 12:
 					if(!getVar("av_basic_position",false) ){
 						CMessage("You will now get into the Basic Position until I say to stop edging");
-						getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02.jpg");
+						showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02.jpg");
 						found = true;
 					}
 					break;

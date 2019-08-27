@@ -379,112 +379,112 @@ function Modulo2()
     if(getVar("AV_Know_03", false))
     {
         CMessage("Paying tribute to " + getVar("AV_Persona04", ""));
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "04" + java.io.File.separator + "*.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "04" + java.io.File.separator + "*.jpg");
     }
     if(getVar("AV_Know_03", false))
     {
         CMessage("%KeepStroking%");
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "04" + java.io.File.separator + "*.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "04" + java.io.File.separator + "*.jpg");
     }
     if(getVar("AV_Know_03", false))
     {
         CMessage("Take a good look at her body.");
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "04" + java.io.File.separator + "*.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "04" + java.io.File.separator + "*.jpg");
     }
     if(getVar("AV_Know_58", false))
     {
         CMessage("%KeepStroking% for " + getVar("AV_Persona58", ""));
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "18" + java.io.File.separator + "*.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "18" + java.io.File.separator + "*.jpg");
     }
     if(getVar("AV_Know_12", false))
     {
         CMessage("Now your secret crush, " + getVar("AV_Persona13", ""));
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
     }
     if(getVar("AV_Know_12", false))
     {
         CMessage("%KeepStroking%");
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
     }
     if(getVar("AV_Know_12", false))
     {
         CMessage("Feels good, right?");
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
     }
     if(getVar("AV_Know_50", false))
     {
         CMessage("%KeepStroking% for " + getVar("AV_Persona50", ""));
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "10" + java.io.File.separator + "*.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "10" + java.io.File.separator + "*.jpg");
     }
     if(getVar("AV_Know_01", false))
     {
         CMessage("Now, your Crush singer, " + getVar("AV_Persona02", ""));
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
     }
     if(getVar("AV_Know_01", false))
     {
         CMessage("%KeepStroking%");
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
     }
     if(getVar("AV_Know_01", false))
     {
         CMessage("I want you to imagine those are her hands which are running over your %Cock%");
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
     }
     if(getVar("AV_Know_53", false))
     {
         CMessage("%KeepStroking% for " + getVar("AV_Persona53", ""));
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "13" + java.io.File.separator + "*.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "13" + java.io.File.separator + "*.jpg");
     }
     if(getVar("AV_Know_00", false))
     {
         CMessage("Your Crush actress, " + getVar("AV_Persona01", ""));
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
     }
     if(getVar("AV_Know_00", false))
     {
         CMessage("%KeepStroking%");
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
     }
     if(getVar("AV_Know_00", false))
     {
         CMessage("Hmm");
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
     }
     if(getVar("AV_Know_51", false))
     {
         CMessage("%KeepStroking% for " + getVar("AV_Persona51", ""));
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "11" + java.io.File.separator + "*.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "11" + java.io.File.separator + "*.jpg");
     }
     if(getVar("AV_Know_52", false))
     {
         CMessage("Can you take it for " + getVar("AV_Persona52", ""));
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "12" + java.io.File.separator + "*.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "12" + java.io.File.separator + "*.jpg");
     }
     if(getVar("AV_Know_54", false))
     {
         CMessage("It\'s your fault for having so many crushes, like " + getVar("AV_Persona54", ""));
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "14" + java.io.File.separator + "*.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "14" + java.io.File.separator + "*.jpg");
     }
     if(getVar("AV_Know_55", false))
     {
         CMessage("Almost there, don\'t disappoint " + getVar("AV_Persona55", ""));
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "15" + java.io.File.separator + "*.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "15" + java.io.File.separator + "*.jpg");
     }
     if(getVar("AV_Know_56", false))
     {
         CMessage("%KeepStroking% for " + getVar("AV_Persona56", ""));
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "16" + java.io.File.separator + "*.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "16" + java.io.File.separator + "*.jpg");
     }
     if(getVar("AV_Know_57", false))
     {
         CMessage("You can do it for " + getVar("AV_Persona57", ""));
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "17" + java.io.File.separator + "*.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "17" + java.io.File.separator + "*.jpg");
     }
     if(getVar("AV_Know_59", false))
     {
         CMessage(getVar("AV_Persona59", "") + "is the last one");
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "19" + java.io.File.separator + "*.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "19" + java.io.File.separator + "*.jpg");
     }
     uuyhbdf();
 }

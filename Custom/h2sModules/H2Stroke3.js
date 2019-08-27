@@ -962,7 +962,7 @@ function Break3()
     SMessage("Just take a break without stroking", -1, 4);
     SMessage("Only watch this video and try to relax.", -1, 4);
     SMessage("Simply watch out, that your %Cock% stays hard.", -1, 4);
-    playVideo("Videos" + java.io.File.separator + "*.*",true);
+    showCategoryVideo(randomCategory(),true);
     SMessage("Ok your break is over", -1, 4);
     SMessage("But before we move on with working on your edgegoal, just give me one extra edge %Grin%", -1, 4);
     setRapidText(false);

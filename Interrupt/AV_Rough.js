@@ -44,6 +44,7 @@ function part2()
     sleep(13);
     sleep(10);
     sleep(10);
+	stopAudio();
     SMessage("%DomName% turned off the mic");
     CMessage("%ThatsEnough%");
     return;

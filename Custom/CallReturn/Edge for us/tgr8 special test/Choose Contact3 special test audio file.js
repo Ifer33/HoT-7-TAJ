@@ -125,6 +125,7 @@ function circle1()
 {
     //--UNINTERPRETED LINE:@NullResponse @TempFlag(circle1) @PlayAudio[tease\tgr8\Contact3 special test audio\circle1.mp3] @SetDate(timer, 40 seconds)
 	setTempVar("circle1",true);
+	stopAudio();
 	playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "tgr8" + java.io.File.separator + "Contact3 special test audio" + java.io.File.separator + "circle1.mp3");
 	date=setTempDate("timer");
 	date.addSecond(40);
@@ -136,6 +137,7 @@ function circle2()
 {
     //--UNINTERPRETED LINE:@NullResponse @TempFlag(circle2) @PlayAudio[tease\tgr8\Contact3 special test audio\circle2.mp3] @SetDate(timer, 44 seconds)
 	setTempVar("circle2",true);
+	stopAudio();
 	playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "tgr8" + java.io.File.separator + "Contact3 special test audio" + java.io.File.separator + "circle2.mp3");
 	date=setTempDate("timer");
 	date.addSecond(44);
@@ -147,6 +149,7 @@ function circle3()
 {
     //--UNINTERPRETED LINE:@NullResponse @TempFlag(circle3) @PlayAudio[tease\tgr8\Contact3 special test audio\circle3.mp3] @SetDate(timer, 40 seconds)
 	setTempVar("circle3",true);
+	stopAudio();
 	playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "tgr8" + java.io.File.separator + "Contact3 special test audio" + java.io.File.separator + "circle3.mp3");
 	date=setTempDate("timer");
 	date.addSecond(40);
@@ -158,6 +161,7 @@ function circle4()
 {
     //--UNINTERPRETED LINE:@NullResponse @TempFlag(circle4) @PlayAudio[tease\tgr8\Contact3 special test audio\circle4.mp3] @SetDate(timer, 60 seconds)
 	setTempVar("circle4",true);
+	stopAudio();
 	playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "tgr8" + java.io.File.separator + "Contact3 special test audio" + java.io.File.separator + "circle4.mp3");
 	date=setTempDate("timer");
 	date.addSecond(60);
@@ -169,6 +173,7 @@ function circle5()
 {
     //--UNINTERPRETED LINE:@NullResponse @TempFlag(circle5) @PlayAudio[tease\tgr8\Contact3 special test audio\circle5.mp3] @SetDate(timer, 46 seconds)
 	setTempVar("circle5",true);
+	stopAudio();
 	playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "tgr8" + java.io.File.separator + "Contact3 special test audio" + java.io.File.separator + "circle5.mp3");
 	date=setTempDate("timer");
 	date.addSecond(46);
@@ -180,6 +185,7 @@ function no200300()
 {
     //--UNINTERPRETED LINE:@NullResponse @TempFlag(no200300) @PlayAudio[tease\tgr8\Contact3 special test audio\no200300.mp3] @SetDate(timer, 40 seconds)
 	setTempVar("no200300",true);
+	stopAudio();
 	playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "tgr8" + java.io.File.separator + "Contact3 special test audio" + java.io.File.separator + "no200300.mp3");
 	date=setTempDate("timer");
 	date.addSecond(40);
@@ -191,6 +197,7 @@ function overdrive1()
 {
     //--UNINTERPRETED LINE:@NullResponse @TempFlag(overdrive1) @PlayAudio[tease\tgr8\Contact3 special test audio\overdrive1.mp3] @SetDate(timer, 61 seconds)
 	setTempVar("overdrive1",true);
+	stopAudio();
 	playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "tgr8" + java.io.File.separator + "Contact3 special test audio" + java.io.File.separator + "overdrive1.mp3");
 	date=setTempDate("timer");
 	date.addSecond(61);
@@ -202,6 +209,7 @@ function overdrive2()
 {
     //--UNINTERPRETED LINE:@NullResponse @TempFlag(overdrive2) @PlayAudio[tease\tgr8\Contact3 special test audio\overdrive2.mp3] @SetDate(timer, 47 seconds)
 	setTempVar("overdrive2",true);
+	stopAudio();
 	playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "tgr8" + java.io.File.separator + "Contact3 special test audio" + java.io.File.separator + "overdrive2.mp3");
 	date=setTempDate("timer");
 	date.addSecond(47);
@@ -213,6 +221,7 @@ function overdrive3()
 {
     //--UNINTERPRETED LINE:@NullResponse @TempFlag(overdrive3) @PlayAudio[tease\tgr8\Contact3 special test audio\overdrive3.mp3] @SetDate(timer, 45 seconds)
 	setTempVar("overdrive3",true);
+	stopAudio();
 	playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "tgr8" + java.io.File.separator + "Contact3 special test audio" + java.io.File.separator + "overdrive3.mp3");
 	date=setTempDate("timer");
 	date.addSecond(45);
@@ -224,6 +233,7 @@ function tgr8_c3t1()
 {
     //--UNINTERPRETED LINE:@NullResponse @TempFlag(tgr8_c3t1) @PlayAudio[tease\tgr8\Contact3 special test audio\tgr8_c3t1.mp3] @SetDate(timer, 61 seconds)
 	setTempVar("tgr8_c3t1",true);
+	stopAudio();
 	playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "tgr8" + java.io.File.separator + "Contact3 special test audio" + java.io.File.separator + "tgr8_c3t1.mp3");
 	date=setTempDate("timer");
 	date.addSecond(61);
@@ -235,6 +245,7 @@ function tgr8_c3t2()
 {
     //--UNINTERPRETED LINE:@NullResponse @TempFlag(tgr8_c3t2) @PlayAudio[tease\tgr8\Contact3 special test audio\tgr8_c3t2.mp3] @SetDate(timer, 40 seconds)
 	setTempVar("tgr8_c3t2",true);
+	stopAudio();
 	playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "tgr8" + java.io.File.separator + "Contact3 special test audio" + java.io.File.separator + "tgr8_c3t2.mp3");
 	date=setTempDate("timer");
 	date.addSecond(40);
@@ -246,6 +257,7 @@ function tgr8_c3t3()
 {
     //--UNINTERPRETED LINE:@NullResponse @TempFlag(tgr8_c3t3) @PlayAudio[tease\tgr8\Contact3 special test audio\tgr8_c3t3.mp3] @SetDate(timer, %Random%(60, 80) seconds)
 	setTempVar("tgr8_c3t3",true);
+	stopAudio();
 	playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "tgr8" + java.io.File.separator + "Contact3 special test audio" + java.io.File.separator + "tgr8_c3t3.mp3");
 	date=setTempDate("timer");
 	date.addSecond(randomInt(60,80) );
@@ -257,6 +269,7 @@ function tgr8_c3t4()
 {
     //--UNINTERPRETED LINE:@NullResponse @TempFlag(tgr8_c3t4) @PlayAudio[tease\tgr8\Contact3 special test audio\tgr8_c3t4.mp3] @SetDate(timer, 28 seconds)
 	setTempVar("tgr8_c3t4",true);
+	stopAudio();
 	playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "tgr8" + java.io.File.separator + "Contact3 special test audio" + java.io.File.separator + "tgr8_c3t4.mp3");
 	date=setTempDate("timer");
 	date.addSecond(28);
@@ -268,6 +281,7 @@ function tgr8_c3t5()
 {
     //--UNINTERPRETED LINE:@NullResponse @TempFlag(tgr8_c3t5) @PlayAudio[tease\tgr8\Contact3 special test audio\tgr8_c3t5.mp3] @SetDate(timer, 54 seconds)
 	setTempVar("tgr8_c3t5",true);
+	stopAudio();
 	playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "tgr8" + java.io.File.separator + "Contact3 special test audio" + java.io.File.separator + "tgr8_c3t5.mp3");
 	date=setTempDate("timer");
 	date.addSecond(54);
@@ -279,6 +293,7 @@ function tgr8_c3t6()
 {
     //--UNINTERPRETED LINE:@NullResponse @TempFlag(tgr8_c3t6) @PlayAudio[tease\tgr8\Contact3 special test audio\tgr8_c3t6.mp3] @SetDate(timer, 31 seconds)
 	setTempVar("tgr8_c3t6",true);
+	stopAudio();
 	playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "tgr8" + java.io.File.separator + "Contact3 special test audio" + java.io.File.separator + "tgr8_c3t6.mp3");
 	date=setTempDate("timer");
 	date.addSecond(31);

@@ -48,6 +48,7 @@ function part2()
 	sleep(10);
     CMessage("** %DomName% turned off the mic **");
     CMessage("%stopstroking%", 0);
+	stopAudio();
 	stopStrokingAll();
     return;
 }

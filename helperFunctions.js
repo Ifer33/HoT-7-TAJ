@@ -10,6 +10,7 @@ function stopStrokingAll(message=null,delay=0,sender=1){
 		if(isStroking()&& strokingCycle){
 			//strokingCycle=false;
 			endStroking();
+			stopStroking();
 		}else{
 			if(isStroking()){
 				stopStroking();
@@ -35,6 +36,39 @@ function isStrokingAll(){
 	}else{
 		return false;
 	}
+}
+
+//restart metronome if stop stroking in a stroking intervall("used stroking()")
+function restartStroking(){
+	let apathyMoodIndex = getApathyMoodIndex();
+	let random = randomInteger(1, 10);
+	DMessage("random: " + random, 0);
+	let percentSession = (getMillisPassed() / 1000) / (getMinSessionLength() * 60);
+	//y = 52.2810035121697 + 6.42273993825994 * r * pS + 0.873930004197032 * r ^ 2 + 0.00137857491687123 * r * x ^ 2 - 0.00439450398010755 * x ^ 2
+	let bpm = 52.2810 + 6.4227 * random * percentSession + 0.8739 * Math.pow(random, 2) + 0.0014 * random * Math.pow(apathyMoodIndex, 2) - 0.0044 * Math.pow(apathyMoodIndex, 2);
+	startStroking(Math.floor(bpm));
+}
+
+//random funtion for categorys for iamge/video functions
+function randomCategory(){
+	return random("HARDCORE","SOFTCORE","LESBIAN","BLOWJOB","LEZDOM","FEMDOM","HENTAI","GAY","MALEDOM","CAPTIONS","GENERAL","BOOBS","BUTTS");
+}
+
+//waiting loop to stop a video after "time" seconds
+function stopVideoAfter(time=null){
+	if(time==null){
+		time=60;
+	}
+	let playing=0;
+	while(playing<time && isPlayingVideo()){
+		sleep(1);
+		playing++;
+	}
+	if(isPlayingVideo()){
+		stopVideo();
+	}
+	unlockImages();
+	return;
 }
 
 function chance(percent){
@@ -246,13 +280,15 @@ function execRndLine(lines=null){	//,delay=0, sender=-1){
 	if(lines instanceof Array){
 		var found = false;
 		while(!found){
-			DMessage(lines);
+			//DMessage(lines);
 			var i = randomInt(0,lines.length-1);
+			DMessage("i= "+i);
 			if(lines[i][0]==null){	//check if line has condition
 				found = true;
 				DMessage("execRndLine: no Condition");
 				DMessage("delay= "+delay);
 				DMessage("sender= "+sender);
+				if( lines[i][1] != null ){
 				if (delay == 0 && sender == -1){
 				//if( typeof lines[i][1] === "string" ){
 					CMessage(lines[i][1]);
@@ -263,13 +299,15 @@ function execRndLine(lines=null){	//,delay=0, sender=-1){
 					SMessage(lines[i][1],delay,sender);
 					DMessage("execRndLine: lines[i][1] ist array");
 				}
+				}
 				//CMessage(lines[i][1]);
 				if(lines[i][2]!=null){	//check if line has command
 					DMessage(lines[i][2]);
 					DMessage("execRndLine: lines[i][2] ist command");
 					eval(lines[i][2]);
 				}
-			}else if( lines[i][0].slice(lines[i][0].length-1)==")"){		//check if conditions is function call
+			//}else if( lines[i][0].slice(lines[i][0].length-1)==")"){		//check if conditions is function call
+			}else if( lines[i][0].charAt(lines[i][0].length-1)==")"){		//check if conditions is function call
 				DMessage("execRndLine: eval Condition");
 				//DMessage(eval(lines[i][0]));
 				if( eval(lines[i][0]) ){
@@ -277,6 +315,7 @@ function execRndLine(lines=null){	//,delay=0, sender=-1){
 					DMessage("execRndLine: has Condition");
 					DMessage("delay= "+delay);
 					DMessage("sender= "+sender);
+					if( lines[i][1] != null ){
 					if (delay == 0 && sender == -1){
 					//if( typeof lines[i][1] === "string" ){
 						CMessage(lines[i][1]);
@@ -286,6 +325,7 @@ function execRndLine(lines=null){	//,delay=0, sender=-1){
 						//SMessage(lines[i][1][0],lines[i][1][1],lines[i][1][2]);
 						SMessage(lines[i][1],delay,sender);
 						DMessage("execRndLine: lines[i][1] ist array");
+					}
 					}
 					//CMessage(lines[i]);
 					if(lines[i][2]!=null){
@@ -299,6 +339,7 @@ function execRndLine(lines=null){	//,delay=0, sender=-1){
 		setVar("sendDelay",0);
 		setVar("sendSender",-1);
 		DMessage("execRndLine: End");
+		unlockImages();
 		return;
 	}
 	setVar("sendDelay",0);
@@ -308,6 +349,12 @@ function execRndLine(lines=null){	//,delay=0, sender=-1){
 	return;
 }
 
+//used for SystemMessage in Stroketaunts
+function setSenderDelay(sender=-1, delay=-1){
+	setVar("sendDelay",delay);
+	setVar("sendSender",sender);
+	return true;
+}
 
 /**
 * checks one or an array of flags with "and"
@@ -425,6 +472,19 @@ function decideEdge(){	//decide holdEdge or stop atm just stop
 	}
 	DMessage("decideEdge: End");
 	return;
+}
+
+/**
+* simple helper method to test if given time passed since the given date
+* or beginning of the session in minutes
+**/
+function checkMinutesPassed(mins=null, timeVar = "startDate") {
+	DMessage("checkMinutesPassed: Beginning");
+	if(mins==null){
+		return null;
+	}
+	DMessage("checkMinutesPassed: End");
+    return mins<=getMinutesPassed(timeVar);;
 }
 
 /**
@@ -618,6 +678,22 @@ function checkOldApathyLevel(lvl=3){
 function getOldMoodLevel(){	//get old mood 1-10
 	DMessage("getOldMoodLevel: Beginn/End");
 	return Math.round(getMood()/10);
+}
+
+function firstRound(){
+	return getVar("firstRun",false);
+}
+
+function goodMood(){
+	return getMood()<=25;
+}
+
+function badMood(){
+	return getMood()>=75;
+}
+
+function neutralMood(){
+	return getMood()>=25 && getMood()<=75;
 }
 
 //you can use a number(setMood(30) ) or the moods as string(setMood("best"),setMood("random") )
@@ -944,9 +1020,10 @@ function restrictOrgasm(amount=1,unit="day"){
 }
 
 
-function showLocalTeasePicture(){
+function showLocalPicture(){
 	//todo
-	showTeaseImage();
+	//showTeaseImage();
+	showCategoryImage(random("HARDCORE","SOFTCORE","LESBIAN","BLOWJOB","LEZDOM","FEMDOM","HENTAI","CAPTIONS","GENERAL","BOOBS","BUTTS","GAY","MALEDOM") );
 	return;
 }
 
@@ -1162,13 +1239,23 @@ function hasTaggedImage(imageType, imageTags){
 
 
 //meaned to be like ResponseYes/No from TAI for taunts
-function question(message=null, yes=null, no =null, delay=0, sender=-1){
+function question(message=null, yes=null, no =null, delay=0, sender=1){
 	DMessage("question: Start");
 	
 	let answer0 = getInput(message, 10, delay, true, sender)
+	while (!(!answer0.isTimeout() || answer0.isLike("yes") || answer0.isLike("no") ))
+    {
+        if (answer0.isTimeout())
+		{
+			break;
+		}
+		answer0 = getInput("%YesOrNo%");
+    }
 	if (answer0.isLike("yes", "yeah", "course", "sure"))
 	{
-		if(yes != null && yes.slice(yes.length-1)==")" ){
+		//if(yes != null && yes.slice(yes.length-1)==")" ){
+		//if(yes != null && yes.charAt(yes.length-1)==")" ){
+		if(yes != null ){
 			DMessage("question: evalYes");
 			eval(yes);
 		}else {
@@ -1177,7 +1264,9 @@ function question(message=null, yes=null, no =null, delay=0, sender=-1){
 	}
 	else if (answer0.isLike("no", "nope", "sure"))
 	{
-		if(no != null && no.slice(no.length-1)==")" ){
+		//if(no != null && no.slice(no.length-1)==")" ){
+		//if(no != null && no.charAt(no.length-1)==")" ){
+		if(no != null ){
 			DMessage("question: evalNo");
 			eval(no);
 		}else {

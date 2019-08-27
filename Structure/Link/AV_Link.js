@@ -99,7 +99,7 @@ function AV_ChClothes()
     }
     CMessage("%AV_ChangeClothes%");
     CMessage("%Brb%");
-    getLocalTeasePicture("Images" + java.io.File.separator + "System" + java.io.File.separator + "Black.jpg");
+    showImage("Images" + java.io.File.separator + "System" + java.io.File.separator + "Black.jpg");
     //TODO: New domme slide show
     NoClothes();
     return;
@@ -522,7 +522,7 @@ function Continue9()
     setTempVar("AV_BreakOne", true);
     CMessage(random("Good thing ", "Thankfully ") + "you have some " + random("porn videos ", "videos ", "nice videos ") + "on your " + random("PC", "computer"));
     CMessage("Have fun");
-    playVideo("Videos" + java.io.File.separator + "*.*",true);
+    showCategoryVideo(randomCategory(),true);
     CMessage("%CensorContinue%");
 	setTempVar("AV_EdgeAV_FromVideo");
     run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "AV_EdgeAV.js");

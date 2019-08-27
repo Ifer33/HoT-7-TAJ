@@ -219,6 +219,7 @@ function NoChast()
     CMessage("In fact, consider yourself denied for the foreseeable future");
     CMessage("How about 2 weeks?");
     //--Command:RestrictOrgasm(2 Weeks)
+	restrictOrgasm(2, "week");
     CMessage("This should make you obey me next time");
     return;
     Fim();

@@ -305,7 +305,7 @@ function i_Will_Do_AnythingResponse(message) {
 					if(getVar("av_standing_position", false))
 					{
 						CMessage("You will now get into the Standing Position until I say to stop edging");
-						getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01.jpg");
+						showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01.jpg");
 						found = true;
 					}
 					break;
@@ -313,7 +313,7 @@ function i_Will_Do_AnythingResponse(message) {
 					if(getVar("av_submissive_position", false))
 					{
 						CMessage("You will now get into the Submissive Position until I say to stop edging");
-						getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "04.jpg");
+						showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "04.jpg");
 						found = true;
 					}
 					break;
@@ -321,7 +321,7 @@ function i_Will_Do_AnythingResponse(message) {
 					if(getVar("av_basic_position", false))
 					{
 						CMessage("You will now get into the Basic Position until I say to stop edging");
-						getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02.jpg");
+						showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02.jpg");
 						found = true;
 					}
 					break;
@@ -581,7 +581,7 @@ function i_Will_Do_AnythingResponse(message) {
 					if(getVar("av_standing_position", false))
 					{
 						CMessage("You will now get into the Standing Position until I say to stop %Stroking%");
-						getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01.jpg");
+						showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01.jpg");
 						found = true;
 					}
 					break;
@@ -589,7 +589,7 @@ function i_Will_Do_AnythingResponse(message) {
 					if(getVar("av_submissive_position", false))
 					{
 						CMessage("You will now get into the Submissive Position until I say to stop %Stroking%");
-						getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "04.jpg");
+						showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "04.jpg");
 						found = true;
 					}
 					break;
@@ -597,7 +597,7 @@ function i_Will_Do_AnythingResponse(message) {
 					if(getVar("av_basic_position", false))
 					{
 						CMessage("You will now get into the Basic Position until I say to stop %Stroking%");
-						getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02.jpg");
+						showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02.jpg");
 						found = true;
 					}
 					break;

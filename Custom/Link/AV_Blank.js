@@ -4,6 +4,6 @@ DMessage("AV_Blank: end");
 function main()
 {
     //CMessage("%StartStroking%");
-    setStrokingNoTaunt();
+    Stroking();
     return;
 }

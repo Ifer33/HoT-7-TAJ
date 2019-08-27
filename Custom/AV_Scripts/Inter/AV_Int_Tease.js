@@ -172,6 +172,7 @@ function a003()
         CMessage(random("Hit ", "Spank ") + "your balls");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "Belle10*.mp3");
         sleep(20);
+		stopAudio();
     }
     CMessage("%ThatsEnough%");
     sleep(20);

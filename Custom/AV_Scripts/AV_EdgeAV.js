@@ -39,6 +39,7 @@ function EdgeForGoto()
 {
 	edged=true;
 	slideShowOff();
+	stopStrokingAll();
     //TODO: Turn Slideshow off
     switch(random("V10", "V15", "V60"))
     {
@@ -62,7 +63,8 @@ function V10()
 {
     CMessage("stay on the edge");
     playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "10" + java.io.File.separator + "*.mp4",true);
-    CMessage("%stopstroking%", 0);
+	//stopStrokingAll();
+    CMessage("%stopstrokingedge%", 0);
     FimEdge();
     return;
     V15();
@@ -71,7 +73,8 @@ function V15()
 {
     CMessage("stay on the edge");
     playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "15" + java.io.File.separator + "*.mp4",true);
-    CMessage("%stopstroking%", 0);
+	//stopStrokingAll();
+    CMessage("%stopstrokingedge%", 0);
     FimEdge();
     return;
     V60();
@@ -80,7 +83,8 @@ function V60()
 {
     CMessage("stay on the edge");
     playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "60" + java.io.File.separator + "*.mp4",true);
-    CMessage("%stopstroking%", 0);
+	//stopStrokingAll();
+    CMessage("%stopstrokingedge%", 0);
     FimEdge();
     return;
     FimEdge();

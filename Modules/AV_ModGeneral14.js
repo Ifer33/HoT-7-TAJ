@@ -447,7 +447,7 @@ function Modulo2()
     CMessage("We will be doing something different.");
     CMessage("When I said you need to follow instructions, this is what I meant.");
     CMessage("Now, I want you to hold this position until I say otherwise.");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "*.jpg");
     sleep(15);
     CMessage("Do not move.");
     let answer0 = getInput("Does it make you uncomfortable, standing naked?",10);

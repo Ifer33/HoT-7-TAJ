@@ -120,6 +120,10 @@ general stuff to keep an eye on, new scripts:
 	%pthevCoCo1% from %pthevCoCo-1% check other scripts coming
 
 bugged:
+	%stroketaunts_1%
+	I'm %Gonna% make you regret every single picture you have on that hard drive %Grin% %ShowTeaseImage%
+	image will not be shown
+	
 	SMessage("<c=green b> %AV_GirlName% :%AV_ShowOmelegPics% <c=black b>%AV_OmLegStroke%"); colors in chat how does it work
 				
 	Omeleg still bugged, edgeloop, checkvars, checkvocabs vocabs %subname%%subname%

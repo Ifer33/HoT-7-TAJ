@@ -396,7 +396,7 @@ function AV_Know_03()
 function av_basic_position()
 {
     CMessage("You will now get into the Basic Position");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02.jpg");
     lockImages();
     CMessage("and wait until you hear a stroking beat.");
     CMessage("Stroke to the beat and return when it stops.");

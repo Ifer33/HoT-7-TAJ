@@ -212,31 +212,37 @@ function Punish01()
         CMessage("Now smack yourself in the cock.");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
         sleep(10);
+		stopAudio();
     }
     if(getVar("AV_DommeMistress", false))
     {
         CMessage("Now smack yourself in the cock.");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "Spank15.mp3");
         sleep(10);
+		stopAudio();
     }
     CMessage("Now smack yourself in the cock. Harder!");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
     sleep(10);
+	stopAudio();
     CMessage("And think about the %Slave% you are and what you\'ll do for me.");
     CMessage("Do it again");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
     sleep(10);
+	stopAudio();
     if(!getVar("AV_DommeMistress", false))
     {
         CMessage("and again");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
         sleep(10);
+		stopAudio();
     }
     if(getVar("AV_DommeMistress", false))
     {
         CMessage("and again");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "Spank15.mp3");
         sleep(10);
+		stopAudio();
     }
     CMessage("because you deserve it and you know it.");
     CMessage("Next I want you to stand in the corner and squeeze your balls.");
@@ -266,18 +272,21 @@ function Punish01()
         CMessage("Now smack yourself in the ass.");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
         sleep(10);
+		stopAudio();
     }
     if(getVar("AV_DommeMistress", false))
     {
         CMessage("Now smack yourself in the ass.");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "Spank10.mp3");
         sleep(10);
+		stopAudio();
     }
     if(getVar("AV_DommeMistress", false))
     {
         CMessage("Again.");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "Spank15.mp3");
         sleep(10);
+		stopAudio();
     }
     CMessage("Punishing you over and over again.");
     CMessage("I despise you.");
@@ -298,14 +307,17 @@ function Punish02()
     SMessage("NOW!!", -1, 4);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
     sleep(10);
+	stopAudio();
     SMessage("Again", -1, 4);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
     sleep(10);
+	stopAudio();
     SMessage("the only thing that worthless cock is good for is owning and controlling you....", -1, 4);
     SMessage("and I will " + "...own and control you.", -1, 4);
     SMessage("Spank your cock", -1, 4);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
     sleep(10);
+	stopAudio();
     SMessage("Start putting those clothespins on your balls", -1, 4);
     sleep(10);
     SMessage("Keep going", -1, 4);
@@ -502,6 +514,7 @@ function Punish04()
         CMessage("In this case, start slaping your flacid cock");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "Spank15.mp3");
         sleep(10);
+		stopAudio();
     }
     CMessage("%SitDown% and remove the clothespins now...");
     sleep(10);
@@ -523,18 +536,21 @@ function Punish05()
         CMessage("Now " + random("slap ", "smack ") + "your %Balls%.");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
         sleep(10);
+		stopAudio();
     }
     if(getVar("AV_DommeMistress", false))
     {
         CMessage("Now " + random("slap ", "smack ") + "your %Balls%.");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "Spank15.mp3");
         sleep(10);
+		stopAudio();
     }
     if(getVar("AV_DommeMistress", false))
     {
         CMessage("Harder!");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
         sleep(10);
+		stopAudio();
     }
     CMessage("Don\'t let up part of the way through just because it hurts.");
     CMessage("Those fucking balls belong to me!");
@@ -547,12 +563,14 @@ function Punish05()
         CMessage(random("slap ", "smack ") + "your %Balls%.");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "Belle05*.mp3");
         sleep(10);
+		stopAudio();
     }
     if(getVar("AV_DommeMistress", false))
     {
         CMessage(random("slap ", "smack ") + "your %Balls%.");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "Belle10*.mp3");
         sleep(15);
+		stopAudio();
     }
     CMessage("Get those nuts nice and tenderized");
     if(getVar("AV_DommeMistress", false))
@@ -560,6 +578,7 @@ function Punish05()
         CMessage(random("slap ", "smack ") + "your %Balls%.");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "Belle05*.mp3");
         sleep(10);
+		stopAudio();
     }
     CMessage("I don\'t want to hear any complaining about the state of that sack.");
     CMessage("If I were with you, I\'d make you beg for me to kick harder, beg to have yourself destroyed.");
@@ -720,6 +739,7 @@ function Punish08()
     CMessage("Now smack yourself in the ass.");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "DSpank" + java.io.File.separator + "*.mp3");
     sleep(70);
+	stopAudio();
     CMessage("I am going to destroy your manhood physically and verbally!");
     CMessage("%SitDown%");
     return;

@@ -134,7 +134,7 @@ function av_quest_01()
     CMessage("I want to look at your posture.");
     setVar("av_quest_02", true);
     CMessage("Move forward, until you are on the edge of your seat.");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02.jpg");
     lockImages();
     CMessage("Spread your legs apart.");
     CMessage("Place your feet securely on the ground.");
@@ -245,7 +245,7 @@ function av_quest_05()
     setVar("av_quest_06", true);
     lockImages();
     CMessage("is the \"Standing Position\".");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01.jpg");
     CMessage("Guess what...");
     CMessage("... right. Stand up straight");
     CMessage("feet slightly apart,");
@@ -319,7 +319,7 @@ function av_quest_09()
     CMessage("The next topic for today is");
     setVar("av_quest_10", true);
     CMessage("the \"Submissive Position\"");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "04.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "04.jpg");
     lockImages();
     CMessage("Listen carefully.");
     CMessage("I want you %KneelForMe%");
@@ -358,6 +358,8 @@ function av_quest_11()
 {
     CMessage("This position is called \'kneel\'");
     setVar("av_quest_12", true);
+	lockImages();
+	showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "03.jpg");
     CMessage("So when I tell you \'Kneel %PetName% \' I want you on your knees");
     CMessage("Your knees and ankles touching each others");
     CMessage("Your back straight");
@@ -365,6 +367,7 @@ function av_quest_11()
     CMessage("Your head bowed down");
     setVar("png__position_kneel", true);
     CMessage("If I want you to keep this one for a long time I\'ll tell you to get a pillow for under your knees");
+	unlockImages();
     CMessage("And if you get punished the pillow can be replaced by rice or frozen peas");
     CMessage("Trust me after a few minutes kneeling on rice you\'ll be a lot more obedient %lol%");
     CMessage("Let\'s try it");
@@ -404,6 +407,8 @@ function av_quest_12()
 function av_quest_13()
 {
     CMessage("The next one is the \'worship\' position");
+	lockImages();
+	showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "all" + java.io.File.separator + "worship.jpg");
     setVar("av_quest_14", true);
     CMessage("You\'ll do this one each time I tell you to worship me or you pray to me");
     setVar("png__position_worship", true);
@@ -412,7 +417,6 @@ function av_quest_13()
     CMessage("Back and head down, your forehead touching ground");
     CMessage("Your arms stretched in front of your reaching far");
     CMessage("Your hands together palm down touching the floor");
-    getLocalTeasePicture("Images" + java.io.File.separator + "png" + java.io.File.separator + "worship.jpg");
     unlockImages();
     CMessage("Let\'s try it");
     CMessage("Worship me by saying out loud \"I will always obey, love and worship %DomHonorific% %DomName%\" 20 times");
@@ -472,12 +476,13 @@ function av_quest_16()
     setVar("av_quest_17", true);
     CMessage("It\'s also a kneeling position");
     setVar("png__position_beg", true);
+	lockImages();
+	showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "all" + java.io.File.separator + "beg.jpg");
     CMessage("But this time Your knees are slighly apart around 10 inches/25 centimeters");
     CMessage("Sitting on your heels, back straight");
     CMessage("Hands on your laps, palms up");
     CMessage("And head up, eyes looking down");
     CMessage("Each time you have something to ask of me or if I tell you to beg me I want you in this position! %Grin%");
-    getLocalTeasePicture("Images" + java.io.File.separator + "png" + java.io.File.separator + "beg.jpg");
     lockImages();
     CMessage("Let\'s try it");
     setRapidText(true);
@@ -535,7 +540,7 @@ function av_quest_done()
 function Submissive()
 {
     CMessage("You will now get into the Submissive Position");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "04.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "04.jpg");
     lockImages();
     CMessage("and wait until you hear a stroking beat.");
     CMessage("Stroke to the beat and return when it stops.");
@@ -546,7 +551,7 @@ function Submissive()
 function Standing()
 {
     CMessage("You will now get into the Standing Position");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01.jpg");
     lockImages();
     CMessage("and wait until you hear a stroking beat.");
     CMessage("Stroke to the beat and return when it stops.");
@@ -557,7 +562,7 @@ function Standing()
 function Basic()
 {
     CMessage("You will now get into the Basic Position");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02.jpg");
     lockImages();
     CMessage("and wait until you hear a stroking beat.");
     CMessage("Stroke to the beat and return when it stops.");

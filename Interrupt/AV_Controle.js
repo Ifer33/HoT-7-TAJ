@@ -169,7 +169,6 @@ function Part1_12()
 function Mod1()
 {
     setTempVar("moduletorun", "Custom" + java.io.File.separator + "Modules" + java.io.File.separator + "AV_RuinHorny1.js")
-    //getLocalTeasePicture("Images" + java.io.File.separator + "AV_RuinHorny1");
     NoRuin();
     return;
     Mod2();
@@ -177,7 +176,6 @@ function Mod1()
 function Mod2()
 {
     setTempVar("moduletorun", "Custom" + java.io.File.separator + "Modules" + java.io.File.separator + "AV_RuinHorny2.js")
-    //getLocalTeasePicture("Images" + java.io.File.separator + "AV_RuinHorny2");
     NoRuin();
     return;
     Mod3();
@@ -185,7 +183,6 @@ function Mod2()
 function Mod3()
 {
     setTempVar("moduletorun", "Custom" + java.io.File.separator + "Modules" + java.io.File.separator + "AV_RuinHorny3.js")
-    //getLocalTeasePicture("Images" + java.io.File.separator + "AV_RuinHorny3");
     NoRuin();
     return;
     NoRuin();
@@ -544,7 +541,7 @@ function AV_NoPosi()
     CMessage(random("Good thing ", "Thankfully ") + "you have some " + random("porn videos ", "videos ", "nice videos ") + "on your " + random("PC", "computer"));
     CMessage("Stroke to the beat %Grin%");
     CMessage("Have fun");
-    playVideo("Videos" + java.io.File.separator + "*.*",true);
+    showCategoryVideo(randomCategory(),true);
     CMessage("%CensorContinue%");
     return;
     CrushesAV();

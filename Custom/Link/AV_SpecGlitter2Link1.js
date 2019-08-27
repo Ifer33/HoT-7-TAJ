@@ -8,9 +8,9 @@ function main()
     SMessage("further punishment will ensue.", -1, 3);
 	setTempVar("moduletorun", "Custom" + java.io.File.separator + "Modules" + java.io.File.separator + "AV_SpecGlitter2Module1.js");
     //setVar("moduletorun", "AV_SpecGlitter2Module1")
-    getLocalTeasePicture("Images" + java.io.File.separator + "AV_SpecGlitter2Module1");
     SMessage("So don\'t disrespect me %Slave%.", -1, 3);
     //SMessage("%StartStroking%", -1, 3);
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
+	Stroking(-1,3);
     return;
 }

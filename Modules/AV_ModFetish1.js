@@ -419,10 +419,10 @@ function Modulo1()
     setRapidText(false);
     CMessage("2");
     CMessage("1");
+	stopAudio();
     CMessage("Are you there slave? Are you on the brink? Hold it!");
     CMessage("That\'s right, hold it for Mistress!");
     CMessage("Almost there...");
-	stopAudio();
     CMessage("%stopstroking%", 0);
     CMessage("Aww, look at it bobbing up and down...");
     CMessage("It really wanted to cum, didn\'t it?");

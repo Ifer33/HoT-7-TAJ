@@ -58,11 +58,11 @@ function Sub_Not_Stroking()
     CMessage("Ready?");
     CMessage("ONE.");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "whip.mp3");
-    if(getVar("av_fetish_pain", false))
+    if(getVar("av_fetish_rough", false))
     {
-        CMessage("%stopstroking%", 0);
+        CMessage("Stop. We both know you didn't even try. That little bitch tap is laughable.");
     }
-    if(getVar("av_fetish_pain", false))
+    if(getVar("av_fetish_rough", false))
     {
         CMessage("That wasn\'t pain you felt, just shock.");
     }
@@ -81,13 +81,13 @@ function Sub_Not_Stroking()
     }
     CMessage("Hmph. TWO.");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "whip.mp3");
-    CMessage("%stopstroking%", 0);
+    CMessage("Stop being a pussy. Harder: THREE.");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "whip.mp3");
     CMessage("FOUR.");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "whip.mp3");
     CMessage("FIVE.");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "whip.mp3");
-    CMessage("%stopstroking%", 0);
+    CMessage("Stop. Hold your balls with your other hand");
     CMessage("and pull the sack skin taut until your balls are held still so they get the full impact.");
     CMessage("Now one more, as hard as before, and you\'d better not hold back.");
     CMessage("SIX.");

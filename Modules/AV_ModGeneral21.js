@@ -415,6 +415,7 @@ function Modulo1()
         CMessage("Go");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
         sleep(15);
+		stopAudio();
     }
     if(getVar("av_fetish_rough", false) && getVar("av_fetish_pain", false))
     {
@@ -426,6 +427,7 @@ function Modulo1()
         CMessage("Go");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
         sleep(15);
+		stopAudio();
         CMessage("How do your balls feel *now,* huh? ");
     }
     CMessage("Aw, they hurt?  That\'s so sad for you");
@@ -489,6 +491,7 @@ function GLR01()
     SMessage("Forget whatever was in your mind", -1, 2);
     SMessage("All I want to do is play with your cock and your mind.", -1, 2);
     CMessage("%stopstroking%", 0);
+	stopAudio();
 	stopStrokingAll();
     sleep(10);
     SMessage("You are nothing but a mere mortal before your Goddess.", -1, 2);
@@ -498,6 +501,7 @@ function GLR01()
     SMessage("Your brain is lost.", -1, 2);
     SMessage("And you are left in a state that will make you more and more addicted to the desire to cum.", -1, 2);
     SMessage("More and more addicted to my words and the playful games that I am going to play with you.", -1, 2);
+	stopAudio();
     DoEdges(2, 3, 0);
 	addContact(1);
     SMessage("I\'m satisfied .... for now", -1, 2);
@@ -523,6 +527,7 @@ function GLR02()
         SMessage(random("Spank ", "Hit ") + "your balls", -1, 3);
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "G2Spank" + java.io.File.separator + "*.mp3");
         sleep(20);
+		stopAudio();
     }
     SMessage("Move your hand for me, release all your energy, make your desires come true.", -1, 3);
     //playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStroke.mp3");
@@ -559,6 +564,7 @@ function GLR03()
         SMessage(random("Spank ", "Hit ") + "your balls", -1, 4);
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "G3Spank" + java.io.File.separator + "*.mp3");
         sleep(21);
+		stopAudio();
     }
     SMessage("The Girls are in charge.", -1, 4);
     SMessage("Everything we do is for our pleasure, not yours.", -1, 4);
@@ -570,6 +576,7 @@ function GLR03()
         SMessage(random("Spank ", "Hit ") + "your balls", -1, 4);
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "G3Spank" + java.io.File.separator + "*.mp3");
         sleep(21);
+		stopAudio();
     }
     SMessage("I am an evil, cruel, slightly psychotic, cock teasing SADIST, and you belong to me now!", -1, 4);
     DoEdges(2, 3, 0);
@@ -627,9 +634,11 @@ function Modulo2()
     sleep(10);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
     sleep(15);
+	stopAudio();
     CMessage("Time to put that %Balls% to good use.");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
     sleep(15);
+	stopAudio();
     CMessage("Now put 2 clothespins on your niples and " + randomInt(3, 6) + "on your balls");
     sleep(20);
     CMessage("You know how much I love knowing that you\'re suffering right?");
@@ -711,10 +720,12 @@ function AV_DontPain32()
     CMessage(random("spank ", "hit ") + "your %Balls%");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
     sleep(15);
+	stopAudio();
     edge();
     CMessage(random("spank ", "hit ") + "your %Balls%");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
     sleep(15);
+	stopAudio();
     if(!getVar("AV_DommeMistress", false))
     {
         edge();
@@ -726,6 +737,7 @@ function AV_DontPain32()
     CMessage(random("spank ", "hit ") + "your %Balls%");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
     sleep(15);
+	stopAudio();
     CMessage("%SitDown%");
     AV_DontPain34();
 }
@@ -831,6 +843,7 @@ function AV_RGBLoop()
     sleep(randomInt(5, 8));
     //redLight();
 	if(edged){
+		stopAudio();
 		return;
 	}else{
 		CMessage("%redLight%");

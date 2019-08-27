@@ -1,0 +1,19 @@
+I'm going to %MakeSure% %That% %Cock% %Aches% for me %GeneralTime%
+I %Want% for you to %MakeSure% %That% %Cock% %Aches% for me
+I %Want% for you to %MakeSure% %That% %Cock% %Aches% for me, %Name%
+I %Want% for you to %MakeSure% %That% %Cock% is %Aching% for me
+I %Want% for you to %MakeSure% %That% %Cock% is %Aching% for me, %Name%
+I %Want% you to %MakeSure% %That% %Cock% %Aches% for me
+I %Want% you to %MakeSure% %That% %Cock% %Aches% for me, %Name%
+I %Want% you to %MakeSure% %That% %Cock% is %Aching% for me
+I %Want% you to %MakeSure% %That% %Cock% is %Aching% for me, %Name%
+%TellMe% %AllAbout% %How% your %Aching%
+%TellMe% %AllAbout% %How% your %Aching%, %Name%
+%TellMe% %AllAbout% %How% your %Aching% for me
+%TellMe% %AllAbout% %How% your %Aching% for me, %Name%
+%TellMe% %AllAbout% the %Ache% in %That% %Cock%
+%TellMe% %AllAbout% the %Ache% in %That% %Cock%, %Name%
+%TellMe% %AllAbout% %How% %That% %Cock% is %Aching%
+%TellMe% %AllAbout% %How% %That% %Cock% is %Aching%, %Name%
+%TellMe% %AllAbout% %How% %That% %Cock% is %Aching% for me
+%TellMe% %AllAbout% %How% %That% %Cock% is %Aching% for me, %Name%

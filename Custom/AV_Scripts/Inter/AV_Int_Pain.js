@@ -167,6 +167,7 @@ function RealStart()
     CMessage(random("Hit ", "Spank ") + "your balls");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "Belle10*.mp3");
     sleep(20);
+	stopAudio();
     DoEdges(3, 5, 0);
     if(getVar("av_fetish_rough", false) || getVar("AV_DommeMistress", false))
     {
@@ -185,22 +186,26 @@ function RealStart()
         CMessage("Now 30 to those %Balls%");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "Spank15.mp3");
         sleep(20);
+		stopAudio();
     }
     if(getVar("AV_DommeMistress", false))
     {
         CMessage("Hurt it %Slave%!");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "Spank15.mp3");
         sleep(20);
+		stopAudio();
     }
     if(!getVar("AV_DommeMistress", false))
     {
         CMessage("Now 10 to those %Balls%");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "Spank10.mp3");
         sleep(20);
+		stopAudio();
     }
     CMessage("Now 10 to the top of that %Cock%");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "Belle10*.mp3");
     sleep(20);
+	stopAudio();
     edge("%Edge%");
     edge("%Edge%");
     CMessage("Now attach 6 clothespins to your %Balls%");
@@ -411,10 +416,13 @@ function top_caning()
     setRapidText(true);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "whip.mp3");
     setVar("PtheVCaneCount", 1);
+	sleep(2);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "whip.mp3");
     setVar("PtheVCaneCount", getVar("PtheVCaneCount", 0) + 1);
+	sleep(2);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "whip.mp3");
     setVar("PtheVCaneCount", getVar("PtheVCaneCount", 0) + 1);
+	sleep(2);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "whip.mp3");
     setVar("PtheVCaneCount", getVar("PtheVCaneCount", 0) + 1);
     CMessage("%pthevCaningTaunts%");
@@ -435,7 +443,7 @@ function top_caning()
 }
 function another_one()
 {
-	sleep(1);
+	sleep(2);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "whip.mp3");
     setVar("PtheVCaneCount", getVar("PtheVCaneCount", 0) + 1);
     if (getVar("PtheVCaneCount", 0) == getVar("AV_Cane", 0))

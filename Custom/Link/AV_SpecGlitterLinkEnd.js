@@ -10,8 +10,7 @@ function main()
     CMessage("And you know what this means");
 	setTempVar("moduletorun", "Custom" + java.io.File.separator + "Modules" + java.io.File.separator + "AV_DommeBackModule.js");
     //setVar("moduletorun", "AV_DommeBackModule")
-    getLocalTeasePicture("Images" + java.io.File.separator + "AV_DommeBackModule");
     //CMessage("%StartStroking%");
-    setStrokingNoTaunt();
+    Stroking();
     return;
 }

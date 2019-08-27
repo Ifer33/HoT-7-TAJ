@@ -276,23 +276,23 @@ function EndScript()
     CMessage("I can\'t wait to see you again %EmoteHappy% Bye");
     setRapidText(true);
     SMessage("<b>END SESSION REPORT</b>");
-	getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+	showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("The Domme mood ended in %DomMood%");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("The Domme level ended in %DomLevel%");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("The Domme apathy ended in %DomApathy%");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     if(getVar("AV_DommeMistress", false))
     {
         CMessage("Mistress Mode actived in this session");
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
         setRapidText(false);
     }
     SMessage("That Status will be reseted in the next session");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     sleep(10);
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     endSession();
     return;
 }

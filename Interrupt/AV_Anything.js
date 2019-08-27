@@ -121,7 +121,7 @@ function kneel()
 function Basic()
 {
     CMessage("You will now get into the Basic Position for 5 minutes (check the clock)");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02.jpg");
 	sleep(300);
     //unlockImages();
     return;
@@ -130,7 +130,7 @@ function Basic()
 function Stand()
 {
     CMessage("You will now get into the Stand Position for 5 minutes (check the clock)");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01.jpg");
 	sleep(300);
     //unlockImages();
     return;

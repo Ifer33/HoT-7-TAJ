@@ -877,7 +877,7 @@ function CardStart()
 function a01()
 {
     CMessage("Ace");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
     setVar("AV_CardGameSubA", getVar("AV_CardGameSubA", 0) + 1);
     CardGameA();
     return;
@@ -886,7 +886,7 @@ function a01()
 function a02()
 {
     CMessage("Two");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
     setVar("AV_CardGameSubA", getVar("AV_CardGameSubA", 0) + 2);
     CardGameA();
     return;
@@ -895,7 +895,7 @@ function a02()
 function a03()
 {
     CMessage("Three");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
     setVar("AV_CardGameSubA", getVar("AV_CardGameSubA", 0) + 3);
     CardGameA();
     return;
@@ -904,7 +904,7 @@ function a03()
 function a04()
 {
     CMessage("Four");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "04" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "04" + java.io.File.separator + "*.jpg");
     setVar("AV_CardGameSubA", getVar("AV_CardGameSubA", 0) + 4);
     CardGameA();
     return;
@@ -913,7 +913,7 @@ function a04()
 function a05()
 {
     CMessage("Five");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "05" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "05" + java.io.File.separator + "*.jpg");
     setVar("AV_CardGameSubA", getVar("AV_CardGameSubA", 0) + 5);
     CardGameA();
     return;
@@ -922,7 +922,7 @@ function a05()
 function a06()
 {
     CMessage("Six");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "06" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "06" + java.io.File.separator + "*.jpg");
     setVar("AV_CardGameSubA", getVar("AV_CardGameSubA", 0) + 6);
     CardGameA();
     return;
@@ -931,7 +931,7 @@ function a06()
 function a07()
 {
     CMessage("Seven");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "07" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "07" + java.io.File.separator + "*.jpg");
     setVar("AV_CardGameSubA", getVar("AV_CardGameSubA", 0) + 7);
     CardGameA();
     return;
@@ -940,7 +940,7 @@ function a07()
 function a08()
 {
     CMessage("Eight");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "08" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "08" + java.io.File.separator + "*.jpg");
     setVar("AV_CardGameSubA", getVar("AV_CardGameSubA", 0) + 8);
     CardGameA();
     return;
@@ -949,7 +949,7 @@ function a08()
 function a09()
 {
     CMessage("Nine");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "09" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "09" + java.io.File.separator + "*.jpg");
     setVar("AV_CardGameSubA", getVar("AV_CardGameSubA", 0) + 9);
     CardGameA();
     return;
@@ -958,7 +958,7 @@ function a09()
 function a10()
 {
     CMessage("Ten");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "10" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "10" + java.io.File.separator + "*.jpg");
     setVar("AV_CardGameSubA", getVar("AV_CardGameSubA", 0) + 10);
     CardGameA();
     return;
@@ -967,7 +967,7 @@ function a10()
 function a11()
 {
     CMessage("jack");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "11" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "11" + java.io.File.separator + "*.jpg");
     setVar("AV_CardGameSubA", getVar("AV_CardGameSubA", 0) + 11);
     CardGameA();
     return;
@@ -976,7 +976,7 @@ function a11()
 function a12()
 {
     CMessage("Queen");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "12" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "12" + java.io.File.separator + "*.jpg");
     setVar("AV_CardGameSubA", getVar("AV_CardGameSubA", 0) + 12);
     CardGameA();
     return;
@@ -985,7 +985,7 @@ function a12()
 function a13()
 {
     CMessage("King");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "13" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "13" + java.io.File.separator + "*.jpg");
     setVar("AV_CardGameSubA", getVar("AV_CardGameSubA", 0) + 13);
     CardGameA();
     return;
@@ -1054,7 +1054,7 @@ function CardGameA()
 function a01D()
 {
     CMessage("Ace");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
     setVar("AV_CardGameDomA", getVar("AV_CardGameDomA", 0) + 1);
     CardGameB();
     return;
@@ -1063,7 +1063,7 @@ function a01D()
 function a02D()
 {
     CMessage("Two");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
     setVar("AV_CardGameDomA", getVar("AV_CardGameDomA", 0) + 2);
     CardGameB();
     return;
@@ -1072,7 +1072,7 @@ function a02D()
 function a03D()
 {
     CMessage("Three");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
     setVar("AV_CardGameDomA", getVar("AV_CardGameDomA", 0) + 3);
     CardGameB();
     return;
@@ -1081,7 +1081,7 @@ function a03D()
 function a04D()
 {
     CMessage("Four");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "04" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "04" + java.io.File.separator + "*.jpg");
     setVar("AV_CardGameDomA", getVar("AV_CardGameDomA", 0) + 4);
     CardGameB();
     return;
@@ -1090,7 +1090,7 @@ function a04D()
 function a05D()
 {
     CMessage("Five");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "05" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "05" + java.io.File.separator + "*.jpg");
     setVar("AV_CardGameDomA", getVar("AV_CardGameDomA", 0) + 5);
     CardGameB();
     return;
@@ -1099,7 +1099,7 @@ function a05D()
 function a06D()
 {
     CMessage("Six");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "06" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "06" + java.io.File.separator + "*.jpg");
     setVar("AV_CardGameDomA", getVar("AV_CardGameDomA", 0) + 6);
     CardGameB();
     return;
@@ -1108,7 +1108,7 @@ function a06D()
 function a07D()
 {
     CMessage("Seven");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "07" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "07" + java.io.File.separator + "*.jpg");
     setVar("AV_CardGameDomA", getVar("AV_CardGameDomA", 0) + 7);
     CardGameB();
     return;
@@ -1117,7 +1117,7 @@ function a07D()
 function a08D()
 {
     CMessage("Eight");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "08" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "08" + java.io.File.separator + "*.jpg");
     setVar("AV_CardGameDomA", getVar("AV_CardGameDomA", 0) + 8);
     CardGameB();
     return;
@@ -1126,7 +1126,7 @@ function a08D()
 function a09D()
 {
     CMessage("Nine");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "09" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "09" + java.io.File.separator + "*.jpg");
     setVar("AV_CardGameDomA", getVar("AV_CardGameDomA", 0) + 9);
     CardGameB();
     return;
@@ -1135,7 +1135,7 @@ function a09D()
 function a10D()
 {
     CMessage("Ten");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "10" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "10" + java.io.File.separator + "*.jpg");
     setVar("AV_CardGameDomA", getVar("AV_CardGameDomA", 0) + 10);
     CardGameB();
     return;
@@ -1144,7 +1144,7 @@ function a10D()
 function a11D()
 {
     CMessage("jack");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "11" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "11" + java.io.File.separator + "*.jpg");
     setVar("AV_CardGameDomA", getVar("AV_CardGameDomA", 0) + 11);
     CardGameB();
     return;
@@ -1153,7 +1153,7 @@ function a11D()
 function a12D()
 {
     CMessage("Queen");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "12" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "12" + java.io.File.separator + "*.jpg");
     setVar("AV_CardGameDomA", getVar("AV_CardGameDomA", 0) + 12);
     CardGameB();
     return;
@@ -1162,7 +1162,7 @@ function a12D()
 function a13D()
 {
     CMessage("King");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "13" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "cards3" + java.io.File.separator + "13" + java.io.File.separator + "*.jpg");
     setVar("AV_CardGameDomA", getVar("AV_CardGameDomA", 0) + 13);
     CardGameB();
     return;

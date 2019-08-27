@@ -443,13 +443,16 @@ function Modulo2()
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b055.mp3");
     CMessage("You enjoy that, don\'t you?");
     CMessage("Mmmh following all my instructions like a good boy.");
+	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b075.mp3");
     CMessage("I love to imagine your hard cock in your hand.");
     CMessage("Stroke a little faster, that\'s it.");
+	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b120.mp3");
     CMessage("Mhmmm. Keep %Stroking% it for me.");
     CMessage("We\'re stroking it faster. Nice and hard.");
     CMessage("Now %Edge%");
+	stopAudio();
     //startEdging();
 	setLongHold(50);
     holdEdge();
@@ -581,7 +584,7 @@ function Modulo4()
     CMessage(random("Good thing ", "Thankfully ") + "you have some videos on your computer");
     CMessage("Stroke to the beat %Grin%");
     CMessage("Have fun");
-    playVideo("Videos" + java.io.File.separator + "*.*",true);
+    showCategoryVideo(randomCategory(),true);
     CMessage("%CensorContinue%");
     return;
     av_fetish_pain();

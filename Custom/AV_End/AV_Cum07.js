@@ -118,11 +118,11 @@ function Start()
     CMessage("Stroke that %Cock%");
     CMessage("Make sure you get ready to cum for me");
     CMessage(random("I\'ll even show you some pictures to help you", "I want you to feel good right now, %PetName%"));
-    showLocalTeasePicture();
+    showLocalPicture();
     CMessage("Tighten your grip...");
-    showLocalTeasePicture();
+    showLocalPicture();
     CMessage("Feel that hard %Cock% pulsing in the palm of your hand");
-    showLocalTeasePicture();
+    showLocalPicture();
     CMessage("All that matters right now is building up an incredible orgasm");
     var orgasmResult = decideOrgasm();
     if (orgasmResult == 2)

@@ -613,10 +613,13 @@ function top_caning()
     //setRapidText(true);
     playAudio("Audio" + java.io.File.separator + "MissBlue" + java.io.File.separator + "cane.mp3",true);
     setVar("PtheVCaneCount", 1);
+	sleep(2);
     playAudio("Audio" + java.io.File.separator + "MissBlue" + java.io.File.separator + "cane.mp3",true);
     setVar("PtheVCaneCount", getVar("PtheVCaneCount", 0) + 1);
+	sleep(2);
     playAudio("Audio" + java.io.File.separator + "MissBlue" + java.io.File.separator + "cane.mp3",true);
     setVar("PtheVCaneCount", getVar("PtheVCaneCount", 0) + 1);
+	sleep(2);
     playAudio("Audio" + java.io.File.separator + "MissBlue" + java.io.File.separator + "cane.mp3",true);
     setVar("PtheVCaneCount", getVar("PtheVCaneCount", 0) + 1);
     CMessage("%pthevCaningTaunts%");
@@ -637,6 +640,7 @@ function top_caning()
 function another_one()
 {
     playAudio("Audio" + java.io.File.separator + "MissBlue" + java.io.File.separator + "cane.mp3",true);
+	sleep(2);
     setVar("PtheVCaneCount", getVar("PtheVCaneCount", 0) + 1);
     if (getVar("PtheVCaneCount", 0) == 20)
     {

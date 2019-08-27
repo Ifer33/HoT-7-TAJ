@@ -212,7 +212,7 @@ function EdgesAdd()
 function Sub_help()
 {
     SMessage("I hope this video will help to get your %Cock% hard", -1, 2);
-    playVideo("Videos" + java.io.File.separator + "*.*",true);
+    showCategoryVideo(randomCategory(),true);
     SMessage("I expect that you are hard now so", -1, 2);
     let answer0 = getInput("Tell me when you are ready to get to serious stroking!",null, -1, true, 2);
     while (!(answer0.isLike("ready") || answer0.isLike("ok") || answer0.isLike("yes") || answer0.isLike("no")))
@@ -906,7 +906,7 @@ function Break()
     SMessage("Just take a break without stroking", -1, 2);
     SMessage("Only watch this video and try to relax.", -1, 2);
     SMessage("Simply watch out, that your %Cock% stays hard.", -1, 2);
-    playVideo("Videos" + java.io.File.separator + "*.*",true);
+    showCategoryVideo(randomCategory(),true);
     SMessage("Ok your break is over", -1, 2);
     SMessage("But before we move on with working on your edgegoal, just give me one extra edge %Grin%", -1, 2);
     setRapidText(false);
@@ -1096,7 +1096,7 @@ function Cum_break()
     SMessage("I will give you a short break to allow your %Balls% to get filled up a bit again.", -1, 2);
     SMessage("Therefore sit and watch the next video, but dont touch your %Cock%", -1, 2);
     SMessage("After the video, you will immediately get the chance to touch it again", -1, 2);
-    playVideo("Videos" + java.io.File.separator + "*.*",true);
+    showCategoryVideo(randomCategory(),true);
     SMessage("Here you go", -1, 2);
     edgeToRuin(-1,2);
     SMessage("Just take some deep breath now", -1, 2);

@@ -124,7 +124,7 @@ function AV_PositionRoll()
 function AVRamdKneeling1()
 {
     CMessage("Go down in this position");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "01.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "01.jpg");
     sleep(25);
     FimKneel();
     return;
@@ -133,7 +133,7 @@ function AVRamdKneeling1()
 function AVRamdKneeling2()
 {
     CMessage("Go down in this position");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "02.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "02.jpg");
     sleep(25);
     FimKneel();
     return;
@@ -142,7 +142,7 @@ function AVRamdKneeling2()
 function AVRamdKneeling3()
 {
     CMessage("Go down in this position");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "03.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "03.jpg");
     sleep(25);
     FimKneel();
     return;
@@ -151,7 +151,7 @@ function AVRamdKneeling3()
 function AVRamdKneeling4()
 {
     CMessage("Go down in this position");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "04.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "04.jpg");
     sleep(25);
     FimKneel();
     return;
@@ -160,7 +160,7 @@ function AVRamdKneeling4()
 function AVRamdKneeling5()
 {
     CMessage("Go down in this position");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "05.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "05.jpg");
     sleep(25);
     FimKneel();
     return;
@@ -169,7 +169,7 @@ function AVRamdKneeling5()
 function AVRamdKneeling6()
 {
     CMessage("Go down in this position");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "06.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "06.jpg");
     sleep(25);
     FimKneel();
     return;
@@ -178,7 +178,7 @@ function AVRamdKneeling6()
 function AVRamdKneeling7()
 {
     CMessage("Go down in this position");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "07.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "07.jpg");
     sleep(25);
     FimKneel();
     return;
@@ -240,7 +240,7 @@ function SecondRoll()
 function AVRamdStanding1()
 {
     CMessage("Stand up in this position");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "01.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "01.jpg");
     sleep(25);
     FimStand();
     return;
@@ -249,7 +249,7 @@ function AVRamdStanding1()
 function AVRamdStanding2()
 {
     CMessage("Stand up in this position");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "02.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "02.jpg");
     sleep(25);
     FimStand();
     return;
@@ -258,7 +258,7 @@ function AVRamdStanding2()
 function AVRamdStanding3()
 {
     CMessage("Stand up in this position");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "03.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "03.jpg");
     sleep(25);
     FimStand();
     return;
@@ -267,7 +267,7 @@ function AVRamdStanding3()
 function AVRamdStanding4()
 {
     CMessage("Stand up in this position");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "04.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "04.jpg");
     sleep(25);
     FimStand();
     return;
@@ -276,7 +276,7 @@ function AVRamdStanding4()
 function AVRamdStanding5()
 {
     CMessage("Stand up in this position");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "05.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "05.jpg");
     sleep(25);
     FimStand();
     return;
@@ -285,7 +285,7 @@ function AVRamdStanding5()
 function AVRamdStanding6()
 {
     CMessage("Stand up in this position");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "06.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "06.jpg");
     sleep(25);
     FimStand();
     return;
@@ -294,7 +294,7 @@ function AVRamdStanding6()
 function AVRamdStanding7()
 {
     CMessage("Stand up in this position");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "07.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "07.jpg");
     sleep(25);
     FimStand();
     return;

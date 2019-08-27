@@ -83,10 +83,11 @@ function Audio01()
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "erotic" + java.io.File.separator + "01.mp3");
     sleep(35);
     CMessage("%AV_ShowHer%");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "gifs" + java.io.File.separator + "01.gif");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "gifs" + java.io.File.separator + "01.gif");
     CMessage("Keep Stroking");
     sleep(30);
     sleep(30);
+	stopAudio();
     return;
     Audio02();
 }
@@ -95,10 +96,11 @@ function Audio02()
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "erotic" + java.io.File.separator + "02.mp3");
     sleep(35);
     CMessage("%AV_ShowHer%");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "gifs" + java.io.File.separator + "02.gif");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "gifs" + java.io.File.separator + "02.gif");
     CMessage("Keep Stroking");
     sleep(30);
     sleep(30);
+	stopAudio();
     return;
     Audio03();
 }
@@ -107,7 +109,7 @@ function Audio03()
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "erotic" + java.io.File.separator + "03.mp3");
     sleep(35);
     CMessage("%AV_ShowHer%");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "gifs" + java.io.File.separator + "03.gif");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "gifs" + java.io.File.separator + "03.gif");
     CMessage("Keep Stroking");
     sleep(30);
     sleep(30);
@@ -119,10 +121,11 @@ function Audio04()
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "erotic" + java.io.File.separator + "04.mp3");
     sleep(35);
     CMessage("%AV_ShowHer%");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "gifs" + java.io.File.separator + "04.gif");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "gifs" + java.io.File.separator + "04.gif");
     CMessage("Keep Stroking");
     sleep(30);
     sleep(30);
+	stopAudio();
     return;
     Audio05();
 }
@@ -131,10 +134,11 @@ function Audio05()
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "erotic" + java.io.File.separator + "05.mp3");
     sleep(35);
     CMessage("%AV_ShowHer%");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "gifs" + java.io.File.separator + "05.gif");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "gifs" + java.io.File.separator + "05.gif");
     CMessage("Keep Stroking");
     sleep(30);
     sleep(30);
+	stopAudio();
     return;
     Audio06();
 }
@@ -143,10 +147,11 @@ function Audio06()
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "erotic" + java.io.File.separator + "06.mp3");
     sleep(35);
     CMessage("%AV_ShowHer%");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "gifs" + java.io.File.separator + "06.gif");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "gifs" + java.io.File.separator + "06.gif");
     CMessage("Keep Stroking");
     sleep(30);
     sleep(30);
+	stopAudio();
     return;
     Audio07();
 }
@@ -155,10 +160,11 @@ function Audio07()
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "erotic" + java.io.File.separator + "07.mp3");
     sleep(35);
     CMessage("%AV_ShowHer%");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "gifs" + java.io.File.separator + "07.gif");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "gifs" + java.io.File.separator + "07.gif");
     CMessage("Keep Stroking");
     sleep(30);
     sleep(30);
+	stopAudio();
     return;
     Audio08();
 }
@@ -167,10 +173,11 @@ function Audio08()
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "erotic" + java.io.File.separator + "08.mp3");
     sleep(35);
     CMessage("%AV_ShowHer%");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "gifs" + java.io.File.separator + "08.gif");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "gifs" + java.io.File.separator + "08.gif");
     CMessage("Keep Stroking");
     sleep(30);
     sleep(30);
+	stopAudio();
     return;
     Audio09();
 }
@@ -179,10 +186,11 @@ function Audio09()
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "erotic" + java.io.File.separator + "09.mp3");
     sleep(35);
     CMessage("%AV_ShowHer%");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "gifs" + java.io.File.separator + "09.gif");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "gifs" + java.io.File.separator + "09.gif");
     CMessage("Keep Stroking");
     sleep(30);
     sleep(30);
+	stopAudio();
     return;
     Audio10();
 }
@@ -191,10 +199,11 @@ function Audio10()
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "erotic" + java.io.File.separator + "10.mp3");
     sleep(35);
     CMessage("%AV_ShowHer%");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "gifs" + java.io.File.separator + "10.gif");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "gifs" + java.io.File.separator + "10.gif");
     CMessage("Keep Stroking");
     sleep(30);
     sleep(20);
+	stopAudio();
     return;
     positions();
 }

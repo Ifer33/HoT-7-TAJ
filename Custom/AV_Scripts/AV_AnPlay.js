@@ -332,6 +332,7 @@ function ANAL3()
         CMessage("Slap your %Cock% following the beats");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
         sleep(12);
+		stopAudio();
     }
     CMessage("Keep fucking that ass");
     CMessage("Oh, look how easily yours finger slides in and out.");
@@ -352,6 +353,7 @@ function ANAL3()
     SMessage("%DomName% turned on the mic");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "commands" + java.io.File.separator + "Fuck*.mp3");
     sleep(10);
+	stopAudio();
     NoAudioFuck();
 	return;
 }
@@ -413,6 +415,7 @@ function ANAL4()
     SMessage("%DomName% turned on the mic");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "commands" + java.io.File.separator + "Fuck*.mp3");
     sleep(10);
+	stopAudio();
     NoAudioFuck76();
 	return;
 }

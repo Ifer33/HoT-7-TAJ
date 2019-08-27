@@ -427,6 +427,7 @@ function AV_Timeo15()
         CMessage(random("Hit ", "Spank ") + "your %Balls%");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
         sleep(15);
+		stopAudio();
     }
     CMessage("Remember that.");
     CMessage("Remember that you deserve it.");

@@ -449,6 +449,7 @@ function Modulo1()
         CMessage(random("Hit ", "slap ") + "your %Balls%");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "Spank10.mp3");
         sleep(12);
+		stopAudio();
     }
     edge();
     if(getVar("av_fetish_pain", false))
@@ -456,6 +457,7 @@ function Modulo1()
         CMessage(random("Hit ", "slap ") + "your %Balls%");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "Spank10.mp3");
         sleep(12);
+		stopAudio();
     }
     CMessage("You make it so easy for me.");
     CMessage(random("So easy to manipulate you", "you will do anything for me"));
@@ -670,6 +672,7 @@ function EdgeFail()
         CMessage(random("Spank ", "Hit ") + "your %Balls%");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "Spank10.mp3");
         sleep(12);
+		stopAudio();
     }
     CMessage("Let\'s " + random("try again", "continue"));
     Loop();
@@ -717,7 +720,7 @@ function Modulo4()
     CMessage("Not yet though");
     CMessage("I want you to spread your knees wide apart and arch your back a little bit");
     CMessage("just like in this picture");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "07.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "07.jpg");
     sleep(20);
     CMessage("Start stroking yourself in this subservient sissy position");
 	setStrokingNoTaunt();
@@ -730,7 +733,7 @@ function Modulo4()
     }
     CMessage("Ok time for one of your videos.");
     CMessage("Keep stroking your little dicklet");
-    playVideo("Videos" + java.io.File.separator + "*.*",true);
+    showCategoryVideo(randomCategory(),true);
     CMessage("%Stop%", 0);
     CMessage("%SitDown%");
     CMessage("Now spread your legs for me and raise your legs up the table");

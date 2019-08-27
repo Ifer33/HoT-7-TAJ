@@ -17,7 +17,7 @@ function youreMeanResponse(message) {
 				CMessage("%OResponse1%");
 				break;
 			case 3:
-				CMessage("%0_Response_Mean%");
+				CMessage("%Response_Mean%");
 				break;
 		}
 	}
@@ -41,7 +41,7 @@ function youreMeanResponse(message) {
 					found = true;
 					break;
 				case 4:
-					CMessage("%0_Response_Mean%");
+					CMessage("%Response_Mean%");
 					found = true;
 					break;
 				case 5:
@@ -61,7 +61,7 @@ function youreMeanResponse(message) {
 					found = true;
 					break;
 				case 2:
-					CMessage("%0_Response_Mean%");
+					CMessage("%Response_Mean%");
 					found = true;
 					break;
 				case 3:
@@ -90,7 +90,7 @@ function youreMeanResponse(message) {
 					found = true;
 					break;
 				case 2:
-					CMessage("%0_Response_Mean%");
+					CMessage("%Response_Mean%");
 					found = true;
 					break;
 				case 3:
@@ -130,7 +130,7 @@ function youreMeanResponse(message) {
 					found = true;
 					break;
 				case 3:
-					CMessage("%0_Response_Mean%");
+					CMessage("%Response_Mean%");
 					found = true;
 					break;
 				case 4:
@@ -230,7 +230,7 @@ function youreMeanResponse(message) {
 					found = true;
 					break;
 				case 3:
-					CMessage("%0_Response_Mean%");
+					CMessage("%Response_Mean%");
 					found = true;
 					break;
 				case 4:

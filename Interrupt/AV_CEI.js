@@ -36,6 +36,7 @@ function Sub_Not_Stroking()
     sleep(15);
 	sleep(10);
     CMessage("%stopstroking%", 0);
+	stopAudio();
 	stopStrokingAll();
     CMessage("** %DomName% turned off the mic **");
     sleep(10);

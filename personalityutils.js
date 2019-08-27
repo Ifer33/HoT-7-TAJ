@@ -9,122 +9,154 @@ let ruinModifyAmount = 0;
 /**
 * setupVars method to setup variables used by the personality
 **/
-function setUpVars() {
+function setUpGUI() {
 	/*thought dommeLevel is how harsh/aggresive the dom is
 	**and apathyLevel is more for decisions/how much dom is willing to do what you want/not want 
 	**like want/dont want collar/kneeling/anal/...
 	*/
 	if (getVar("dommelevel", null) == null) {
-        setVar("dommelevel", "Please enter a number between 1 and 10");
+        setVar("dommelevel", 4);
     }
     registerVariable("dommelevel", "Domme Level", "How mean/aggresive the dom will be. Can be a number between 1-10. WARNING: 8-10 will be very intense. Don't be afraid to start with a lower level like 3-6.");
+	addSpinner("Personality Settings", "dommelevel", 1, 10);
 	
 	if (getVar("hasChastity", null) == null) {
-        setVar("hasChastity", "Please enter true or false");
+        setVar("hasChastity", false);
     }
     registerVariable("hasChastity", "Have chastity device", "Determines if you own a chastity device");
+	addCheckBox("Personality Settings", "hasChastity");
 	
 	if (getVar("ballTorture", null) == null) {
-        setVar("ballTorture", "Please enter true or false");
+        setVar("ballTorture", true);
     }
     registerVariable("ballTorture", "Ball torture", "Determines if you allow Ball torture");
+	addCheckBox("Personality Settings", "ballTorture");
 	
 	if (getVar("cockTorture", null) == null) {
-        setVar("cockTorture", "Please enter true or false");
+        setVar("cockTorture", true);
     }
     registerVariable("cockTorture", "Cock torture", "Determines if you allow cock torture");
+	addCheckBox("Personality Settings", "cockTorture");
 	
 	if (getVar("cbtBallLevel", null) == null) {
-        setVar("cbtBallLevel", "Please enter a number between 1 and 5");
+        setVar("cbtBallLevel", 2);
     }
     registerVariable("cbtBallLevel", "cbt Ball Level", "How mean/harsh the dom will be with ball torture. Can be a number between 1-5. WARNING: 5 will be very intense. Don't be afraid to start with a lower level like 2-3.");
+	addSpinner("Personality Settings", "cbtBallLevel", 1, 5);
 	
 	if (getVar("cbtCockLevel", null) == null) {
-        setVar("cbtCockLevel", "Please enter a number between 1 and 5");
+        setVar("cbtCockLevel", 2);
     }
     registerVariable("cbtCockLevel", "cbt cock Level", "How mean/harsh the dom will be with cock torture. Can be a number between 1-5. WARNING: 5 will be very intense. Don't be afraid to start with a lower level like 2-3.");
+	addSpinner("Personality Settings", "cbtCockLevel", 1, 5);
+	
+	if (getVar("cocksize", null) == null) {
+        setVar("cocksize", "medium");
+    }
+    registerVariable("cocksize", "cock size", "Your cock size, rated as: small,medium,large");
+	addOptionsList("Personality Settings", "cockSize", "small", "medium", "large");
 	
     if (getVar("apathylevel", null) == null) {
-        setVar("apathylevel", "Please enter a number between 1 and 10");
+        setVar("apathylevel", 4);
     }
     registerVariable("apathylevel", "Apathy Level", "How mean/aggresive the dom will be. Can be a number between 1-10. WARNING: 8-10 will be very intense. Don't be afraid to start with a lower level like 3-6.");
+	addSpinner("Personality Settings", "apathylevel", 1, 10);
 
     if (getVar("orgasmchance", null) == null) {
-        setVar("orgasmchance", "Please enter a 2 digit percentage. Ex: 56");
+        setVar("orgasmchance", 70);
     }
     registerVariable("orgasmChance", "Orgasm Chance", "The average percent chance the domme will allow an orgasm. NOTE: This isnt the exact percent chance. That will vary some with the domme's mood and apathy level.");
+	addSpinner("Personality Settings", "orgasmChance", 1, 100);
 
     if (getVar("ruinchance", null) == null) {
-        setVar("ruinchance", "Please enter a 2 digit percentage. Ex: 56");
+        setVar("ruinchance", 25);
     }
     registerVariable("ruinChance", "Orgasm Ruined Chance", "The average percent chance the domme will ruin an orgasm. NOTE: This is the percentage an orgasm" +
         "will be ruined after the domme has decided you will cum. Basically, to have an orgasm ruined, first the dom would have to decide to let you cum. Furthermore, " +
         "if orgasm chance is 50% and orgasm ruined chance is 50%, 25% of the time you will get a ruined orgasm. This isnt the exact percent chance. That will vary some with the domme's mood and apathy level.");
+	addSpinner("Personality Settings", "ruinChance", 1, 100);
 
     if (getVar("minsessionlength", null) == null) {
-        setVar("minsessionlength", "Please enter a number in minutes");
+        setVar("minsessionlength", 15);
     }
     registerVariable("minsessionlength", "Minimum Session Length", "The minimum time in minutes that a session will last. NOTE: Session length will vary between min and max length based on domme's mood" +
         "and apathy level. If either are left blank, the session will last the length as preferred tease duration.");
+	addSpinner("Personality Settings", "minsessionlength", 1, 300);
 
     if (getVar("maxsessionlength", null) == null) {
-        setVar("maxsessionlength", "Please enter a number in minutes");
+        setVar("maxsessionlength", 30);
     }
     registerVariable("maxsessionlength", "Maximum Session Length", "The maximum time in minutes that a session will last. NOTE: Session length will vary between min and max length based on domme's mood" +
         "and apathy level. If either are left blank, the session will last the length as preferred tease duration.");
+	addSpinner("Personality Settings", "maxsessionlength", 1, 300);
 
     if (getVar("minstrokinglength", null) == null) {
-        setVar("minstrokinglength", "Please enter a number in minutes");
+        setVar("minstrokinglength", 2);
     }
     registerVariable("minstrokinglength", "Minimum Stroking Length", "The minimum time in minutes that a stroking cycle will last. NOTE: Stroking cycle length will vary between min and max length based on domme's mood" +
         "and apathy level.");
+	addSpinner("Stroking Settings", "minstrokinglength", 1, 60);
 
     if (getVar("maxstrokinglength", null) == null) {
-        setVar("maxstrokinglength", "Please enter a number in minutes");
+        setVar("maxstrokinglength", 5);
     }
     registerVariable("maxstrokinglength", "Maximum Stroking Length", "The maximum time in minutes that a stroking cycle will last. NOTE: Stroking cycle length will vary between min and max length based on domme's mood" +
         "and apathy level.");
+	addSpinner("Stroking Settings", "maxstrokinglength", 1, 60);
 
     if (getVar("minholdinglength", null) == null) {
-        setVar("minholdinglength", "Please enter a number followed by an 's' for s or an 'm' for m. ex: 56s or 5m If no s or m is provided will assume minutes.");
+        setVar("minholdinglength", 5);
     }
-    registerVariable("minholdinglength", "Minimum Edge Holding Length", "The minimum time in seconds or minutes (enter 'm' or 's' after the number) that an edge holding cycle will last. NOTE: Edge holding cycle length will vary between min and max length based on domme's mood" +
+    registerVariable("minholdinglength", "Minimum Edge Holding Length", "The minimum time in seconds that an edge holding cycle will last. NOTE: Edge holding cycle length will vary between min and max length based on domme's mood" +
         "and apathy level. The domme will choose closer to the minimum most of the time unless they are pissed so make the maximum your absolute max limit.");
+	addSpinner("Stroking Settings", "minholdinglength", 5, 1200);
 
     if (getVar("maxholdinglength", null) == null) {
-        setVar("maxholdinglength", "Please enter a number followed by an 's' for s or an 'm' for m. ex: 56s or 5m If no s or m is provided will assume minutes.");
+        setVar("maxholdinglength", 120);
     }
-    registerVariable("maxholdinglength", "Maximum Edge Holding Length", "The maximum time in seconds or minutes (enter 'm' or 's' after the number) that an edge holding cycle will last. NOTE: Edge holding cycle length will vary between min and max length based on domme's mood" +
+    registerVariable("maxholdinglength", "Maximum Edge Holding Length", "The maximum time in seconds that an edge holding cycle will last. NOTE: Edge holding cycle length will vary between min and max length based on domme's mood" +
         "and apathy level. The domme will choose closer to the minimum most of the time unless they are pissed so make the maximum your absolute max limit.");
+	addSpinner("Stroking Settings", "maxholdinglength", 5, 1200);
 		
 	if (getVar("minlongholdinglength", null) == null) {
-        setVar("minlongholdinglength", "Please enter a number followed by an 's' for s or an 'm' for m. ex: 56s or 5m If no s or m is provided will assume minutes.");
+        setVar("minlongholdinglength", 60);
     }
-    registerVariable("minlongholdinglength", "Minimum Edge Long Holding Length", "The minimum time in seconds or minutes (enter 'm' or 's' after the number) that an edge holding cycle will last. NOTE: Edge holding cycle length will vary between min and max length based on domme's mood" +
+    registerVariable("minlongholdinglength", "Minimum Edge Long Holding Length", "The minimum time in seconds that an edge holding cycle will last. NOTE: Edge holding cycle length will vary between min and max length based on domme's mood" +
         "and apathy level. The domme will choose closer to the minimum most of the time unless they are pissed so make the maximum your absolute max limit.");
+	addSpinner("Stroking Settings", "minlongholdinglength", 5, 1200);
 
     if (getVar("maxlongholdinglength", null) == null) {
-        setVar("maxlongholdinglength", "Please enter a number followed by an 's' for s or an 'm' for m. ex: 56s or 5m If no s or m is provided will assume minutes.");
+        setVar("maxlongholdinglength", 240);
     }
-    registerVariable("maxlongholdinglength", "Maximum Edge Long Holding Length", "The maximum time in seconds or minutes (enter 'm' or 's' after the number) that an edge holding cycle will last. NOTE: Edge holding cycle length will vary between min and max length based on domme's mood" +
+    registerVariable("maxlongholdinglength", "Maximum Edge Long Holding Length", "The maximum time in seconds that an edge holding cycle will last. NOTE: Edge holding cycle length will vary between min and max length based on domme's mood" +
         "and apathy level. The domme will choose closer to the minimum most of the time unless they are pissed so make the maximum your absolute max limit.");
+	addSpinner("Stroking Settings", "maxlongholdinglength", 5, 1200);
 		
 	if (getVar("minextremholdinglength", null) == null) {
-        setVar("minextremholdinglength", "Please enter a number followed by an 's' for s or an 'm' for m. ex: 56s or 5m If no s or m is provided will assume minutes.");
+        setVar("minextremholdinglength", 240);
     }
-    registerVariable("minextremholdinglength", "Minimum Edge Extrem Holding Length", "The minimum time in seconds or minutes (enter 'm' or 's' after the number) that an edge holding cycle will last. NOTE: Edge holding cycle length will vary between min and max length based on domme's mood" +
+    registerVariable("minextremholdinglength", "Minimum Edge Extrem Holding Length", "The minimum time in seconds that an edge holding cycle will last. NOTE: Edge holding cycle length will vary between min and max length based on domme's mood" +
         "and apathy level. The domme will choose closer to the minimum most of the time unless they are pissed so make the maximum your absolute max limit.");
+	addSpinner("Stroking Settings", "minextremholdinglength", 5, 1200);
 
     if (getVar("maxextremholdinglength", null) == null) {
-        setVar("maxextremholdinglength", "Please enter a number followed by an 's' for s or an 'm' for m. ex: 56s or 5m If no s or m is provided will assume minutes.");
+        setVar("maxextremholdinglength", 360);
     }
-    registerVariable("maxextremholdinglength", "Maximum Edge Extrem Holding Length", "The maximum time in seconds or minutes (enter 'm' or 's' after the number) that an edge holding cycle will last. NOTE: Edge holding cycle length will vary between min and max length based on domme's mood" +
+    registerVariable("maxextremholdinglength", "Maximum Edge Extrem Holding Length", "The maximum time in seconds that an edge holding cycle will last. NOTE: Edge holding cycle length will vary between min and max length based on domme's mood" +
         "and apathy level. The domme will choose closer to the minimum most of the time unless they are pissed so make the maximum your absolute max limit.");
+	addSpinner("Stroking Settings", "maxextremholdinglength", 5, 1200);
 
     if (getVar("tauntfrequency", null) == null) {
-        setVar("tauntfrequency", "Please enter a number between 0 and 5.");
+        setVar("tauntfrequency", 3);
     }
     registerVariable("tauntfrequency", "Taunt Frequency", "The frequency of taunts (0-5) that the domme will say while you are stroking or edging. NOTE: Inputting 0 will disable taunts entirely");
+	addSpinner("Stroking Settings", "tauntfrequency", 0, 5);
+}
+
+/**
+* setupVars method to setup variables used by the personality
+**/
+function setUpVars() {
 
     setTempVar("mood", 50);
     if (getVar("mood", null) != null) {
@@ -133,7 +165,7 @@ function setUpVars() {
     timeLeftStroking = 0;
     let TeaseAI = Java.type("me.goddragon.teaseai.TeaseAI");
     let strokingMethodsFile = new java.io.File(TeaseAI.application.getSession().getActivePersonality().getFolder().getAbsolutePath() + java.io.File.separator + "strokingmethodutils.js");
-    //strokingMethodsEnabled = strokingMethodsFile.exists();
+    strokingMethodsEnabled = strokingMethodsFile.exists();
     DMessage("Stroking Methods Enabled: " + strokingMethodsEnabled);
     if (strokingMethodsEnabled)
     {
@@ -271,7 +303,7 @@ function customStroking(message,delay=-1,sender=1) {
 * slowStroking method that will slow the pace of the stroking down. The arguments are 1-5. 1 will slow down a small amount,
 * and 5 will slow down a lot.
 **/
-function slowStroking(amount) {
+function slowStroking(amount=0) {
     if (isStroking()) {
         if (amount <= 0) {
             amount = 1;
@@ -302,7 +334,7 @@ function slowStroking(amount) {
 * speedUpStroking method that will speed up the pace of the stroking down. The arguments are 1-5. 1 will speed up a small amount,
 * and 5 will speed up a lot.
 **/
-function speedUpStroking(amount) {
+function speedUpStroking(amount=0) {
     if (isStroking()) {
         if (amount <= 0) {
             amount = 1;
@@ -935,19 +967,19 @@ function customStroke(duration, bpm) {
     let currentTime;
     switch (tauntFreq) {
         case 5:
-            tauntIncrement = randomInteger(2, 4);
+            tauntIncrement = randomInteger(4, 8);
             break;
         case 4:
-            tauntIncrement = randomInteger(3, 6);
+            tauntIncrement = randomInteger(6, 12);
             break;
         case 3:
-            tauntIncrement = randomInteger(5, 11);
+            tauntIncrement = randomInteger(10, 22);
             break;
         case 2:
-            tauntIncrement = randomInteger(8, 16);
+            tauntIncrement = randomInteger(16, 32);
             break;
         case 1:
-            tauntIncrement = randomInteger(11, 31);
+            tauntIncrement = randomInteger(22, 62);
             break;
         default:
             tauntIncrement = 0;
@@ -970,23 +1002,25 @@ function customStroke(duration, bpm) {
         {
             break;
         }
-        if (currentTime > (tauntTime - .2) && currentTime < (tauntTime + .2)) {
-            CMessage("%stroketaunt1%")
+        //if (currentTime > (tauntTime - .2) && currentTime < (tauntTime + .2)) {
+		if (tauntTime<currentTime) {
+            CMessage("%stroketaunt1%");
             switch (tauntFreq) {
                 case 5:
-                    tauntIncrement = randomInteger(2, 4);
-                    break;
-                case 4:
-                    tauntIncrement = randomInteger(3, 6);
-                    break;
-                case 3:
-                    tauntIncrement = randomInteger(5, 11);
-                    break;
-                case 2:
-                    tauntIncrement = randomInteger(8, 16);
-                    break;
-                case 1:
-                    tauntIncrement = randomInteger(11, 31);
+                    tauntIncrement = randomInteger(4, 8);
+					break;
+				case 4:
+					tauntIncrement = randomInteger(6, 12);
+					break;
+				case 3:
+					tauntIncrement = randomInteger(10, 22);
+					break;
+				case 2:
+					tauntIncrement = randomInteger(16, 32);
+					break;
+				case 1:
+					tauntIncrement = randomInteger(22, 62);
+					//tauntIncrement = randomInteger(40, 60);
                     break;
                 default:
                     tauntIncrement = 0;

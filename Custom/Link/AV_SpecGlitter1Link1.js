@@ -7,10 +7,10 @@ function main()
     SMessage("It sure looks like it.", -1, 2);
     //setVar("moduletorun", "AV_SpecGlitter1Module1")
 	setTempVar("moduletorun", "Custom" + java.io.File.separator + "Modules" + java.io.File.separator + "AV_SpecGlitter1Module1.js");
-    getLocalTeasePicture("Images" + java.io.File.separator + "AV_SpecGlitter1Module1");
     SMessage("Lets hope he behaves unlike my last slave.", -1, 2);
     SMessage("Now is the little boy ready for some fun?", -1, 2);
     //SMessage("%StartStroking%", -1, 2);
-    setStrokingNoTaunt();
+    //setStrokingNoTaunt();
+	Stroking(-1,2);
     return;
 }

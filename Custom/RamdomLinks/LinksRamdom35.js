@@ -399,7 +399,8 @@ function hate_it()
     }
     CMessage("You see a hot girl and you just instantly become a drooling mess");
     CMessage("With a huge bulge in is pants");
-    if(getVar("cockSmall",false)){
+    //if(getVar("cockSmall",false)){
+	if (getVar("cocksize", "NA") == "small")
 		CMessage("I mean a <i>tiny</i> bulge %Lol%");
 	}
     CMessage("Suddenly you\'re reduced to a bulge and a wet spot and little else");

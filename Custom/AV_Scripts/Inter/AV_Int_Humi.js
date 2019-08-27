@@ -16,7 +16,7 @@ function main()
     }
     CMessage(random("we take this opportunity ", "Let\'s take advantage of this opportunity ") + "to work on some " + random("slave ", "submissive ") + "positions");
     CMessage(random("Go to ", "stay in ") + "that position until you hear a bell");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "*.jpg");
     sleep(15);
     switch(random("C01", "C02", "C03"))
     {
@@ -98,6 +98,7 @@ function SubLie()
         CMessage(random("Hit ", "Spank ") + "your balls");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "Belle10*.mp3");
         sleep(20);
+		stopAudio();
     }
     SMessage("Ouch...", -1, 2);
     SMessage("This is my cue to " + "...cya", -1, 2);
@@ -122,6 +123,7 @@ function C02()
         SMessage(random("Hit ", "Spank ") + "your balls", -1, 3);
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "G2Spank" + java.io.File.separator + "*.mp3");
         sleep(20);
+		stopAudio();
     }
     SMessage("JFY...", -1, 3);
     SMessage("I am recording this....", -1, 3);
@@ -148,12 +150,14 @@ function C03()
         SMessage(random("Hit ", "Spank ") + "your balls", -1, 4);
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "G3Spank" + java.io.File.separator + "*.mp3");
         sleep(20);
+		stopAudio();
     }
     if(getVar("AV_MEM_CBT", false))
     {
         SMessage(random("Hit ", "Spank ") + "your balls", -1, 4);
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "G3Spank" + java.io.File.separator + "*.mp3");
         sleep(20);
+		stopAudio();
     }
     SMessage("...Thank you %DomName%", -1, 4);
     CMessage("Sure %Lol%");

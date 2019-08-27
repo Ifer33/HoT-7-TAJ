@@ -30,6 +30,6 @@ function main()
     CMessage("Well look at that");
     CMessage("They look pretty swollen and full and also very red");
     //CMessage("%StartStroking%");
-    setStrokingNoTaunt();
+    Stroking();
     return;
 }

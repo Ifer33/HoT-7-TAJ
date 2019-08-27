@@ -55,6 +55,7 @@ function tgr8_c2t1()
 {
     //--UNINTERPRETED LINE:@NullResponse @TempFlag(tgr8_c2t1) @PlayAudio[tease\tgr8\Contact2 special test audio\tgr8_c2t1.mp3] @SetDate(timer, %Random%(60, 85) seconds)
 	setTempVar("tgr8_c2t1",true);
+	stopAudio();
 	playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "tgr8" + java.io.File.separator + "Contact2 special test audio" + java.io.File.separator + "tgr8_c2t1.mp3");
 	date=setTempDate("timer");
 	date.addSecond(randomInt(60,85));
@@ -66,6 +67,7 @@ function tgr8_c2t2()
 {
     //--UNINTERPRETED LINE:@NullResponse @TempFlag(tgr8_c2t2) @PlayAudio[tease\tgr8\Contact2 special test audio\tgr8_c2t2.mp3] @SetDate(timer, %Random%(60, 85) seconds)
 	setTempVar("tgr8_c2t2",true);
+	stopAudio();
 	playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "tgr8" + java.io.File.separator + "Contact2 special test audio" + java.io.File.separator + "tgr8_c2t2.mp3");
 	date=setTempDate("timer");
 	date.addSecond(randomInt(60,85));
@@ -77,6 +79,7 @@ function tgr8_c2t3()
 {
     //--UNINTERPRETED LINE:@NullResponse @TempFlag(tgr8_c2t3) @PlayAudio[tease\tgr8\Contact2 special test audio\tgr8_c2t3.mp3] @SetDate(timer, %Random%(60, 85) seconds)
 	setTempVar("tgr8_c2t3",true);
+	stopAudio();
 	playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "tgr8" + java.io.File.separator + "Contact2 special test audio" + java.io.File.separator + "tgr8_c2t3.mp3");
 	date=setTempDate("timer");
 	date.addSecond(randomInt(60,85));
@@ -88,6 +91,7 @@ function tgr8_c2t4()
 {
     //--UNINTERPRETED LINE:@NullResponse @TempFlag(tgr8_c2t4) @PlayAudio[tease\tgr8\Contact2 special test audio\tgr8_c2t4.mp3] @SetDate(timer, %Random%(60, 85) seconds)
 	setTempVar("tgr8_c2t4",true);
+	stopAudio();
 	playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "tgr8" + java.io.File.separator + "Contact2 special test audio" + java.io.File.separator + "tgr8_c2t4.mp3");
 	date=setTempDate("timer");
 	date.addSecond(randomInt(60,85));
@@ -99,6 +103,7 @@ function tgr8_c2t5()
 {
     //--UNINTERPRETED LINE:@NullResponse @TempFlag(tgr8_c2t5) @PlayAudio[tease\tgr8\Contact2 special test audio\tgr8_c2t5.mp3] @SetDate(timer, 64 seconds)
 	setTempVar("tgr8_c2t5",true);
+	stopAudio();
 	playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "tgr8" + java.io.File.separator + "Contact2 special test audio" + java.io.File.separator + "tgr8_c2t5.mp3");
 	date=setTempDate("timer");
 	date.addSecond(randomInt(60,85));

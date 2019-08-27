@@ -112,12 +112,12 @@ function NoTalkToday()
         return;
     }
 	SMessage("<b>Author Note:</b> Don't do anything you cannot handle or are not comfortable with.");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
 	setVar("AV_Warning",true);
     SMessage("I am in no way responsible for you causing harm to yourself. Common sense, use it.");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("If you feel damage will be caused, stop immediately.");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SkipWarning();
 	return;
 }
@@ -178,6 +178,7 @@ function AV_NewVersion()
     if(getVar("Edge_holding_start", false))
     {
         run("Interrupt" + java.io.File.separator + "OpiateNPC.js");
+		return;
     }
     CMessage(random("I\'m having another one of those days where I\'m so excited to start fucking with you", "Just thinking about the things you\'re about to do for me", "I was just thinking about you %SubName%", "I\'m really happy to see you %GeneralTime%", "I think it\'s time for one of our special sessions", "I\'ve been thinking about all the things I could do to you", "Great timing, I just got out of the shower, all fresh and rosy %Smile%", "So today we are going to improve your self control, or rather your ability to keep yourself from cumming", "Come to see if I\'m ready to let you cum %GeneralTime%? You should know better by now."));
     CMessage(random("What makes my pussy tingle a little bit %Smile%", "Your %Cock% must have sensed I\'m feeling a little wicked", "I\'ve been thinking about all these fun ways to torment a cock", "I know we both really enjoy it", "Just knowing you would come crawling back to me, you can\'t imagine how horny that made me", "Are you ready to be teased and denied %SubName% ?", "You know that all the pretty thoughts running through my head are those of teasing and tormenting your little toy", "You know that anything I command of you, you\'ll obey, because I love to command you, and you do so love to obey."));
@@ -211,7 +212,7 @@ function AV_NewVersion()
     CMessage("Pictures like this one");
     showTaggedImage(4, ["softcore"]);
     CMessage("Or this video to %Stroke%");
-    playVideo("Videos" + java.io.File.separator + "*.*",true);
+    showCategoryVideo(randomCategory(),true);
     start1_not_surprised();
     return;
     HornyStart();
@@ -259,7 +260,7 @@ function SkipSomeTime()
     showTaggedImage(4, ["blowjob"]);
     CMessage("Those lips wrapped around your %Cock%");
     CMessage("%Stroke% to this should help you");
-    playVideo("Videos" + java.io.File.separator + "*.*",true);
+    showCategoryVideo(randomCategory(),true);
     start1_not_surprised();
     return;
     start1_not_surprised();
@@ -448,23 +449,23 @@ function CheckPicsContinue()
 function AV_Know_00_NOTREADY()
 {
     SMessage("New folder found: TeaseAI\\Images\\av_imagens\\02\\");
-	getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+	showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("There are 10 pictures files and the last file in that folder is MyCelebCrush_Actress.txt");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     let answer0 = getInput("Did you want to share this folder with your partner?");
     while (!(answer0.isLike("yes") || answer0.isLike("no")))
     {
         answer0 = getInput("Yes or no?");
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     }
     if (answer0.isLike("yes"))
     {
         delVar("AV_Know_00_NOTREADY");
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     }
     else if (answer0.isLike("no"))
     {
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
         pula1();
         return;
     }
@@ -489,7 +490,7 @@ function pula1()
         AV_Know_01_NOTREADY();
         return;
     }
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     DommeBack();
     return;
     AV_Know_01_NOTREADY();
@@ -497,23 +498,23 @@ function pula1()
 function AV_Know_01_NOTREADY()
 {
     SMessage("New folder found: TeaseAI\\Images\\av_imagens\\03\\"); 
-	getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+	showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("There are 10 pictures files, 1 video file *TeaseAI\Video\AV_Clips* and the last file in that folder is MyCelebCrush_Singer.txt");
-	getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+	showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     let answer0 = getInput("Did you want to share this folder with your partner?");
     while (!(answer0.isLike("yes") || answer0.isLike("no")))
     {
         answer0 = getInput("Yes or no?");
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     }
     if (answer0.isLike("yes"))
     {
         delVar("AV_Know_01_NOTREADY");
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     }
     else if (answer0.isLike("no"))
     {
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
         pula2();
         return;
     }
@@ -533,7 +534,7 @@ function pula2()
         AV_Know_03_NOTREADY();
         return;
     }
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     DommeBack();
     return;
     AV_Know_03_NOTREADY();
@@ -541,30 +542,30 @@ function pula2()
 function AV_Know_03_NOTREADY()
 {
     SMessage("New folder found: TeaseAI\\Images\\av_imagens\\04\\  and TeaseAI\\Video\\AV_Clips\\04");
-	getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+	showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("There are 10 pics in the first and 1 video file in the second, the last file in that folder is " + "txt");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     let answer0 = getInput("Did you want to share this folder with your partner?");
     while (!(answer0.isLike("yes") || answer0.isLike("no")))
     {
         answer0 = getInput("Yes or no?");
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     }
     if (answer0.isLike("yes"))
     {
         delVar("AV_Know_03_NOTREADY");
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     }
     else if (answer0.isLike("no"))
     {
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     }
     if(getVar("AV_Know_12_NOTREADY", false))
     {
         AV_Know_12_NOTREADY();
         return;
     }
-    //getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    //showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     DommeBack();
     return;
     AV_Know_12_NOTREADY();
@@ -572,23 +573,23 @@ function AV_Know_03_NOTREADY()
 function AV_Know_12_NOTREADY()
 {
     SMessage("New folder found: *TeaseAI\Images\av_imagens\01\*");
-	getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+	showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("There are 10 pictures files and the last file in that folder is " + "txt");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     let answer0 = getInput("Did you want to share this folder with your partner?");
     while (!(answer0.isLike("yes") || answer0.isLike("no")))
     {
         answer0 = getInput("Yes or no?");
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     }
     if (answer0.isLike("yes"))
     {
         delVar("AV_Know_12_NOTREADY");
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     }
     else if (answer0.isLike("no"))
     {
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
         DommeBack();
         return;
     }
@@ -766,7 +767,7 @@ function TaskReady()
 function TeaseAICrashed()
 {
     let answer0 = getInput("Did TeaseAI crashed?");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     while (!(answer0.isLike("yes") || answer0.isLike("no")))
     {
         answer0 = getInput("%YesorNo%?");
@@ -774,17 +775,17 @@ function TeaseAICrashed()
     if (answer0.isLike("yes"))
     {
         SMessage("OK, Let\'s try to continue the last session");
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     }
     else if (answer0.isLike("no"))
     {
         SMessage("OK");
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
         NormalStart();
         return;
     }
     let answer1 = getInput("How many minutes (approximately) passed before the crash?");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     while (!(answer1.isLike("10") || answer1.isLike("20") || answer1.isLike("30") || answer1.isLike("40") || answer1.isLike("50") || answer1.isLike("60")))
     {
         answer1 = getInput("The options are: 10, 20, 30, 40, 50 or 60");
@@ -792,41 +793,41 @@ function TeaseAICrashed()
     if (answer1.isLike("10"))
     {
         SMessage("OK");
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
 		//@RemoveTeaseTime(10 Minutes)
     }
     else if (answer1.isLike("20"))
     {
         SMessage("OK");
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
 		//@RemoveTeaseTime(20 Minutes)
     }
     else if (answer1.isLike("30"))
     {
         SMessage("OK");
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
 		//@RemoveTeaseTime(30 Minutes)
     }
     else if (answer1.isLike("40"))
     {
         SMessage("OK");
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
 		//@RemoveTeaseTime(40 Minutes)
     }
     else if (answer1.isLike("50"))
     {
         SMessage("OK");
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
 		//@RemoveTeaseTime(50 Minutes)
     }
     else if (answer1.isLike("60"))
     {
         SMessage("OK");
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
 		//@RemoveTeaseTime(60 Minutes)
     }
     let answer2 = getInput("Did you enter in the \"Mistress Mode\"? - %DomName% said \"What I want today is a slave, a toy that I can play with, someone who will do ANYTHING I demand\"");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     while (!(answer2.isLike("yes") || answer2.isLike("no")))
     {
         answer2 = getInput("%YesorNo%?");
@@ -834,12 +835,12 @@ function TeaseAICrashed()
     if (answer2.isLike("yes"))
     {
         SMessage("OK");
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     }
     else if (answer2.isLike("no"))
     {
         SMessage("OK");
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
         RamdomMOOD();
         return;
     }
@@ -854,7 +855,7 @@ function TeaseAICrashed()
 function RamdomMOOD()
 {
     SMessage("Ready to continue the last session...");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     //CMessage("%StartStroking%");
     Stroking();
     return;

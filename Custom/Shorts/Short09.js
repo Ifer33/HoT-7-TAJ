@@ -209,6 +209,7 @@ function e4grsss()
         CMessage(random("Hit", "Slap", "Spank")+" your %Balls%");
 		playAudio("tease" + java.io.File.separator + "spank" + java.io.File.separator + "Belle*.mp3");
 		sleep(13);
+		stopAudio();
     }
     CMessage("%GoodBoy%");
     return;

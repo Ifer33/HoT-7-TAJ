@@ -1177,6 +1177,7 @@ function Loop_punishment()
     SMessage(random("I want 10 %Balls% slaps", "10 %Balls% slaps", "Gimme 10 %Balls% slaps", "Give %Me% 10 %Balls% slaps", "Slap your %Balls% 10 times", "Slap your %Balls% 10 times for %Me%", "%Balls% slap time! I want 10!", "Slap time! 10 for those %Balls%!"),-1,sender);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "Spank10.mp3");
     sleep(randomInt(15, 30));
+	stopAudio();
     setVar("tgr8_EFU_balls_slaps", getVar("tgr8_EFU_balls_slaps", 0) - 10);
     if (getVar("tgr8_EFU_balls_slaps", 0) == 0)
     {
@@ -1196,6 +1197,8 @@ function Entertain_Mistress()
 {
     SMessage(random("Slap your %Balls% another 10 times, just for my amusement %PetName%", "Slap your %Balls% another 10 times, only that these won\'t count", "Just another 10 %SubName%...", "Just another 10 %SubName%, please, just to entertain %Me%...", "Just another 10 %SubName%, please, just for fun..."),-1,sender);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "Belle10*.mp3");
+	sleep(randomInt(15, 30));
+	stopAudio();
     Choose_Domme();
     return;
     End_punishment();

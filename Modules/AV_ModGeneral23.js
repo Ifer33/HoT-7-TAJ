@@ -33,8 +33,6 @@ function main()
 }
 function AV_ModGeneral23_NotFirstTime()
 {
-	Modulo1()
-	return;
     if (getVar("AV_ModGeneral23", 0) == 0)
     {
         Part1_1();
@@ -1310,7 +1308,7 @@ function g102()
 function g103()
 {
     SMessage("You\'ve jerked so many times for " + getVar("AV_Persona13", "") + "you know it feels great", -1, 2);
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
     LoopG1();
     return;
     g104();
@@ -1325,7 +1323,7 @@ function g104()
 function g105()
 {
     SMessage("Doesn\'t " + getVar("AV_Persona02", "") + "just want to make you squirt all over the place?", -1, 2);
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
     LoopG1();
     return;
     g106();
@@ -1340,7 +1338,7 @@ function g106()
 function g107()
 {
     SMessage(getVar("AV_Persona01", "") + "is looking at you, you need to impress her with your fastest possible jerking!", -1, 2);
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
     LoopG1();
     return;
     g108();

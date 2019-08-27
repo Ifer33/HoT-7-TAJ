@@ -298,8 +298,8 @@ function break_two()
     CMessage("I\'m going to play you one of your videos to enjoy");
     CMessage("But no touching that %Cock%");
     CMessage("Have fun %Smile%");
-    playVideo("Videos" + java.io.File.separator + "*.*",true);
-    sleep(15);
+    showCategoryVideo(randomCategory(),true);
+    sleep(5);
     let answer0 = getInput("Hey, did you enjoy your video?");
     while (!(answer0.isLike("yes") || answer0.isLike("no")))
     {

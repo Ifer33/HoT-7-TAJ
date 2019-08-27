@@ -3,7 +3,11 @@ addResponseIndicator("want to be a good","want to be good");
 
 function wantToBeAGoodBoyResponse(message) {
 	DMessage("wantToBeAGoodBoy: BeginnningResponse");
-	if (isStrokingAll())
+	if (getResponsesDisabled()) {
+        DMessage("wantToBeAGoodBoy: EndResponse Response is Disabled");
+        return false;
+    }
+    else if (isStrokingAll())
     {
 		CMessage("You can be a good boy for me by "+random("jerking","stroking")+" that "+random("dirty","nasty","hard","useless")+" %Cock%");
 	}

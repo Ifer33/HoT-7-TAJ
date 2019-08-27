@@ -850,15 +850,15 @@ function before_loop()
     CMessage("Time to %RelaxAndBreathe% for a while and check a few of your lewd %Pictures% %PetName%");
     CMessage("You can %Stroke% slowly if you want to");
     //--Command:ShowLocalImage
-	showLocalTeasePicture();
+	showLocalPicture();
     sleep(20);
     CMessage("Interesting what you can find on a pervert\'s computer...");
     //--Command:ShowLocalImage
-	showLocalTeasePicture();
+	showLocalPicture();
     sleep(20);
     CMessage("I %Love% looking around like that %lol%");
     //--Command:ShowLocalImage
-	showLocalTeasePicture();
+	showLocalPicture();
     sleep(20);
     CMessage("Ok enough rest!");
     edge_cbt_loop();

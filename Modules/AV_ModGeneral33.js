@@ -400,14 +400,14 @@ function InicioCrush()
         setStrokingNoTaunt();
     }
     CMessage("%Stroke% for " + getVar("AV_Persona02", ""));
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
     setVar("AV_CrushNoMore1", true);
     CMessage("She makes your balls ache, doesn\'t she %Giggles%");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
     CMessage("She doesn\'t even have to do anything at all...");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
     CMessage("It\'s enough for you to know she\'s out there");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
     if (randomInteger(1, 100) <= 50)
     {
         JustStop2();
@@ -415,7 +415,7 @@ function InicioCrush()
     }
     CMessage("%Edge%");
 	lockImages();
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
 	startEdging();
 	unlockImages();
 	CMessage("%stopstroking%", 0);
@@ -428,7 +428,7 @@ function JustStop2()
 {
     CMessage("%stopstroking%", 0);
     stopStrokingAll();
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
     EdgeDone2();
 }
 function EdgeDone2()
@@ -456,18 +456,18 @@ function AV_CrushNoMore1()
         setStrokingNoTaunt();
     }
     CMessage("%Stroke% for " + getVar("AV_Persona13", ""));
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
     setVar("AV_CrushNoMore2", true);
     CMessage("Does she know that you\'re... %JerkingOff% to her?");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
     CMessage("Maybe it turns you on to imagine that she knows");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
     CMessage("Maybe you imagine her looking at you as you %JerkOff%");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
     CMessage("Well let me tell you right now, no girl wants to see that, %PetName%");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
     CMessage("Not unsolicited, anyway");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
     if (randomInteger(1, 100) <= 50)
     {
         JustStop();
@@ -476,7 +476,7 @@ function AV_CrushNoMore1()
     CMessage("%Edge%");
     //startEdging();
 	lockImages();
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
 	startEdging();
 	unlockImages();
 	CMessage("%stopstroking%", 0);
@@ -489,7 +489,7 @@ function JustStop()
 {
     CMessage("%stopstroking%", 0);
     stopStrokingAll();
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
     EdgeDone();
 }
 function EdgeDone()
@@ -517,15 +517,15 @@ function AV_CrushNoMore2()
         setStrokingNoTaunt();
     }
     CMessage("%Stroke% for " + getVar("AV_Persona01", ""));
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
     delVar("AV_CrushNoMore1");
     delVar("AV_CrushNoMore2");
     CMessage("Look at her, %PetName%");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
     CMessage("You know she\'s never going to sleep with you, %PetName%");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
     CMessage("I want you to think about that while to %JerkOff% to her pictures");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
     if (randomInteger(1, 100) <= 50)
     {
         JustStop3();
@@ -534,7 +534,7 @@ function AV_CrushNoMore2()
     CMessage("%Edge%");
     //startEdging();
 	lockImages();
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
 	startEdging();
 	unlockImages();
 	CMessage("%stopstroking%", 0);
@@ -547,7 +547,7 @@ function JustStop3()
 {
     CMessage("%stopstroking%", 0);
     stopStrokingAll();
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
     EdgeDone3();
 }
 function EdgeDone3()

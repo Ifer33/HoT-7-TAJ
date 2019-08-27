@@ -103,6 +103,7 @@ function Cum2()
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "Spank3.mp3");
     CMessage("%RuinYourOrgasm%");
     sleep(20);
+	stopAudio();
     CMessage("%Good%");
     //--Command:UpdateRuined
 	setDate("AVLastRuinedOrgasm");

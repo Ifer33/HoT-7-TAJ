@@ -683,16 +683,19 @@ function Modulo3()
     CMessage(random("Spank ", "hit ", "Smack ") + random("your ", "these ") + "%Balls%");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
     sleep(15);
+	stopAudio();
     edge();
     CMessage(random("Spank ", "hit ", "Smack ") + random("your ", "these ") + "%Balls%");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
     sleep(15);
+	stopAudio();
     edge();
     if(getVar("AV_DommeMistress", false))
     {
         CMessage(random("Spank ", "hit ", "Smack ") + random("your ", "these ") + "%Balls%");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
         sleep(15);
+		stopAudio();
     }
     if(getVar("AV_DommeMistress", false))
     {
@@ -701,6 +704,7 @@ function Modulo3()
     CMessage(random("Spank ", "hit ", "Smack ") + random("your ", "these ") + "%Balls%");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
     sleep(15);
+	stopAudio();
     edge();
     CMessage(random("Wow, that was so cool", "What a show babe", "Spectacular"));
     CMessage("%SitDown%");
@@ -750,20 +754,24 @@ function Modulo4()
     CMessage(random("Spank ", "Hit ") + "your %Balls%");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
     sleep(13);
+	stopAudio();
     CMessage("ohh poor %Slave%");
     CMessage("does it hurts.? it must");
     CMessage(random("Spank ", "Hit ") + "your %Balls%");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
     sleep(13);
+	stopAudio();
     CMessage("because you deserve that....");
     CMessage("Do u want to " + "...uuhhhh?");
     CMessage(random("Spank ", "Hit ") + "your %Balls%");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
     sleep(13);
+	stopAudio();
     CMessage("show me your submission");
     CMessage(random("Spank ", "Hit ") + "your %Balls%");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
     sleep(13);
+	stopAudio();
     av_MG6a01();
 }
 function av_MG6a01()
@@ -793,11 +801,13 @@ function av_MG6a01()
     CMessage(random("Spank ", "Hit ") + "your %Balls%");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
     sleep(13);
+	stopAudio();
     CMessage("how does it feel slave?");
     setTempVar("av_MG6a02", true);
     CMessage(random("Spank ", "Hit ") + "your %Balls%");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
     sleep(13);
+	stopAudio();
     av_MG6a02();
 }
 function av_MG6a02()
@@ -817,10 +827,12 @@ function av_MG6a02()
     CMessage(random("Spank ", "Hit ") + "your %Cock%");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
     sleep(13);
+	stopAudio();
     CMessage("How does it feel slave? does it hurts?");
     CMessage(random("Spank ", "Hit ") + "your %Cock%");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
     sleep(13);
+	stopAudio();
     if(getVar("AV_DommeMistress", false) && getVar("av_fetish_rough", false))
     {
         CMessage("today I will break your nuts");

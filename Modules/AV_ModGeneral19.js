@@ -528,6 +528,7 @@ function Modulo2()
     CMessage("Slap them a few times, HARD.");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
     sleep(12);
+	stopAudio();
     CMessage("3 more ball slaps... go for it, and make sure they\'re nice and hard");
     JumpPain7();
 }
@@ -613,6 +614,7 @@ function JumpPain7()
     {
         CMessage("while my other other hand is pleasing your ass,");
     }
+	stopAudio();
     CMessage("%stopstroking%", 0);
     CMessage("you thought this was bad?");
     if(getVar("AV_LikeAnal", false))

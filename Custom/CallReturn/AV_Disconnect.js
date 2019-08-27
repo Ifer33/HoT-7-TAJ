@@ -75,15 +75,15 @@ function Bryci01()
     CMessage("Over and " + "edging repeatedly.");
     SMessage("connection lost");
     setDom(random(2, 3, 4));
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("%DomName% has left the chat room");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("Trying to re-establish connection...");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("connecting...");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("Unknown user has joined the chat room...");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     CMessage("Oh...Hi there...");
     CMessage("What happ...oh my god, are you naked?");
     CMessage("What were you doing, sir? *smile*");
@@ -111,11 +111,13 @@ function Bryci01()
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b120.mp3");
     sleep(10);
     CMessage("Let\'s try that fast one");
+	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b250.mp3");
     sleep(10);
     CMessage("%Lol%, you are good at this");
     CMessage("%stopstroking%", 0);
-    CMessage("%stopstroking%", 0);
+	stopAudio();
+    CMessage("See? I already know you have a sound to stop.");
     CMessage("But now, I can have more fun with the things you do with %MainDom%");
     CMessage("%KneelForMe%");
     CMessage("Put a clothespins on your nipples");
@@ -151,12 +153,12 @@ function Bryci01()
     CMessage("That was fun, %SubName%");
     CMessage("Who knows if we will meet again?");
     SMessage("Unknown user has left the chat room");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("Trying to re-establish connection...");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("connecting...");
     setDom(1);
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("%DomName% has joined the chat room");
     //--Command:InterruptsOn
     CMessage("Hi " + "PetName...I am trying to reconnect for a few minutes now");
@@ -171,15 +173,15 @@ function Ms_Anitta()
 {
     SMessage("connection lost");
     setDom(random(2, 3, 4));
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("%DomName% has left the chat room");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("Trying to re-establish connection...");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("connecting...");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("Unknown user has joined the chat room...");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     CMessage("Hi %SubName%");
     CMessage("Dont be scared, its nothing wrong with your application");
     CMessage("In fact, TeaseAI works that way...");
@@ -193,12 +195,12 @@ function Ms_Anitta()
     CMessage("So, anytime your TeaseAI disconnect from your Domme...");
     CMessage("Get ready to serve one of us");
     SMessage("Unknown user has left the chat room");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("Trying to re-establish connection...");
     setDom(1);
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("connecting...");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("%DomName% has joined the chat room");
     CMessage("my connection had some problems");
     setVar("AV_Disco02", true);
@@ -210,16 +212,16 @@ function Ms_Anitta()
 function Amy01()
 {
     SMessage("connection lost");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("%DomName% has left the chat room");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("Trying to re-establish connection...");
     setDom(random(2, 3, 4));
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("connecting...");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("Unknown user has joined the chat room...");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     CMessage("Hello %Slave%");
     CMessage("You look so turned on by me standing over you right here.");
     CMessage("I am here to bust your balls!");
@@ -252,12 +254,12 @@ function Amy01()
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "whip.mp3");
     CMessage("Good %Slave%");
     SMessage("Unknown user has left the chat room");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("Trying to re-establish connection...");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("connecting...");
     setDom(1);
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("%DomName% has joined the chat room");
     CMessage("I am back %SubName%");
     setVar("AV_Disco03", true);
@@ -268,16 +270,16 @@ function Amy01()
 function Amy02()
 {
     SMessage("connection lost");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("%DomName% has left the chat room");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("Trying to re-establish connection...");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("connecting...");
     setDom(random(2, 3, 4));
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("Unknown user has joined the chat room...");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     CMessage("Hello again %Slave%");
     CMessage("I think of you as a filthy, horny creature that needs to be disciplined and trained.");
     CMessage("You are in need of remedial obedience training");
@@ -290,8 +292,8 @@ function Amy02()
     sleep(20);
     CMessage("Be sure you are kneeling on the floor beneath me and stroke your cock for me.");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStroke.mp3");
-    CMessage("%stopstroking%", 0);
-    CMessage("%stopstroking%", 0);
+    CMessage("This is going to be a stop and go session.");
+    CMessage("When I tell you to stroke your cock you must stroke and no matter how good it feels you must stop when I give the command.");
     CMessage("%stopstroking%", 0);
     CMessage("No matter how much I tease you and flaunt my sexy body in front of you");
     CMessage("you must refrain from touching your cock until I give you permission.");
@@ -306,12 +308,12 @@ function Amy02()
     CMessage("%stopstroking%", 0);
     CMessage("Sit in your chair and remove the clothespins...your Domme is comming...");
     SMessage("Unknown user has left the chat room");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("Trying to re-establish connection...");
     setDom(1);
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("connecting...");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("%DomName% has joined the chat room");
     CMessage("I am back %SubName%");
     setVar("AV_Disco06", true);
@@ -322,16 +324,16 @@ function Amy02()
 function Natasha01()
 {
     SMessage("connection lost");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("%DomName% has left the chat room");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("Trying to re-establish connection...");
     setDom(random(2, 3, 4));
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("connecting...");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("Unknown user has joined the chat room...");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     CMessage("Helo %SubName%");
     CMessage("Wow, you really will do anything I say, won\'t you? *laughs*");
     CMessage("We don\'t need to play that game.");
@@ -361,12 +363,12 @@ function Natasha01()
     CMessage("Shhh...your Domme is back");
     CMessage("Sit in your chair");
     SMessage("Unknown user has left the chat room");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("Trying to re-establish connection...");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("connecting...");
     setDom(1);
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("%DomName% has joined the chat room");
     CMessage("I am back %SubName%");
     setVar("AV_Disco04", true);
@@ -377,16 +379,16 @@ function Natasha01()
 function Natasha02()
 {
     SMessage("connection lost");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("%DomName% has left the chat room");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("Trying to re-establish connection...");
     setDom(random(2, 3, 4));
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("connecting...");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("Unknown user has joined the chat room...");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     CMessage("Do NOT touch your %Cock%");
     CMessage("I\'m serious. Don\'t touch yourself.");
     CMessage("I don\'t care how hard it gets");
@@ -406,12 +408,12 @@ function Natasha02()
     CMessage("And I love knowing that you\'ll get me back for it later.");
     CMessage("Sit");
     SMessage("Unknown user has left the chat room");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("Trying to re-establish connection...");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("connecting...");
     setDom(1);
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("%DomName% has joined the chat room");
     CMessage("I am back %SubName%");
     setVar("AV_Disco07", true);
@@ -422,16 +424,16 @@ function Natasha02()
 function Bryci02()
 {
     SMessage("connection lost");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("%DomName% has left the chat room");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("Trying to re-establish connection...");
     setDom(random(2, 3, 4));
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("connecting...");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("Unknown user has joined the chat room...");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     CMessage("Hi again %SubName%");
     CMessage("So...now you know the truth");
     CMessage("I have many lowly little slaves that come to Me begging to be owned and dominated by Me.");
@@ -464,12 +466,12 @@ function Bryci02()
     CMessage("%stopstroking%", 0);
     CMessage("You can sit now.");
     SMessage("Unknown user has left the chat room");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("Trying to re-establish connection...");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("connecting...");
     setDom(1);
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     SMessage("%DomName% has joined the chat room");
     CMessage("I am back %SubName%");
     setVar("AV_Disco05", true);
@@ -479,7 +481,7 @@ function Bryci02()
 }
 function Ramdom_Disco()
 {
-    playVideo("Videos" + java.io.File.separator + "*.*",true);
+    showCategoryVideo(randomCategory(),true);
     CMessage("%stopstroking%", 0);
     return;
 }

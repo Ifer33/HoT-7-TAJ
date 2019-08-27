@@ -1,6 +1,6 @@
 addResponseIndicator("i love tease and denial","i love denial","i love being teased and denied","love it when you deny me","love it when you tease and deny me","i like tease and denial","i like denial","i like being teased and denied","like it when you deny me","like it when you tease and deny me");
 
-function ILoveTeaseAndDenialResponse(message) {
+function iLoveTeaseAndDenialResponse(message) {
 	DMessage("iLoveTeaseAndDenial: BeginnningResponse");
     found=false;
 	while(!found){

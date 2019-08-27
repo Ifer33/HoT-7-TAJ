@@ -55,6 +55,7 @@ function part2()
     sleep(15);
     sleep(12);
 	sleep(10);
+	stopAudio();
     SMessage("%DomName% turned off the mic");
     CMessage("%stopstroking%", 0);
     stopStrokingAll();
@@ -74,6 +75,7 @@ function part3()
     sleep(14);
     sleep(10);
 	sleep(10);
+	stopAudio();
     SMessage("%DomName% turned off the mic");
     CMessage("%stopstroking%", 0);
     stopStrokingAll();
@@ -97,6 +99,7 @@ function part4()
     sleep(15);
     sleep(10);
 	sleep(13);
+	stopAudio();
     SMessage("%DomName% turned off the mic");
     CMessage("%stopstroking%", 0);
     stopStrokingAll();

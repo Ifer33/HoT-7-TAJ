@@ -4,7 +4,7 @@ DMessage("HoTSetup: end");
 function main()
 {
     CMessage("This is a setup file for House of Tease " + "4 for TeaseAI");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     lockImages();
     CMessage("You will need to restart TeaseAI to begin a new session after this one time setup");
 	//@RTOn

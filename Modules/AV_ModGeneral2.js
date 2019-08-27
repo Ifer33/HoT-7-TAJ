@@ -683,6 +683,7 @@ function Modulo4()
     CMessage("Are you ready for denial, edging, and humiliation?");
     CMessage("%StartStrokingNS%");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b110.mp3");
+	sleep(3);
 	lockImages();
     switch(random("act1", "sin1", "por1"))
     {
@@ -703,6 +704,7 @@ function Modulo4()
 }
 function Start_Porn()
 {
+	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b120.mp3");
     switch(random("act1", "sin1"))
     {
@@ -719,6 +721,7 @@ function Start_Porn()
 }
 function Start_Actress()
 {
+	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b120.mp3");
     switch(random("sin1", "por1"))
     {
@@ -735,6 +738,7 @@ function Start_Actress()
 }
 function Start_Singer()
 {
+	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b120.mp3");
     switch(random("act1", "por1"))
     {
@@ -754,6 +758,7 @@ function por1()
     //--UNINTERPRETED LINE:@NullResponse @ShowImage[av_imagens\04\*.*] @ChangeVar[AV_PornStar]=[AV_PornStar]+[1] @PlayAudio[tease\b120.mp3]
 	showImage("Images" + java.io.File.separator +"av_imagens"+ java.io.File.separator +"04"+ java.io.File.separator +"*.*");
 	setVar("AV_PornStar",getVar("AV_PornStar")+1 );
+	stopAudio();
 	playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b120.mp3");
     Check1();
     return;
@@ -764,6 +769,7 @@ function act1()
     //--UNINTERPRETED LINE:@NullResponse @ShowImage[av_imagens\02\*.*] @ChangeVar[AV_Actress]=[AV_Actress]+[1] @PlayAudio[tease\b120.mp3]
 	showImage("Images" + java.io.File.separator +"av_imagens"+ java.io.File.separator +"02"+ java.io.File.separator +"*.*");
 	setVar("AV_Actress",getVar("AV_Actress")+1 );
+	stopAudio();
 	playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b120.mp3");
     Check1();
     return;
@@ -774,6 +780,7 @@ function sin1()
     //--UNINTERPRETED LINE:@NullResponse @ShowImage[av_imagens\03\*.*] @ChangeVar[AV_Singer]=[AV_Singer]+[1] @PlayAudio[tease\b120.mp3]
 	showImage("Images" + java.io.File.separator +"av_imagens"+ java.io.File.separator +"03"+ java.io.File.separator +"*.*");
 	setVar("AV_Singer",getVar("AV_Singer")+1 );
+	stopAudio();
 	playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b120.mp3");
     Check1();
     return;
@@ -781,11 +788,13 @@ function sin1()
 }
 function Check1()
 {
+	sleep(3);
     if (getVar("AV_PornStar", 0) == 3)
     {
         Second_Part();
         return;
     }
+	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b110.mp3");
     if (getVar("AV_Actress", 0) == 3)
     {
@@ -816,6 +825,8 @@ function Check1()
 }
 function Second_Part()
 {
+	sleep(5);
+	stopAudio();
 	unlockImages();
     CMessage("You\'ve been a bad boy all these years");
     CMessage("%Stroking% to %Pictures% of celebs on the internet");

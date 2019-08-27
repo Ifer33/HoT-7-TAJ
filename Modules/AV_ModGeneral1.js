@@ -374,6 +374,7 @@ function Modulo1()
     CMessage("Let\'s start");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "count.mp3");
     sleep(52);
+	stopAudio();
     CMessage("It feels so good, but at the same time it\'s a kind of %Torture%. ");
     if (randomInteger(0, 100) <= 50)
     {
@@ -382,10 +383,12 @@ function Modulo1()
     CMessage("%ICanKeepThisUp%");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "count.mp3");
     sleep(52);
+	stopAudio();
     CMessage("I like creating that dilemma in you.");
     CMessage("%ICanKeepThisUp%");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "count.mp3");
     sleep(52);
+	stopAudio();
     CMessage("You\'re torn between pleasing me with your sexual frustration ");
     if (randomInteger(0, 100) <= 50)
     {
@@ -394,6 +397,7 @@ function Modulo1()
     CMessage("%ICanKeepThisUp%");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "count.mp3");
     sleep(52);
+	stopAudio();
     CMessage("Are you a total wreck? ");
     if (randomInteger(0, 100) <= 50)
     {
@@ -650,7 +654,7 @@ function Modulo3()
     CMessage(random("Good thing ", "Thankfully ") + "you have some videos on your computer");
     CMessage("I\'m sure one of these girls will be able to keep you occupied for a few moments %Grin%");
     CMessage("Have fun");
-    playVideo("Videos" + java.io.File.separator + "*.*",true);
+    showCategoryVideo(randomCategory(),true);
     CMessage("%CensorContinue%");
     CMessage("Well I don\'t know about you, but I feel refreshed");
     if (randomInteger(1, 100) <= 60)
@@ -665,7 +669,7 @@ function Modulo3()
 function ContinueCH1()
 {
     CMessage("Let\'s play another");
-    playVideo("Videos" + java.io.File.separator + "*.*",true);
+    showCategoryVideo(randomCategory(),true);
     CMessage("%CensorContinue%");
     CMessage("It\'s nice to suffer for a girl like that sometimes");
     if (randomInteger(1, 100) <= 50)
@@ -680,7 +684,7 @@ function ContinueCH1()
 function ContinueCH2()
 {
     CMessage("Let\'s do again");
-    playVideo("Videos" + java.io.File.separator + "*.*",true);
+    showCategoryVideo(randomCategory(),true);
     CMessage("%CensorContinue%");
     CMessage("I don\'t mind sharing you with girls like that");
     if (randomInteger(1, 100) <= 40)
@@ -695,7 +699,7 @@ function ContinueCH2()
 function ContinueCH3()
 {
     CMessage("One more");
-    playVideo("Videos" + java.io.File.separator + "*.*",true);
+    showCategoryVideo(randomCategory(),true);
     CMessage("%CensorContinue%");
     CMessage("Well I don\'t know about you, but I feel refreshed");
     if (randomInteger(1, 100) <= 20)
@@ -710,7 +714,7 @@ function ContinueCH3()
 function ContinueCH4()
 {
     CMessage("Let\'s play another");
-    playVideo("Videos" + java.io.File.separator + "*.*",true);
+    showCategoryVideo(randomCategory(),true);
     CMessage("%CensorContinue%");
     CMessage("So time to get my own hands dirty again %Grin%");
     return;

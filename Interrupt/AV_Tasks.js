@@ -479,7 +479,7 @@ function AV_taskOP5()
     CMessage("Hmm");
     CMessage("Don\'t mind me, I\'m just going to look through a few pictures while you %Stroke% %Grin%");
     //--Command:ShowLocalImage
-	showLocalTeasePicture();
+	showLocalPicture();
     Look_Again();
 }
 function Look_Again()

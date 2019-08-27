@@ -27,7 +27,7 @@ function Sub_Not_Stroking()
     setVar("AV_RuinHorny", getVar("AV_RuinHorny", 0) + 1);
     CMessage("That\'s okay, I\'ll just give you something else to focus on for a minute");
     CMessage("Like this picture for instance %Grin%");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
     lockImages();
     CMessage("I know you used to stroke yourself to pictures like this all the time");
     CMessage("I mean, you still do it for me of course %Lol%");

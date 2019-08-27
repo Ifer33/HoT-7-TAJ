@@ -636,6 +636,7 @@ function PiramGame()
     CMessage("and imagine my lips tightly around that %Cock% and taking the length of you into my mouth");
     setTempVar("av_intera_015", true);
     CMessage("You would have to be an extremely good boy to receive this sort of attention from me.");
+	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b055.mp3");
     CMessage("Even thinking of my doing this to you, you\'re lucky.");
     //Command:Slideshow(Femdom,slow)

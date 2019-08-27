@@ -617,10 +617,13 @@ function top_caning()
     sleep(8);
     //setRapidText(true);
     playAudio("Audio" + java.io.File.separator + "MissBlue" + java.io.File.separator + "cane.mp3",true);
+	sleep(2);
     setVar("PtheVCaneCount", 1);
     playAudio("Audio" + java.io.File.separator + "MissBlue" + java.io.File.separator + "cane.mp3",true);
+	sleep(2);
     setVar("PtheVCaneCount", getVar("PtheVCaneCount", 0) + 1);
     playAudio("Audio" + java.io.File.separator + "MissBlue" + java.io.File.separator + "cane.mp3",true);
+	sleep(2);
     setVar("PtheVCaneCount", getVar("PtheVCaneCount", 0) + 1);
     playAudio("Audio" + java.io.File.separator + "MissBlue" + java.io.File.separator + "cane.mp3",true);
     setVar("PtheVCaneCount", getVar("PtheVCaneCount", 0) + 1);
@@ -643,6 +646,7 @@ function another_one()
 {
     playAudio("Audio" + java.io.File.separator + "MissBlue" + java.io.File.separator + "cane.mp3",true);
     setVar("PtheVCaneCount", getVar("PtheVCaneCount", 0) + 1);
+	sleep(2);
     if (getVar("PtheVCaneCount", 0) == 20)
     {
         caning_done();

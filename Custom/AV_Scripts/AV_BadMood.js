@@ -334,6 +334,7 @@ function at_my_feet()
     CMessage("Get ready to stroke at my pace...");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "Count" + java.io.File.separator + "d30.mp3");
     sleep(08);
+	stopAudio();
     CMessage("%Stop%");
     if (randomInteger(1, 100) <= 40)
     {
@@ -345,6 +346,7 @@ function at_my_feet()
         CMessage(random("Hit ", "Spank ") + "your balls");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
         sleep(20);
+		stopAudio();
     }
     if (randomInteger(1, 100) <= 50)
     {
@@ -358,6 +360,7 @@ function mi87g()
     CMessage("Stroke");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "Count" + java.io.File.separator + "d40.mp3");
     sleep(08);
+	stopAudio();
     CMessage("%Stop%");
     if (randomInteger(1, 100) <= 50)
     {
@@ -369,6 +372,7 @@ function mi87g()
         CMessage(random("Hit ", "Spank ") + "your balls");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
         sleep(20);
+		stopAudio();
     }
     ds3gh();
 }
@@ -377,12 +381,14 @@ function ds3gh()
     CMessage("Stroke");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "Count" + java.io.File.separator + "d50.mp3");
     sleep(07);
+	stopAudio();
     CMessage("%Stop%");
     if(getVar("av_fetish_pain", false))
     {
         CMessage(random("Hit ", "Spank ") + "your balls");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
         sleep(20);
+		stopAudio();
     }
     return;
     
@@ -400,6 +406,7 @@ function Dom3()
         CMessage(random("Hit ", "Spank ") + "your balls");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
         sleep(20);
+		stopAudio();
     }
     CMessage("I can make a promise to you and I want to keep that promise...");
     CMessage("and I mean to destroy every orgasm I ever let you have again...");
@@ -408,6 +415,7 @@ function Dom3()
         CMessage(random("Hit ", "Spank ") + "your balls");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
         sleep(20);
+		stopAudio();
     }
     return;
     

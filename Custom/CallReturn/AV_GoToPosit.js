@@ -86,7 +86,7 @@ function AV_Stand()
 function AVRamdStanding1()
 {
     let answer0 = getInput("Are you in this position?");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "01.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "01.jpg");
     while (!(answer0.isLike("yes") || answer0.isLike("no")))
     {
         answer0 = getInput("%YesorNo% %SubName%?");
@@ -108,7 +108,7 @@ function AVRamdStanding1()
 function AVRamdStanding2()
 {
     let answer0 = getInput("Are you in this position?");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "02.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "02.jpg");
     while (!(answer0.isLike("yes") || answer0.isLike("no")))
     {
         answer0 = getInput("%YesorNo% %SubName%?");
@@ -130,7 +130,7 @@ function AVRamdStanding2()
 function AVRamdStanding3()
 {
     let answer0 = getInput("Are you in this position?");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "03.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "03.jpg");
     while (!(answer0.isLike("yes") || answer0.isLike("no")))
     {
         answer0 = getInput("%YesorNo% %SubName%?");
@@ -152,7 +152,7 @@ function AVRamdStanding3()
 function AVRamdStanding4()
 {
     let answer0 = getInput("Are you in this position?");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "04.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "04.jpg");
     while (!(answer0.isLike("yes") || answer0.isLike("no")))
     {
         answer0 = getInput("%YesorNo% %SubName%?");
@@ -174,7 +174,7 @@ function AVRamdStanding4()
 function AVRamdStanding5()
 {
     let answer0 = getInput("Are you in this position?");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "05.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "05.jpg");
     while (!(answer0.isLike("yes") || answer0.isLike("no")))
     {
         answer0 = getInput("%YesorNo% %SubName%?");
@@ -196,7 +196,7 @@ function AVRamdStanding5()
 function AVRamdStanding6()
 {
     let answer0 = getInput("Are you in this position?");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "06.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "06.jpg");
     while (!(answer0.isLike("yes") || answer0.isLike("no")))
     {
         answer0 = getInput("%YesorNo% %SubName%?");
@@ -218,7 +218,7 @@ function AVRamdStanding6()
 function AVRamdStanding7()
 {
     let answer0 = getInput("Are you in this position?");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "07.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "07.jpg");
     while (!(answer0.isLike("yes") || answer0.isLike("no")))
     {
         answer0 = getInput("%YesorNo% %SubName%?");
@@ -283,7 +283,7 @@ function AV_Kneel()
 function AVRamdKneeling1()
 {
     let answer0 = getInput("Are you in this position?");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "01.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "01.jpg");
     while (!(answer0.isLike("yes") || answer0.isLike("no")))
     {
         answer0 = getInput("%YesorNo% %SubName%?");
@@ -305,7 +305,7 @@ function AVRamdKneeling1()
 function AVRamdKneeling2()
 {
     let answer0 = getInput("Are you in this position?");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "02.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "02.jpg");
     while (!(answer0.isLike("yes") || answer0.isLike("no")))
     {
         answer0 = getInput("%YesorNo% %SubName%?");
@@ -327,7 +327,7 @@ function AVRamdKneeling2()
 function AVRamdKneeling3()
 {
     let answer0 = getInput("Are you in this position?");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "03.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "03.jpg");
     while (!(answer0.isLike("yes") || answer0.isLike("no")))
     {
         answer0 = getInput("%YesorNo% %SubName%?");
@@ -349,7 +349,7 @@ function AVRamdKneeling3()
 function AVRamdKneeling4()
 {
     let answer0 = getInput("Are you in this position?");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "04.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "04.jpg");
     while (!(answer0.isLike("yes") || answer0.isLike("no")))
     {
         answer0 = getInput("%YesorNo% %SubName%?");
@@ -371,7 +371,7 @@ function AVRamdKneeling4()
 function AVRamdKneeling5()
 {
     let answer0 = getInput("Are you in this position?");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "05.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "05.jpg");
     while (!(answer0.isLike("yes") || answer0.isLike("no")))
     {
         answer0 = getInput("%YesorNo% %SubName%?");
@@ -393,7 +393,7 @@ function AVRamdKneeling5()
 function AVRamdKneeling6()
 {
     let answer0 = getInput("Are you in this position?");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "06.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "06.jpg");
     while (!(answer0.isLike("yes") || answer0.isLike("no")))
     {
         answer0 = getInput("%YesorNo% %SubName%?");
@@ -415,7 +415,7 @@ function AVRamdKneeling6()
 function AVRamdKneeling7()
 {
     let answer0 = getInput("Are you in this position?");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "07.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "07.jpg");
     while (!(answer0.isLike("yes") || answer0.isLike("no")))
     {
         answer0 = getInput("%YesorNo% %SubName%?");
@@ -549,7 +549,7 @@ function ResetKnee()
 function AVRamdKneeling1a()
 {
     CMessage("Go down in this position");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "01.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "01.jpg");
     sleep(25);
     FimKneel();
     return;
@@ -558,7 +558,7 @@ function AVRamdKneeling1a()
 function AVRamdKneeling2a()
 {
     CMessage("Go down in this position");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "02.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "02.jpg");
     sleep(25);
     FimKneel();
     return;
@@ -567,7 +567,7 @@ function AVRamdKneeling2a()
 function AVRamdKneeling3a()
 {
     CMessage("Go down in this position");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "03.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "03.jpg");
     sleep(25);
     FimKneel();
     return;
@@ -576,7 +576,7 @@ function AVRamdKneeling3a()
 function AVRamdKneeling4a()
 {
     CMessage("Go down in this position");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "04.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "04.jpg");
     sleep(25);
     FimKneel();
     return;
@@ -585,7 +585,7 @@ function AVRamdKneeling4a()
 function AVRamdKneeling5a()
 {
     CMessage("Go down in this position");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "05.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "05.jpg");
     sleep(25);
     FimKneel();
     return;
@@ -594,7 +594,7 @@ function AVRamdKneeling5a()
 function AVRamdKneeling6a()
 {
     CMessage("Go down in this position");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "06.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "06.jpg");
     sleep(25);
     FimKneel();
     return;
@@ -603,7 +603,7 @@ function AVRamdKneeling6a()
 function AVRamdKneeling7a()
 {
     CMessage("Go down in this position");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "07.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "kneel" + java.io.File.separator + "07.jpg");
     sleep(25);
     FimKneel();
     return;
@@ -663,7 +663,7 @@ function ResetStand()
 function AVRamdStanding1a()
 {
     CMessage("Stand up in this position");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "01.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "01.jpg");
     sleep(25);
     FimStand();
     return;
@@ -672,7 +672,7 @@ function AVRamdStanding1a()
 function AVRamdStanding2a()
 {
     CMessage("Stand up in this position");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "02.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "02.jpg");
     sleep(25);
     FimStand();
     return;
@@ -681,7 +681,7 @@ function AVRamdStanding2a()
 function AVRamdStanding3a()
 {
     CMessage("Stand up in this position");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "03.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "03.jpg");
     sleep(25);
     FimStand();
     return;
@@ -690,7 +690,7 @@ function AVRamdStanding3a()
 function AVRamdStanding4a()
 {
     CMessage("Stand up in this position");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "04.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "04.jpg");
     sleep(25);
     FimStand();
     return;
@@ -699,7 +699,7 @@ function AVRamdStanding4a()
 function AVRamdStanding5a()
 {
     CMessage("Stand up in this position");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "05.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "05.jpg");
     sleep(25);
     FimStand();
     return;
@@ -708,7 +708,7 @@ function AVRamdStanding5a()
 function AVRamdStanding6a()
 {
     CMessage("Stand up in this position");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "06.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "06.jpg");
     sleep(25);
     FimStand();
     return;
@@ -717,7 +717,7 @@ function AVRamdStanding6a()
 function AVRamdStanding7a()
 {
     CMessage("Stand up in this position");
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "07.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "stand" + java.io.File.separator + "07.jpg");
     sleep(25);
     FimStand();
     return;

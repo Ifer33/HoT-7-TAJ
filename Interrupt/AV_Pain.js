@@ -90,6 +90,7 @@ function part3()
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "SeSp" + java.io.File.separator + "pain01.mp3");
     sleep(10);
     sleep(10);
+	stopAudio();
     SMessage("%DomName% turned off the mic");
     sleep(10);
     CMessage("%ThatsEnough%");

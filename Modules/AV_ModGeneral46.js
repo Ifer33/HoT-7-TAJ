@@ -402,6 +402,7 @@ function Modulo1()
         CMessage(random("Hit ", "Spank ") + "your balls");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "DSpank" + java.io.File.separator + "*.mp3");
         sleep(randomInt(35, 50));
+		stopAudio();
     }
     CMessage("I\'m going to have you pump and punish your cock.");
     CMessage("Maybe I\'ll let you cum...");
@@ -417,6 +418,7 @@ function Modulo1()
         CMessage(random("Hit ", "Spank ") + "your balls");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "DSpank" + java.io.File.separator + "*.mp3");
         sleep(randomInt(35, 50));
+		stopAudio();
     }
     CMessage("A little bit of pleasure.");
     DoEdges(2, 3, 0);
@@ -612,25 +614,30 @@ function e370d()
     CMessage(random("Hit ", "Spank ") + "your balls");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
     sleep(20);
+	stopAudio();
     CMessage("Don\'t hesitate, just do it.");
     CMessage(random("Hit ", "Spank ") + "your balls");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
     sleep(20);
+	stopAudio();
     CMessage("Grab your dick in one hand and hold it up");
     CMessage("so you have even better access to your balls.");
     CMessage(random("Hit ", "Spank ") + "your balls");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
     sleep(20);
+	stopAudio();
     CMessage("That\'s a good boy.");
     CMessage("Start stroking, slooowly!");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStroke.mp3");
     CMessage(random("Hit ", "Spank ") + "your balls");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
     sleep(20);
+	stopAudio();
     CMessage("Stroke faster for me!");
     CMessage(random("Hit ", "Spank ") + "your balls");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
     sleep(20);
+	stopAudio();
     CMessage("Now say: \"Thank you %DomName% for smacking my");
     CMessage("%GoodBoy%");
     CMessage("%stopstroking%", 0);
@@ -696,6 +703,7 @@ function Modulo4()
         CMessage(random("Hit ", "Spank ") + "your balls");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "DSpank" + java.io.File.separator + "*.mp3");
         sleep(randomInt(35, 50));
+		stopAudio();
     }
     if(getVar("av_fetish_pain", false))
     {

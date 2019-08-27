@@ -63,6 +63,7 @@ function Bite1k()
     SMessage("%Stroke% for me", delay,sender);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "bite.mp3");
     sleep(8);
+	stopAudio();
     SMessage("%stopstroking%", 0,sender);
     getup2();
     return;
@@ -73,6 +74,7 @@ function Bite1g()
     SMessage("%Stroke% for me", delay,sender);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "bite.mp3");
     sleep(8);
+	stopAudio();
     SMessage("%stopstroking%", 0,sender);
     knees2();
     return;
@@ -107,6 +109,7 @@ function Bite2k()
     SMessage("%Stroke% for me", delay,sender);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "bite.mp3");
     sleep(8);
+	stopAudio();
     SMessage("%stopstroking%", 0,sender);
     getup3();
     return;
@@ -117,6 +120,7 @@ function Bite2g()
     SMessage("%Stroke% for me", delay,sender);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "bite.mp3");
     sleep(8);
+	stopAudio();
     SMessage("%stopstroking%", 0,sender);
     knees3();
     return;
@@ -151,6 +155,7 @@ function Bite3k()
     SMessage("%Stroke% for me", delay,sender);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "bite.mp3");
     sleep(8);
+	stopAudio();
     SMessage("%stopstroking%", 0,sender);
     getup4();
     return;
@@ -161,6 +166,7 @@ function Bite3g()
     SMessage("%Stroke% for me", delay,sender);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "bite.mp3");
     sleep(8);
+	stopAudio();
     SMessage("%stopstroking%", 0,sender);
     knees4();
     return;
@@ -195,6 +201,7 @@ function Bite4k()
     SMessage("%Stroke% for me", delay,sender);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "bite.mp3");
     sleep(8);
+	stopAudio();
     SMessage("%stopstroking%", 0,sender);
     getup5();
     return;
@@ -205,6 +212,7 @@ function Bite4g()
     SMessage("%Stroke% for me", delay,sender);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "bite.mp3");
     sleep(8);
+	stopAudio();
     SMessage("%stopstroking%", 0,sender);
     knees5();
     return;
@@ -239,6 +247,7 @@ function Bite5k()
     SMessage("%Stroke% for me", delay,sender);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "bite.mp3");
     sleep(8);
+	stopAudio();
     SMessage("%stopstroking%", 0,sender);
     getup6();
     return;
@@ -249,6 +258,7 @@ function Bite5g()
     SMessage("%Stroke% for me", delay,sender);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "bite.mp3");
     sleep(8);
+	stopAudio();
     SMessage("%stopstroking%", 0,sender);
     knees6();
     return;
@@ -283,6 +293,7 @@ function Bite6k()
     SMessage("%Stroke% for me", delay,sender);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "bite.mp3");
     sleep(8);
+	stopAudio();
     SMessage("%stopstroking%", 0,sender);
     if (randomInteger(1, 100) <= 70)
     {
@@ -299,6 +310,7 @@ function Bite6g()
     SMessage("%Stroke% for me", delay,sender);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "bite.mp3");
     sleep(8);
+	stopAudio();
     SMessage("%stopstroking%", 0,sender);
     if (randomInteger(1, 100) <= 70)
     {
@@ -339,6 +351,7 @@ function Bite7k()
     SMessage("%Stroke% for me", delay,sender);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "bite.mp3");
     sleep(8);
+	stopAudio();
     SMessage("%stopstroking%", 0,sender);
     if (randomInteger(1, 100) <= 60)
     {
@@ -355,6 +368,7 @@ function Bite7g()
     SMessage("%Stroke% for me", delay,sender);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "bite.mp3");
     sleep(8);
+	stopAudio();
     SMessage("%stopstroking%", 0,sender);
     if (randomInteger(1, 100) <= 60)
     {
@@ -411,6 +425,7 @@ function Bite8g()
     SMessage("%Stroke% for me", delay,sender);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "bite.mp3");
     sleep(8);
+	stopAudio();
     SMessage("%stopstroking%", 0,sender);
     if (randomInteger(1, 100) <= 50)
     {
@@ -451,6 +466,7 @@ function Bite9k()
     SMessage("%Stroke% for me", delay,sender);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "bite.mp3");
     sleep(8);
+	stopAudio();
     SMessage("%stopstroking%", 0,sender);
     SMessage("%ThatsEnough%", delay,sender);
     fim();
@@ -462,6 +478,7 @@ function Bite9g()
     SMessage("%Stroke% for me", delay,sender);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "bite.mp3");
     sleep(8);
+	stopAudio();
     SMessage("%stopstroking%", 0,sender);
     SMessage("%ThatsEnough%", delay,sender);
     fim();

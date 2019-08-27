@@ -491,7 +491,7 @@ function Crush10()
 function Cr01()
 {
     CMessage("You will %Stroke% and edge for " + getVar("AV_Persona50", ""));
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "10" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "10" + java.io.File.separator + "*.jpg");
     setTempVar("AV_IntCrush50", true);
     Intro();
     return;
@@ -501,7 +501,7 @@ function Cr01()
 function Cr02()
 {
     CMessage("You will %Stroke% and edge for " + getVar("AV_Persona51", ""));
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "11" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "11" + java.io.File.separator + "*.jpg");
     setTempVar("AV_IntCrush51", true);
     Intro();
     return;
@@ -511,7 +511,7 @@ function Cr02()
 function Cr03()
 {
     CMessage("You will %Stroke% and edge for " + getVar("AV_Persona52", ""));
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "12" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "12" + java.io.File.separator + "*.jpg");
     setTempVar("AV_IntCrush52", true);
     Intro();
     return;
@@ -521,7 +521,7 @@ function Cr03()
 function Cr04()
 {
     CMessage("You will %Stroke% and edge for " + getVar("AV_Persona53", ""));
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "13" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "13" + java.io.File.separator + "*.jpg");
     setTempVar("AV_IntCrush53", true);
     Intro();
     return;
@@ -531,7 +531,7 @@ function Cr04()
 function Cr05()
 {
     CMessage("You will %Stroke% and edge for " + getVar("AV_Persona54", ""));
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "14" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "14" + java.io.File.separator + "*.jpg");
     setTempVar("AV_IntCrush54", true);
     Intro();
     return;
@@ -541,7 +541,7 @@ function Cr05()
 function Cr06()
 {
     CMessage("You will %Stroke% and edge for " + getVar("AV_Persona55", ""));
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "15" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "15" + java.io.File.separator + "*.jpg");
     setTempVar("AV_IntCrush55", true);
     Intro();
     return;
@@ -551,7 +551,7 @@ function Cr06()
 function Cr07()
 {
     CMessage("You will %Stroke% and edge for " + getVar("AV_Persona56", ""));
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "16" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "16" + java.io.File.separator + "*.jpg");
     setTempVar("AV_IntCrush56", true);
     Intro();
     return;
@@ -561,7 +561,7 @@ function Cr07()
 function Cr08()
 {
     CMessage("You will %Stroke% and edge for " + getVar("AV_Persona57", ""));
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "17" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "17" + java.io.File.separator + "*.jpg");
     setTempVar("AV_IntCrush57", true);
     Intro();
     return;
@@ -571,7 +571,7 @@ function Cr08()
 function Cr09()
 {
     CMessage("You will %Stroke% and edge for " + getVar("AV_Persona58", ""));
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "18" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "18" + java.io.File.separator + "*.jpg");
     setTempVar("AV_IntCrush58", true);
     Intro();
     return;
@@ -581,7 +581,7 @@ function Cr09()
 function Cr10()
 {
     CMessage("You will %Stroke% and edge for " + getVar("AV_Persona59", ""));
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "19" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "19" + java.io.File.separator + "*.jpg");
     setTempVar("AV_IntCrush59", true);
     Intro();
     return;
@@ -634,7 +634,7 @@ function ThreeCrush()
 function Actress()
 {
     CMessage("You will %Stroke% and edge for " + getVar("AV_Persona01", ""));
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
     setTempVar("AV_IntCrushAct", true);
     Intro();
     return;
@@ -643,7 +643,7 @@ function Actress()
 function Singer()
 {
     CMessage("You will %Stroke% and edge for " + getVar("AV_Persona02", ""));
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
     setTempVar("AV_IntCrushSing", true);
     Intro();
     return;
@@ -652,7 +652,7 @@ function Singer()
 function Secret()
 {
     CMessage("You will %Stroke% and edge for " + getVar("AV_Persona13", ""));
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
     setTempVar("AV_IntCrushSec", true);
     Intro();
     return;
@@ -1317,6 +1317,7 @@ function Edge02()
 	lockImages();
     //CMessage("%Edge%");
     //startEdging();
+	stopAudio();
     holdEdge();
     CMessage("say \"Thank you for letting me edge looking at beautiful girls\"");
     unlockImages();
@@ -1743,24 +1744,28 @@ function spanking_stuff()
         CMessage(random("Hit ", "Spank ") + "your balls");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "G1Spank" + java.io.File.separator + "*.mp3");
         sleep(20);
+		stopAudio();
     }
     if (inGroup(3))
     {
         CMessage(random("Hit ", "Spank ") + "your balls");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "G2Spank" + java.io.File.separator + "*.mp3");
         sleep(20);
+		stopAudio();
     }
     if (inGroup(4))
     {
         CMessage(random("Hit ", "Spank ") + "your balls");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "G3Spank" + java.io.File.separator + "*.mp3");
         sleep(20);
+		stopAudio();
     }
     if (inGroup(1))
     {
         CMessage(random("Hit ", "Spank ") + "your balls");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
         sleep(20);
+		stopAudio();
     }
     unlockImages();
     CMessage("Or she ");
@@ -1801,24 +1806,28 @@ function spanking_stuff()
         CMessage(random("Hit ", "Spank ") + "your balls");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "G1Spank" + java.io.File.separator + "*.mp3");
         sleep(20);
+		stopAudio();
     }
     if (inGroup(3))
     {
         CMessage(random("Hit ", "Spank ") + "your balls");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "G2Spank" + java.io.File.separator + "*.mp3");
         sleep(20);
+		stopAudio();
     }
     if (inGroup(4))
     {
         CMessage(random("Hit ", "Spank ") + "your balls");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "G3Spank" + java.io.File.separator + "*.mp3");
         sleep(20);
+		stopAudio();
     }
     if (inGroup(1))
     {
         CMessage(random("Hit ", "Spank ") + "your balls");
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
         sleep(20);
+		stopAudio();
     }
     unlockImages();
     CMessage("Well done, %Petname%!");
@@ -2018,7 +2027,7 @@ function chooses_denial_without_cage()
     CMessage("But I can still tease it %Grin%");
     CMessage("With " + random("hot ", "sexy ") + "pictures");
     //--Command:ShowLocalImage
-	showLocalTeasePicture();
+	showLocalPicture();
     lockImages();
     CMessage("Pictures of things you want, but can\'t have");
     showTaggedImage(4, ["blowjob"]);
@@ -2034,7 +2043,8 @@ function chooses_denial_without_cage()
     unlockImages();
     CMessage("You can look, but you can\'t touch");
 	//todo jump video
-    playVideo("Videos" + java.io.File.separator + "*.*",true);
+    showCategoryVideo(randomCategory());
+	stopVideoAfter(45);
     //--Command:JumpVideo
     let answer0 = getInput("Do you want to %JerkOff% again?");
     while (!(answer0.isLike("yes") || answer0.isLike("no")))

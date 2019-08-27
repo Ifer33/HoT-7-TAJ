@@ -400,6 +400,7 @@ function Overdrive()
     SMessage(random("You gonna do a couple of overdrives. Don\'t miss a beat", "An overdrive will push you right on your place", "This overdrive should get you right back into action", "Show me how you can %Take% an overdrive"),delay,sender);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "StrokePattern" + java.io.File.separator + "overdrive*.mp3");
     sleep(randomInt(20, 30));
+	stopAudio();
     SMessage("%stopstroking%", 0,sender);
     sleep(randomInt(20, 25));
     SMessage(random("can you %Take% ", "Maybe ", "How about ") + random("One more", "another one"),delay,sender);
@@ -411,6 +412,7 @@ function Overdrive()
     SMessage(random("You gonna do a couple of overdrives. Don\'t miss a beat", "An overdrive will push you right on your place", "This overdrive should get you right back into action", "Show me how you can %Take% an overdrive"),delay,sender);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "StrokePattern" + java.io.File.separator + "overdrive*.mp3");
     sleep(randomInt(20, 30));
+	stopAudio();
     SMessage("%stopstroking%", 0,sender);
     sleep(randomInt(20, 25));
     Just1OD();
@@ -447,20 +449,24 @@ function SpankAss()
     SMessage(random("Hit ", "spank ") + "your " + random("ass cheek", "ass", "right cheek", "left cheek"),delay,sender);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
     sleep(13);
+	stopAudio();
     if(getVar("av_fetish_pain", false))
     {
         SMessage(random("Hit ", "spank ") + "your " + random("ass cheek", "ass", "right cheek", "left cheek"),delay,sender);
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
         sleep(13);
+		stopAudio();
     }
     SMessage(random("Hit ", "spank ") + "your " + random("ass cheek", "ass", "right cheek", "left cheek"),delay,sender);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
     sleep(13);
+	stopAudio();
     if(getVar("av_fetish_pain", false))
     {
         SMessage(random("Hit ", "spank ") + "your " + random("ass cheek", "ass", "right cheek", "left cheek"),delay,sender);
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "spank" + java.io.File.separator + "*.mp3");
         sleep(13);
+		stopAudio();
     }
     SMessage("%SitDown%",delay,sender);
     setVar("AV_GlitterTestRounds", getVar("AV_GlitterTestRounds", 0) + 1);
@@ -504,7 +510,7 @@ function Positions()
     }
     SMessage(random("Rest ", "Break ") + "time...",delay,sender);
     SMessage("But wait in this position",delay,sender);
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "all" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "positions" + java.io.File.separator + "all" + java.io.File.separator + "*.jpg");
     sleep(10);
     SMessage("Stay " + random("like that ", "there ") + "untill " + random("I play ", "you hear ") + "a bell...",delay,sender);
     sleep(randomInt(25, 35));

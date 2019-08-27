@@ -1,0 +1,54 @@
+I'll %Hear% you %Beg% for %Mercy% before %GeneralTime% is over
+I'll %Hear% you %Begging% me for %Mercy% before %GeneralTime% is over
+I'll %Hear% you %Beg2% me to %LetYouStop% before %GeneralTime% is over
+I'll %Hear% you %Begging% me to %LetYouStop% before %GeneralTime% is over
+%Name%, I'll %Hear% you %Beg2% me to %LetYouStop% before %GeneralTime% is over
+%Name%, I'll %Hear% you %Begging% me to %LetYouStop% before %GeneralTime% is over
+%Name%, I'll %Hear% you %Beg2% me to grant you %Mercy% before %GeneralTime% is over
+%Name%, I'll %Hear% you %Begging% me to grant you %Mercy% before %GeneralTime% is over
+I'm going to %MakeSure% I get to %Hear% you %Beg% for %Mercy% %GeneralTime%
+I'm going to %MakeSure% I get to %Hear% you %Begging% me for %Mercy% %GeneralTime%
+%Name%, I'm going to %MakeSure% I get to %Hear% you %Beg2% me for %Mercy% %GeneralTime% 
+%Name%, I'm going to %MakeSure% I get to %Hear% you %Begging% me for %Mercy% %GeneralTime%
+I'm going to %MakeSure% I get to %Hear% you %Beg2% me to %LetYouStop% %GeneralTime%
+I'm going to %MakeSure% I get to %Hear% you %Begging% me to %LetYouStop% %GeneralTime%
+I'm going to %Love% %MakingSure% that I get to %Hear% you, %Begging% me to %LetYouStop% %GeneralTime%
+I'm going to %Love% %MakingSure% that I get to %Hear% you, %Name%, %Begging% me to %LetYouStop% %GeneralTime%
+I'm going to %Love% %MakingSure% that I get to %Hear% you, %Begging% me for %Mercy% %GeneralTime%
+I'm going to %Love% %MakingSure% that I get to %Hear% you, %Name%, %Begging% me for %Mercy% %GeneralTime%
+I %Long% to %Hear% you %Beg%
+I %Long% to %Hear% you %Begging2% me
+I %Long% to %Hear% you %Begging2% me to %LetYouStop%
+I %Long% to %Hear% you %Begging% 
+I %Long% to %Hear% you %Begging% me 
+I %Long% to %Hear% you %Begging% me to %LetYouStop%
+I %Long% to %Hear% you %Beg%, %Name%
+I %Long% to %Hear% you %Beg2% me, %Name%
+I %Long% to %Hear% you %Beg2% me to %LetYouStop%, %Name%
+I %Long% to %Hear% you %Begging%, %Name%
+I %Long% to %Hear% you %Begging% me, %Name%
+I %Long% to %Hear% you %Begging% me to %LetYouStop%, %Name%
+I %Long% to %Hear% you %Beg% for %Mercy%
+I %Long% to %Hear% you %Begging% for %Mercy%
+I %Long% to %Hear% you %Begging% me for %Mercy%
+I %Long% to %Hear% you %Begging% me for %Mercy%, to %LetYouStop%
+I %Long% to %Hear% you %Beg% for %Mercy%, %Name%
+I %Long% to %Hear% you %Begging% for %Mercy%, %Name%
+I %Long% to %Hear% you %Begging% me for %Mercy%, %Name%
+I %Love% %Hearing% you %Beg%
+I %Love% %Hearing% you %Beg2% me
+I %Love% %Hearing% you %Beg2% me to %LetYouStop%
+I %Love% %Hearing% you %Beg%, %Name%
+I %Love% %Hearing% you %Beg2% me, %Name%
+I %Love% %Hearing% you %Beg2% me to %LetYouStop%, %Name%
+I %Love% %Hearing% you %Beg% for %Mercy%
+I %Love% %Hearing% you %Beg2% me for %Mercy%
+I %Love% %Hearing% you when your %Begging% for %Mercy%
+I %Love% %Hearing% you when your %Begging% me for %Mercy%
+I %Love% %Hearing% you %Beg% for %Mercy%, %Name%
+I %Love% %Hearing% you %Beg2% me for %Mercy%, %Name%
+I %Love% %Hearing% you %Beg2% me for %Mercy%, to %LetYouStop%, %Name%
+I %Love% %Hearing% you when your %Begging% for %Mercy%, %Name%
+I %Love% %Hearing% you when your %Begging% me for %Mercy%, %Name%
+I %Love% %Hearing% you %Beg2% me, "Please %Mercy%, %DomHonorific% %DomName%, please"
+I %Love% %Hearing% you %Begging% me, "Please %Mercy%, %DomHonorific% %DomName%, please"

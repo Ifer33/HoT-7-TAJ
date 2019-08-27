@@ -384,7 +384,7 @@ function Modulo2()
     CMessage(random("Good thing ", "Thankfully ") + "you have some videos on your computer");
     CMessage("Stroke to the beat %Grin%");
     CMessage("Have fun");
-    playVideo("Videos" + java.io.File.separator + "*.*",true);
+    showCategoryVideo(randomCategory(),true);
     CMessage("%CensorContinue%");
     return;
     av_fetish_bondage();
@@ -556,7 +556,7 @@ function round1a()
 function round1aVolta()
 {
     CMessage("%Stroke% for " + getVar("AV_Persona13", ""));
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
     setVar("AV_GameGo", getVar("AV_GameGo", 0) + 1);
     if (getVar("AV_GameGo", 0) > 5)
     {
@@ -678,7 +678,7 @@ function final1()
 }
 function At01()
 {
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "1.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "1.jpg");
     sleep(01);
     //--Command:ShowGeneralImage
 	showCategoryImage("GENERAL");
@@ -689,7 +689,7 @@ function At01()
 }
 function At02()
 {
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "2.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "2.jpg");
     sleep(01);
     //--Command:ShowGeneralImage
 	showCategoryImage("GENERAL");
@@ -700,7 +700,7 @@ function At02()
 }
 function At03()
 {
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "3.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "3.jpg");
     sleep(01);
     //--Command:ShowGeneralImage
 	showCategoryImage("GENERAL");
@@ -711,7 +711,7 @@ function At03()
 }
 function At04()
 {
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "4.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "4.jpg");
     sleep(01);
     //--Command:ShowGeneralImage
 	showCategoryImage("GENERAL");
@@ -722,7 +722,7 @@ function At04()
 }
 function At05()
 {
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "5.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "5.jpg");
     sleep(01);
     //--Command:ShowGeneralImage
 	showCategoryImage("GENERAL");
@@ -733,7 +733,7 @@ function At05()
 }
 function At06()
 {
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "6.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "6.jpg");
     sleep(01);
     //--Command:ShowGeneralImage
 	showCategoryImage("GENERAL");
@@ -744,7 +744,7 @@ function At06()
 }
 function At07()
 {
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "7.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "7.jpg");
     sleep(01);
     //--Command:ShowGeneralImage
 	showCategoryImage("GENERAL");
@@ -755,7 +755,7 @@ function At07()
 }
 function At08()
 {
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "8.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "8.jpg");
     sleep(01);
     //--Command:ShowGeneralImage
 	showCategoryImage("GENERAL");
@@ -766,7 +766,7 @@ function At08()
 }
 function At09()
 {
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "9.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "9.jpg");
     sleep(01);
     //--Command:ShowGeneralImage
 	showCategoryImage("GENERAL");
@@ -879,7 +879,7 @@ function round2b()
 function round2c()
 {
     CMessage("%Stroke% for " + getVar("AV_Persona01", ""));
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b180.mp3");
     setVar("AV_GameGo", getVar("AV_GameGo", 0) + 1);
     if (getVar("AV_GameGo", 0) > 5)
@@ -961,7 +961,7 @@ function final2()
 }
 function a2At01()
 {
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "1.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "1.jpg");
     sleep(01);
     //--Command:ShowGeneralImage
 	showCategoryImage("GENERAL");
@@ -972,7 +972,7 @@ function a2At01()
 }
 function a2At02()
 {
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "2.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "2.jpg");
     sleep(01);
     //--Command:ShowGeneralImage
 	showCategoryImage("GENERAL");
@@ -983,7 +983,7 @@ function a2At02()
 }
 function a2At03()
 {
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "3.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "3.jpg");
     sleep(01);
     //--Command:ShowGeneralImage
 	showCategoryImage("GENERAL");
@@ -994,7 +994,7 @@ function a2At03()
 }
 function a2At04()
 {
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "4.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "4.jpg");
     sleep(01);
     //--Command:ShowGeneralImage
 	showCategoryImage("GENERAL");
@@ -1005,7 +1005,7 @@ function a2At04()
 }
 function a2At05()
 {
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "5.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "5.jpg");
     sleep(01);
     //--Command:ShowGeneralImage
 	showCategoryImage("GENERAL");
@@ -1016,7 +1016,7 @@ function a2At05()
 }
 function a2At06()
 {
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "6.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "6.jpg");
     sleep(01);
     //--Command:ShowGeneralImage
 	showCategoryImage("GENERAL");
@@ -1027,7 +1027,7 @@ function a2At06()
 }
 function a2At07()
 {
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "7.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "7.jpg");
     sleep(01);
     //--Command:ShowGeneralImage
 	showCategoryImage("GENERAL");
@@ -1038,7 +1038,7 @@ function a2At07()
 }
 function a2At08()
 {
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "8.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "8.jpg");
     sleep(01);
     //--Command:ShowGeneralImage
 	showCategoryImage("GENERAL");
@@ -1049,7 +1049,7 @@ function a2At08()
 }
 function a2At09()
 {
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "9.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "9.jpg");
     sleep(01);
     //--Command:ShowGeneralImage
 	showCategoryImage("GENERAL");
@@ -1155,7 +1155,7 @@ function round3b()
 function round3c()
 {
     CMessage("%EdgeNoun% for " + getVar("AV_Persona01", ""));
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
     startEdging();
 	CMessage("%stopstrokingedge%", null, false);
 	CMessage("%lettheedgefade%");
@@ -1241,7 +1241,7 @@ function final8()
 }
 function a3At01()
 {
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "1.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "1.jpg");
     sleep(01);
     //--Command:ShowGeneralImage
 	showCategoryImage("GENERAL");
@@ -1252,7 +1252,7 @@ function a3At01()
 }
 function a3At02()
 {
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "2.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "2.jpg");
     sleep(01);
     //--Command:ShowGeneralImage
 	showCategoryImage("GENERAL");
@@ -1263,7 +1263,7 @@ function a3At02()
 }
 function a3At03()
 {
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "3.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "3.jpg");
     sleep(01);
     //--Command:ShowGeneralImage
 	showCategoryImage("GENERAL");
@@ -1274,7 +1274,7 @@ function a3At03()
 }
 function a3At04()
 {
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "4.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "4.jpg");
     sleep(01);
     //--Command:ShowGeneralImage
 	showCategoryImage("GENERAL");
@@ -1285,7 +1285,7 @@ function a3At04()
 }
 function a3At05()
 {
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "5.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "5.jpg");
     sleep(01);
     //--Command:ShowGeneralImage
 	showCategoryImage("GENERAL");
@@ -1296,7 +1296,7 @@ function a3At05()
 }
 function a3At06()
 {
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "6.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "6.jpg");
     sleep(01);
     //--Command:ShowGeneralImage
 	showCategoryImage("GENERAL");
@@ -1307,7 +1307,7 @@ function a3At06()
 }
 function a3At07()
 {
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "7.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "7.jpg");
     sleep(01);
     //--Command:ShowGeneralImage
 	showCategoryImage("GENERAL");
@@ -1318,7 +1318,7 @@ function a3At07()
 }
 function a3At08()
 {
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "8.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "8.jpg");
     sleep(01);
     //--Command:ShowGeneralImage
 	showCategoryImage("GENERAL");
@@ -1329,7 +1329,7 @@ function a3At08()
 }
 function a3At09()
 {
-    getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "9.jpg");
+    showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "Games" + java.io.File.separator + "Numbers" + java.io.File.separator + "9.jpg");
     sleep(01);
     //--Command:ShowGeneralImage
 	showCategoryImage("GENERAL");
@@ -1367,7 +1367,7 @@ function Modulo4()
     CMessage("Stroke to the beat %Grin%");
 	setStrokingNoTaunt();
     CMessage("Have fun");
-    playVideo("Videos" + java.io.File.separator + "*.*",true);
+    showCategoryVideo(randomCategory(),true);
     CMessage("%CensorContinue%");
     return;
     av_fetish_pain();
