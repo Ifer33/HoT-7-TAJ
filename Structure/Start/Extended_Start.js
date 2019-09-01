@@ -19,6 +19,7 @@ function main()
 }
 function NormalStart()
 {
+	orgasmRestricted();
     setVar("AV_Sessions", getVar("AV_Sessions", 0) + 1);
     setVar("AV_QteModulos", 0);
     setVar("AV_QteEdges", 0);

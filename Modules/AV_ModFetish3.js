@@ -778,11 +778,12 @@ function At09()
 function Parte2()
 {
     CMessage("%StartStrokingNS%");
-    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b120.mp3");
+    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b120.mp3",true);
     setSlideShow(["BOOBS","BUTTS"]);
 	slideShowOn();
     sleep(15);
-    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b110.mp3");
+	stopAudio();
+    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b110.mp3",true);
     slideShowOff();
     setVar("AV_GameGo", 0);
     setVar("AV_AtentGame", 0);
@@ -833,11 +834,11 @@ function round2a()
 }
 function round2aVolta()
 {
-    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b110.mp3");
+    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b110.mp3",true);
     //--Command:ShowLezdomImage
 	showCategoryImage("LEZDOM");
     setVar("AV_GameGo", getVar("AV_GameGo", 0) + 1);
-    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b120.mp3");
+    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b120.mp3",true);
     if (getVar("AV_GameGo", 0) > 5)
     {
         GameFinished2();
@@ -848,7 +849,7 @@ function round2aVolta()
         round2b();
         return;
     }
-    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b110.mp3");
+    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b110.mp3",true);
     round2c();
     return;
     round2b();
@@ -858,20 +859,20 @@ function round2b()
     CMessage("%KeepStroking%");
     //showTaggedImage(4, ["blowjob"]);
 	showCategoryImage("BLOWJOB");
-    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b120.mp3");
+    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b120.mp3",true);
     setVar("AV_GameGo", getVar("AV_GameGo", 0) + 1);
     if (getVar("AV_GameGo", 0) > 5)
     {
         GameFinished2();
         return;
     }
-    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b120.mp3");
+    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b120.mp3",true);
     if (randomInteger(1, 100) <= 50)
     {
         round2d();
         return;
     }
-    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b120.mp3");
+    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b120.mp3",true);
     round2a();
     return;
     round2c();
@@ -880,20 +881,20 @@ function round2c()
 {
     CMessage("%Stroke% for " + getVar("AV_Persona01", ""));
     showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
-    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b180.mp3");
+    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b180.mp3",true);
     setVar("AV_GameGo", getVar("AV_GameGo", 0) + 1);
     if (getVar("AV_GameGo", 0) > 5)
     {
         GameFinished2();
         return;
     }
-    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b180.mp3");
+    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b180.mp3",true);
     if (randomInteger(1, 100) <= 50)
     {
         round2b();
         return;
     }
-    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b180.mp3");
+    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b180.mp3",true);
     round2d();
     return;
     round2d();
@@ -902,20 +903,20 @@ function round2d()
 {
     CMessage("%KeepStroking%");
     getTeasePicture(3);
-    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b120.mp3");
+    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b120.mp3",true);
     setVar("AV_GameGo", getVar("AV_GameGo", 0) + 1);
     if (getVar("AV_GameGo", 0) > 5)
     {
         GameFinished2();
         return;
     }
-    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b120.mp3");
+    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b120.mp3",true);
     if (randomInteger(1, 100) <= 50)
     {
         round2a();
         return;
     }
-    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b120.mp3");
+    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "b120.mp3",true);
     round2c();
     return;
     GameFinished2();

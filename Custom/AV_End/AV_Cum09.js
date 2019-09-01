@@ -210,7 +210,7 @@ function WaitEdge()
 {
     setVar("edgingmode", "Goto");
     setVar("edginggoto", "Edgesucess()");
-	CMessage("%GetClose%");
+	CMessage("%edgingtaunts1%");
     CMessage("Time is almost over");
     sleep(randomInt(3, 4));
     CMessage("%stopstroking%", 0);

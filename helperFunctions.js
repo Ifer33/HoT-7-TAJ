@@ -71,6 +71,18 @@ function stopVideoAfter(time=null){
 	return;
 }
 
+function chastityOff(){
+	if (getVar("chastityOn",false)){
+		run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "pvCr_ChastityOff.js");
+	}
+}
+
+function chastityOn(){
+	if (!getVar("chastityOn",false)){
+		run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "pvCr_ChastityOn.js");
+	}
+}
+
 function chance(percent){
 	return randomInteger(1, 100) <= percent;
 }
@@ -131,6 +143,11 @@ function cbtLevel(lvl=3){
 function cbt(cockOrBalls = "both", delay = 0, sender = 1, rounds = 3){	
 	//todo calc rounds
 	DMessage("CBT: Beginning");
+	
+	if(rounds==null){
+		rounds=randomInteger(1,Math.round((getOldDommeLevel()+getOldApathyLevel())/2)+1)
+	}
+	
 	setVar("sendDelay",delay);
 	setVar("sendSender",sender);
 	setTempVar("cbtActive",true);
@@ -207,6 +224,11 @@ function cbt(cockOrBalls = "both", delay = 0, sender = 1, rounds = 3){
 //call with customTask("Task");
 function customTask(task = null, delay = -1, sender = 1, rounds = 3){
 	DMessage("CustomTask: Beginning");
+	
+	if(rounds==null){
+		rounds=randomInteger(1,Math.round((getOldDommeLevel()+getOldApathyLevel())/2)+1)
+	}
+	
 	//todo calc rounds
 	if( task!= null){	//maybe also check if string
 		setVar("sendDelay",delay);
@@ -960,19 +982,24 @@ function slideShowOff(){
 
 //todo change edge functions to use it
 function setLongHold(chance=0){
-	setVar("LongHold",chance);
+	setTempVar("LongHold",chance);
 	return;
 }
 
 //todo change edge functions to use it
 function setExtremeHold(chance=0){
-	setVar("ExtremeHold",chance);
+	setTempVar("ExtremeHold",chance);
 	return;
 }
 
 function writingTask(sentence=null, delay = -1, sender= 1, rounds=5){
 	//todo like cbt/customTask calc rounds etc...
 	DMessage("writingTask: Start");
+	
+	if(rounds==null){
+		rounds=randomInteger(5,getOldDommeLevel()+getOldApathyLevel()+5)
+	}
+	
 	if(typeof sentence === "string"){
 		var match=0;
 		var fail=0;
@@ -1015,8 +1042,33 @@ function addEdgeHoldTime(amount=15){
 }
 
 function restrictOrgasm(amount=1,unit="day"){
-	//todo
+	setVar("orgasmRestricted",true);
+	let tmpDate=setDate();
+	if(unit=="second"){
+		tmpDate.addSecond(amount);
+	}else if(unit=="minute"){
+		tmpDate.addMinute(amount);
+	} else if(unit=="hour"){
+		tmpDate.addHour(amount);
+	} else if(unit=="day"){
+		tmpDate.addDay(amount);
+	} else if(unit=="week"){
+		tmpDate.addWeek(amount);
+	}
+	setDate("orgasmRestrictedDate",tmpDate);
 	return;
+}
+
+function orgasmRestricted(){
+	let tmpDate=getVar("orgasmRestrictedDate",null);
+	if(tmpDate!=null && tmpDate.hasPassed()){
+		delVar("orgasmRestrictedDate");
+		delVar("orgasmRestricted");
+		return false;
+	}else if (tmpDate == null){
+		return false;
+	}
+	return true;
 }
 
 

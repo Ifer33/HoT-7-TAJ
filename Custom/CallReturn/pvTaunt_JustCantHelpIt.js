@@ -6,7 +6,7 @@ function main()
     CMessage("You can\'t help getting all horny and hard");
     CMessage("I can\'t say I blame you, %Name%");
 	showTaggedImage(4,["ONEFEMALE"]);
-	lockImages();
+	//lockImages();
     //--Command:ImageTag(SoloF)
     CMessage("There are just so many hot girls out there");
     showTaggedImage(4,["ONEFEMALE"]);
@@ -17,7 +17,7 @@ function main()
     CMessage("And horny...");
     showTaggedImage(4,["ONEFEMALE"]);
     CMessage("And eager to stroke your %Cock%");
-	unlockImages();
+	//unlockImages();
     CMessage("%StrokeFaster%");
     speedUpStroking(3);
     return;

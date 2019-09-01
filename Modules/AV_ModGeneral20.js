@@ -830,7 +830,7 @@ function Loop()
 		edged=false;
 		return;
 	}else{
-		CMessage("%GetClose%");
+		CMessage("%edgingtaunts1%");
 		sleep(1);
 		Loop();
 	}

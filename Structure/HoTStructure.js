@@ -26,5 +26,9 @@ while (continueSession() || getVar("firstRun",false))
     //run("Structure" + separator + "Link" + separator + "*.js");
     setVar("firstRun",false);
 }
-run("Structure" + separator + "End" + separator + "Extended_End.js");
+if(orgasmRestricted()){
+	run("Structure" + separator + "End" + separator + "End_1_RESTRICTED.js");
+}else {
+	run("Structure" + separator + "End" + separator + "Extended_End.js");
+}
 DMessage("HoTStructure: End");

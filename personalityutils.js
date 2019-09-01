@@ -14,6 +14,12 @@ function setUpGUI() {
 	**and apathyLevel is more for decisions/how much dom is willing to do what you want/not want 
 	**like want/dont want collar/kneeling/anal/...
 	*/
+	if (getVar("DomHonnorific", null) == null) {
+        setVar("DomHonnorific", "Mistress");
+    }
+    registerVariable("DomHonnorific", "Domme Honnorific", "Domme Honnorific like Mistress, Miss, Goddess,...");
+	addTextBox("Personality Settings", "DomHonnorific");
+	
 	if (getVar("dommelevel", null) == null) {
         setVar("dommelevel", 4);
     }
@@ -590,19 +596,19 @@ function startEdgingBPM(bpm, message, delay=-1, sender=1) {
             SMessage("%edgingtaunts1%", delay, sender);
             switch (tauntFreq) {
                 case 5:
-                    tauntIncrement = randomInteger(1, 3);
-                    break;
-                case 4:
-                    tauntIncrement = randomInteger(2, 5);
-                    break;
-                case 3:
-                    tauntIncrement = randomInteger(4, 10);
-                    break;
-                case 2:
-                    tauntIncrement = randomInteger(7, 15);
-                    break;
-                case 1:
-                    tauntIncrement = randomInteger(10, 30);
+                    tauntIncrement = randomInteger(4, 8);
+					break;
+				case 4:
+					tauntIncrement = randomInteger(6, 12);
+					break;
+				case 3:
+					tauntIncrement = randomInteger(10, 22);
+					break;
+				case 2:
+					tauntIncrement = randomInteger(16, 32);
+					break;
+				case 1:
+					tauntIncrement = randomInteger(22, 62);
                     break;
                 default:
                     tauntIncrement = 0;
@@ -660,32 +666,52 @@ function holdEdge(delay=-1, sender=1) {
     if (lengthPercent < 0) {
         lengthPercent = 0;
     }
-    let length = lengthPercent * (getMaxHoldingLength() - getMinHoldingLength()) + getMinHoldingLength();
+	/*DMessage("lengthPercent= "+lengthPercent);
+	DMessage("MaxHoldingLenght= "+getMaxHoldingLength());
+	DMessage("MinHoldingLenght= "+getMinHoldingLength());
+	DMessage("MaxHoldingLenght= "+getVar("maxholdinglength", "180"));
+	DMessage("MinHoldingLenght= "+getVar("minholdinglength", "30"));
+	DMessage("LongHold= "+getVar("LongHold", "0"));
+	DMessage("ExtremeHold= "+getVar("ExtremeHold", "0"));*/
+    //let length = lengthPercent * (getMaxHoldingLength() - getMinHoldingLength()) + getMinHoldingLength();
+	if(randomInteger(1,100)<= getVar("LongHold",0)){
+		if(randomInteger(1,100)<= getVar("ExtremeHold",0)){
+			var length = randomInteger(getVar("minextremholdinglength", "180"),getVar("maxextremholdinglength", "300"))
+		} else {
+			var length = randomInteger(getVar("minlongholdinglength", "60"),getVar("maxlongholdinglength", "180"))
+		}
+	}else if(randomInteger(1,100)<= getVar("ExtremeHold",0)){
+		var length = randomInteger(getVar("minextremholdinglength", "180"),getVar("maxextremholdinglength", "300"))
+	}else {
+		var length = randomInteger(getVar("minholdinglength", "5"),getVar("maxholdinglength", "120"))
+	}
 
     let tauntTime = tauntIncrement;
     if (rapidTesting) {
         tauntTime = 1;
     }
     while (timeHolding < length) {
+		DMessage("length= "+length);
+		DMessage("timeHolding= "+timeHolding);
         sleep(.5);
         timeHolding += .5;
         if (tauntTime == timeHolding) {
             SMessage("%edgingholdtaunts1%", delay, sender);
             switch (tauntFreq) {
                 case 5:
-                    tauntIncrement = randomInteger(1, 3);
-                    break;
-                case 4:
-                    tauntIncrement = randomInteger(2, 5);
-                    break;
-                case 3:
-                    tauntIncrement = randomInteger(4, 10);
-                    break;
-                case 2:
-                    tauntIncrement = randomInteger(7, 15);
-                    break;
-                case 1:
-                    tauntIncrement = randomInteger(10, 30);
+                    tauntIncrement = randomInteger(4, 8);
+					break;
+				case 4:
+					tauntIncrement = randomInteger(6, 12);
+					break;
+				case 3:
+					tauntIncrement = randomInteger(10, 22);
+					break;
+				case 2:
+					tauntIncrement = randomInteger(16, 32);
+					break;
+				case 1:
+					tauntIncrement = randomInteger(22, 62);
                     break;
                 default:
                     tauntIncrement = 0;
@@ -696,6 +722,12 @@ function holdEdge(delay=-1, sender=1) {
     SMessage("%stopstrokingedge%", 0,sender);
     stopEdging();
     SMessage("%lettheedgefade%", 0,sender);
+	if(getVar("ExtremeHold",0)!=0){
+		delVar("ExtremeHold");
+	}
+	if(getVar("LongHold",0)!=0){
+		delVar("LongHold");
+	}
 }
 
 /**
@@ -1050,12 +1082,12 @@ function endStroking() {
 **/
 function getMaxHoldingLength() {
     let maxHoldingLength = getVar("maxholdinglength", "3m");
-    if (typeof maxHoldingLength == "number") {
+    /*if (typeof maxHoldingLength == "number") {
         if (maxHoldingLength >= 1 && maxHoldingLength > getMinHoldingLength()) {
             return maxHoldingLength * 60;
         }
     }
-    else {
+    else {*/
         let regEx = new RegExp("^([0-9]+)[s,m]")
         if (regEx.test(maxHoldingLength)) {
             if (maxHoldingLength.search("s") != -1 && (parseInt(maxHoldingLength.substr(0, maxHoldingLength.length - 1))) > getMinHoldingLength()) {
@@ -1065,7 +1097,7 @@ function getMaxHoldingLength() {
                 return 60 * parseInt(maxHoldingLength.substr(0, maxHoldingLength.length - 1));
             }
         }
-    }
+    //}
 
     //Returns 3m if the max holding length has not been set or is invalid
     if (180 > getMinHoldingLength()) {

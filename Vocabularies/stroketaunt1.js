@@ -16,7 +16,7 @@ function stroketaunt1Vocabulary() {
 		[null, "Don't stop stroking" ,null],
 		[null, "Don't stop %Name%, I want you even "+random("more aroused","harder"),null],
 		[null, "You have no choice but to keep stroking for me",null],
-		[null, null, "question(\"Doesn't if feel %Great% to %JerkOff% for me?\",\"itFeelsGoodResponse()\")"], //@ResponseYes(ItFeelsGood)
+		[null, null, "question(\"Doesn't if feel %Great% to %JerkOff% for me?\",\"feelsGoodResponse()\")"], //@ResponseYes(ItFeelsGood)
 		[null, null, "question(\"Can you take more for me, %PetName%?\",\"can_Handle_zResponse()\",\"can_Handle_notResponse()\")"],//, @ResponseYes(Can Handle_z) @ResponseNo(Can Handle_not)
 		[null, "Slow down a little bit","slowStroking(3)"],
 		[null, "Slow down %Name%" ,"slowStroking(3)"],
@@ -194,7 +194,7 @@ function stroketaunt1Vocabulary() {
 		[null, "I love how much you love being my bitch",null],
 		[null, "I'm so horny just thinking of what I will do to you",null],
 		[null, "We'll need to get those balls nice and full before we continue...",null],
-		[null, null,"question(\"Can you feel your %Balls% filling up with cum?\",\"Blue_BallsResponse()\")"],// @ResponseYes(Blue Balls) 
+		[null, null,"question(\"Can you feel your %Balls% filling up with cum?\",\"blue_BallsResponse()\")"],// @ResponseYes(Blue Balls) 
 		[null, "I hope those %Balls% are absolutely swollen with cum for me",null],
 		[null, null,"question(\"Are you saving up lots of cum for me?\",\"wantToBeAGoodBoyResponse()\")"],// @ResponseYes(WantToBeAGoodBoy) 
 		[null, "I love that you save your cum for me, you're such a good %PetName% %Smile%",null],
@@ -301,7 +301,7 @@ function stroketaunt1Vocabulary() {
 		[null, "Is that your phone in your pocket or are you just a total pervert %Lol% ",null],
 		[null, "A girl's gotta have a hobby - mine just happens to be making you edge your %Cock% over and over",null],
 		[null, "Just stare at my hot body, %Name%", "run(\"Custom\"+separator+\"CallReturn\"+separator+\"pvTaunt_DoYouHateIt.js\")"], //@CallReturn(Custom/CallReturn/pvTaunt_DoYouHateIt.txt)
-		[null, null, "question(\"Mmm...yes... you're just so fucking horny right now, aren't you?\",\"ark_HornyResponse()\")"], //@ResponseYes(Ark_Horny)
+		[null, null, "question(\"Mmm...yes... you're just so fucking horny right now, aren't you?\",\"gNMHornyResponse()\")"], //@ResponseYes(Ark_Horny)
 		[null, null, "question(\"I'm not cruel to tease you the way I do, am I? %Giggles%\",\"cruelResponse()\")"], //@ResponseYes(Cruel)
 		[null, null, "question(\"When I tell you to %JerkOff% your submissive little heart just melts, doesn't it?\",\"wantToServeResponse()\")"], //@ResponseYes(WantToServe) 
 		[null, null, "question(\"Men need to be controlled, don't you agree, %PetName%?\",\"menNeedControlResponse()\")"], //@ResponseYes(MenNeedControl)
@@ -350,18 +350,18 @@ function stroketaunt1Vocabulary() {
 		["getVar(\"AV_DommeMistress\",false)","I want to hurt those you so much that you start to crave the pain %SubName%", "run(\"Interrupt\"+separator+\"AV_Pins.js\")"],
 		["getVar(\"AV_DommeMistress\",false)","Being cruel to you turns me on so much ", "run(\"Interrupt\"+separator+\"AV_Pins.js\")"],
 		["getVar(\"AV_DommeMistress\",false)","I know you want you to %Ache% for me ", "run(\"Interrupt\"+separator+\"AV_Pins.js\")"],
-		[null, "%1_ST_Speed%",null],
-		[null, "%1_ST_Ache%",null],
-		[null, "%1_ST_Beg%",null],
-		[null, "%1_ST_Blog%","showLocalPicture()"],
-		[null, "%1_ST_Demean%",null],
-		[null, "%1_ST_Images%","showLocalPicture()"],
-		[null, "%1_ST_Squirm%",null],
-		[null, "%1_ST_Stroke%",null],
-		[null, "%1_ST_Sub%",null],
-		[null, "%1_ST_TagState%",null],
-		[null, "%1_ST_Tease%",null],
-		[null, "%1_ST_Top%",null],
+		[null, "%ST_Speed%",null],
+		[null, "%ST_Ache%",null],
+		[null, "%ST_Beg%",null],
+		[null, "%ST_Blog%","showLocalPicture()"],
+		[null, "%ST_Demean%",null],
+		[null, "%ST_Images%","showLocalPicture()"],
+		[null, "%ST_Squirm%",null],
+		[null, "%ST_Stroke%",null],
+		[null, "%ST_Sub%",null],
+		[null, "%ST_TagState%",null],
+		[null, "%ST_Tease%",null],
+		[null, "%ST_Top%",null],
 		//@Flag(av_fetish_rough) 
 		["getVar(\"av_fetish_rough\",false)","Come on. Show me how much of a pervert you really are.",null],
 		["getVar(\"av_fetish_rough\",false)", null, "question(\"Maybe it's me mocking you that gets you off. Do you like dominant women, pervert?\",\"submissiveResponse()\")"], //@ResponseYes(Submissive)
@@ -604,8 +604,8 @@ function stroketaunt1Vocabulary() {
 		["(getVar(\"av_fetish_rough\",false) && getVar(\"AV_DommeMistress\",false))","I could be your girlfriend. Instead, I'm your mistress.",null],
 		["getVar(\"AV_DommeMistress\",false)","I could be your girl, your fuck toy. Instead, YOU are my denied little toy!",null],
 		["(getVar(\"av_fetish_rough\",false) && getVar(\"AV_DommeMistress\",false))","If I was your girlfriend, I'd give you heaven in bed. But I'm your Mistress, so no chance for that!",null],
-		["getVar(\"AV_DommeMistress\",false)", null, "question(\"Do you like following my orders?\",null,\"aV_PunishmentResponse()\")"],// @ResponseNo(AV_Punishment)
-		["getVar(\"AV_DommeMistress\",false)", null, "question(\"Do you like obeying me?\",null,\"aV_PunishmentResponse()\")"],
+		["getVar(\"AV_DommeMistress\",false)", null, "question(\"Do you like following my orders?\",null,\"punishResponse()\")"],// @ResponseNo(AV_Punishment)
+		["getVar(\"AV_DommeMistress\",false)", null, "question(\"Do you like obeying me?\",null,\"punishResponse()\")"],
 		["(getVar(\"av_fetish_rough\",false) && getVar(\"AV_DommeMistress\",false))", null, "question(\"You love women ordering you around, don't you?\",\"iLoveBeingControlledResponse()\",\"aV_NoNeutralResponse()\")"], //@ResponseYes(ILoveBeingControlled) @ResponseNo(AV_NoNeutral) 
 		["getVar(\"AV_DommeMistress\",false)", null, "question(\"You love your Mistress teasing you?\",\"iLoveTeaseAndDenialResponse()\",\"aV_NoNeutralResponse()\")"], //@ResponseYes(ILoveTeaseAndDenial) @ResponseNo(AV_NoNeutral) 
 		[null, "I know what's good for you.",null],
@@ -621,7 +621,7 @@ function stroketaunt1Vocabulary() {
 		[null, "Obey. You are mine, "+random("%PetName%", "%SubName%")+".",null],
 		["getVar(\"AV_DommeMistress\",false)","Obey. You are mine, %Slave%",null],
 		[null, "You will follow my every word, won't you, "+random("%PetName%", "%SubName%")+"?",null],
-		["getVar(\"AV_DommeMistress\",false)", null, "question(\"You will follow my every word, won't you, "+random("%PetName%", "%SubName%")+"?\",null,\"aV_PunishmentResponse()\")"],
+		["getVar(\"AV_DommeMistress\",false)", null, "question(\"You will follow my every word, won't you, "+random("%PetName%", "%SubName%")+"?\",null,\"punishResponse()\")"],
 		["getVar(\"AV_DommeMistress\",false)","Will you make me proud? I'm your mistress, after all.",null],
 		[null, "Follow my words... Loose yourself in my orders.",null],
 		[null, "No choice, but to obey my every word...",null],
@@ -748,9 +748,9 @@ function stroketaunt1Vocabulary() {
 		[null, "Your %Cock% remains under my control",null],
 		[null, "Surrender to me",null],
 		[null, "Say it out and clear: %AV_RepeatAL% ",null],
-		["getVar(\"AV_DommeMistress\",false)", null, "question(\"Can you control yourself %PetName%?\",null,\"aV_PunishmentResponse()\")"],
+		["getVar(\"AV_DommeMistress\",false)", null, "question(\"Can you control yourself %PetName%?\",null,\"punishResponse()\")"],
 		[null, null, "question(\"Can you control yourself %PetName%?\",\"youControlMeResponse()\",\"iCantHelpMyselfResponse()\")"], //@ResponseYes(YouControlMe) @ResponseNo(ICantHelpMyself) 
-		[null, null, "question(\"Would you like to edge for me?\",\"aV_Want_EdgeResponse()\")"], //@ResponseYes(AV_Want_Edge)
+		[null, null, "question(\"Would you like to edge for me?\",\"opiate_Begging-EdgeResponse()\")"], //@ResponseYes(AV_Want_Edge)
 		["getVar(\"av_fetish_cei\",false)","I can't wait to let you taste your "+random("sperm", "cum")+". You always eats your own cum",null],
 		[null, "You are "+random("enjoying", "liking")+" this more than I expected.",null],
 		[null, "Its so fun to watch a man completely lose his mind just stroking for hours and hours",null],
@@ -803,7 +803,7 @@ function stroketaunt1Vocabulary() {
 		["getVar(\"av_fetish_rough\",false)","All my friends already know you're a pervert, %SubName%",null],
 		["getVar(\"av_fetish_rough\",false)","%EmoteMoan% I would <i>love</i> to humiliate you in a public place",null],
 		["getVar(\"AV_DommeMistress\",false)","Your %Balls% have so much potential to feel pain, ache and need.",null],
-		[null, "<dontsend>", "run(\"Custom\"+separator+\"CallReturn\"+separator+\"Control.js\")"], //@CallReturn(Custom\CallReturn\Control.txt)
+		/*[null, "<dontsend>", "run(\"Custom\"+separator+\"CallReturn\"+separator+\"Control.js\")"], //@CallReturn(Custom\CallReturn\Control.txt)
 		[null, "<dontsend>", "run(\"Custom\"+separator+\"CallReturn\"+separator+\"Control.js\")"], 
 		[null, "<dontsend>", "run(\"Custom\"+separator+\"CallReturn\"+separator+\"Control.js\")"],  
 		[null, "<dontsend>", "run(\"Custom\"+separator+\"CallReturn\"+separator+\"Control.js\")"],  
@@ -812,7 +812,7 @@ function stroketaunt1Vocabulary() {
 		[null, "<dontsend>", "run(\"Custom\"+separator+\"CallReturn\"+separator+\"Control.js\")"],  
 		[null, "<dontsend>", "run(\"Custom\"+separator+\"CallReturn\"+separator+\"Control.js\")"],  
 		[null, "<dontsend>", "run(\"Custom\"+separator+\"CallReturn\"+separator+\"Control.js\")"],  
-		[null, "<dontsend>", "run(\"Custom\"+separator+\"CallReturn\"+separator+\"Control.js\")"],  
+		[null, "<dontsend>", "run(\"Custom\"+separator+\"CallReturn\"+separator+\"Control.js\")"], */ 
 		//@NotFlag(AV_Short27) 
 		["!getVar(\"AV_Short27\",false)","<dontsend>", "run(\"Custom\"+separator+\"Shorts\"+separator+\"Short19.js\")"],
 		[null, "Your place is being kept horny, frustrated and ready to do anything you are told.",null],

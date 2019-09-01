@@ -1,4 +1,4 @@
-function sT_SpeedVocabulary() {
+function ST_SpeedVocabulary() {
 	DMessage("sT_Speed: VocabStart");
 	separator = java.io.File.separator;
 	let answers = [

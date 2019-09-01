@@ -1,4 +1,4 @@
-function sT_TagStateVocabulary() {
+function ST_TagStateVocabulary() {
 	DMessage("sT_TagState: VocabStart");
 	if(firstRound() ){
 		let answers = ["I've been looking forward to teasing that %Cock% %GeneralTime% %EmoteLaugh%",

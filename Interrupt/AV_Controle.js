@@ -571,7 +571,7 @@ function EdgeAV()
 function Loop()
 {
 	if(!edged){
-		CMessage("%GetClose%");
+		CMessage("%edgingtaunts1%");
 		sleep(1);
 		Loop();
 	}

@@ -703,7 +703,7 @@ function Modulo4()
 }
 function c347dka()
 {
-	if(getVar("done",false){
+	if(getVar("done",false)){
 		return;
 	}else{
 		setTempVar("done",true);

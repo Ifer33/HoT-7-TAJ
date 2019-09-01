@@ -119,19 +119,19 @@ function a002()
 		sleep(10);
 	}
 	if(!edged){
-		CMessage("%GetClose%");
+		CMessage("%edgingtaunts1%");
 		sleep(10);
 	}
 	if(!edged){
-		CMessage("%GetClose%");
+		CMessage("%edgingtaunts1%");
 		sleep(10);
 	}
 	if(!edged){
-		CMessage("%GetClose%");
+		CMessage("%edgingtaunts1%");
 		sleep(15);
 	}
 	if(!edged){
-		CMessage("%GetClose%");
+		CMessage("%edgingtaunts1%");
 		sleep(60);
 	}
 	if(!edged){
