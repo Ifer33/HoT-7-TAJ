@@ -13,7 +13,11 @@ while (continueSession() || getVar("firstRun",false))
 			delVar("moduletorun");
 		}
 	}else {
-		run("Modules" + separator + "*.js");
+		if (getVar("chastityOn", false)){
+			run("ModulesChastity" + separator + "*.js");
+		}else{
+			run("Modules" + separator + "*.js");
+		}
 	}
 	//run("Modules" + separator + "*.js");
 	DMessage("HoTStructure: chooseLink");
@@ -22,9 +26,13 @@ while (continueSession() || getVar("firstRun",false))
 		delVar("linktorun");
 	}else {
 		run("Structure" + separator + "Link" + separator + "AV_Link.js");
+		//AV_Link_CHASTITY gets called from AV_Link
 	}
     //run("Structure" + separator + "Link" + separator + "*.js");
     setVar("firstRun",false);
+}
+if (getVar("chastityOn", false)){
+	run("Structure" + separator + "End" + separator + "End_CHASTITY.js");
 }
 if(orgasmRestricted()){
 	run("Structure" + separator + "End" + separator + "End_1_RESTRICTED.js");

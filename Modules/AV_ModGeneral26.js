@@ -1,4 +1,5 @@
 DMessage("AV_ModGeneral26: start");
+edged=false;
 main();
 DMessage("AV_ModGeneral26: end");
 function main()
@@ -869,52 +870,81 @@ function Modulo4()
     CMessage("Get ready");
     CMessage("First one");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "StrokePattern" + java.io.File.separator + "overdrive3.mp3");
+	if(!edged){
     sleep(35);
+	}if(!edged){
 	stopAudio();
     CMessage("%Stop%", 0);
     setVar("AV_Glitteroverdives", getVar("AV_Glitteroverdives", 0) + 1);
+	}if(!edged){
     CMessage(random("Just give it everything you\'ve got right now!", "You like to edge, you want to edge, you NEED to edge", "You can go faster, I know you can!", "Just a quick sprint to the finish now!", "Come on", "just a bit faster for me!", "Are you holding out for me?"));
+	}if(!edged){
     CMessage("Second");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "StrokePattern" + java.io.File.separator + "overdrive3.mp3");
+	}if(!edged){
     sleep(35);
+	}if(!edged){
 	stopAudio();
     CMessage("%Stop%", 0);
     setVar("AV_Glitteroverdives", getVar("AV_Glitteroverdives", 0) + 1);
+	}if(!edged){
     if(getVar("av_fetish_rough", false))
     {
         CMessage("You stupid slave. And now that I have you nice and pliable I\'m going to take advantage of you loser.");
     }
+	}if(!edged){
     CMessage("I told you it was going to be dangerous, but you couldn\'t control yourself with that little dick throbbing.");
+	}if(!edged){
     CMessage("A girl like me driving you crazy...");
+	}if(!edged){
     CMessage("Another one");
+	}if(!edged){
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "StrokePattern" + java.io.File.separator + "overdrive3.mp3");
+	}if(!edged){
     sleep(35);
+	}if(!edged){
 	stopAudio();
     CMessage("%Stop%", 0);
     setVar("AV_Glitteroverdives", getVar("AV_Glitteroverdives", 0) + 1);
+	}if(!edged){
     CMessage(random("Just give it everything you\'ve got right now!", "You like to edge, you want to edge, you NEED to edge", "You can go faster, I know you can!", "Just a quick sprint to the finish now!", "Come on", "just a bit faster for me!", "Are you holding out for me?"));
+	}if(!edged){
     CMessage("Another one");
+	}if(!edged){
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "StrokePattern" + java.io.File.separator + "overdrive3.mp3");
+	}if(!edged){
     sleep(35);
+	}if(!edged){
 	stopAudio();
     CMessage("%Stop%", 0);
     setVar("AV_Glitteroverdives", getVar("AV_Glitteroverdives", 0) + 1);
+	}if(!edged){
     CMessage("Teasing you, reminding you of what you can never have.");
+	}if(!edged){
     CMessage("Yet it only makes you want me more.");
+	}if(!edged){
     CMessage("You\'re so easily manipulated by me.");
+	}if(!edged){
     CMessage("Another one");
+	}if(!edged){
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "StrokePattern" + java.io.File.separator + "overdrive3.mp3");
+	}if(!edged){
     sleep(35);
+	}if(!edged){
 	stopAudio();
     CMessage("%Stop%", 0);
+	}if(!edged){
     CMessage("Wow, you did without edging");
+	}if(!edged){
     CMessage("good job");
     a3f7jaslo();
+	}
     return;
     f23ww3f7();
 }
 function f23ww3f7()
 {
+	edged=true;
     CMessage("%HoldTheEdge%");
 	stopAudio();
     if (getVar("AV_Glitteroverdives", 0) == 0)
@@ -974,6 +1004,8 @@ function Over2()
     sleep(10);
 	stopAudio();
     CMessage("%Stop%", 0);
+	a3f7jaslo();
+	return;
     Over3();
 }
 function Over3()

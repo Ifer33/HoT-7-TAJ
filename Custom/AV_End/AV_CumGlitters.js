@@ -1,4 +1,5 @@
 DMessage("AV_CumGlitters: Beginning");
+edged=false;
 main();
 DMessage("AV_CumGlitters: End");
 function main()
@@ -358,21 +359,35 @@ function Glitter03()
     sleep(20);
     SMessage("Edge for me, now!", -1, 4);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cEdge.mp3");
-    SMessage("Come on, just a bit faster for me!", -1, 4);
-    sleep(15);
-    SMessage("Why aren\'t you edging like I told you?", -1, 4);
-    SMessage("Just give it everything you\'ve got right now!", -1, 4);
-    SMessage("You can go faster, I know you can!", -1, 4);
-    sleep(15);
-    SMessage("Just a quick sprint to the finish now!", -1, 4);
-    sleep(15);
-    SMessage("You like to edge, you want to edge, you NEED to edge, so just do it now!", -1, 4);
-    sleep(15);
-    ce4tgf();
+    edged=false;
+	if(!edged){
+		SMessage("Come on, just a bit faster for me!", -1, 4);
+		sleep(15);
+	}
+	if(!edged){
+		SMessage("Why aren\'t you edging like I told you?", -1, 4);
+	}
+	if(!edged){
+		SMessage("Just give it everything you\'ve got right now!", -1, 4);
+	}
+	if(!edged){
+		SMessage("You can go faster, I know you can!", -1, 4);
+		sleep(15);
+	}
+	if(!edged){
+		SMessage("Just a quick sprint to the finish now!", -1, 4);
+		sleep(15);
+	}
+	if(!edged){
+		SMessage("You like to edge, you want to edge, you NEED to edge, so just do it now!", -1, 4);
+		sleep(15);
+		ce4tgf();
+	}
 	return;
 }
 function ce4tgf()
 {
+	edged=true;
     SMessage(random("Slow down your strokes to half speed", "Slow down a bit, but don't stop!"),-1,4);
     setVar("edgingmode", "Normal");
     SMessage(random("Hold it!", "Ride it!", "Keep on it!"), -1, 4);

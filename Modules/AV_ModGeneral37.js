@@ -1,4 +1,5 @@
 DMessage("AV_ModGeneral37: start");
+edged=false;
 main();
 DMessage("AV_ModGeneral37: end");
 function main()
@@ -644,28 +645,46 @@ function wd4ydmvvv()
 	setStrokingNoTaunt();
     CMessage("With the snap of my fingers I can transfix you");
     setVar("edgingmode", "Goto");
-    setVar("edginggoto", "e390sk()")
+    setVar("edginggoto", "e390sk()");
+	edged=false;
+	if(!edged){
     CMessage("open your mind to my suggestion, and make you sink even deeper.");
+	}if(!edged){
     SMessage("%domFriend3Name% turned on the mic");
+	}if(!edged){
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "Glitter3" + java.io.File.separator + "StrokeFaster.mp3");
+	}if(!edged){
     CMessage("I want you on the edge very soon...");
+	}if(!edged){
     sleep(10);
+	}if(!edged){
     CMessage("%KeepStroking%");
+	}if(!edged){
     SMessage("%domFriend3Name% turned on the mic");
+	}if(!edged){
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "Glitter3" + java.io.File.separator + "BegMe.mp3");
+	}if(!edged){
     sleep(10);
+	}if(!edged){
     CMessage("%Edge%");
+	}if(!edged){
     iew9340();
+	}
+	return;
 }
 function iew9340()
 {
+	if(!edged){
 	CMessage("%edgingtaunts1%");
+	sleep(1);
     iew9340();
+	}
     return;
     e390sk();
 }
 function e390sk()
 {
+	edged=true;
     CMessage("%HoldTheEdge%");
     CMessage("Hold while I count you down...");
     setVar("edgingmode", "Normal");

@@ -826,11 +826,9 @@ function Modulo3()
 function Loop()
 {
     
-	if(edged){
-		edged=false;
-		return;
-	}else{
+	if(!edged){
 		CMessage("%edgingtaunts1%");
+	}if(!edged){
 		sleep(1);
 		Loop();
 	}

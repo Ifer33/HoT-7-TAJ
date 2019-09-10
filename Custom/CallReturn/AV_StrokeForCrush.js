@@ -498,24 +498,28 @@ function Sim12()
 {
     CMessage("You will %Stroke% for " + getVar("AV_Persona13", ""));
     setVar("edgingmode", "Goto");
-    setVar("edginggoto", "EdgeForGoto1()")
+    setVar("edginggoto", "EdgeForGoto1()");
+	edged=false;
     Loop1();
 	return;
 }
 function Loop1()
 {
+	if(!edged){
     showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
+	}if(!edged){
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "beats" + java.io.File.separator + "*.mp3");
+	}if(!edged){
     sleep(randomInt(8, 12));
+	}if(!edged){
     showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
+	}if(!edged){
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "beats" + java.io.File.separator + "*.mp3");
+	}if(!edged){
     sleep(randomInt(8, 13));
-	if(edged){
-		edged=false;
-		return;
-	}else{
+	}if(!edged){
 		Loop1();
 	}
     return;
@@ -535,24 +539,28 @@ function Sim00()
 {
     CMessage("You will %Stroke% for " + getVar("AV_Persona01", ""));
     setVar("edgingmode", "Goto");
-    setVar("edginggoto", "EdgeForGoto2()")
+    setVar("edginggoto", "EdgeForGoto2()");
+	edged=false;
     Loop2();
 	return;
 }
 function Loop2()
 {
+	if(!edged){
     showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
+	}if(!edged){
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "beats" + java.io.File.separator + "*.mp3");
+	}if(!edged){
     sleep(randomInt(8, 12));
+	}if(!edged){
     showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
+	}if(!edged){
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "beats" + java.io.File.separator + "*.mp3");
+	}if(!edged){
     sleep(randomInt(8, 13));
-    if(edged){
-		edged=false;
-		return;
-	}else{
+	}if(!edged){
 		Loop2();
 	}
     return;
@@ -572,24 +580,28 @@ function Sim01()
 {
     CMessage("You will %Stroke% for " + getVar("AV_Persona02", ""));
     setVar("edgingmode", "Goto");
-    setVar("edginggoto", "EdgeForGoto3()")
+    setVar("edginggoto", "EdgeForGoto3()");
+	edged=false;
     Loop3();
 	return;
 }
 function Loop3()
 {
+	if(!edged){
     showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
+	}if(!edged){
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "beats" + java.io.File.separator + "*.mp3");
+	}if(!edged){
     sleep(randomInt(8, 12));
+	}if(!edged){
     showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
+	}if(!edged){
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "beats" + java.io.File.separator + "*.mp3");
+	}if(!edged){
     sleep(randomInt(8, 13));
-    if(edged){
-		edged=false;
-		return;
-	}else{
+	}if(!edged){
 		Loop3();
 	}
     return;
@@ -609,24 +621,28 @@ function Sim03()
 {
     CMessage("You will %Stroke% for " + getVar("AV_Persona04", ""));
     setVar("edgingmode", "Goto");
-    setVar("edginggoto", "EdgeForGoto4()")
+    setVar("edginggoto", "EdgeForGoto4()");
+	edged=false;
     Loop4();
 	return;
 }
 function Loop4()
 {
+	if(!edged){
     showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "04" + java.io.File.separator + "*.jpg");
+	}if(!edged){
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "beats" + java.io.File.separator + "*.mp3");
+	}if(!edged){
     sleep(randomInt(8, 12));
+	}if(!edged){
     showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "04" + java.io.File.separator + "*.jpg");
+	}if(!edged){
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "beats" + java.io.File.separator + "*.mp3");
+	}if(!edged){
     sleep(randomInt(8, 13));
-    if(edged){
-		edged=false;
-		return;
-	}else{
+	}if(!edged){
 		Loop4();
 	}
     return;
@@ -646,24 +662,28 @@ function Sim50()
 {
     CMessage("You will %Stroke% for " + getVar("AV_Persona50", ""));
     setVar("edgingmode", "Goto");
-    setVar("edginggoto", "EdgeForGoto5()")
+    setVar("edginggoto", "EdgeForGoto5()");
+	edged=false;
     Loop5();
 	return;
 }
 function Loop5()
 {
+	if(!edged){
     showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "10" + java.io.File.separator + "*.jpg");
+	}if(!edged){
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "beats" + java.io.File.separator + "*.mp3");
+	}if(!edged){
     sleep(randomInt(8, 12));
+	}if(!edged){
     showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "10" + java.io.File.separator + "*.jpg");
+	}if(!edged){
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "beats" + java.io.File.separator + "*.mp3");
+	}if(!edged){
     sleep(randomInt(8, 13));
-    if(edged){
-		edged=false;
-		return;
-	}else{
+	}if(!edged){
 		Loop5();
 	}
     return;
@@ -683,24 +703,28 @@ function Sim51()
 {
     CMessage("You will %Stroke% for " + getVar("AV_Persona51", ""));
     setVar("edgingmode", "Goto");
-    setVar("edginggoto", "EdgeForGoto6()")
+    setVar("edginggoto", "EdgeForGoto6()");
+	edged=false;
     Loop6();
 	return;
 }
 function Loop6()
 {
+	if(!edged){
     showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "11" + java.io.File.separator + "*.jpg");
+	}if(!edged){
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "beats" + java.io.File.separator + "*.mp3");
+	}if(!edged){
     sleep(randomInt(8, 12));
+	}if(!edged){
     showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "11" + java.io.File.separator + "*.jpg");
+	}if(!edged){
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "beats" + java.io.File.separator + "*.mp3");
+	}if(!edged){
     sleep(randomInt(8, 13));
-    if(edged){
-		edged=false;
-		return;
-	}else{
+	}if(!edged){
 		Loop6();
 	}
     return;
@@ -720,24 +744,28 @@ function Sim52()
 {
     CMessage("You will %Stroke% for " + getVar("AV_Persona52", ""));
     setVar("edgingmode", "Goto");
-    setVar("edginggoto", "EdgeForGoto7()")
+    setVar("edginggoto", "EdgeForGoto7()");
+	edged=false;
     Loop7();
 	return;
 }
 function Loop7()
 {
+	if(!edged){
     showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "12" + java.io.File.separator + "*.jpg");
+	}if(!edged){
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "beats" + java.io.File.separator + "*.mp3");
+	}if(!edged){
     sleep(randomInt(8, 12));
+	}if(!edged){
     showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "12" + java.io.File.separator + "*.jpg");
+	}if(!edged){
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "beats" + java.io.File.separator + "*.mp3");
+	}if(!edged){
     sleep(randomInt(8, 13));
-    if(edged){
-		edged=false;
-		return;
-	}else{
+	}if(!edged){
 		Loop7();
 	}
     return;
@@ -757,24 +785,28 @@ function Sim53()
 {
     CMessage("You will %Stroke% for " + getVar("AV_Persona53", ""));
     setVar("edgingmode", "Goto");
-    setVar("edginggoto", "EdgeForGoto8()")
+    setVar("edginggoto", "EdgeForGoto8()");
+	edged=false;
     Loop8();
 	return;
 }
 function Loop8()
 {
+	if(!edged){
     showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "13" + java.io.File.separator + "*.jpg");
+	}if(!edged){
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "beats" + java.io.File.separator + "*.mp3");
+	}if(!edged){
     sleep(randomInt(8, 12));
+	}if(!edged){
     showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "13" + java.io.File.separator + "*.jpg");
+	}if(!edged){
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "beats" + java.io.File.separator + "*.mp3");
+	}if(!edged){
     sleep(randomInt(8, 13));
-    if(edged){
-		edged=false;
-		return;
-	}else{
+	}if(!edged){
 		Loop8();
 	}
     return;
@@ -794,24 +826,28 @@ function Sim54()
 {
     CMessage("You will %Stroke% for " + getVar("AV_Persona54", ""));
     setVar("edgingmode", "Goto");
-    setVar("edginggoto", "EdgeForGoto9()")
+    setVar("edginggoto", "EdgeForGoto9()");
+	edged=false;
     Loop9();
 	return;
 }
 function Loop9()
 {
+	if(!edged){
     showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "14" + java.io.File.separator + "*.jpg");
+	}if(!edged){
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "beats" + java.io.File.separator + "*.mp3");
+	}if(!edged){
     sleep(randomInt(8, 12));
+	}if(!edged){
     showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "14" + java.io.File.separator + "*.jpg");
+	}if(!edged){
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "beats" + java.io.File.separator + "*.mp3");
+	}if(!edged){
     sleep(randomInt(8, 13));
-    if(edged){
-		edged=false;
-		return;
-	}else{
+	}if(!edged){
 		Loop9();
 	}
     return;
@@ -831,24 +867,28 @@ function Sim55()
 {
     CMessage("You will %Stroke% for " + getVar("AV_Persona55", ""));
     setVar("edgingmode", "Goto");
-    setVar("edginggoto", "EdgeForGoto10()")
+    setVar("edginggoto", "EdgeForGoto10()");
+	edged=false;
     Loop10();
 	return;
 }
 function Loop10()
 {
+	if(!edged){
     showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "15" + java.io.File.separator + "*.jpg");
+	}if(!edged){
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "beats" + java.io.File.separator + "*.mp3");
+	}if(!edged){
     sleep(randomInt(8, 12));
+	}if(!edged){
     showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "15" + java.io.File.separator + "*.jpg");
+	}if(!edged){
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "beats" + java.io.File.separator + "*.mp3");
+	}if(!edged){
     sleep(randomInt(8, 13));
-    if(edged){
-		edged=false;
-		return;
-	}else{
+	}if(!edged){
 		Loop10();
 	}
     return;
@@ -868,24 +908,28 @@ function Sim56()
 {
     CMessage("You will %Stroke% for " + getVar("AV_Persona56", ""));
     setVar("edgingmode", "Goto");
-    setVar("edginggoto", "EdgeForGoto11()")
+    setVar("edginggoto", "EdgeForGoto11()");
+	edged=false;
     Loop11();
 	return;
 }
 function Loop11()
 {
+	if(!edged){
     showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "16" + java.io.File.separator + "*.jpg");
+	}if(!edged){
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "beats" + java.io.File.separator + "*.mp3");
+	}if(!edged){
     sleep(randomInt(8, 12));
+	}if(!edged){
     showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "16" + java.io.File.separator + "*.jpg");
+	}if(!edged){
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "beats" + java.io.File.separator + "*.mp3");
+	}if(!edged){
     sleep(randomInt(8, 13));
-    if(edged){
-		edged=false;
-		return;
-	}else{
+	}if(!edged){
 		Loop11();
 	}
     return;
@@ -905,24 +949,28 @@ function Sim57()
 {
     CMessage("You will %Stroke% for " + getVar("AV_Persona57", ""));
     setVar("edgingmode", "Goto");
-    setVar("edginggoto", "EdgeForGoto12()")
+    setVar("edginggoto", "EdgeForGoto12()");
+	edged=false;
     Loop12();
 	return;
 }
 function Loop12()
 {
+	if(!edged){
     showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "17" + java.io.File.separator + "*.jpg");
+	}if(!edged){
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "beats" + java.io.File.separator + "*.mp3");
+	}if(!edged){
     sleep(randomInt(8, 12));
+	}if(!edged){
     showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "17" + java.io.File.separator + "*.jpg");
+	}if(!edged){
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "beats" + java.io.File.separator + "*.mp3");
+	}if(!edged){
     sleep(randomInt(8, 13));
-    if(edged){
-		edged=false;
-		return;
-	}else{
+	}if(!edged){
 		Loop12();
 	}
     return;
@@ -942,24 +990,28 @@ function Sim58()
 {
     CMessage("You will %Stroke% for " + getVar("AV_Persona58", ""));
     setVar("edgingmode", "Goto");
-    setVar("edginggoto", "EdgeForGoto13()")
+    setVar("edginggoto", "EdgeForGoto13()");
+	edged=false;
     Loop13();
 	return;
 }
 function Loop13()
 {
+	if(!edged){
     showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "18" + java.io.File.separator + "*.jpg");
+	}if(!edged){
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "beats" + java.io.File.separator + "*.mp3");
+	}if(!edged){
     sleep(randomInt(8, 12));
+	}if(!edged){
     showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "18" + java.io.File.separator + "*.jpg");
+	}if(!edged){
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "beats" + java.io.File.separator + "*.mp3");
+	}if(!edged){
     sleep(randomInt(8, 13));
-    if(edged){
-		edged=false;
-		return;
-	}else{
+	}if(!edged){
 		Loop13();
 	}
     return;
@@ -979,24 +1031,28 @@ function Sim59()
 {
     CMessage("You will %Stroke% for " + getVar("AV_Persona59", ""));
     setVar("edgingmode", "Goto");
-    setVar("edginggoto", "EdgeForGoto14()")
+    setVar("edginggoto", "EdgeForGoto14()");
+	edged=false;
     Loop14();
 	return;
 }
 function Loop14()
 {
+	if(!edged){
     showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "19" + java.io.File.separator + "*.jpg");
+	}if(!edged){
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "beats" + java.io.File.separator + "*.mp3");
+	}if(!edged){
     sleep(randomInt(8, 12));
+	}if(!edged){
     showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "19" + java.io.File.separator + "*.jpg");
+	}if(!edged){
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "beats" + java.io.File.separator + "*.mp3");
+	}if(!edged){
     sleep(randomInt(8, 13));
-    if(edged){
-		edged=false;
-		return;
-	}else{
+	}if(!edged){
 		Loop14();
 	}
     return;

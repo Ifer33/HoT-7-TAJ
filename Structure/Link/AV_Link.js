@@ -311,6 +311,14 @@ function continue7()
     {
         run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "AV_ChastityTalk.js");
     }
+	if (getVar("chastityOn", false))
+    {
+        run("Stroke" + java.io.File.separator + "Link" + java.io.File.separator + "Link_CHASTITY.js");
+        if (getVar("chastityOn", false)){
+			return;
+		}
+		//return;
+    }
     //--UNINTERPRETED LINE:@Variable[%DateDifference%(AV_SessionTime,seconds)]>[3600] @NullResponse @Goto(AV_DommeMistress)
 	if(getTimePassed("startDate","seconds")>3600 ){
 		AV_DommeMistress();

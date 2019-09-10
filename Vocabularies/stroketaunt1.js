@@ -750,7 +750,7 @@ function stroketaunt1Vocabulary() {
 		[null, "Say it out and clear: %AV_RepeatAL% ",null],
 		["getVar(\"AV_DommeMistress\",false)", null, "question(\"Can you control yourself %PetName%?\",null,\"punishResponse()\")"],
 		[null, null, "question(\"Can you control yourself %PetName%?\",\"youControlMeResponse()\",\"iCantHelpMyselfResponse()\")"], //@ResponseYes(YouControlMe) @ResponseNo(ICantHelpMyself) 
-		[null, null, "question(\"Would you like to edge for me?\",\"opiate_Begging-EdgeResponse()\")"], //@ResponseYes(AV_Want_Edge)
+		[null, null, "question(\"Would you like to edge for me?\",\"opiate_BeggingEdgeResponse()\")"], //@ResponseYes(AV_Want_Edge)
 		["getVar(\"av_fetish_cei\",false)","I can't wait to let you taste your "+random("sperm", "cum")+". You always eats your own cum",null],
 		[null, "You are "+random("enjoying", "liking")+" this more than I expected.",null],
 		[null, "Its so fun to watch a man completely lose his mind just stroking for hours and hours",null],

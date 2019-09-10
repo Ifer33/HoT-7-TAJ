@@ -394,19 +394,32 @@ function Modulo1()
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cEdge.mp3");
     CMessage("And then");
     setVar("edgingmode", "Goto");
-    setVar("edginggoto", "d3466ahr()")
+    setVar("edginggoto", "d3466ahr()");
+	edged=false;
+	if(!edged){
     CMessage("I trust you on this!");
+	}if(!edged){
     CMessage("You\'re breathing heavy, are you close?");
+	}if(!edged){
     sleep(15);
+	}if(!edged){
     CMessage("oh my god, my pussy is dripping when you are squirming like that!");
+	}if(!edged){
     sleep(15);
+	}if(!edged){
     CMessage("Every part of your body will tell you to orgasm but you must resist");
+	}if(!edged){
     CMessage("You will resist..");
+	}if(!edged){
     CMessage("Or suffer the consequences");
+	}if(!edged){
     d3466ahr();
+	}
+	return;
 }
 function d3466ahr()
 {
+	edged=true;
     CMessage("%Stop%", 0);
     setVar("edgingmode", "Normal");
     SMessage("%domFriend1Name% turned on the mic");
@@ -642,6 +655,7 @@ function c301()
     CMessage("Let\'s find out, hit and stroke as fast as you can without ruining the order!");
     setVar("edgingmode", "Goto");
     setVar("edginggoto", "EdgeSpank()")
+	edged=false;
     CMessage("%Edge%");
     LoopSpankStroke();
 	return;

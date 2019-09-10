@@ -535,33 +535,54 @@ function return_tie_my_balls()
     {
         CMessage("Then hurry up and go get the wooden spoon, %SubName%");
     }
+	if(!edged){
     CMessage("But don't get off your knees and don't stop %JerkingOff%");
+	} if(!edged){
     SMessage("Let\'s see you struggle a bit, %SubName%", -1, 4);
+	} if(!edged){
     SMessage("Stroke that cock while you crawl around looking for a spoon %Lol%", -1, 4);
+	} if(!edged){
     CMessage("You should just lay out everything in front of you at the start of the session, %PetName%");
+	} if(!edged){
     CMessage("Make it easy for yourself and save us some time, too");
+	} if(!edged){
     SMessage("You should train your bitch better, %ShortName% %EmoteWink%", -1, 4);
+	} if(!edged){
     CMessage("Alright, you better have to damn spoon now, %SubName%");
+	} if(!edged){
     have_the_damn_spoon();
+	}
 	return;
 }
 function have_the_damn_spoon()
 {
+	if(!edged){
     CMessage("Stroke a bit faster, but don\'t you fucking dare edging");
     how_it_is_going_to_be();
+	}
 	return;
 }
 function how_it_is_going_to_be()
 {
+	if(!edged){
     SMessage("Here\'s how this is gonna go down, %SubName%", -1, 4);
+	} if(!edged){
     SMessage("In a minute you\'re going to get yourself right up to the edge", -1, 4);
+	} if(!edged){
     SMessage("You\'re going to edge your cock so hard it becomes unbearable", -1, 4);
+	} if(!edged){
     SMessage("And when it becomes unbearable you\'re going to let go of your cock...", -1, 4);
+	} if(!edged){
     SMessage("...and take that wooden spoon...", -1, 4);
+	} if(!edged){
     SMessage("...and SMACK your balls until all that built cum dribbles out", -1, 4);
+	} if(!edged){
     SMessage("You will keep hitting them until that cock stops dribbling", -1,4);
+	} if(!edged){
     CMessage("Oh fuck that sounds... intense and painful... and fucking HOT %EmoteMoan%");
+	} if(!edged){
     CMessage("The suspense is killing me, do it NOW, %PetName%");
+	} if(!edged){
     setVar("edgingmode", "Normal");
 	startEdging("%Edge%");
     let answer0 = getInput("ruin your orgasm by smacking those pathetic balls, right NOW!");
@@ -610,7 +631,9 @@ function how_it_is_going_to_be()
     setVar("AV_EndRuin", getVar("AV_EndRuin", 0) + 1);
     setVar("AV_EndCum", 0);
     setVar("AV_EndDenied", 0);
+	edged=true;
     EndFile();
+	}
     return;
     
     ruined_by_spoon_edge();

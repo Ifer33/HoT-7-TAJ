@@ -1,4 +1,5 @@
 DMessage("AV_Cum13: Beginning");
+edged=false;
 main();
 DMessage("AV_Cum13: End");
 function main()
@@ -10,15 +11,22 @@ function main()
     CMessage("Give me one last edge");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cEdge.mp3");
     CMessage("Come on");
+	if(!edged){
     sleep(10);
+	}if(!edged){
     CMessage("You want this");
+	}if(!edged){
     CMessage("Edge Now...");
+	}if(!edged){
     CMessage("%Edge%");
     FinalEdge();
+	}
 	return;
 }
 function FinalEdge()
 {
+	edged=true;
+	setEdgeMode();
     CMessage("Hold the final edge.");
     CMessage("Then you can meet your fate.");
     CMessage("will this one end with your cum finally getting a sweet release?");

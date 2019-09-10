@@ -941,6 +941,7 @@ function AV_Timeo245()
     CMessage("But to make it more interesting, I\'ll snap 10 times, and until I\'m done you will ride it.");
     setVar("edgingmode", "Goto");
     setVar("edginggoto", "a3dg4fh4()")
+	edged=false;
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "whip.mp3",true);
     CMessage("Ok, ready?");
     CMessage("%Edge%");

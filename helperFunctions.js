@@ -49,6 +49,89 @@ function restartStroking(){
 	startStroking(Math.floor(bpm));
 }
 
+//starts a chastity taunt cycle
+function chastityTauntCycle(delay=-1,sender=1){
+	//strokingCycle=true;
+    //startStroking(bpm);
+    //lockImages();
+	setVar("sendDelay",delay);
+	setVar("sendSender",sender);
+	let duration = ((strokeMaximum - strokeMinimum) * 60) * percentFromMinToMax + (strokeMinimum * 60);
+	if (rapidTesting) {
+		duration = 5;
+	}
+    let tauntFreq = getTauntFrequency();
+    let tauntIncrement = 1;
+    let currentTime;
+    switch (tauntFreq) {
+        case 5:
+            tauntIncrement = randomInteger(4, 8);
+            break;
+        case 4:
+            tauntIncrement = randomInteger(6, 12);
+            break;
+        case 3:
+            tauntIncrement = randomInteger(10, 22);
+            break;
+        case 2:
+            tauntIncrement = randomInteger(16, 32);
+            break;
+        case 1:
+            tauntIncrement = randomInteger(22, 62);
+            break;
+        default:
+            tauntIncrement = 0;
+    }
+
+    currentTime = getMillisPassed() / 1000;
+    let tauntTime = tauntIncrement + currentTime;
+    timeLeftStroking = duration;
+    //strokeTime = duration;
+    let secThreshold = currentTime + duration;
+    while (currentTime < secThreshold && timeLeftStroking != -1) {
+        sleep(.5);
+        currentTime = getMillisPassed() / 1000;
+		if (timeLeftStroking == -1)
+        {
+            break;
+        }
+        timeLeftStroking = secThreshold - currentTime;
+        if (timeLeftStroking == -1)
+        {
+            break;
+        }
+        //if (currentTime > (tauntTime - .2) && currentTime < (tauntTime + .2)) {
+		if (tauntTime<currentTime) {
+            CMessage("%chastityTaunts1%");
+            switch (tauntFreq) {
+                case 5:
+                    tauntIncrement = randomInteger(4, 8);
+					break;
+				case 4:
+					tauntIncrement = randomInteger(6, 12);
+					break;
+				case 3:
+					tauntIncrement = randomInteger(10, 22);
+					break;
+				case 2:
+					tauntIncrement = randomInteger(16, 32);
+					break;
+				case 1:
+					tauntIncrement = randomInteger(22, 62);
+					//tauntIncrement = randomInteger(40, 60);
+                    break;
+                default:
+                    tauntIncrement = 0;
+            }
+            tauntTime = currentTime + tauntIncrement;
+        }
+    }
+	//strokingCycle=false;
+    //timeLeftStroking = 0;
+    //strokeTime = 0;
+    //unlockImages();
+}
+
 //random funtion for categorys for iamge/video functions
 function randomCategory(){
 	return random("HARDCORE","SOFTCORE","LESBIAN","BLOWJOB","LEZDOM","FEMDOM","HENTAI","GAY","MALEDOM","CAPTIONS","GENERAL","BOOBS","BUTTS");
@@ -669,12 +752,12 @@ function getDommeLevel() {		//needs to be set by your personality, no standard o
     return 5;
 }
 
-function changeDommeLevel(amount){
+function changeDommeLevel(amount=2){
 	setVar("dommelevel",getVar("dommelevel")+amount )
 	return;
 }
 
-function changeApathyLevel(amount){
+function changeApathyLevel(amount=2){
 	setVar("apathylevel",getVar("apathylevel")+amount )
 	return;
 }

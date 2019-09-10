@@ -1,6 +1,6 @@
 function AV_GlittersGameVocabulary()
 {
-	DMesage("AV_GlittersGameVocabulary: start");
+	DMessage("AV_GlittersGameVocabulary: start");
 	found=false;
 	while(!found){
 		switch(randomInteger(1,24) ){
@@ -182,6 +182,6 @@ function AV_GlittersGameVocabulary()
 				break;
 		}
 	}
-	DMesage("AV_GlittersGameVocabulary: end");
+	DMessage("AV_GlittersGameVocabulary: end");
 	return "<dontsend>";
 }

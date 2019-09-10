@@ -141,6 +141,7 @@ function decideOrgasm()
 function edgeToRuinHold(delay=-1,sender=1)
 {
     //startEdging("%edge%",delay,sender);
+	setTempVar("toOrgasm",true);
     holdEdge(delay,sender);
     let answer0 = getInput("%RuinYourOrgasm%",null,delay,true,sender);
     if (answer0.isLike("ruined", "did")) {
@@ -161,6 +162,7 @@ function edgeToRuinHold(delay=-1,sender=1)
 
 function edgeToOrgasmHold(delay=-1,sender=1) {
     //startEdging("%edge%",delay,sender);
+	setTempVar("toOrgasm",true);
     holdEdge(delay,sender);
     let answer0 = getInput("%CumForMe%",null,delay,true,sender);
     if (answer0.isLike("came", "finished", "did")) {
@@ -184,6 +186,7 @@ function edgeToOrgasmHold(delay=-1,sender=1) {
 function edgeToOrgasm(delay=-1,sender=1) {
     startEdging("%edge%",delay,sender);
 	if (randomInteger(1, 100) <= 30) {
+		setTempVar("toOrgasm",true);
         holdEdge(delay,sender);
     }
     let answer0 = getInput("%CumForMe%",null,delay,true,sender);
@@ -208,6 +211,7 @@ function edgeToOrgasm(delay=-1,sender=1) {
 function edgeToRuin(delay=-1,sender=1) {
     startEdging("%edge%",delay,sender);
     if (randomInteger(1, 100) <= 30) {
+		setTempVar("toOrgasm",true);
         holdEdge(delay,sender);
     }
     let answer0 = getInput("%RuinYourOrgasm%",null,delay,true,sender);

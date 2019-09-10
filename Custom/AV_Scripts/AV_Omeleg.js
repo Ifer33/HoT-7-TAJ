@@ -1,4 +1,6 @@
 DMessage("AV_Omeleg: start");
+edged=false;
+edged2=false;
 main();
 DMessage("AV_Omeleg: end");
 function main()
@@ -104,6 +106,8 @@ function AV_Omeleg()
 {
     setVar("AV_Omeleg", 0);
     setVar("AV_OmelegTarget", random(2,4));
+	edged=false;
+	edged2=false;
     AV_Start();
 	return;
 }
@@ -118,22 +122,28 @@ function AV_Start()
 	}
     //--UNINTERPRETED LINE:@SystemMessage <Font color="green"> %AV_GirlName% :</Font> <Font color="black"> %Edge% </Font> %AV_ShowOmelegPics%  @EdgeMode(Goto, AV_OM_NoEdge1) @sleep( %Random%(10, 15))
 	setEdgeMode("Goto","AV_OM_NoEdge1()");
+	if(!edged){
 	SMessage("<c=green b> %AV_GirlName% : %AV_ShowOmelegPics% <c=black b>%Edge%");
 	sleep(randomInt(10,15) );
     //--UNINTERPRETED LINE:@SystemMessage <Font color="green"> %AV_GirlName% :</Font> <Font color="black" size="4"> @RT(C'mon %SubName%,, don't you want to get close for me?, You should be edging for me much quicker than this %SubName%, I know you can get there faster than this %Slave%) </Font> %AV_ShowOmelegPics% @sleep( %Random%(10, 15))
+	} if(!edged){
 	SMessage("<c=green b> %AV_GirlName% : %AV_ShowOmelegPics% <c=black b>"+random("C'mon %SubName%, don't you want to get close for me?", "You should be edging for me much quicker than this %SubName%", "I know you can get there faster than this %Slave%"));
 	sleep(randomInt(10,15) );
     //--UNINTERPRETED LINE:@SystemMessage <Font color="green"> %AV_GirlName% :</Font> <Font color="black" size="4"> @RT(Hurry up and get close for me, I hope you're not let letting yourself get distracted over there, Faster %SubName%,, I want you on that edge right now) </Font> %AV_ShowOmelegPics% @sleep( %Random%(10, 15))
+	} if(!edged){
 	SMessage("<c=green b> %AV_GirlName% : %AV_ShowOmelegPics% <c=black b>"+random("Hurry up and get close for me", "I hope you're not let letting yourself get distracted over there", "Faster %SubName%, I want you on that edge right now"));
 	sleep(randomInt(10,15) );
     //--UNINTERPRETED LINE:@SystemMessage <Font color="green"> %AV_GirlName% :</Font> <Font color="black" size="4"> @RT(I know you can edge quicker than this, Focus %SubName%,, I want you on that edge) </Font> %AV_ShowOmelegPics% @sleep( %Random%(10, 15))
+	} if(!edged){
 	SMessage("<c=green b> %AV_GirlName% : %AV_ShowOmelegPics% <c=black b>"+random("I know you can edge quicker than this", "Focus %SubName%, I want you on that edge"));
 	sleep(randomInt(10,15) );
     AV_OM_NoEdge1();
+	}
 	return;
 }
 function AV_OM_NoEdge1()
 {
+	edged=true;
     //--UNINTERPRETED LINE:@SystemMessage <Font color="green"> %AV_GirlName% :</Font> <Font color="black" size="4"> %Stop% </Font> %AV_ShowOmelegPics% @EdgeMode(Normal)
 	setEdgeMode("Normal");
 	SMessage("<c=green b> %AV_GirlName% : %AV_ShowOmelegPics% <c=black b>%Stop%");
@@ -156,22 +166,28 @@ function AV_OM_NoEdge1()
 	}
     //--UNINTERPRETED LINE:@SystemMessage <Font color="green"> %AV_GirlName% :</Font> <Font color="black" size="4"> %Edge%  </Font> %AV_ShowOmelegPics%  @EdgeMode(Goto, AV_OM_NoEdge2) @sleep( %Random%(10, 15))
 	setEdgeMode("Goto","AV_OM_NoEdge2()");
+	if(!edged2){
 	SMessage("<c=green b> %AV_GirlName% : %AV_ShowOmelegPics% <c=black b>%Edge%");
 	sleep(randomInt(10,15) );
     //--UNINTERPRETED LINE:@SystemMessage <Font color="green"> %AV_GirlName% :</Font> <Font color="black" size="4"> @RT(C'mon %SubName%,, don't you want to get close for me?, You should be edging for me much quicker than this %SubName%, I know you can get there faster than this %Slave%) </Font> %AV_ShowOmelegPics% @sleep( %Random%(10, 15))
+	} if(!edged2){
 	SMessage("<c=green b> %AV_GirlName% : %AV_ShowOmelegPics% <c=black b>"+random("C'mon %SubName%, don't you want to get close for me?", "You should be edging for me much quicker than this %SubName%", "I know you can get there faster than this %Slave%"));
 	sleep(randomInt(10,15) );
     //--UNINTERPRETED LINE:@SystemMessage <Font color="green"> %AV_GirlName% :</Font> <Font color="black" size="4"> @RT(Hurry up and get close for me, I hope you're not let letting yourself get distracted over there, Faster %SubName%,, I want you on that edge right now) </Font> %AV_ShowOmelegPics% @sleep( %Random%(10, 15))
+	} if(!edged2){
 	SMessage("<c=green b> %AV_GirlName% : %AV_ShowOmelegPics% <c=black b>"+random("Hurry up and get close for me", "I hope you're not let letting yourself get distracted over there", "Faster %SubName%, I want you on that edge right now"));
 	sleep(randomInt(10,15) );
     //--UNINTERPRETED LINE:@SystemMessage <Font color="green"> %AV_GirlName% :</Font> <Font color="black" size="4"> @RT(I know you can edge quicker than this, Focus %SubName%,, I want you on that edge) </Font> %AV_ShowOmelegPics% @sleep( %Random%(10, 15))
+	} if(!edged2){
 	SMessage("<c=green b> %AV_GirlName% : %AV_ShowOmelegPics% <c=black b>"+random("I know you can edge quicker than this", "Focus %SubName%, I want you on that edge"));
 	sleep(randomInt(10,15) );
     AV_OM_NoEdge2();
+	}
 	return;
 }
 function AV_OM_NoEdge2()
 {
+	edged2=true;
     //--UNINTERPRETED LINE:@SystemMessage <Font color="green"> %AV_GirlName% :</Font> <Font color="black" size="4"> %Stop%  </Font> %AV_ShowOmelegPics% @EdgeMode(Normal)
 	setEdgeMode("Normal");
 	SMessage("<c=green b> %AV_GirlName% : %AV_ShowOmelegPics% <c=black b>%Stop%");

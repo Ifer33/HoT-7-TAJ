@@ -6,6 +6,7 @@ let strokingMethodsEnabled = false;
 let orgasmModifyAmount = 0;
 let ruinModifyAmount = 0;
 
+
 /**
 * setupVars method to setup variables used by the personality
 **/
@@ -14,11 +15,11 @@ function setUpGUI() {
 	**and apathyLevel is more for decisions/how much dom is willing to do what you want/not want 
 	**like want/dont want collar/kneeling/anal/...
 	*/
-	if (getVar("DomHonnorific", null) == null) {
-        setVar("DomHonnorific", "Mistress");
+	if (getVar("DomHonorific", null) == null) {
+        setVar("DomHonorific", "Mistress");
     }
-    registerVariable("DomHonnorific", "Domme Honnorific", "Domme Honnorific like Mistress, Miss, Goddess,...");
-	addTextBox("Personality Settings", "DomHonnorific");
+    registerVariable("DomHonorific", "Domme Honorific", "Domme Honorific like Mistress, Miss, Goddess,...");
+	addTextBox("Personality Settings", "DomHonorific");
 	
 	if (getVar("dommelevel", null) == null) {
         setVar("dommelevel", 4);
@@ -157,6 +158,12 @@ function setUpGUI() {
     }
     registerVariable("tauntfrequency", "Taunt Frequency", "The frequency of taunts (0-5) that the domme will say while you are stroking or edging. NOTE: Inputting 0 will disable taunts entirely");
 	addSpinner("Stroking Settings", "tauntfrequency", 0, 5);
+	
+	if (getVar("allStrokingMethods", null) == null) {
+        setVar("allStrokingMethods", true);
+    }
+    registerVariable("allStrokingMethods", "All stroking methods", "Determines if alternative stroking methods are used in general or not");
+	addCheckBox("Stroking Settings", "allStrokingMethods");
 }
 
 /**
@@ -178,6 +185,14 @@ function setUpVars() {
         run("strokingmethodutils.js");
         setUpStrokingMethods();
     }
+	if(getVar("allStrokingMethods", null)!=null){
+		if(!getVar("allStrokingMethods")){
+			strokingMethodsEnabled=false;
+		}
+	}else{
+		DMessage("allStrokingMethods variable is not set");
+	}
+	
 }
 
 /*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
@@ -197,7 +212,7 @@ function StartStrokingMethod() {
 **/
 function Stroking(delay=0,sender=1) {
     if (strokingMethodsEnabled) {
-        StartStrokingMethod();
+        StartStrokingMethod(delay,sender);
     }
     else {
 		//if(activeContacts[0]==1){
@@ -535,7 +550,7 @@ function startEdging(message, delay=-1, sender=1)
         {
             //CMessage(message, 0);
         }
-        EdgingMethod();
+        EdgingMethod(delay,sender);
     }
     else {
         let apathyMoodIndex = getApathyMoodIndex();
@@ -551,13 +566,18 @@ function startEdgingBPM(bpm, message, delay=-1, sender=1) {
         sleep(2);
         return;
     }*/
+	setVar("sendDelay",delay);
+	setVar("sendSender",sender);
     setTempVar("edging", true);
     setTempVar("holdingedge", false);
     DMessage("bpm: " + bpm, 0);
     if (message != undefined && message != null)
     {
         SMessage(message, 0,sender);
-    }
+    }else{
+		SMessage("%edge%", 0,sender);
+	}
+	playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cEdge.mp3");
     if (!isStroking()) {
         startStroking(Math.floor(bpm));
     }
@@ -691,8 +711,8 @@ function holdEdge(delay=-1, sender=1) {
         tauntTime = 1;
     }
     while (timeHolding < length) {
-		DMessage("length= "+length);
-		DMessage("timeHolding= "+timeHolding);
+		//DMessage("length= "+length);
+		//DMessage("timeHolding= "+timeHolding);
         sleep(.5);
         timeHolding += .5;
         if (tauntTime == timeHolding) {
@@ -719,9 +739,11 @@ function holdEdge(delay=-1, sender=1) {
             tauntTime += tauntIncrement;
         }
     }
-    SMessage("%stopstrokingedge%", 0,sender);
-    stopEdging();
-    SMessage("%lettheedgefade%", 0,sender);
+	stopEdging();
+	if(!getVar("toOrgasm",false)){
+		SMessage("%stopstrokingedge%", 0,sender);
+		SMessage("%lettheedgefade%", 0,sender);
+	}
 	if(getVar("ExtremeHold",0)!=0){
 		delVar("ExtremeHold");
 	}

@@ -609,360 +609,133 @@ function Modulo4()
     }
     CMessage("Time for some edging practice.");
     CMessage("This is about edging you into a frenzy.");
+	CMessage("Don't tell me if you hit the edge, just stop stroking and follow my instructions");
     CMessage("You\'re going to love it.");
     CMessage("%Edge%");
-	setTempVar("edging", true);
-    setTempVar("holdingedge", false);
-	setEdgeMode("Goto", "hit()");
-	//startEdge();
-    //startEdging();
-	//CMessage("%stopstrokingedge%", null, false);
-	//CMessage("%lettheedgefade%");
     CMessage("Probably you won\'t this time, but don\'t worry, you\'ll have plenty of opportunities.");
-    //sleep(20);
-	for(var i=0;i<20;i++){
-		sleep(990,"MILLISECONDS" );
-	}
-	if(isEdging() ){
-		hit();
-	}
+    sleep(20);
+	CMessage("%stopstroking%", 0);
     CMessage("Time will go by fast, don\'t worry.");
-    //sleep(20);
-	for(var i=0;i<20;i++){
-		sleep(990,"MILLISECONDS" );
-	}
+    sleep(20);
     CMessage("%Edge%");
-    setTempVar("edging", true);
-    setTempVar("holdingedge", false);
     CMessage("You know what I love more than anything? Frustrating you into a sexual frenzy.");
-    //sleep(10);
-	for(var i=0;i<10;i++){
-		sleep(990,"MILLISECONDS" );
-	}
+    sleep(10);
     CMessage("When the frustration is so intense it\'s all you can think about. That\'s just pure fun.");
-    //sleep(9);
-	for(var i=0;i<9;i++){
-		sleep(990,"MILLISECONDS" );
-	}
-    //CMessage("%stopstroking%", 0);
-	if(isEdging() ){
-		hit();
-	}
+    sleep(9);
+    CMessage("%stopstroking%", 0);
     CMessage("That %Great% state when you are so focused on your %Cock%.");
-    //sleep(10);
-	for(var i=0;i<10;i++){
-		sleep(990,"MILLISECONDS" );
-	}
+    sleep(10);
     CMessage("On what you are feeling in that moment.");
-    //sleep(9);
-	for(var i=0;i<9;i++){
-		sleep(990,"MILLISECONDS" );
-	}
+    sleep(9);
     CMessage("%Edge%");
-    setTempVar("edging", true);
-    setTempVar("holdingedge", false);
     CMessage("The world fades away. All that matters to you is that feeling.");
-    //sleep(10);
-	for(var i=0;i<10;i++){
-		sleep(990,"MILLISECONDS" );
-	}
+    sleep(10);
     CMessage("The %Great% feeling of sexual frustration that you crave so much.");
-    //sleep(7);
-	for(var i=0;i<7;i++){
-		sleep(990,"MILLISECONDS" );
-	}
-    //CMessage("%stopstroking%", 0);
-	if(isEdging() ){
-		hit();
-	}
+    sleep(7);
+    CMessage("%stopstroking%", 0);
     CMessage("I\'m happy to give you that feeling.");
-    //sleep(7);
-	for(var i=0;i<7;i++){
-		sleep(990,"MILLISECONDS" );
-	}
+    sleep(7);
     CMessage("You %Love% being frustrated and that\'s perfect, because I %Love% frustrating you.");
-    //sleep(10);
-	for(var i=0;i<10;i++){
-		sleep(990,"MILLISECONDS" );
-	}
+    sleep(10);
     CMessage("%Edge%");
-	setTempVar("edging", true);
-    setTempVar("holdingedge", false);
     CMessage("So that\'s what we are going to do.");
-    //sleep(5);
-	for(var i=0;i<5;i++){
-		sleep(990,"MILLISECONDS" );
-	}
+    sleep(5);
     CMessage("We are going to frustrate you and frustrate you and frustrate you.");
-    //sleep(5);
-	for(var i=0;i<5;i++){
-		sleep(990,"MILLISECONDS" );
-	}
+    sleep(5);
     CMessage("Just talking about it makes you %Horny% doesn\'t it. Me to.");
-    //sleep(6);
-	for(var i=0;i<6;i++){
-		sleep(990,"MILLISECONDS" );
-	}
-    //CMessage("%stopstroking%", 0);
-	if(isEdging() ){
-		hit();
-	}
+    sleep(6);
+    CMessage("%stopstroking%", 0);
     CMessage("So let's try to maximize the frustration today. Edge and stop and edge and stop.");
-    //sleep(10);
-	for(var i=0;i<10;i++){
-		sleep(990,"MILLISECONDS" );
-	}
+    sleep(10);
     CMessage("This time is going to be a little different than before.");
-    //sleep(6);
-	for(var i=0;i<6;i++){
-		sleep(990,"MILLISECONDS" );
-	}
+    sleep(6);
     CMessage("%Edge%");
-	setTempVar("edging", true);
-    setTempVar("holdingedge", false);
     CMessage("We are going to get you into a state of pure sexual frustration.");
-    //sleep(10);
-	for(var i=0;i<10;i++){
-		sleep(990,"MILLISECONDS" );
-	}
+    sleep(10);
     CMessage("It\'s going to feel so amazing.");
-    //sleep(5);
-	for(var i=0;i<5;i++){
-		sleep(990,"MILLISECONDS" );
-	}
-    //CMessage("%stopstroking%", 0);
-	if(isEdging() ){
-		hit();
-	}
+    sleep(5);
+    CMessage("%stopstroking%", 0);
     CMessage("That sounds %Great% doesn\'t it. It is. You are going to love it.");
-    //sleep(15);
-	for(var i=0;i<15;i++){
-		sleep(990,"MILLISECONDS" );
-	}
+    sleep(15);
     CMessage("%Edge%");
-	setTempVar("edging", true);
-    setTempVar("holdingedge", false);
     CMessage("Do you like %Stroking% for me? I like when you %Stroke% for me to.");
-    //sleep(7);
-	for(var i=0;i<7;i++){
-		sleep(990,"MILLISECONDS" );
-	}
+    sleep(7);
     CMessage("But you know what I also like?");
-    //sleep(7);
-	for(var i=0;i<7;i++){
-		sleep(990,"MILLISECONDS" );
-	}
-    //CMessage("%stopstroking%", 0);
-	if(isEdging() ){
-		hit();
-	}
+    sleep(7);
+    CMessage("%stopstroking%", 0);
     CMessage("I like making you stop. Just sit there waiting to %Stroke% again.");
-    //sleep(14);
-	for(var i=0;i<14;i++){
-		sleep(990,"MILLISECONDS" );
-	}
+    sleep(14);
     CMessage("%Edge%");
-	setTempVar("edging", true);
-    setTempVar("holdingedge", false);
     CMessage("You can %Feel% that orgasm almost there. It\'s %Great% isn\'t it?");
-    //sleep(13);
-	for(var i=0;i<13;i++){
-		sleep(990,"MILLISECONDS" );
-	}
-    //CMessage("%stopstroking%", 0);
-	if(isEdging() ){
-		hit();
-	}
+    sleep(13);
+    CMessage("%stopstroking%", 0);
     CMessage("What\'s the matter? Don\'t you like this part? Sure you do. %RelaxAndBreathe%");
-    //sleep(13);
-	for(var i=0;i<13;i++){
-		sleep(990,"MILLISECONDS" );
-	}
+    sleep(13);
     CMessage("%Edge%");
-	setTempVar("edging", true);
-    setTempVar("holdingedge", false);
     CMessage("Oooo you\'re really starting to get there now aren\'t you.");
-    //sleep(6);
-	for(var i=0;i<6;i++){
-		sleep(990,"MILLISECONDS" );
-	}
+    sleep(6);
     CMessage("%Feel% that approaching orgasm. So good. So close.");
-    //sleep(6);
-	for(var i=0;i<6;i++){
-		sleep(990,"MILLISECONDS" );
-	}
-    //CMessage("%stopstroking%", 0);
-	if(isEdging() ){
-		hit();
-	}
+    sleep(6);
+    CMessage("%stopstroking%", 0);
     CMessage("Does your %Cock% twitch a little when you stop? ");
-    //sleep(6);
-	for(var i=0;i<6;i++){
-		sleep(990,"MILLISECONDS" );
-	}
+    sleep(6);
     CMessage("It hasn\'t been very long yet. This should be easy.");
-    //sleep(6);
-	for(var i=0;i<6;i++){
-		sleep(990,"MILLISECONDS" );
-	}
+    sleep(6);
     CMessage("%Edge%");
-	setTempVar("edging", true);
-    setTempVar("holdingedge", false);
     CMessage("This is just the warm-up. Go stop. Go stop. So much fun.");
-    //sleep(6);
-	for(var i=0;i<6;i++){
-		sleep(990,"MILLISECONDS" );
-	}
+    sleep(6);
     CMessage("Don\'t you just %Love% it? I know I do.");
-    //sleep(5);
-	for(var i=0;i<5;i++){
-		sleep(990,"MILLISECONDS" );
-	}
-    //CMessage("%stopstroking%", 0);
-	if(isEdging() ){
-		hit();
-	}
+    sleep(5);
+    CMessage("%stopstroking%", 0);
     CMessage("Relax. Recharge. Get ready for another sprint to the edge.");
-    //sleep(11);
-	for(var i=0;i<11;i++){
-		sleep(990,"MILLISECONDS" );
-	}
+    sleep(11);
     CMessage("%Edge%");
-	setTempVar("edging", true);
-    setTempVar("holdingedge", false);
     CMessage("You're so %Submissive% . Doing everything I tell you to; when I tell you.");
-	//sleep(5);
-	for(var i=0;i<5;i++){
-		sleep(990,"MILLISECONDS" );
-	}
+	sleep(5);
     CMessage("That\'s good. You enjoy it. Enjoy knowing how good your %Obedience% makes me feel.");
-    //sleep(5);
-	for(var i=0;i<5;i++){
-		sleep(990,"MILLISECONDS" );
-	}
-    //CMessage("%stopstroking%", 0);
-	if(isEdging() ){
-		hit();
-	}
+    sleep(5);
+    CMessage("%stopstroking%", 0);
     CMessage("I tell you to stop and you stop.");
     CMessage("You want to keep going I know, but you want to %Please% me more.");
-    //sleep(5);
-	for(var i=0;i<5;i++){
-		sleep(990,"MILLISECONDS" );
-	}
+    sleep(5);
     CMessage("To %Please% me you need to do exactly what I say.");
-    //sleep(5);
-	for(var i=0;i<5;i++){
-		sleep(990,"MILLISECONDS" );
-	}
+    sleep(5);
     CMessage("%Edge%");
-	setTempVar("edging", true);
-    setTempVar("holdingedge", false);
     CMessage("You are getting to the edge faster and faster.");
-    //sleep(9);
-	for(var i=0;i<9;i++){
-		sleep(990,"MILLISECONDS" );
-	}
-    //CMessage("%stopstroking%", 0);
-	if(isEdging() ){
-		hit();
-	}
+    sleep(9);
+    CMessage("%stopstroking%", 0);
     CMessage("Just a little break. These stops take almost no time at all.");
-    //sleep(9);
-	for(var i=0;i<9;i++){
-		sleep(990,"MILLISECONDS" );
-	}
+    sleep(9);
     CMessage("%Edge%");
-	setTempVar("edging", true);
-    setTempVar("holdingedge", false);
     CMessage("You don\'t need to CUM anyways. This is better than cumming.");
-    //sleep(5);
-	for(var i=0;i<5;i++){
-		sleep(990,"MILLISECONDS" );
-	}
+    sleep(5);
     CMessage("This is way more fun for both of us.");
-    //sleep(3);
-	for(var i=0;i<3;i++){
-		sleep(990,"MILLISECONDS" );
-	}
-    //CMessage("%stopstroking%", 0);
-	if(isEdging() ){
-		hit();
-	}
+    sleep(3);
+    CMessage("%stopstroking%", 0);
     CMessage("If you\'re really good you might get to CUM at the end.");
-    //sleep(8);
-	for(var i=0;i<8;i++){
-		sleep(990,"MILLISECONDS" );
-	}
+    sleep(8);
     CMessage("%Edge%");
-	setTempVar("edging", true);
-    setTempVar("holdingedge", false);
     CMessage("Could you go through all this and then stop and put your %Cock% back in your pants?");
-    //sleep(7);
-	for(var i=0;i<7;i++){
-		sleep(990,"MILLISECONDS" );
-	}
-    //CMessage("%stopstroking%", 0);
-	if(isEdging() ){
-		hit();
-	}
+    sleep(7);
+    CMessage("%stopstroking%", 0);
     CMessage("If that\'s what I tell you to do, then you\'d better do it.");
-    //sleep(7);
-	for(var i=0;i<7;i++){
-		sleep(990,"MILLISECONDS" );
-	}
+    sleep(7);
     CMessage("%Edge%");
-	setTempVar("edging", true);
-    setTempVar("holdingedge", false);
     CMessage("How are those edges coming? Feels so great right?");
-    //sleep(6);
-	for(var i=0;i<6;i++){
-		sleep(990,"MILLISECONDS" );
-	}
-    //CMessage("%stopstroking%", 0);
-	if(isEdging() ){
-		hit();
-	}
+    sleep(6);
+    CMessage("%stopstroking%", 0);
     CMessage("Edge, stop, edge, stop. You must be in heaven.");
-    //sleep(6);
-	for(var i=0;i<6;i++){
-		sleep(990,"MILLISECONDS" );
-	}
+    sleep(6);
     CMessage("%Edge% Five seconds now!");
-	setTempVar("edging", true);
-    setTempVar("holdingedge", false);
-    //sleep(5);
-	for(var i=0;i<5;i++){
-		sleep(990,"MILLISECONDS" );
-	}
-    //CMessage("%stopstroking% %Crazy% fast right?", 0);
-	if(isEdging() ){
-		hit();
-	}
-    //sleep(5);
-	for(var i=0;i<5;i++){
-		sleep(990,"MILLISECONDS" );
-	}
+    sleep(5);
+    CMessage("%stopstroking% %Crazy% fast right?", 0);
+    sleep(5);
     CMessage("%Edge% Can you take it?");
-	setTempVar("edging", true);
-    setTempVar("holdingedge", false);
-    //CMessage("%stopstroking%", 0);
-	if(isEdging() ){
-		hit();
-	}
+    CMessage("%stopstroking% And relax");
     CMessage("%Edge% So close now!");
-	startEdging();
-	CMessage("%stopstrokingedge%", null, false);
-	CMessage("%lettheedgefade%");
+	CMessage("%stopstrokingedge%");
     sleep(5);
     CMessage("%ThatsEnough%");
 	setEdgeMode("Normal");
     return;
-}
-
-function hit(){
-	CMessage("%stopstrokingedge%", null, false);
-	setTempVar("edging", false);
-    setTempVar("holdingedge", false);
-	return;
 }

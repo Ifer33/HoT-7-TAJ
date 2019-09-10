@@ -32,7 +32,7 @@ function main()
 	var AV_Persona57= getVar("AV_Persona57", "gdfhcvnvb");
 	var AV_Persona58= getVar("AV_Persona58", "gdfhcvnvb");
 	var AV_Persona59= getVar("AV_Persona59", "gdfhcvnvb");
-	var DomName= getVar("DomName", "");
+	var DomName= getVar("DomName", "gdfhcvnvb");
     let answer0 = getInput("Who is the crush you want to cum?");
     while (!(answer0.isLike(AV_PersonaSecret) || answer0.isLike(AV_PersonaActress) || answer0.isLike(AV_PersonaSinger) || answer0.isLike(AV_PersonaPornStar) || answer0.isLike(AV_Persona50) || answer0.isLike(AV_Persona51) || answer0.isLike(AV_Persona52) || answer0.isLike(AV_Persona53) || answer0.isLike(AV_Persona54) || answer0.isLike(AV_Persona55) || answer0.isLike(AV_Persona56) || answer0.isLike(AV_Persona57) || answer0.isLike(AV_Persona58) || answer0.isLike(AV_Persona59) || answer0.isLike("none") || answer0.isLike("you") || answer0.isLike(DomName)))
     {

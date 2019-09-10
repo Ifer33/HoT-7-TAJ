@@ -1,9 +1,15 @@
 DMessage("AV_Crushes: start");
 var edged=false;
+edged2=false;
+edged3=false;
 main();
 DMessage("AV_Crushes: end");
 function main()
 {
+	if(get("a07qplik",false)){
+		a07qplik();
+		return;
+	}
     if (getApathyMoodIndex() >= 75)
     {
         CMessage("I would let you %Stroke% for your crush...");
@@ -22,92 +28,92 @@ function a07qplik()
     CMessage("Who was it?");
     sleep(01);
     let answer0 = getInput("The crush you want to stroke?");
-    while (!(answer0.isLike("#AV_PersonaSecret") || answer0.isLike("#AV_PersonaActress") || answer0.isLike("#AV_PersonaSinger") || answer0.isLike("#AV_PersonaPornStar") || answer0.isLike("#AV_Persona50") || answer0.isLike("#AV_Persona51") || answer0.isLike("#AV_Persona52") || answer0.isLike("#AV_Persona53") || answer0.isLike("#AV_Persona54") || answer0.isLike("#AV_Persona55") || answer0.isLike("#AV_Persona56") || answer0.isLike("#AV_Persona57") || answer0.isLike("#AV_Persona58") || answer0.isLike("#AV_Persona59") || answer0.isLike("remember") || answer0.isLike("forget")))
+    while (!(answer0.isLike(getVar("AV_Persona13", "gdfhcvnvb")) || answer0.isLike(getVar("AV_Persona01", "gdfhcvnvb")) || answer0.isLike(getVar("AV_Persona02", "gdfhcvnvb")) || answer0.isLike(getVar("AV_Persona04", "gdfhcvnvb")) || answer0.isLike(getVar("AV_Persona50","gdfhcvnvb")) || answer0.isLike(getVar("AV_Persona51","gdfhcvnvb")) || answer0.isLike(getVar("AV_Persona52","gdfhcvnvb")) || answer0.isLike(getVar("AV_Persona53","gdfhcvnvb")) || answer0.isLike(getVar("AV_Persona54","gdfhcvnvb")) || answer0.isLike(getVar("AV_Persona55","gdfhcvnvb")) || answer0.isLike(getVar("AV_Persona56","gdfhcvnvb")) || answer0.isLike(getVar("AV_Persona57","gdfhcvnvb")) || answer0.isLike(getVar("AV_Persona58","gdfhcvnvb")) || answer0.isLike(getVar("AV_Persona59","gdfhcvnvb")) || answer0.isLike("remember") || answer0.isLike("forget")))
     {
         answer0 = getInput("Who was %SubName%?");
     }
-    if (answer0.isLike("#AV_PersonaSecret"))
+    if (answer0.isLike(getVar("AV_Persona13", "gdfhcvnvb")))
     {
-        CMessage("%Yes%, Your secret crush, " + getVar("AV_Persona13", ""));
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
+        CMessage("%Yes%, Your secret crush, " + getVar("AV_Persona13", "gdfhcvnvb"));
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
         setTempVar("AV_MEM_CrPer13", true);
     }
-    else if (answer0.isLike("#AV_PersonaActress"))
+    else if (answer0.isLike(getVar("AV_Persona01", "gdfhcvnvb")))
     {
-        CMessage("%Yes%, Your Crush actress, " + getVar("AV_Persona01", ""));
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
+        CMessage("%Yes%, Your Crush actress, " + getVar("AV_Persona01", "gdfhcvnvb"));
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
         setTempVar("AV_MEM_CrPer01", true);
     }
-    else if (answer0.isLike("#AV_PersonaSinger"))
+    else if (answer0.isLike(getVar("AV_Persona02", "gdfhcvnvb")))
     {
-        CMessage("%Yes%, Your Crush singer, " + getVar("AV_Persona02", ""));
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
+        CMessage("%Yes%, Your Crush singer, " + getVar("AV_Persona02", "gdfhcvnvb"));
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
         setTempVar("AV_MEM_CrPer02", true);
     }
-    else if (answer0.isLike("#AV_PersonaPornStar"))
+    else if (answer0.isLike(getVar("AV_Persona04", "gdfhcvnvb")))
     {
-        CMessage("%Yes%, your favourite Pornstar " + getVar("AV_Persona04", ""));
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "04" + java.io.File.separator + "*.jpg");
+        CMessage("%Yes%, your favourite Pornstar " + getVar("AV_Persona04", "gdfhcvnvb"));
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "04" + java.io.File.separator + "*.jpg");
         setTempVar("AV_MEM_CrPer04", true);
     }
-    else if (answer0.isLike("#AV_Persona50"))
+    else if (answer0.isLike(getVar("AV_Persona50","gdfhcvnvb")))
     {
-        CMessage("%Yes%, " + getVar("AV_Persona50", ""));
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "10" + java.io.File.separator + "*.jpg");
+        CMessage("%Yes%, " + getVar("AV_Persona50", "gdfhcvnvb"));
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "10" + java.io.File.separator + "*.jpg");
         setTempVar("AV_MEM_CrPer50", true);
     }
-    else if (answer0.isLike("#AV_Persona51"))
+    else if (answer0.isLike(getVar("AV_Persona51","gdfhcvnvb")))
     {
-        CMessage("%Yes%, " + getVar("AV_Persona51", ""));
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "11" + java.io.File.separator + "*.jpg");
+        CMessage("%Yes%, " + getVar("AV_Persona51", "gdfhcvnvb"));
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "11" + java.io.File.separator + "*.jpg");
         setTempVar("AV_MEM_CrPer51", true);
     }
-    else if (answer0.isLike("#AV_Persona52"))
+    else if (answer0.isLike(getVar("AV_Persona52","gdfhcvnvb")))
     {
-        CMessage("%Yes%, " + getVar("AV_Persona52", ""));
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "12" + java.io.File.separator + "*.jpg");
+        CMessage("%Yes%, " + getVar("AV_Persona52", "gdfhcvnvb"));
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "12" + java.io.File.separator + "*.jpg");
         setTempVar("AV_MEM_CrPer52", true);
     }
-    else if (answer0.isLike("#AV_Persona53"))
+    else if (answer0.isLike(getVar("AV_Persona53","gdfhcvnvb")))
     {
-        CMessage("%Yes%, " + getVar("AV_Persona53", ""));
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "13" + java.io.File.separator + "*.jpg");
+        CMessage("%Yes%, " + getVar("AV_Persona53", "gdfhcvnvb"));
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "13" + java.io.File.separator + "*.jpg");
         setTempVar("AV_MEM_CrPer53", true);
     }
-    else if (answer0.isLike("#AV_Persona54"))
+    else if (answer0.isLike(getVar("AV_Persona54","gdfhcvnvb")))
     {
-        CMessage("%Yes%, " + getVar("AV_Persona54", ""));
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "14" + java.io.File.separator + "*.jpg");
+        CMessage("%Yes%, " + getVar("AV_Persona54", "gdfhcvnvb"));
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "14" + java.io.File.separator + "*.jpg");
         setTempVar("AV_MEM_CrPer54", true);
     }
-    else if (answer0.isLike("#AV_Persona55"))
+    else if (answer0.isLike(getVar("AV_Persona55","gdfhcvnvb")))
     {
-        CMessage("%Yes%, " + getVar("AV_Persona55", ""));
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "15" + java.io.File.separator + "*.jpg");
+        CMessage("%Yes%, " + getVar("AV_Persona55", "gdfhcvnvb"));
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "15" + java.io.File.separator + "*.jpg");
         setTempVar("AV_MEM_CrPer55", true);
     }
-    else if (answer0.isLike("#AV_Persona56"))
+    else if (answer0.isLike(getVar("AV_Persona56","gdfhcvnvb")))
     {
-        CMessage("%Yes%, " + getVar("AV_Persona56", ""));
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "16" + java.io.File.separator + "*.jpg");
+        CMessage("%Yes%, " + getVar("AV_Persona56", "gdfhcvnvb"));
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "16" + java.io.File.separator + "*.jpg");
         setTempVar("AV_MEM_CrPer56", true);
     }
-    else if (answer0.isLike("#AV_Persona57"))
+    else if (answer0.isLike(getVar("AV_Persona57","gdfhcvnvb")))
     {
-        CMessage("%Yes%, " + getVar("AV_Persona57", ""));
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "17" + java.io.File.separator + "*.jpg");
+        CMessage("%Yes%, " + getVar("AV_Persona57", "gdfhcvnvb"));
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "17" + java.io.File.separator + "*.jpg");
         setTempVar("AV_MEM_CrPer57", true);
     }
-    else if (answer0.isLike("#AV_Persona58"))
+    else if (answer0.isLike(getVar("AV_Persona58","gdfhcvnvb")))
     {
-        CMessage("%Yes%, " + getVar("AV_Persona58", ""));
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "18" + java.io.File.separator + "*.jpg");
+        CMessage("%Yes%, " + getVar("AV_Persona58", "gdfhcvnvb"));
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "18" + java.io.File.separator + "*.jpg");
         setTempVar("AV_MEM_CrPer58", true);
     }
-    else if (answer0.isLike("#AV_Persona59"))
+    else if (answer0.isLike(getVar("AV_Persona59","gdfhcvnvb")))
     {
-        CMessage("%Yes%, " + getVar("AV_Persona59", ""));
-        getLocalTeasePicture("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "19" + java.io.File.separator + "*.jpg");
+        CMessage("%Yes%, " + getVar("AV_Persona59", "gdfhcvnvb"));
+        showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "19" + java.io.File.separator + "*.jpg");
         setTempVar("AV_MEM_CrPer59", true);
     }
     else if (answer0.isLike("remember", "forgot"))
@@ -205,6 +211,7 @@ function av_firsttimecrushesmemory()
 }
 function bdr583()
 {
+	edged=true;
 	stopAudio();
     CMessage("%stopstroking%", 0);
     getLocalTeasePicture("Images" + java.io.File.separator + "System" + java.io.File.separator + "Black.jpg");
@@ -241,27 +248,27 @@ function star5567k()
     setVar("AV_EdgeCruVar", getVar("AV_EdgeCruVar", 0) + 1);
     setVar("edgingmode", "Goto");
     setVar("edginggoto", "ds57777()");
-	edged=false;
+	edged2=false;
     a222fgb();
 }
 function a222fgb()
 {
-	if(!edged){
+	if(!edged2){
 		CMessage("%AV_CrushMemRnd%");
 		sleep(03);
-	} if(!edged){
+	} if(!edged2){
 		CMessage("%AV_CrushMemRnd%");
 		sleep(05);
-	} if(!edged){
+	} if(!edged2){
 		CMessage("%AV_CrushMemRnd%");
 		sleep(03);
-	} if(!edged){
+	} if(!edged2){
 		CMessage("%AV_CrushMemRnd%");
 		sleep(03);
-	} if(!edged){
+	} if(!edged2){
 		CMessage("%AV_CrushMemRnd%");
 		sleep(05);
-	} if(!edged){
+	} if(!edged2){
 		CMessage("%AV_CrushMemRnd%");
 		sleep(05);
 		a222fgb();
@@ -271,6 +278,8 @@ function a222fgb()
 }
 function ds57777()
 {
+	edged2==true;
+	setEdgeMode();
 	stopAudio();
     CMessage("%stopstroking%", 0);
     getLocalTeasePicture("Images" + java.io.File.separator + "System" + java.io.File.separator + "Black.jpg");
@@ -294,91 +303,91 @@ function a02()
     getLocalTeasePicture("Images" + java.io.File.separator + "System" + java.io.File.separator + "Black.jpg");
     setVar("edgingmode", "Goto");
     setVar("edginggoto", "we4tgt5()");
-	edged=false;
+	edged3=false;
     CMessage("%AV_CrushMemRnd%");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "StrokePattern" + java.io.File.separator + "overdrive*.mp3");
     sleep(05);
-	if(!edged){
+	if(!edged3){
 		CMessage("%AV_CrushMemRnd%");
 		sleep(05);
-	} if(!edged){
+	} if(!edged3){
 		CMessage("%AV_CrushMemRnd%");
 		sleep(03);
-	} if(!edged){
+	} if(!edged3){
 		CMessage("%AV_CrushMemRnd%");
 		sleep(05);
-	} if(!edged){
+	} if(!edged3){
 		CMessage("%AV_CrushMemRnd%");
 		sleep(03);
-	} if(!edged){
+	} if(!edged3){
 		CMessage("%AV_CrushMemRnd%");
 		sleep(03);
-	} if(!edged){
+	} if(!edged3){
 		CMessage("%AV_CrushMemRnd%");
 		sleep(05);
-	} if(!edged){
+	} if(!edged3){
 		CMessage("%AV_CrushMemRnd%");
 		sleep(05);
-	} if(!edged){
+	} if(!edged3){
 		CMessage("%AV_CrushMemRnd%");
 		stopAudio();
 		playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStop.mp3");
 		sleep(randomInt(10, 20));
-	} if(!edged){
+	} if(!edged3){
 		CMessage("%AV_CrushMemRnd%");
 		stopAudio();
 		playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "StrokePattern" + java.io.File.separator + "overdrive*.mp3");
 		sleep(05);
-	} if(!edged){
+	} if(!edged3){
 		CMessage("%AV_CrushMemRnd%");
 		sleep(05);
-	} if(!edged){
+	} if(!edged3){
 		CMessage("%AV_CrushMemRnd%");
 		sleep(03);
-	} if(!edged){
+	} if(!edged3){
 		CMessage("%AV_CrushMemRnd%");
 		sleep(05);
-	} if(!edged){
+	} if(!edged3){
 		CMessage("%AV_CrushMemRnd%");
 		sleep(03);
-	} if(!edged){
+	} if(!edged3){
 		CMessage("%AV_CrushMemRnd%");
 		sleep(03);
-	} if(!edged){
+	} if(!edged3){
 		CMessage("%AV_CrushMemRnd%");
 		sleep(05);
-	} if(!edged){
+	} if(!edged3){
 		CMessage("%AV_CrushMemRnd%");
 		sleep(05);
-	} if(!edged){
+	} if(!edged3){
 		CMessage("%AV_CrushMemRnd%");
 		stopAudio();
 		playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStop.mp3");
 		sleep(randomInt(10, 20));
-	} if(!edged){
+	} if(!edged3){
 		CMessage("%AV_CrushMemRnd%");
 		stopAudio();
 		playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "StrokePattern" + java.io.File.separator + "overdrive*.mp3");
 		sleep(05);
-	} if(!edged){
+	} if(!edged3){
 		CMessage("%AV_CrushMemRnd%");
 		sleep(05);
-	} if(!edged){
+	} if(!edged3){
 		CMessage("%AV_CrushMemRnd%");
 		sleep(03);
-	} if(!edged){
+	} if(!edged3){
 		CMessage("%AV_CrushMemRnd%");
 		sleep(05);
-	} if(!edged){
+	} if(!edged3){
 		CMessage("%AV_CrushMemRnd%");
 		sleep(03);
-	} if(!edged){
+	} if(!edged3){
 		CMessage("%AV_CrushMemRnd%");
 		sleep(03);
-	} if(!edged){
+	} if(!edged3){
 		CMessage("%AV_CrushMemRnd%");
 		sleep(05);
-	} if(!edged){
+	} if(!edged3){
 		CMessage("%AV_CrushMemRnd%");
 		sleep(05);
 		we4tgt5();
@@ -387,6 +396,8 @@ function a02()
 }
 function we4tgt5()
 {
+	edged3=true;
+	setEdgeMode();
 	stopAudio();
     CMessage("%stopstroking%", 0);
     getLocalTeasePicture("Images" + java.io.File.separator + "System" + java.io.File.separator + "Black.jpg");

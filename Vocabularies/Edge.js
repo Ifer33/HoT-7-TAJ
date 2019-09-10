@@ -34,6 +34,6 @@ function edgeVocabulary()
     "Time to Edge!",
     "Time to Edge.",
     "Edge! Give it to me!"];
-    playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cEdge.mp3");
+    //playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cEdge.mp3");
 	return answers[randomInteger(0, answers.length - 1)];
 }

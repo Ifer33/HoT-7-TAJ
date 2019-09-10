@@ -1,4 +1,5 @@
 DMessage("AV_ModGeneral16: start");
+edged=false;
 main();
 DMessage("AV_ModGeneral16: end");
 function main()
@@ -593,17 +594,28 @@ function AV_Painted()
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cEdge.mp3");
     setVar("edgingmode", "Goto");
     setVar("edginggoto", "EdgeForGoto1()")
+	if(!edged){
     CMessage("And with that, she begins to suck you hard and deep.");
+	}if(!edged){
     CMessage("Her lips moving ALL the way down your shaft");
+	}if(!edged){
     CMessage("Pressing against your belly");
+	}if(!edged){
     CMessage("That\'s really not much of a challenge for her though, since your dick is so pathetic");
+	}if(!edged){
     CMessage("You can\'t even make her eyes tear up as she takes you in all the way");
+	}if(!edged){
     CMessage("Such a disappointment you are sexually. You really are only good for our amusement");
+	}if(!edged){
     CMessage("Don\'t you know that women want a cock big enough to make them gag.");
+	}if(!edged){
     CMessage("If it\'s not big enough to gag " + "...then how will it ever make their sweet, little pussies cum.");
+	}if(!edged){
     CMessage("But this won\'t take " + "...it\'s not like you\'re a stud or something.");
+	}if(!edged){
     CMessage("Her head bouncing up and down on your hard, desperate pecker");
     EdgeNow();
+	}
     return;
     EdgeForGoto1();
 }
@@ -625,6 +637,7 @@ function EdgeNow()
 }
 function AV_SecondP()
 {
+	edged=true;
     CMessage("I love being that mean, nasty girl... is so much fun.");
     return;
     Punish();

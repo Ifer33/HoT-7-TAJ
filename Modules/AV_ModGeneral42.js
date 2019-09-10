@@ -497,18 +497,26 @@ function Modulo2()
     CMessage("So maybe cumming isn\'t something you should ever do.");
     CMessage("You know that I\'m right, I know you better than you know yourself.");
     setVar("edgingmode", "Goto");
-    setVar("edginggoto", "e3h67ikd()")
+    setVar("edginggoto", "e3h67ikd()");
+	edged=false;
     CMessage("I know your wants, your needs, and your desires.");
     setStrokingNoTaunt()
 	CMessage("%Edge%");
+	if(!edged){
     CMessage("And you do not need to cum.");
+	}if(!edged){
     CMessage("Stare at me and stroke.");
+	}if(!edged){
 	//holdEdge();
     sleep(15);
+	}if(!edged){
     e3h67ikd();
+	}
+	return;
 }
 function e3h67ikd()
 {
+	edged=true;
     CMessage("%HoldTheEdge%");
     setTempVar("edging", false);
     setTempVar("holdingedge", true);

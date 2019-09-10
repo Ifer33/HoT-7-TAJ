@@ -44,11 +44,11 @@ function main()
     setRapidText(true);
     SMessage("<b>END SESSION REPORT</b>");
 	showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
-    SMessage("The Domme mood ended in %DomMood%");
+    SMessage("The Domme mood ended in "+getMood());
     showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
-    SMessage("The Domme level ended in %DomLevel%");
+    SMessage("The Domme level ended in "+getDommeLevel());	
     showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
-    SMessage("The Domme apathy ended in %DomApathy%");
+    SMessage("The Domme apathy ended in "+getApathyLevel());
     showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "System.jpg");
     if(getVar("AV_DommeMistress", false))
     {

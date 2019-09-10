@@ -576,65 +576,105 @@ function Loop()
         return;
         break;
     }
+	return;
     Serie1();
 }
 function Serie1()
 {
+	if(!edged){
     CMessage("%Stroke% to the beat");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "StrokePattern" + java.io.File.separator + "*.mp3");
+	}if(!edged){
     CMessage("Remember " + random("No Edges", "Edging is forbidden", "to not edge", "no edge allowed", "no edging"));
+	}if(!edged){
     sleep(randomInt(10, 15));
+	}if(!edged){
     CMessage(random("How are you doing?", "Can you still make it?", "You look exhausted?", "Sure you want to make me happy, right?"));
+	}if(!edged){
     sleep(randomInt(5, 10));
+	}if(!edged){
     CMessage("%stopstroking%", 0);
 	stopAudio();
     AV_CheckRounds();
+	}
     return;
     Serie2();
 }
 function Serie2()
 {
+	if(!edged){
     CMessage(random("Pump that meat for me", "Go for it", "Grab your dick and stroke", "Stroke", "Wank", "Jerk it"));
-    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "60" + java.io.File.separator + "*.mp4",true);
+    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "60" + java.io.File.separator + "*.mp4");
+	}if(!edged){
+	while(isPlayingVideo()){
+		sleep(2);
+	}
+	}if(!edged){
     CMessage("%stopstroking%", 0);
 	//stopVideo();
     AV_CheckRounds();
+	}
     return;
     Serie3();
 }
 function Serie3()
 {
+	if(!edged){
     CMessage("%Stroke% to the beat");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "erotic" + java.io.File.separator + "*.mp3");
+	}if(!edged){
     CMessage("I am sure you didnt forget that there is no edge allowed, did you");
+	}if(!edged){
     sleep(randomInt(10, 15));
+	}if(!edged){
     CMessage(random("Almost done", "Keep it up", "Nearly finished", "Be strong", "almost there", "Just a few more seconds", "Just a little overtime"));
+	}if(!edged){
     sleep(randomInt(5, 10));
+	}if(!edged){
 	stopAudio();
     CMessage("%stopstroking%", 0);
     AV_CheckRounds();
+	}
     return;
     Serie4();
 }
 function Serie4()
 {
+	if(!edged){
     CMessage("Now, " + random("make your Mistress proud and ", "Just ", "Go on ", "Simply ", "You have to ", "I want you ", "you will ") + "%Stroke% " + random("really fast ", "as fast you can ") + "watching the next short video...");
+	}if(!edged){
     CMessage(random("Pump that meat for me", "Go for it", "Grab your dick and stroke", "Stroke", "Wank", "Jerk it"));
-    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "10" + java.io.File.separator + "*.mp4",true);
-	//stopVideo();
+	}if(!edged){
+    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "10" + java.io.File.separator + "*.mp4");
+	}if(!edged){
+	while(isPlayingVideo()){
+		sleep(2);
+	}
+	}if(!edged){
     CMessage("%stopstroking%", 0);
+	//stopVideo();
     AV_CheckRounds();
+	}
     return;
     Serie5();
 }
 function Serie5()
 {
+	if(!edged){
     CMessage("Now, " + random("make your Mistress happy and ", "can you do me a favour and ", "go on ", "simply ", "you have to ", "I want you to ", "you will ") + "%Stroke% " + random("really fast ", "as fast you can ") + "watching the next short video...");
+	}if(!edged){
     CMessage(random("Pump that meat for me", "Go for it", "Grab your dick and stroke", "Stroke", "Wank", "Jerk it"));
+	}if(!edged){
     playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "15" + java.io.File.separator + "*.mp4",true);
-	//stopVideo();
+	}if(!edged){
+	while(isPlayingVideo()){
+		sleep(2);
+	}
+	}if(!edged){
     CMessage("%stopstroking%", 0);
+	//stopVideo();
     AV_CheckRounds();
+	}
     return;
     AV_CheckRounds();
 }
@@ -646,9 +686,13 @@ function AV_CheckRounds()
         YouDid();
         return;
     }
+	if(!edged){
     CMessage(random("Cool down a bit", "Just a few seconds to realx and calm down", "You have earned a short break", "Take a break", "a little break for you", "rest", "rest a little"));
+	}if(!edged){
     sleep(randomInt(5, 20));
+	}if(!edged){
     Loop();
+	}
     return;
     EdgeFail();
 }
@@ -656,10 +700,12 @@ function EdgeFail()
 {
     CMessage("%stopstroking%", 0);
 	stopAudio();
-	stopVideo();
+	if(isPlayingVideo()){
+		stopVideo();
+	}
     CMessage(random("You failled ", "I told you to not edge ", "Oops ") + "...");
     setVar("edgingmode", "Goto");
-    setVar("edginggoto", "EdgeFail")
+    setVar("edginggoto", "EdgeFail()")
     CMessage(random("Punishment time", "I need to punish you now"));
     //run("CBT" + java.io.File.separator + "*.js");
 	cbt();
@@ -681,6 +727,7 @@ function EdgeFail()
 }
 function YouDid()
 {
+	edged=true;
     CMessage("You did it %SubName%");
     setVar("edgingmode", "Normal");
     return;

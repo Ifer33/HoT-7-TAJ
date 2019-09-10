@@ -14,7 +14,7 @@ function setUpStrokingMethods()
     //DMessage("Finished Setting up methods");
 }
 
-function StrokeOtherMethods()
+function StrokeOtherMethods(delay=-1, sender=1)
 {
     //DMessage("debug 1");
     let activeMethods = getStrokingMethods();
@@ -22,7 +22,7 @@ function StrokeOtherMethods()
     DMessage("calculated speed " + methodToRun.speed);
     DMessage("calculated duration " + methodToRun.duration);
     //DMessage("debug 2");
-    CMessage(methodToRun.startStrokingMethodString, 0);
+    SMessage(methodToRun.startStrokingMethodString, delay,sender);
     let duration = methodToRun.duration;
     if (rapidTesting)
     {
@@ -31,7 +31,7 @@ function StrokeOtherMethods()
     customStroke(duration, Math.floor(methodToRun.speed));
 }
 
-function EdgingMethod() {
+function EdgingMethod(delay=-1, sender=1) {
     let methods = getStrokingMethods("close", .34);
     let edgingMethods = [];
     for (let i = 0; i < methods.length; i++) {
@@ -40,9 +40,10 @@ function EdgingMethod() {
         }
     }
     let methodToRun = edgingMethods[randomInteger(0, edgingMethods.length - 1)];
-    CMessage(methodToRun.startStrokingMethodString + " until you get to the edge", 0);
+    //SMessage(methodToRun.startStrokingMethodString + " until you get to the edge", delay,sender);
+	let message=(methodToRun.startStrokingMethodString + " until you get to the edge");
     let bpm = methodToRun.speed + 20;
-    startEdgingBPM(bpm);
+    startEdgingBPM(bpm,message,delay,sender);
 }
 
 function getAllMethods()

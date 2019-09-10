@@ -836,20 +836,22 @@ function Modulo4()
 }
 function AV_RGBLoop()
 {
-	
+	if(!edged){
     CMessage("%AV_GreenLight%");
+	}if(!edged){
 	//greenLight();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "bite.mp3");
+	}if(!edged){
     sleep(randomInt(5, 8));
     //redLight();
-	if(edged){
-		stopAudio();
-		return;
-	}else{
+	}if(!edged){
 		CMessage("%redLight%");
+	}if(!edged){
 		playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStop.mp3");
 		stopAudio();
+	}if(!edged){
 		sleep( randomInt(15, 20));
+	}if(!edged){
 		setVar("AV_RGBRounds", getVar("AV_RGBRounds", 0) + 1);
 		if (getVar("AV_RGB", 0) == getVar("AV_RGBRounds", 0))
 		{
@@ -871,6 +873,7 @@ function AV_FimRGB()
 }
 function YouFaill()
 {
+	edged=true;
     CMessage("%stopstroking%", 0);
 	stopStrokingAll();
 	stopAudio();

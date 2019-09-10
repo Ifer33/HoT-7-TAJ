@@ -1,4 +1,5 @@
 DMessage("AV_Cum09: Beginning");
+edged=true;
 main();
 DMessage("AV_Cum09: End");
 function main()
@@ -143,88 +144,122 @@ function StartEdge()
 }
 function a01()
 {
+	if(!edged){
     CMessage("%Stroke%");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "Count" + java.io.File.separator + "d30.mp3");
+	}if(!edged){
     sleep(10);
+	}if(!edged){
     sleep(10);
+	}if(!edged){
     sleep(08);
+	}if(!edged){
 	stopAudio();
     CMessage("%Edge%");
     setVar("edgingmode", "Normal");
     WaitEdge();
+	}
     return;
     
     a02();
 }
 function a02()
 {
+	if(!edged){
     CMessage("%Stroke%");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "Count" + java.io.File.separator + "d40.mp3");
+	}if(!edged){
     sleep(15);
+	}if(!edged){
     sleep(10);
+	}if(!edged){
     sleep(08);
+	}if(!edged){
 	stopAudio();
     CMessage("%Edge%");
     setVar("edgingmode", "Normal");
     WaitEdge();
+	}
     return;
     
     a03();
 }
 function a03()
 {
+	if(!edged){
     CMessage("%Stroke%");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "Count" + java.io.File.separator + "d50.mp3");
+	}if(!edged){
     sleep(16);
+	}if(!edged){
     sleep(08);
+	}if(!edged){
     sleep(08);
+	}if(!edged){
     sleep(10);
+	}if(!edged){
     sleep(08);
+	}if(!edged){
     sleep(08);
+	}if(!edged){
     sleep(07);
+	}if(!edged){
 	stopAudio();
     CMessage("%Edge%");
     setVar("edgingmode", "Normal");
-    sleep(02);
     WaitEdge();
+	}
     return;
     
     a04();
 }
 function a04()
 {
+	if(!edged){
     CMessage("%Stroke%");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "Count" + java.io.File.separator + "d60.mp3");
+	}if(!edged){
     sleep(10);
+	}if(!edged){
     sleep(10);
+	}if(!edged){
     sleep(08);
+	}if(!edged){
 	stopAudio();
     CMessage("%Edge%");
     setVar("edgingmode", "Normal");
     WaitEdge();
+	}
     return;
     
     WaitEdge();
 }
 function WaitEdge()
 {
-    setVar("edgingmode", "Goto");
+    if(!edged){
+	setVar("edgingmode", "Goto");
     setVar("edginggoto", "Edgesucess()");
 	CMessage("%edgingtaunts1%");
+	}if(!edged){
     CMessage("Time is almost over");
     sleep(randomInt(3, 4));
+	}if(!edged){
     CMessage("%stopstroking%", 0);
     setVar("edgingmode", "Normal");
+	}if(!edged){
     if (getMood() <= 25)
     {
         CMessage("Too slow, %SubName%...");
     }
+	}if(!edged){
     if (getMood() <= 25)
     {
         CMessage("But I will give you a new chance");
         StartEdge();
         return;
     }
+	}
+	edged=true;
     CMessage("Too slow, %SubName%...");
     CMessage("I don\'t think you want to cum so badly...");
     setVar("AV_EndDenied", getVar("AV_EndDenied", 0) + 1);
@@ -237,10 +272,15 @@ function WaitEdge()
 }
 function Edgesucess()
 {
+	if(!edged){
 	stopAudio();
     CMessage("%HoldTheEdge%");
+	}if(!edged){
     sleep(randomInt(10, 15));
+	}if(!edged){
     setVar("edgingmode", "Normal");
+	}
+	edged=true;
     var orgasmResult = decideOrgasm();
     if (orgasmResult == 2)
     {
@@ -292,6 +332,7 @@ function EdgeFaill()
     CMessage("What to do?");
     if (randomInteger(1, 100) <= 60)
     {
+		edged=true;
         NoSecond();
         return;
     }

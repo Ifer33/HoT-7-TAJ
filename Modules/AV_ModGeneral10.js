@@ -1,4 +1,5 @@
 DMessage("AV_ModGeneral10: start");
+edged=false;
 main();
 DMessage("AV_ModGeneral10: end");
 function main()
@@ -411,11 +412,17 @@ function Modulo1()
     setVar("edginggoto", "EdgePC()")
     CMessage("Try 20 light masturbation strokes, followed by 10 quick ones.");
     CMessage("Keep alternating.");
+	if(!edged){
     CMessage("Most men can\'t stand more than 10 minutes if someone else is doing it.");
+	}if(!edged){
     CMessage("This can be considered slow torture masturbation");
+	}if(!edged){
     CMessage("you want to ejaculate, but you can\'t.");
+	}if(!edged){
     CMessage("When you do, the orgasm is especially good.");
+	}if(!edged){
     CMessage("Let me see if you can keep up with more visual estimulations");
+	}if(!edged){
     switch(random("pc01", "pc02"))
     {
         case "pc01":
@@ -427,31 +434,57 @@ function Modulo1()
         return;
         break;
     }
+	}
+	return;
     pc01();
 }
 function pc01()
 {
-    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "15" + java.io.File.separator + "*.mp4",true);
+    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "15" + java.io.File.separator + "*.mp4");
+	if(!edged){
+	while(isPlayingVideo()){
+		sleep(2);
+	}
+	}if(!edged){
     pcont();
+	}
     return;
     pc02();
 }
 function pc02()
 {
-    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "10" + java.io.File.separator + "*.mp4",true);
+    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "10" + java.io.File.separator + "*.mp4");
+    if(!edged){
+	while(isPlayingVideo()){
+		sleep(2);
+	}
+	}if(!edged){
     pcont();
+	}
     return;
     pcont();
 }
 function pcont()
 {
-    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "60" + java.io.File.separator + "*.mp4",true);
+    playVideo("Videos" + java.io.File.separator + "AV_Clips" + java.io.File.separator + "webm" + java.io.File.separator + "60" + java.io.File.separator + "*.mp4");
+	if(!edged){
+	while(isPlayingVideo()){
+		sleep(2);
+	}
+	}if(!edged){
     CMessage("wow...you did not edge all that time...");
+	}if(!edged){
     CMessage("Good work %SubName%");
     EdgePC();
+	}
+	return;
 }
 function EdgePC()
 {
+	edged=true;
+	if(isPlayingVideo()){
+		stopVideo();
+	}
     CMessage("%stopstroking%", 0);
     setVar("edgingmode", "Normal");
     delVar("edginggoto");

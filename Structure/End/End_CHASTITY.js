@@ -3,11 +3,12 @@ main();
 DMessage("End_CHASTITY: end");
 function main()
 {
-    CMessage("You can remove your %ChastityCage%");
     //--Command:ChastityOff
+	/*CMessage("You can remove your %ChastityCage%");
 	setVar("chastityOn",false);
-    sleep(30);
-    run("Stroke" + java.io.File.separator + "End" + java.io.File.separator + "Extended_End.js");
+    sleep(30);*/
+	run("Custom" + java.io.File.separator + "CallReturn" + java.io.File.separator + "pvCR_chastityOff.js");
+    //run("Stroke" + java.io.File.separator + "End" + java.io.File.separator + "Extended_End.js");
     return;
     if(getVar("AV_DecOrg", false))
     {

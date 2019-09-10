@@ -1,4 +1,5 @@
 DMessage("AV_ModGeneral44: start");
+edged=false;
 main();
 DMessage("AV_ModGeneral44: end");
 function main()
@@ -686,31 +687,29 @@ function Modulo4()
     setVar("edginggoto", "c347dka()");
     CMessage("We\'re going to have some edging tease and denial fun %GeneralTime%.");
     CMessage("%Edge%");
+	if(!edged){
     CMessage("I want you to follow my instructions.");
+	}if(!edged){
     CMessage("Do exactly as I say.");
+	}if(!edged){
     CMessage("Bring yourself to the edge");
+	}if(!edged){
     CMessage("It feels so good.");
+	}if(!edged){
     CMessage("I know you\'re growing so horny.");
+	}if(!edged){
     CMessage("Edge now!!");
-    //sleep(20);
-	let t=0;
-	while(t<20){
-		sleep(1);
-		t++;
-	}
+	}if(!edged){
+    sleep(20);
+	}if(!edged){
     c347dka();
+	}
 	return;
 }
 function c347dka()
 {
-	if(getVar("done",false)){
-		return;
-	}else{
-		setTempVar("done",true);
-	}
+	edged=true;
     CMessage("%holdtheedge%");
-    setTempVar("edging", false);
-    setTempVar("holdingedge", true);
     //stopStrokingAll();
     CMessage("You love that sensation of feeling yourself building");
     CMessage("working closer and closer without going over.");

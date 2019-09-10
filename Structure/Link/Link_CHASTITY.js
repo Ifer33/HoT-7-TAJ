@@ -68,6 +68,7 @@ function not_going_to_unlock()
 {
     CMessage("But I\'m not going to let you just yet");
     CMessage("Be a good boy for me and maybe I\'ll " + random("reconsider", "change my mind"));
+	chastityTauntCycle();
     //--Command:StartTaunts
     return;
     end_cycle();
@@ -313,6 +314,7 @@ function no()
 function continue_cycle()
 {
     run("Custom" + java.io.File.separator + "pvLinkChastityYes" + java.io.File.separator + "*.js");
+	chastityTauntCycle();
     //--Command:StartTaunts
     return;
     
@@ -667,6 +669,7 @@ function Fim()
     CMessage("Normally I\'d be getting ready to let you start stroking for me");
     CMessage("But you can\'t can you? Not with that cage in the way");
     CMessage("Guess I\'ll have to find other ways to torment you for now %EmoteHappy%");
+	chastityTauntCycle();
     //--Command:StartTaunts
     return;
     return;
@@ -684,6 +687,7 @@ function Link01()
     CMessage("Just me");
     CMessage("Just my pleasure");
     CMessage("So let\'s make my power stronger by teasing you some more %Grin%");
+	chastityTauntCycle();
     //--Command:StartTaunts
     return;
     
@@ -695,6 +699,7 @@ function Link02()
     CMessage("But you couldn\'t be more wrong");
     CMessage("I might even start to think that torturing you in that %ChastityCage% is even more fun than when you are free %Grin%");
     CMessage("But why I am wasting time telling you this when I could be playing with you %lol%");
+	chastityTauntCycle();
     //--Command:StartTaunts
     return;
     
@@ -710,6 +715,7 @@ function Link03()
     CMessage("Maybe I\'ll try that one day %Grin%");
     CMessage("But for now I\'d rather just tease you");
     CMessage("After all you are so %hot% when you still think I might free you soon %Emote%");
+	chastityTauntCycle();
     //--Command:StartTaunts
     return;
     
@@ -726,6 +732,7 @@ function Link04()
     CMessage("Seeing you kneeling for me! %Grin%");
     CMessage("So get on your knees before I start teasing you again");
     setTempVar("AV_SubKnees", true);
+	chastityTauntCycle();
     //--Command:StartTaunts
     return;
     AV_SubKnees();
@@ -764,6 +771,7 @@ function kneeling()
     CMessage("%No% you are too cute on your knees %Grin%");
     CMessage("I\'d rather have you stay there %lol%");
     CMessage("Let\'s start the teasing again");
+	chastityTauntCycle();
     //--Command:StartTaunts
     return;
     punishment();
@@ -775,6 +783,7 @@ function punishment()
     CMessage("Next time I might make you kneel on them until the end of our session %Grin%");
     CMessage("And now you better stay on your knees until I say otherwise!");
     CMessage("Already let\'s tease this caged cock a little more");
+	chastityTauntCycle();
     //--Command:StartTaunts
     return;
     get_up();
@@ -785,6 +794,7 @@ function get_up()
     delVar("AV_SubKnees");
     CMessage("But I might change my mind so keep this pillow close by %Grin%");
     CMessage("And let\'s tease this caged cock a little more");
+	chastityTauntCycle();
     //--Command:StartTaunts
     return;
 }

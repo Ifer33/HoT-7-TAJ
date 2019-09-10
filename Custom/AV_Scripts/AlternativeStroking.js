@@ -1,4 +1,5 @@
 DMessage("AlternativeStroking: Beginnning_AV_Script");
+edged=false;
 main();
 DMessage("AlternativeStroking: End_AV_Script");
 function main()
@@ -31,34 +32,45 @@ function s01()
         Alts01();
         return;
     }
-	//try{
+	if(!edged){
     CMessage("%StartStroking%");
     sleep(01);
+	} if(!edged){
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "MetroAlt" + java.io.File.separator + "Masu1*.mp3");
     sleep(12);
+	} if(!edged){
     CMessage("%StrokeTaunts_1%");
     sleep(15);
+	} if(!edged){
     CMessage("%StrokeTaunts_1%");
+	} if(!edged){
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "MetroAlt" + java.io.File.separator + "Masu2*.mp3");
     sleep(25);
+	} if(!edged){
     CMessage("%StrokeTaunts_1%");
+	} if(!edged){
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "MetroAlt" + java.io.File.separator + "Masu1*.mp3");
     sleep(30);
+	} if(!edged){
     CMessage("%StrokeTaunts_1%");
+	} if(!edged){
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "MetroAlt" + java.io.File.separator + "Masu1*.mp3");
     sleep(25);
+	} if(!edged){
     CMessage("%StrokeTaunts_1%");
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "MetroAlt" + java.io.File.separator + "Masu2*.mp3");
     sleep(20);
+	} if(!edged){
 	stopAudio();
     CMessage("%stopstroking%", 0);
     //setVar("edgingmode", "Normal");
 	setEdgeMode();
     run("Modules" + java.io.File.separator + "*.js");
+	}
 	/*}catch(err){
 		DMessage("catch edge");
 		return;
@@ -76,25 +88,33 @@ function Alts01()
         Alts02();
         return;
     }
+	if(!edged){
     CMessage("%StartStroking%");
     sleep(01);
     //--UNINTERPRETED LINE:@NullResponse @PlayAudio[tease\tgr8\Contact1 special test audio\*.mp3] @sleep(10)
 	playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "tgr8" + java.io.File.separator  + "Contact1 special test audio" + java.io.File.separator + "*.mp3");
+	} if(!edged){
     CMessage("%StrokeTaunts_1%");
     sleep(15);
+	} if(!edged){
     CMessage("%StrokeTaunts_1%");
     sleep(20);
+	} if(!edged){
     CMessage("%StrokeTaunts_1%");
     sleep(30);
+	} if(!edged){
     CMessage("%StrokeTaunts_1%");
     sleep(25);
+	} if(!edged){
     CMessage("%StrokeTaunts_1%");
     sleep(30);
+	} if(!edged){
 	stopAudio();
     CMessage("%stopstroking%", 0);
     //setVar("edgingmode", "Normal");
 	setEdgeMode();
     run("Modules" + java.io.File.separator + "*.js");
+	}
     return;
     return;
     
@@ -102,21 +122,28 @@ function Alts01()
 }
 function Alts02()
 {
+	if(!edged){
     CMessage("%StartStroking%");
     sleep(01);
+	} if(!edged){
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "erotic" + java.io.File.separator + "*.mp3");
     sleep(10);
+	} if(!edged){
     CMessage("%StrokeTaunts_1%");
     sleep(15);
+	} if(!edged){
     CMessage("%StrokeTaunts_1%");
     sleep(20);
+	} if(!edged){
     CMessage("%StrokeTaunts_1%");
     sleep(25);
+	} if(!edged){
 	stopAudio();
     CMessage("%stopstroking%", 0);
     //setVar("edgingmode", "Normal");
 	setEdgeMode();
     run("Modules" + java.io.File.separator + "*.js");
+	}
     return;
     return;
     
@@ -125,8 +152,6 @@ function Alts02()
 
 function s02()
 {
-	CrushStroke();
-        return;
     CMessage(random("%PetName%", "%SubName%"));
     if(getVar("AV_MEM_Crush", false))
     {
@@ -164,6 +189,7 @@ function EdgeStop()
 	}
 	return true;*/
 	//return eval(throw Error("edge"));
+	edged=true;
     run("Custom" + java.io.File.separator + "AV_Scripts" + java.io.File.separator + "Early edge.js");
     return;
     //return;
@@ -283,35 +309,51 @@ function CrushStroke()
         s01();
         return;
     }
+	edged==false;
     delVar("AV_MEM_Crush");
     CMessage("I will " + random("make ", "let ") + "you %Stroke% for her " + random("a little", "for a while"));
+	if(!edged){
     CMessage("%StartStroking%");
     sleep(01);
+	} if(!edged){
     CMessage("%AV_CrushMemRnd%");
+	} if(!edged){
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "MetroAlt" + java.io.File.separator + "Masu1*.mp3");
     sleep(12);
+	} if(!edged){
     CMessage("%AV_CrushMemRnd%");
     sleep(15);
+	} if(!edged){
     CMessage("%AV_CrushMemRnd%");
+	} if(!edged){
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "MetroAlt" + java.io.File.separator + "Masu2*.mp3");
     sleep(35);
+	} if(!edged){
     CMessage("%AV_CrushMemRnd%");
+	} if(!edged){
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "MetroAlt" + java.io.File.separator + "Masu1*.mp3");
     sleep(30);
+	} if(!edged){
     CMessage("%AV_CrushMemRnd%");
+	} if(!edged){
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "MetroAlt" + java.io.File.separator + "Masu1*.mp3");
     sleep(30);
+	} if(!edged){
     CMessage("%AV_CrushMemRnd%");
+	} if(!edged){
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "MetroAlt" + java.io.File.separator + "Masu2*.mp3");
     sleep(35);
+	} if(!edged){
     CMessage("%AV_CrushMemRnd%");
+	} if(!edged){
 	stopAudio();
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "MetroAlt" + java.io.File.separator + "Masu1*.mp3");
     sleep(randomInt(15, 25));
+	} if(!edged){
 	stopAudio();
     CMessage("%stopstroking%", 0);
     //setVar("edgingmode", "Normal");
@@ -331,6 +373,7 @@ function CrushStroke()
     delVar("AV_MEM_CrPer58");
     delVar("AV_MEM_CrPer59");
     run("Modules" + java.io.File.separator + "*.js");
+	}
     return;
     return;
     
@@ -413,50 +456,50 @@ function Gltter03()
 }
 function GlitterSession()
 {
-    if(getVar("AV_MEM_Contact1", false))
+    if(getVar("AV_MEM_Contact1", false) && !edged)
     {
         SMessage("%StartStroking%", -1, 2);
         sleep(01);
     }
-    if(getVar("AV_MEM_Contact1", false))
+    if(getVar("AV_MEM_Contact1", false) && !edged)
     {
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "MetroAlt" + java.io.File.separator + "Masu1*.mp3");
         sleep(12);
     }
-    if(getVar("AV_MEM_Contact1", false))
+    if(getVar("AV_MEM_Contact1", false) && !edged)
     {
         SMessage("%StrokeTaunts_1%", -1, 2);
         sleep(15);
     }
-    if(getVar("AV_MEM_Contact1", false))
+    if(getVar("AV_MEM_Contact1", false) && !edged)
     {
         SMessage("%StrokeTaunts_1%", -1, 2);
 		stopAudio();
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "MetroAlt" + java.io.File.separator + "Masu2*.mp3");
         sleep(25);
     }
-    if(getVar("AV_MEM_Contact1", false))
+    if(getVar("AV_MEM_Contact1", false) && !edged)
     {
         SMessage("%StrokeTaunts_1%", -1, 2);
 		stopAudio();
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "MetroAlt" + java.io.File.separator + "Masu1*.mp3");
         sleep(30);
     }
-    if(getVar("AV_MEM_Contact1", false))
+    if(getVar("AV_MEM_Contact1", false) && !edged)
     {
         SMessage("%StrokeTaunts_1%", -1, 2);
 		stopAudio();
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "MetroAlt" + java.io.File.separator + "Masu1*.mp3");
         sleep(30);
     }
-    if(getVar("AV_MEM_Contact1", false))
+    if(getVar("AV_MEM_Contact1", false) && !edged)
     {
         SMessage("%StrokeTaunts_1%", -1, 2);
 		stopAudio();
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "MetroAlt" + java.io.File.separator + "Masu2*.mp3");
         sleep(30);
     }
-    if(getVar("AV_MEM_Contact1", false))
+    if(getVar("AV_MEM_Contact1", false) && !edged)
     {
 		stopAudio();
         CMessage("%stopstroking%", 0);
@@ -465,51 +508,51 @@ function GlitterSession()
         FinishGlitter();
         return;
     }
-    if(getVar("AV_MEM_Contact2", false))
+    if(getVar("AV_MEM_Contact2", false) && !edged)
     {
         SMessage("%StartStroking%", -1, 3);
         sleep(01);
     }
-    if(getVar("AV_MEM_Contact2", false))
+    if(getVar("AV_MEM_Contact2", false) && !edged)
     {
 		stopAudio();
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "MetroAlt" + java.io.File.separator + "Masu1*.mp3");
         sleep(12);
     }
-    if(getVar("AV_MEM_Contact2", false))
+    if(getVar("AV_MEM_Contact2", false) && !edged)
     {
         SMessage("%StrokeTaunts_1%", -1, 3);
         sleep(15);
     }
-    if(getVar("AV_MEM_Contact2", false))
+    if(getVar("AV_MEM_Contact2", false) && !edged)
     {
         SMessage("%StrokeTaunts_1%", -1, 3);
 		stopAudio();
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "MetroAlt" + java.io.File.separator + "Masu2*.mp3");
         sleep(25);
     }
-    if(getVar("AV_MEM_Contact2", false))
+    if(getVar("AV_MEM_Contact2", false) && !edged)
     {
         SMessage("%StrokeTaunts_1%", -1, 3);
 		stopAudio();
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "MetroAlt" + java.io.File.separator + "Masu1*.mp3");
         sleep(30);
     }
-    if(getVar("AV_MEM_Contact2", false))
+    if(getVar("AV_MEM_Contact2", false) && !edged)
     {
         SMessage("%StrokeTaunts_1%", -1, 3);
 		stopAudio();
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "MetroAlt" + java.io.File.separator + "Masu1*.mp3");
         sleep(30);
     }
-    if(getVar("AV_MEM_Contact2", false))
+    if(getVar("AV_MEM_Contact2", false) && !edged)
     {
         SMessage("%StrokeTaunts_1%", -1, 3);
 		stopAudio();
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "MetroAlt" + java.io.File.separator + "Masu2*.mp3");
         sleep(30);
     }
-    if(getVar("AV_MEM_Contact2", false))
+    if(getVar("AV_MEM_Contact2", false) && !edged)
     {
 		stopAudio();
         CMessage("%stopstroking%", 0);
@@ -518,50 +561,50 @@ function GlitterSession()
         FinishGlitter();
         return;
     }
-    if(getVar("AV_MEM_Contact3", false))
+    if(getVar("AV_MEM_Contact3", false) && !edged)
     {
         SMessage("%StartStroking%", -1, 4);
         sleep(01);
     }
-    if(getVar("AV_MEM_Contact3", false))
+    if(getVar("AV_MEM_Contact3", false) && !edged)
     {
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "MetroAlt" + java.io.File.separator + "Masu1*.mp3");
         sleep(12);
     }
-    if(getVar("AV_MEM_Contact3", false))
+    if(getVar("AV_MEM_Contact3", false) && !edged)
     {
         SMessage("%StrokeTaunts_1%", -1, 4);
         sleep(15);
     }
-    if(getVar("AV_MEM_Contact3", false))
+    if(getVar("AV_MEM_Contact3", false) && !edged)
     {
         SMessage("%StrokeTaunts_1%", -1, 4);
 		stopAudio();
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "MetroAlt" + java.io.File.separator + "Masu2*.mp3");
         sleep(25);
     }
-    if(getVar("AV_MEM_Contact3", false))
+    if(getVar("AV_MEM_Contact3", false) && !edged)
     {
         SMessage("%StrokeTaunts_1%", -1, 4);
 		stopAudio();
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "MetroAlt" + java.io.File.separator + "Masu1*.mp3");
         sleep(30);
     }
-    if(getVar("AV_MEM_Contact3", false))
+    if(getVar("AV_MEM_Contact3", false) && !edged)
     {
         SMessage("%StrokeTaunts_1%", -1, 4);
 		stopAudio();
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "MetroAlt" + java.io.File.separator + "Masu1*.mp3");
         sleep(30);
     }
-    if(getVar("AV_MEM_Contact3", false))
+    if(getVar("AV_MEM_Contact3", false) && !edged)
     {
         SMessage("%StrokeTaunts_1%", -1, 4);
 		stopAudio();
         playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "MetroAlt" + java.io.File.separator + "Masu2*.mp3");
         sleep(30);
     }
-    if(getVar("AV_MEM_Contact3", false))
+    if(getVar("AV_MEM_Contact3", false) && !edged)
     {
 		stopAudio();
         CMessage("%stopstroking%", 0);
@@ -570,10 +613,12 @@ function GlitterSession()
         FinishGlitter();
         return;
     }
+	return;
     EdgeStopGlitter();
 }
 function EdgeStopGlitter()
 {
+	edged=true;
 	stopAudio();
     if(getVar("AV_MEM_Contact1", false))
     {

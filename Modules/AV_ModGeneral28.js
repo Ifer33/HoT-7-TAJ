@@ -376,112 +376,113 @@ function Modulo2()
     CMessage("I decided that I want you to stroke for all your crushes %EmoteSmile%");
     setVar("edgingmode", "Goto");
     setVar("edginggoto", "uuyhbdf()")
-    if(getVar("AV_Know_03", false))
+	edged=false;
+    if(getVar("AV_Know_03", false) && !edged)
     {
         CMessage("Paying tribute to " + getVar("AV_Persona04", ""));
         showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "04" + java.io.File.separator + "*.jpg");
     }
-    if(getVar("AV_Know_03", false))
+    if(getVar("AV_Know_03", false) && !edged)
     {
         CMessage("%KeepStroking%");
         showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "04" + java.io.File.separator + "*.jpg");
     }
-    if(getVar("AV_Know_03", false))
+    if(getVar("AV_Know_03", false) && !edged)
     {
         CMessage("Take a good look at her body.");
         showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "04" + java.io.File.separator + "*.jpg");
     }
-    if(getVar("AV_Know_58", false))
+    if(getVar("AV_Know_58", false) && !edged)
     {
         CMessage("%KeepStroking% for " + getVar("AV_Persona58", ""));
         showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "18" + java.io.File.separator + "*.jpg");
     }
-    if(getVar("AV_Know_12", false))
+    if(getVar("AV_Know_12", false) && !edged)
     {
         CMessage("Now your secret crush, " + getVar("AV_Persona13", ""));
         showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
     }
-    if(getVar("AV_Know_12", false))
+    if(getVar("AV_Know_12", false) && !edged)
     {
         CMessage("%KeepStroking%");
         showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
     }
-    if(getVar("AV_Know_12", false))
+    if(getVar("AV_Know_12", false) && !edged)
     {
         CMessage("Feels good, right?");
         showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
     }
-    if(getVar("AV_Know_50", false))
+    if(getVar("AV_Know_50", false) && !edged)
     {
         CMessage("%KeepStroking% for " + getVar("AV_Persona50", ""));
         showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "10" + java.io.File.separator + "*.jpg");
     }
-    if(getVar("AV_Know_01", false))
+    if(getVar("AV_Know_01", false) && !edged)
     {
         CMessage("Now, your Crush singer, " + getVar("AV_Persona02", ""));
         showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
     }
-    if(getVar("AV_Know_01", false))
+    if(getVar("AV_Know_01", false) && !edged)
     {
         CMessage("%KeepStroking%");
         showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
     }
-    if(getVar("AV_Know_01", false))
+    if(getVar("AV_Know_01", false) && !edged)
     {
         CMessage("I want you to imagine those are her hands which are running over your %Cock%");
         showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
     }
-    if(getVar("AV_Know_53", false))
+    if(getVar("AV_Know_53", false) && !edged)
     {
         CMessage("%KeepStroking% for " + getVar("AV_Persona53", ""));
         showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "13" + java.io.File.separator + "*.jpg");
     }
-    if(getVar("AV_Know_00", false))
+    if(getVar("AV_Know_00", false) && !edged)
     {
         CMessage("Your Crush actress, " + getVar("AV_Persona01", ""));
         showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
     }
-    if(getVar("AV_Know_00", false))
+    if(getVar("AV_Know_00", false) && !edged)
     {
         CMessage("%KeepStroking%");
         showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
     }
-    if(getVar("AV_Know_00", false))
+    if(getVar("AV_Know_00", false) && !edged)
     {
         CMessage("Hmm");
         showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
     }
-    if(getVar("AV_Know_51", false))
+    if(getVar("AV_Know_51", false) && !edged)
     {
         CMessage("%KeepStroking% for " + getVar("AV_Persona51", ""));
         showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "11" + java.io.File.separator + "*.jpg");
     }
-    if(getVar("AV_Know_52", false))
+    if(getVar("AV_Know_52", false) && !edged)
     {
         CMessage("Can you take it for " + getVar("AV_Persona52", ""));
         showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "12" + java.io.File.separator + "*.jpg");
     }
-    if(getVar("AV_Know_54", false))
+    if(getVar("AV_Know_54", false) && !edged)
     {
         CMessage("It\'s your fault for having so many crushes, like " + getVar("AV_Persona54", ""));
         showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "14" + java.io.File.separator + "*.jpg");
     }
-    if(getVar("AV_Know_55", false))
+    if(getVar("AV_Know_55", false) && !edged)
     {
         CMessage("Almost there, don\'t disappoint " + getVar("AV_Persona55", ""));
         showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "15" + java.io.File.separator + "*.jpg");
     }
-    if(getVar("AV_Know_56", false))
+    if(getVar("AV_Know_56", false) && !edged)
     {
         CMessage("%KeepStroking% for " + getVar("AV_Persona56", ""));
         showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "16" + java.io.File.separator + "*.jpg");
     }
-    if(getVar("AV_Know_57", false))
+    if(getVar("AV_Know_57", false) && !edged)
     {
         CMessage("You can do it for " + getVar("AV_Persona57", ""));
         showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "17" + java.io.File.separator + "*.jpg");
     }
-    if(getVar("AV_Know_59", false))
+    if(getVar("AV_Know_59", false) && !edged)
     {
         CMessage(getVar("AV_Persona59", "") + "is the last one");
         showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "19" + java.io.File.separator + "*.jpg");
@@ -490,6 +491,7 @@ function Modulo2()
 }
 function uuyhbdf()
 {
+	edged=true;
     CMessage("%stopstroking%", 0);
     stopStrokingAll();
     CMessage("That was fun.");
@@ -529,26 +531,41 @@ function Modulo3()
     CMessage("From now on, you will tell me, if get close to the edge.");
     setVar("edgingmode", "Goto");
     setVar("edginggoto", "FailNotEdge2()")
+	edged=false;
+	if(!edged){
     CMessage("If you are on the edge is already to late.");
+	}if(!edged){
     //CMessage("%StartStroking%");
 	setStrokingNoTaunt();
+	}if(!edged){
     CMessage("Now you\'re only supposed to feel your strokes. Nothing more...");
+	}if(!edged){
     CMessage("nothing less. And of course the incredible frustration, that you will never be able to spurt while I\'m with you");
+	}if(!edged){
     CMessage("Just... frustrating... strokes!");
+	}if(!edged){
     CMessage("All the time!");
+	}if(!edged){
     CMessage("Now, let\'s begin for real");
+	}if(!edged){
     CMessage("What the hell?! You\'re slagging. Stroke fast!");
+	}if(!edged){
     CMessage("I recognized you like my pussy... a lot!");
+	}if(!edged){
     CMessage("But don\'t concentrate on just one thing.");
+	}if(!edged){
     CMessage("The rest of my body is very hot also");
+	}if(!edged){
     CMessage("%Stop%", 0);
 	stopStrokingAll();
     setVar("edgingmode", "Normal");
+	}
     return;
     FailNotEdge2();
 }
 function FailNotEdge2()
 {
+	edged=true;
     CMessage("%stopstroking%", 0);
 	stopStrokingAll();
     setVar("edgingmode", "Normal");
@@ -574,27 +591,46 @@ function Modulo4()
     SMessage("Now, we have to get our mind on something else, your little denied cock", -1, 3);
     setVar("edgingmode", "Goto");
     setVar("edginggoto", "FailNotEdge3()")
+	edged=false;
     CMessage("I bet you are ready for some action, tough boy?!");
     CMessage("Don\'t answer, it\'s rethorical!");
     CMessage("Be careful, if you edge will be punished.");
     CMessage("Let\'s start...");
+	if(!edged){
     SMessage("%AV_GlittersGame%", -1, 2);
+	}if(!edged){
     SMessage("%Stop%",-1,2);
+	}if(!edged){
     sleep(randomInt(8, 15));
+	}if(!edged){
     CMessage("%AV_GlittersGame%");
+	}if(!edged){
     CMessage("%Stop%", 0);
+	}if(!edged){
     sleep(randomInt(8, 15));
+	}if(!edged){
     SMessage("%AV_GlittersGame%", -1, 4);
+	}if(!edged){
     SMessage("%Stop%",-1,4);
+	}if(!edged){
     sleep(randomInt(8, 15));
+	}if(!edged){
     CMessage("%AV_GlittersGame%");
+	}if(!edged){
     CMessage("%Stop%", 0);
+	}if(!edged){
     sleep(randomInt(8, 15));
+	}if(!edged){
     SMessage("%AV_GlittersGame%", -1, 3);
+	}if(!edged){
     SMessage("%Stop%", -1,3);
+	}if(!edged){
     SMessage("Go faster! We need to train you.", -1, 4);
+	}if(!edged){
     SMessage("Other slaves were in better shape than you.", -1, 3);
+	}if(!edged){
     SMessage("Stamina-ways we mean. You look pretty decent after all.", -1, 2);
+	}if(!edged){
     if(getVar("AV_DommeMistress", false))
     {
         if (randomInteger(1, 100) <= 20)
@@ -603,6 +639,7 @@ function Modulo4()
             return;
         }
     }
+	}if(!edged){
     if(!getVar("AV_DommeMistress", false))
     {
         if (randomInteger(1, 100) <= 40)
@@ -611,23 +648,37 @@ function Modulo4()
             return;
         }
     }
+	}
     NotSkipping();
 }
 function NotSkipping()
 {
+	if(!edged){
     SMessage("%AV_GlittersGame%", -1, 4);
+	}if(!edged){
     SMessage("%Stop%",-1,4);
+	}if(!edged){
     sleep(randomInt(8, 15));
+	}if(!edged){
     SMessage("%AV_GlittersGame%", -1, 2);
+	}if(!edged){
     SMessage("%Stop%",-1,2);
+	}if(!edged){
     sleep(randomInt(8, 15));
+	}if(!edged){
     SMessage("%AV_GlittersGame%", -1, 3);
+	}if(!edged){
     SMessage("%Stop%", -1,3);
+	}if(!edged){
     sleep(randomInt(8, 15));
+	}if(!edged){
     HaveEnough8();
+	}
+	return;
 }
 function HaveEnough8()
 {
+	edged=true;
     CMessage("%ThatsEnough%");
     CMessage("You did %SubName%");
     setVar("edgingmode", "Normal");

@@ -1,5 +1,6 @@
 DMessage("AV_Glitters: start");
 var edged=false;
+edged2=false;
 main();
 DMessage("AV_Glitters: end");
 function main()
@@ -99,6 +100,7 @@ function Gltter01()
 }
 function bdr583()
 {
+	edged=true;
 	stopAudio();
     CMessage("%stopstroking%", 0);
     setVar("edgingmode", "Normal");
@@ -130,25 +132,25 @@ function a02()
     CMessage("Let\'s try a few overdrives");
     setVar("edgingmode", "Goto");
     setVar("edginggoto", "we4tgt5()");
-	edged=false;
+	edged2=false;
     CMessage(random("Give me ", "I want to see ", "Follow ") + "an Overdrive");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "StrokePattern" + java.io.File.separator + "overdrive*.mp3");
     sleep(05);
     sleep(05);
     sleep(03);
     sleep(05);
-    if(!edged){
+    if(!edged2){
 		CMessage("Keep " + random("stroking", "going"));
 		sleep(03);
 		sleep(03);
 		sleep(05);
-	} if(!edged){
+	} if(!edged2){
 		CMessage(random("Almost there", "just a bit more"));
 		sleep(05);
-	} if(!edged){
+	} if(!edged2){
 		CMessage("%stopstroking%", 0);
 		sleep(randomInt(20, 25));
-	} if(!edged){
+	} if(!edged2){
 		CMessage(random("Give me ", "I want to see ", "Follow ") + "another Overdrive");
 		stopAudio();
 		playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "StrokePattern" + java.io.File.separator + "overdrive*.mp3");
@@ -156,16 +158,16 @@ function a02()
 		sleep(05);
 		sleep(03);
 		sleep(05);
-	} if(!edged){
+	} if(!edged2){
 		CMessage("Keep " + random("stroking", "going"));
 		sleep(03);
 		sleep(03);
 		sleep(05);
 		sleep(05);
-	} if(!edged){
+	} if(!edged2){
 		CMessage("%stopstroking%", 0);
 		sleep(randomInt(20, 30));
-	} if(!edged){
+	} if(!edged2){
 		CMessage(random("Give me ", "I want to see ", "Follow ") + "a last Overdrive");
 		stopAudio();
 		playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "StrokePattern" + java.io.File.separator + "overdrive*.mp3");
@@ -175,7 +177,7 @@ function a02()
 		sleep(05);
 		sleep(03);
 		sleep(03);
-	} if(!edged){
+	} if(!edged2){
 		CMessage(random("Almost there", "just a bit more"));
 		sleep(05);
 		sleep(05);
@@ -185,6 +187,7 @@ function a02()
 }
 function we4tgt5()
 {
+	edged2=true;
 	stopAudio();
     CMessage("%stopstroking%", 0);
     EndContact1();
@@ -276,6 +279,7 @@ function Gltter02()
 }
 function er4yio()
 {
+	edged=true;
 	stopAudio();
     CMessage("%stopstroking%", 0);
     setVar("edgingmode", "Normal");
@@ -376,25 +380,25 @@ function b02()
     CMessage("Let\'s try a few overdrives");
     setVar("edgingmode", "Goto");
     setVar("edginggoto", "3987hhh()");
-	edged=false;
+	edged2=false;
     CMessage(random("Give me ", "I want to see ", "Follow ") + "an Overdrive");
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "StrokePattern" + java.io.File.separator + "overdrive*.mp3");
     sleep(05);
     sleep(05);
     sleep(03);
     sleep(05);
-	if(!edged){
+	if(!edged2){
 		CMessage("Keep " + random("stroking", "going"));
 		sleep(03);
 		sleep(03);
 		sleep(05);
-	} if(!edged){
+	} if(!edged2){
 		CMessage(random("Almost there", "just a bit more"));
 		sleep(05);
-	} if(!edged){
+	} if(!edged2){
 		CMessage("%stopstroking%", 0);
 		sleep(randomInt(20, 25));
-	} if(!edged){
+	} if(!edged2){
 		CMessage(random("Give me ", "I want to see ", "Follow ") + "another Overdrive");
 		stopAudio();
 		playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "StrokePattern" + java.io.File.separator + "overdrive*.mp3");
@@ -402,16 +406,16 @@ function b02()
 		sleep(05);
 		sleep(03);
 		sleep(05);
-	} if(!edged){
+	} if(!edged2){
 		CMessage("Keep " + random("stroking", "going"));
 		sleep(03);
 		sleep(03);
 		sleep(05);
 		sleep(05);
-	} if(!edged){
+	} if(!edged2){
 		CMessage("%stopstroking%", 0);
 		sleep(randomInt(20, 30));
-	} if(!edged){
+	} if(!edged2){
 		CMessage(random("Give me ", "I want to see ", "Follow ") + "a last Overdrive");
 		stopAudio();
 		playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "StrokePattern" + java.io.File.separator + "overdrive*.mp3");
@@ -421,7 +425,7 @@ function b02()
 		sleep(05);
 		sleep(03);
 		sleep(03);
-	} if(!edged){
+	} if(!edged2){
 		CMessage(random("Almost there", "just a bit more"));
 		sleep(05);
 		sleep(05);
@@ -431,6 +435,7 @@ function b02()
 }
 function a3987hhh()
 {
+	edged2=true;
 	stopAudio();
     CMessage("%stopstroking%", 0);
     EndContact2();
@@ -591,6 +596,7 @@ function NoStrokingYet()
 function End()
 {
 	stopAudio();
+	setEdgeMode();
     delVar("av_55");
     delVar("av_75");
     delVar("av_Stroking");
@@ -686,6 +692,7 @@ function Gltter03()
 }
 function a3eg32dxx()
 {
+	edged=true;
 	stopAudio();
     CMessage("%stopstroking%", 0);
     setVar("edgingmode", "Normal");

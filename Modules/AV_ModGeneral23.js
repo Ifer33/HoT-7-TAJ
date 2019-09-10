@@ -1240,11 +1240,12 @@ function LoopG1()
 		return;
 	}
     //if (getVar("AV_EdglCo", 0) >= 30)
-	if (date.hasPassed())
+	if (date.hasPassed() && !edged)
     {
         G1Failed();
         return;
     }
+	if(!edged){
     switch(random("g101", "g102", "g103", "g104", "g105", "g106", "g107", "g108", "g109", "g110"))
     {
         case "g101":
@@ -1288,79 +1289,110 @@ function LoopG1()
         return;
         break;
     }
+	}
 	return;
     g101();
 }
 function g101()
 {
+	if(!edged){
     SMessage("C\'mon baby, jerk your cock for all the women you know", -1, 2);
+	}if(!edged){
     LoopG1();
+	}
     return;
     g102();
 }
 function g102()
 {
+	if(!edged){
     SMessage("Just give it everything you\'ve got right now!", -1, 2);
+	}if(!edged){
     LoopG1();
+	}
     return;
     g103();
 }
 function g103()
 {
+	if(!edged){
     SMessage("You\'ve jerked so many times for " + getVar("AV_Persona13", "") + "you know it feels great", -1, 2);
+	}if(!edged){
     showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "01" + java.io.File.separator + "*.jpg");
     LoopG1();
+	}
     return;
     g104();
 }
 function g104()
 {
+	if(!edged){
     SMessage("You are a man, so prove it to me!", -1, 2);
+	}if(!edged){
     LoopG1();
+	}
     return;
     g105();
 }
 function g105()
 {
+	if(!edged){
     SMessage("Doesn\'t " + getVar("AV_Persona02", "") + "just want to make you squirt all over the place?", -1, 2);
+	}if(!edged){
     showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "03" + java.io.File.separator + "*.jpg");
     LoopG1();
+	}
     return;
     g106();
 }
 function g106()
 {
+	if(!edged){
     SMessage("You can go faster, I know you can!", -1, 2);
+	}if(!edged){
     LoopG1();
+	}
     return;
     g107();
 }
 function g107()
 {
+	if(!edged){
     SMessage(getVar("AV_Persona01", "") + "is looking at you, you need to impress her with your fastest possible jerking!", -1, 2);
+	}if(!edged){
     showImage("Images" + java.io.File.separator + "av_imagens" + java.io.File.separator + "02" + java.io.File.separator + "*.jpg");
     LoopG1();
+	}
     return;
     g108();
 }
 function g108()
 {
+	if(!edged){
     SMessage("Fast, faster, fastest! If you aren\'t edging while looking at her, I\'m not sure you are a man at all!", -1, 2);
+	}if(!edged){
     LoopG1();
+	}
     return;
     g109();
 }
 function g109()
 {
+	if(!edged){
     SMessage("You know you need it! All day and every day! Edge! Edge! Edge!", -1, 2);
+	}if(!edged){
     LoopG1();
+	}
     return;
     g110();
 }
 function g110()
 {
+	if(!edged){
     SMessage("Edging is what you were made for, just admit it and give me an edge!", -1, 2);
+	}if(!edged){
     LoopG1();
+	}
     return;
     C2Try();
 }
@@ -1382,11 +1414,12 @@ function LoopG2()
 		return;
 	}
     //if (getVar("AV_EdglCo", 0) >= 30)
-	if (date.hasPassed())
+	if (date.hasPassed() && !edged)
     {
         G2Failed();
         return;
     }
+	if(!edged){
     switch(random("g201", "g202", "g203", "g204", "g205", "g206", "g207", "g208", "g209", "g210"))
     {
         case "g201":
@@ -1430,76 +1463,107 @@ function LoopG2()
         return;
         break;
     }
+	}
 	return;
     g201();
 }
 function g201()
 {
+	if(!edged){
     SMessage("Just admit I\'m the one that turns you on the most!", -1, 3);
+	}if(!edged){
     LoopG2();
+	}
     return;
     g202();
 }
 function g202()
 {
+	if(!edged){
     SMessage("Edge that dick for me, you know I deserve it!", -1, 3);
+	}if(!edged){
     LoopG2();
+	}
     return;
     g203();
 }
 function g203()
 {
+	if(!edged){
     SMessage("You should feel honoured to jerk that pathetic penis for me!", -1, 3);
+	}if(!edged){
     LoopG2();
+	}
     return;
     g204();
 }
 function g204()
 {
+	if(!edged){
     SMessage("Prove your devotion to me!", -1, 3);
+	}if(!edged){
     LoopG2();
+	}
     return;
     g205();
 }
 function g205()
 {
+	if(!edged){
     SMessage("Edge for me, you know I\'m the only one that can make you feel this good", -1, 3);
+	}if(!edged){
     LoopG2();
+	}
     return;
     g206();
 }
 function g206()
 {
+	if(!edged){
     SMessage("Edge for me, like you\'ve done so many times!", -1, 3);
+	}if(!edged){
     LoopG2();
+	}
     return;
     g207();
 }
 function g207()
 {
+	if(!edged){
     SMessage("Worship my body!", -1, 3);
+	}if(!edged){
     LoopG2();
+	}
     return;
     g208();
 }
 function g208()
 {
+	if(!edged){
     SMessage("Cry out my name, that will help you edge!", -1, 3);
+	}if(!edged){
     LoopG2();
+	}
     return;
     g209();
 }
 function g209()
 {
+	if(!edged){
     SMessage("Imagine me touching you, that would make any man edge!", -1, 3);
+	}if(!edged){
     LoopG2();
+	}
     return;
     g210();
 }
 function g210()
 {
+	if(!edged){
     SMessage("You can go faster for me, can\'t you? I\'m not easy to impress so do your best", -1, 3);
+	}if(!edged){
     LoopG2();
+	}
     return;
     C3Try();
 }
@@ -1521,11 +1585,12 @@ function LoopG3()
 		return;
 	}
     //if (getVar("AV_EdglCo", 0) >= 30)
-	if (date.hasPassed())
+	if (date.hasPassed() && !edged)
     {
         G3Failed();
         return;
     }
+	if(!edged){
     switch(random("g301", "g302", "g303", "g304", "g305", "g306", "g307", "g308", "g309", "g310"))
     {
         case "g301":
@@ -1569,27 +1634,37 @@ function LoopG3()
         return;
         break;
     }
+	}
 	return;
     g301();
 }
 function g301()
 {
+	if(!edged){
     SMessage("%Stroke% that cock %Slave%!", -1, 4);
+	}if(!edged){
     LoopG3();
+	}
     return;
     g302();
 }
 function g302()
 {
+	if(!edged){
     SMessage("Faster! I want to see a blur!", -1, 4);
+	}if(!edged){
     LoopG3();
+	}
     return;
     g303();
 }
 function g303()
 {
+	if(!edged){
     SMessage("You will be sorry if you are not edging RIGHT NOW!", -1, 4);
+	}if(!edged){
     LoopG3();
+	}
     return;
     g304();
 }
@@ -1597,59 +1672,83 @@ function g304()
 {
     if(getVar("av_fetish_pain", false))
     {
+		if(!edged){
         SMessage("Slap those balls while you jerk, a painslut like you will love that!", -1, 4);
+		}if(!edged){
         LoopG3();
+		}
         return;
     }
     else
     {
+		if(!edged){
         SMessage("A painslut like you will love that!", -1, 4);
+		}if(!edged){
         LoopG3();
+		}
         return;
     }
     g305();
 }
 function g305()
 {
+	if(!edged){
     SMessage("Faster, I don\'t care if it hurts! In fact I love it when it hurts!", -1, 4);
     showTaggedImage(4, ["femdom"]);
+	}if(!edged){
     LoopG3();
+	}
     return;
     g306();
 }
 function g306()
 {
+	if(!edged){
     SMessage("It\'s not because your cock is so pathetic you can\'t edge for me!", -1, 4);
+	}if(!edged){
     LoopG3();
+	}
     return;
     g307();
 }
 function g307()
 {
+	if(!edged){
     SMessage("Feel the burn!", -1, 4);
+	}if(!edged){
     LoopG3();
+	}
     return;
     g308();
 }
 function g308()
 {
+	if(!edged){
     SMessage("If you won\'t edge NOW you will be crying the next time I have you to myself", -1, 4);
+	}if(!edged){
     LoopG3();
+	}
     return;
     g309();
 }
 function g309()
 {
+	if(!edged){
     SMessage("Do you think I\'m kidding? This is not a joke to me! Edge or suffer!", -1, 4);
     showTaggedImage(4, ["femdom"]);
+	}if(!edged){
     LoopG3();
+	}
     return;
     g310();
 }
 function g310()
 {
+	if(!edged){
     SMessage("If you won\'t edge that cock for me, I\'ll make sure it never edges again!", -1, 4);
+	}if(!edged){
     LoopG3();
+	}
     return;
     DomTry();
 }
@@ -1671,11 +1770,12 @@ function LoopDom()
 		return;
 	}
     //if (getVar("AV_EdglCo", 0) >= 30)
-	if (date.hasPassed())
+	if (date.hasPassed() && !edged)
     {
         DomFailed();
         return;
     }
+	if(!edged){
     switch(random("Dom101", "Dom102", "Dom103", "Dom104", "Dom105", "Dom106", "Dom107", "Dom108", "Dom109", "Dom110"))
     {
         case "Dom101":
@@ -1719,81 +1819,113 @@ function LoopDom()
         return;
         break;
     }
+	}
 	return;
     Dom101();
 }
 function Dom101()
 {
+	if(!edged){
     CMessage("You belong to me, as do your edges!");
+	}if(!edged){
     LoopDom();
+	}
     return;
     Dom102();
 }
 function Dom102()
 {
+	if(!edged){
     CMessage("Do not even think about dissapointing your Mistress!");
+	}if(!edged){
     LoopDom();
+	}
     return;
     Dom103();
 }
 function Dom103()
 {
+	if(!edged){
     CMessage("I don\'t know what I\'ll do to you if you edge with anyone else, but I do know you won\'t like it a bit!");
+	}if(!edged){
     LoopDom();
+	}
     return;
     Dom104();
 }
 function Dom104()
 {
+	if(!edged){
     CMessage("Edge for your Mistress!");
+	}if(!edged){
     LoopDom();
+	}
     return;
     Dom105();
 }
 function Dom105()
 {
+	if(!edged){
     CMessage("Remember I own you, there is no excuse for failing me");
+	}if(!edged){
     LoopDom();
+	}
     return;
     Dom106();
 }
 function Dom106()
 {
+	if(!edged){
     CMessage("Faster, or I\'ll lock it up for a month!");
+	}if(!edged){
     LoopDom();
+	}
     return;
     Dom107();
 }
 function Dom107()
 {
+	if(!edged){
     CMessage("You need to prove you are worthy of being my slave!");
+	}if(!edged){
     LoopDom();
+	}
     return;
     Dom108();
 }
 function Dom108()
 {
+	if(!edged){
     CMessage("You have given me countless edges dear slave, but your next one must be mine as well!");
+	}if(!edged){
     LoopDom();
+	}
     return;
     Dom109();
 }
 function Dom109()
 {
+	if(!edged){
     CMessage("I know your dick, it wants to edge for me, it NEEDS to edge for me!");
+	}if(!edged){
     LoopDom();
+	}
     return;
     Dom110();
 }
 function Dom110()
 {
+	if(!edged){
     CMessage("My slave, my dick, my edge.");
+	}if(!edged){
     LoopDom();
+	}
     return;
     G1Failed();
 }
 function G1Failed()
 {
+	edged=true
     CMessage(random("Your turn is over %domFriend1Name%, stop jerking %SubName%", "Stop! You failed %domFriend1Name%!", "Stop jerking, time for someone else!", "She failed, stop masturbating!", "Nope, not this turn! Hands off!"));
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStop.mp3");
     setVar("edgingmode", "Normal");
@@ -1809,6 +1941,7 @@ function G1Failed()
 }
 function G2Failed()
 {
+	edged=true;
     CMessage(random("Your turn is over %domFriend2Name%, stop jerking %SubName%", "Stop! You failed %domFriend2Name%!", "Stop jerking, time for someone else!", "She failed, stop masturbating!", "Nope, not this turn! Hands off!"));
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStop.mp3");
     setVar("edgingmode", "Normal");
@@ -1824,6 +1957,7 @@ function G2Failed()
 }
 function G3Failed()
 {
+	edged=true;
     CMessage(random("Your turn is over %domFriend3Name%, stop jerking %SubName%", "Stop! You failed %domFriend3Name%!", "Stop jerking, time for someone else!", "She failed, stop masturbating!", "Nope, not this turn! Hands off!"));
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStop.mp3");
     setVar("edgingmode", "Normal");
@@ -1839,6 +1973,7 @@ function G3Failed()
 }
 function DomFailed()
 {
+	edged=true;
     SMessage(random("Your turn is over %domFriend2Name%, stop jerking %SubName%", "Stop! You failed %domFriend2Name%!", "Stop jerking, time for someone else!", "She failed, stop masturbating!", "Nope, not this turn! Hands off!"),-1,4);
     playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "cStop.mp3");
     setVar("edgingmode", "Normal");
@@ -1912,6 +2047,7 @@ function DomWin()
 function FimDoJogo()
 {
     CMessage(random("Now leave us, I\'ve got some plans for him now that don\'t include you!", "Now you are dismissed, I\'ve still got some unfinished business with %SubName%"));
+	setEdgeMode();
     removeContact(2);
     removeContact(3);
     removeContact(4);

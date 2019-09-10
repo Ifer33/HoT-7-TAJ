@@ -1,4 +1,5 @@
 DMessage("AV_ModGeneral13: start");
+edged=false;
 main();
 DMessage("AV_ModGeneral13: end");
 function main()
@@ -547,44 +548,75 @@ function Modulo3()
     CMessage("%StartStroking%");
     setVar("edgingmode", "Goto");
     setVar("edginggoto", "NoAllowed()")
-    CMessage("Keep going at the same speed");
-    CMessage("No edging before I allow it of course");
-    sleep(randomInt(10, 20));
-    CMessage("Stroke faster love");
-    sleep(randomInt(10, 20));
-    CMessage("Don\'t edge");
-    sleep(randomInt(10, 20));
-    CMessage("%Stroke%, %PetName%.");
-    CMessage("You like my commands don\'t you?");
-    if(getVar("av_fetish_rough", false))
-    {
-        CMessage("You like when I degrade you.");
-    }
-    if(getVar("av_fetish_rough", false))
-    {
-        CMessage("What a pervert you are...");
-    }
-    if(getVar("av_fetish_pegging", false) && getVar("AV_LikeAnal", false))
-    {
-        CMessage("%Stroking% and wanting me to fuck your ass with a strap-on");
-    }
-    CMessage("I love it.");
-    let answer0 = getInput("Now what do you say?", 5);
-    if (answer0.isTimeout())
-    {
-        AV_Jump233();
-        return;
-    }
-    if (answer0.isLike("thanks", "you"))
-    {
-        CMessage("That\'s right, %PetName%");
-        increaseAnger(-3)
-    }
-    else
-    {
-        CMessage("Nope");
-    }
-    AV_Jump233();
+    if(!edged){
+		CMessage("Keep going at the same speed");
+	}
+	if(!edged){
+		CMessage("No edging before I allow it of course");
+	}
+	if(!edged){
+		sleep(randomInt(10, 20));
+	}
+	if(!edged){
+		CMessage("Stroke faster love");
+	}
+	if(!edged){
+		sleep(randomInt(10, 20));
+	}
+	if(!edged){
+		CMessage("Don\'t edge");
+	}
+	if(!edged){
+		sleep(randomInt(10, 20));
+	}
+	if(!edged){
+		CMessage("%Stroke%, %PetName%.");
+	}
+	if(!edged){
+		CMessage("You like my commands don\'t you?");
+	}
+	if(!edged){
+		if(getVar("av_fetish_rough", false))
+		{
+			CMessage("You like when I degrade you.");
+		}
+	}
+	if(!edged){
+		if(getVar("av_fetish_rough", false))
+		{
+			CMessage("What a pervert you are...");
+		}
+	}
+	if(!edged){
+		if(getVar("av_fetish_pegging", false) && getVar("AV_LikeAnal", false))
+		{
+			CMessage("%Stroking% and wanting me to fuck your ass with a strap-on");
+		}
+	}
+	if(!edged){
+		CMessage("I love it.");
+	}
+	if(!edged){
+		let answer0 = getInput("Now what do you say?", 5);
+		if (answer0.isTimeout())
+		{
+			AV_Jump233();
+			return;
+		}
+		if (answer0.isLike("thanks", "you"))
+		{
+			CMessage("That\'s right, %PetName%");
+			increaseAnger(-3)
+		}
+		else
+		{
+			CMessage("Nope");
+		}
+	}
+	if(!edged){
+		AV_Jump233();
+	}
+	return;
 }
 function AV_Jump233()
 {
@@ -599,6 +631,7 @@ function AV_Jump233()
 }
 function NoAllowed()
 {
+	edged=true;
     CMessage("%stopstroking%", 0);
     setVar("edgingmode", "Normal");
     CMessage("I told you to not edge %SubName%");

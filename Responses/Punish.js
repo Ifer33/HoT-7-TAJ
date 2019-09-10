@@ -114,6 +114,7 @@ function punishResponse(message) {
 					CMessage("%stopstroking%", 0);
 					stopStrokingAll();
 					cbt();
+					restartStroking();
 					found = true;
 					break;
 				case 5:
@@ -121,6 +122,7 @@ function punishResponse(message) {
 					CMessage("%stopstroking%", 0);
 					stopStrokingAll();
 					cbt();
+					restartStroking();
 					found = true;
 					break;
 				case 6:
@@ -128,6 +130,7 @@ function punishResponse(message) {
 					CMessage("%stopstroking%", 0);
 					stopStrokingAll();
 					cbt();
+					restartStroking();
 					found = true;
 					break;
 				case 7:
@@ -145,6 +148,7 @@ function punishResponse(message) {
 					CMessage("%stopstroking%", 0);
 					stopStrokingAll();
 					cbt();
+					restartStroking();
 					found = true;
 					break;
 				case 10:

@@ -87,7 +87,7 @@ function showTaggedImage(imageType, imageTags, delay) {
             }
             path = teasePath + separator + localpath;
             matchingImages = pictureHandler.getHandler().getTaggedPicturesExact(new java.io.File(path), imageTags);
-            DMessage("matchingImages " + imageInt + " " + matchingImages);
+            //DMessage("matchingImages " + imageInt + " " + matchingImages);
         }
     }
     let randomImage = matchingImages.get(randomInteger(0, matchingImages.length - 1));

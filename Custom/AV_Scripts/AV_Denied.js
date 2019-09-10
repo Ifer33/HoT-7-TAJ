@@ -1,4 +1,5 @@
 DMessage("AV_Denied: Beginning");
+edged=false;
 main();
 DMessage("AV_Denied: End");
 function main()
@@ -1075,31 +1076,49 @@ function Contact2Cont()
     sleep(01);
     //--UNINTERPRETED LINE:@Contact2 @NullResponse @PlayAudio[tease\tgr8\Contact2 special test audio\*.mp3] 
 	playAudio("Audio" + java.io.File.separator + "tease" + java.io.File.separator + "tgr8" + java.io.File.separator + "Contact2 special test audio" + java.io.File.separator + "*.mp3");
+	if(!edged){
 	sleep(10)
+	}if(!edged){
     SMessage("%StrokeTaunts_1%", -1, 3);
+	}if(!edged){
     sleep(randomInt(10, 15));
+	}if(!edged){
     SMessage("%StrokeTaunts_1%", -1, 3);
+	}if(!edged){
     sleep(randomInt(10, 15));
+	}if(!edged){
     SMessage("%StrokeTaunts_1%", -1, 3);
+	}if(!edged){
     sleep(randomInt(10, 12));
+	}if(!edged){
     SMessage("%StrokeTaunts_1%", -1, 3);
+	}if(!edged){
     sleep(randomInt(15, 20));
+	}if(!edged){
     SMessage("%StrokeTaunts_1%", -1, 3);
+	}if(!edged){
     sleep(randomInt(10, 15));
+	}if(!edged){
     SMessage("%StrokeTaunts_1%", -1, 3);
+	}if(!edged){
     sleep(randomInt(15, 18));
+	}if(!edged){
     SMessage("%StrokeTaunts_1%", -1, 3);
+	}if(!edged){
     sleep(randomInt(10, 15));
+	}if(!edged){
 	stopAudio();
     CMessage("%stopstroking%", 0);
     setVar("edgingmode", "Normal");
     FinishGlitter2();
+	}
     return;
     
     EdgeStopGlitter2();
 }
 function EdgeStopGlitter2()
 {
+	edged=true;
 	stopAudio();
     SMessage("%HoldTheEdge%", -1, 3);
     sleep(randomInt(10, 15));

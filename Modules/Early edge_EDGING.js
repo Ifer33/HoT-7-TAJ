@@ -13,9 +13,12 @@ function main()
 	//if( getTimePassed("AV_SessionTime")>= 60 ) {
 		DMessage("Early edge: 60min passed");
 		DMessage(getVar("AV_SessionTime") );	//.addMinute(60).hasPassed());
-		if(chance(30) ) AV_FreePass();
+		if(chance(30) ) {
+			AV_FreePass();
+			return;
+		}
 	}
-	return;
+	
     CMessage(random("We seriously have to bring your stamina back on track ", "I don\'t think I authorized you to edge ") + random("%PetName%", "%SubName%"));
     setVar("pthevEdgesToday", getVar("pthevEdgesToday", 0) + 1);
     setVar("AV_UserEdges", getVar("AV_UserEdges", 0) + 1);
